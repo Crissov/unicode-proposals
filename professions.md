@@ -6,19 +6,19 @@ Unicode emoji professions
 Bases
 -----
 
-Codepoints | Meaning
------------|----------
-U+263A White Smiley ☺️ | Neutral
-U+1F469 Woman 👩 | Female
-U+1F468 Man 👨 | Male
-U+1F475 Old Woman 👵 | Retired female
-U+1F474 Old Man 👴 | Retired male
-U+1F476 Baby 👶 | Trainee, learner, student, beginner, intern
-U+1F467 Girl 👧 | Female trainee …
-U+1F466 Boy 👦 | Male trainee …
-U+1F47D Alien 👽 | Extraterrestrial, alien, off-shore, out-sourced
-U+1F916 Robot 🤖 | Android, robot, automated service, machine, self-service
-U+1F63A 😺 | Furry, humanoid animal
+Codepoints |           |    | Meaning
+--------|--------------|----|----------
+U+263A  | White Smiley | ☺️ | Neutral
+U+1F469 | Woman        | 👩 | Female, woman
+U+1F468 | Man          | 👨 | Male, man
+U+1F475 | Old Woman    | 👵 | Retired female, senior woman, female expert
+U+1F474 | Old Man      | 👴 | Retired male, senior man, male expert
+U+1F476 | Baby         | 👶 | Trainee, learner, student, beginner, intern
+U+1F467 | Girl         | 👧 | Female trainee, learner, student, beginner, intern
+U+1F466 | Boy          | 👦 | Male trainee, learner, student, beginner, intern
+U+1F47D | Alien        | 👽 | Extraterrestrial, alien, off-shore, out-sourced, unknown, anonymous
+U+1F916 | Robot        | 🤖 | Android, robot, automated service, machine, self-service, bot
+U+1F63A | Cat          | 😺 | Furry, humanoid animal
 
 Google’s ZWJ Sequences
 ----------------------
@@ -26,33 +26,33 @@ Google’s ZWJ Sequences
 https://googleblog.blogspot.de/2016/07/promoting-gender-equality-through-emoji.html
 http://unicode.org/L2/L2016/16160-emoji-professions.pdf
 
-Category | Codepoint | Professions
----------|---------------------|------------
-Business | U+1F4BC 💼 | Office worker, accountant, banker, manager, financial adviser, tax preparer, clerk; Business Worker: Office worker, business person, financial analyst, manager, architect, white-collar worker,
-Healthcare | U+2695  ⚕ | Doctor, physician, MD; Health Worker: healthcare professional, doctor, nurse, therapist,
-Education | U+1F393 🎓 | Graduate; academic, postdoc; Student: Pupil, graduate,
-Education | U+1F3EB School 🏫 | Teacher, professor; Teacher: Professor, instructor,
-Science | U+1F52C Microscope 🔬 | Scientist, chemist, lab technician; Scientist: Technologist, engineer, mathematician, chemist, physicist, biologist
-Technology | U+1F4BB Computer 💻 | Software engineer, person coding, working on laptop; Coder: Software developer, engineer, inventor, gamer,
-Industry | U+1F3ED Factory 🏭 | Factory worker, metallurgical worker, mechanic; Welder: factory worker, industrial worker, assembly worker, manufacturing
-Industry | U+1F527 Wrench 🔧 | Mechanic, repair person, plumber, handy person; Mechanic: tradesperson, plumber, electrician, repair person,
-Farming | U+1F69C Tractor 🚜 | Farmer: farm worker, rancher, gardener, farming, …
-Food service | U+1F373 Cooking 🍳 | Chef, cook; Chef: Cook, cooking
-Music | U+1F918 Sign of the Horn 🤘 | Rocker, rockstar; Rockstar: Singer, entertainer,
+Category   | Codepoint |                  |    | Professions
+-----------|-----------|------------------|----|------------
+Business   | U+1F4BC   |                  | 💼 | Office worker, accountant, banker, manager, financial adviser, tax preparer, clerk; Business Worker: Office worker, business person, financial analyst, manager, architect, white-collar worker,
+Healthcare | U+2695    |                  | ⚕ | Doctor, physician, MD; Health Worker: healthcare professional, doctor, nurse, therapist,
+Education  | U+1F393   |                  | 🎓 | Graduate; academic, postdoc; Student: Pupil, graduate,
+Education  | U+1F3EB   | School           | 🏫 | Teacher, professor; Teacher: Professor, instructor,
+Science    | U+1F52C   | Microscope       | 🔬 | Scientist, chemist, lab technician; Scientist: Technologist, engineer, mathematician, chemist, physicist, biologist
+Technology | U+1F4BB   | Computer         | 💻 | Software engineer, person coding, working on laptop; Coder: Software developer, engineer, inventor, gamer,
+Industry   | U+1F3ED   | Factory          | 🏭 | Factory worker, metallurgical worker, mechanic; Welder: factory worker, industrial worker, assembly worker, manufacturing
+Industry   | U+1F527   | Wrench           | 🔧 | Mechanic, repair person, plumber, handy person; Mechanic: tradesperson, plumber, electrician, repair person,
+Farming    | U+1F69C   | Tractor          | 🚜 | Farmer: farm worker, rancher, gardener, farming, …
+Food service | U+1F373 | Cooking          | 🍳 | Chef, cook; Chef: Cook, cooking
+Music      | U+1F918   | Sign of the Horn | 🤘 | Rocker, rockstar; Rockstar: Singer, entertainer,
 
 ### Deferred / Retracted
 
-Category | Codepoint | Professions
----------|---------------------|------------
-Healthcare | U+1F3E5 Hospital 🏥 | Nurses, dentist, anesthesiologist, radiologist, white-coat worker
-Industry | U+26A1  High Voltage Sign ⚡ | High tech industry worker, assembly line worker; electrician, electric engineer
+Category   | Codepoint |                  |    | Professions
+-----------|-----------|------------------|----|------------
+Healthcare | U+1F3E5   | Hospital         | 🏥 | Nurses, dentist, anesthesiologist, radiologist, white-coat worker
+Industry   | U+26A1    | High Voltage Sign| ⚡ | High tech industry worker, assembly line worker; electrician, electric engineer
 
 Further Ideas
 -------------
 
 Category | Possible Codepoints | Professions
 ---------|---------------------|------------
-— | U+1F3DA 🏚 broke
+—        | U+1F3DA 🏚 | broke, homeless
 Business | U+ White Telephone ☏ or U+1F4DE 📞 or U+260E Black Telephone ☎️ | support, call center agent, personal assistant, secretary
 Business | U+1F3E1 🏡 or U+1F3E0 House 🏠 | stay-at-home parent, housekeeper, realtor, estate agent, broker
 Business | U+1F3E2 🏢  | cubicle worker, white-collar worker
