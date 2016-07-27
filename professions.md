@@ -50,71 +50,107 @@ Industry   | U+26A1    | High Voltage Sign| ⚡ | High tech industry worker, ass
 Further Ideas
 -------------
 
-Category | Possible Codepoints | Professions
----------|---------------------|------------
-—        | U+1F3DA 🏚 | broke, homeless
-Business | U+ White Telephone ☏ or U+1F4DE 📞 or U+260E Black Telephone ☎️ | support, call center agent, personal assistant, secretary
-Business | U+1F3E1 🏡 or U+1F3E0 House 🏠 | stay-at-home parent, housekeeper, realtor, estate agent, broker
-Business | U+1F3E2 🏢  | cubicle worker, white-collar worker
-Business | U+1F3E6 Bank 🏦 | bank teller, bank clerk
-Business | U+1F3EA 🏪 | shop clerk
-Business | U+1F3EC 🏬  | sales person, seller
-Education | U+1F392 🎒 | pupil, student, school kid
-Food service | U+1F354 🍔 or U+1F35F 🍟 | fast food clerk
-Food service | U+1F356 🍖 | butcher
-Food service | U+1F35E 🍞 or U+1F370 🍰 or U+1F382 🎂 | baker, pastry cook, confectioner
-Food service | U+1F374 🍴 or U+1F37D 🍽  | waiter, maitre d’
-Food service | U+1F37A 🍺 U+1F37B 🍻  U+1F377 🍷 U+1F378 🍸 U+1F379 🍹  | innkeeper, barkeeper, bartender, sommelier, mixologist
-Healthcare | U+ 🚑 | paramedic
-Healthcare | U+1F37C 🍼 | nanny, midwife, wetnurse
-Healthcare | U+1F3A9 Top Hat 🎩 | undertaker, circus director
-Healthcare | U+1F453 Glasses 👓  | Ophthalmologist, optician
-Healthcare | U+1F484 Lipstick 💄 or U+1F485 💅 | visagist, makeup artist, manicurist
-Healthcare | U+1F48A Pill 💊  or U+1F489 Syringe 💉  | patient, junkie, addict
-Healthcare | U+2651  ⛑  |rescue worker, paramedic
-Healthcare | U+26B0 Coffin ⚰ | undertaker
-Industry | U+1F6C0 🛀  or U+1F6BD Toilet 🚽 or U+1F6BF Shower 🚿 or U+1F6C1 Bathtub 🛁  |plumber
-Industry | U+2692 Hammer and Pick ⚒ or U+26CF ⛏ Pick or U+1F528 Hammer  |miner, manual labor
-Media | U+1F3A5 🎥 U+1F4FD 📽 U+1F39E 🎞  | cinematographer, film star, movie star, TV star
-Media | U+1F4F7 📷 or U+1F4F8 📸 | photographer, photo model
-Media | U+1F5E3 🗣  | speaker, presenter, host, moderator, politician
-Media | U+270D ✍️  | author, writer, journalist, blogger, editor, columnist, artist
-Public service | U+ 🚒  | fire fighter
-Public service | U+ 🚔 or U+ 🚓 | police force, see U+1F46E Police 👮 
-Public service | U+1F3E3 🏣  or U+1F3E4 🏤  | post agent
-Public service | U+267B ♻ or U+1F5D1 🗑 | Cleaner 
-Public service | U+2696 Scales ⚖ | judge, lawyer, attorney, prosecutor
-Public service | U+2694 Crossed Swords ⚔ | knight, soldier, fighter, combattant
-Public service | U+269A Staff of Hermes or  📦📯🗞  |post worker, delivery, messenger
-Religion | U+271D ✝️ | orthodox Christian, Quaker, Amish
-Religion | U+2626 ☦️ | Orthodox Christian
-Religion | U+2721 ✡️  | orthodox Jew
-Religion | U+262A ☪️  | orthodox Muslim
-Religion | U+2638 ☸️  | orthodox Buddhist
-Religion | U+1F549 🕉 | orthodox Hindu
-Religion | U+1F492 Wedding Chapel 💒 | minister, best man, bridesmaid
-Religion | U+1F4A3 Bomb 💣 | terrorist
-Religion | U+1F4FF 📿 | Christian nun / monk 
-Religion | U+1F52E 🔮  | medium, psychic
-Religion | U+1F54C Mosque 🕌 | Muslim priest
-Religion | U+1F54D Synagogue 🕍 | Jewish priest
-Religion | U+26EA Church ⛪️ | Christian priest
-Science | U+ 📜 or U+ 📚 or U+ 📖 | scientist, scholar
-Science | U+1F3DB 🏛 | archeologist, historian, archivar
-Science | U+1F52D Telescope 🔭 | astronomer, astrologist
-Science | U+2697 ⚗ | chemist, scientist, laboratory worker
-Science | U+269B Atom Symbol ⚛ | physicist, scientist
-Service | U+1F3E8 Hotel 🏨  | receptionist, maid, bellboy, …
-Service | U+1F3E9 Love Hotel 🏩 | prostitute, pimp
-Service | U+1F488 💈 or U+2702 Black Scissors ✂️ or  U+1F487 💇 | barber, hairdresser, coiffeur, hair stylist
-Service | U+2698 Flower ⚘ florist, interior designer
-Technology | U+ ⚙ | Engineer
-Transport | U+1F680 Rocket 🚀 | astronaut, cosmonaut, taikonaut, space pilot
-Transport | U+2693 Anchor ⚓️ | sailor, captain
-Transport | U+2708 Airplane ✈️ | pilot, flight assistant
-Art | U+1F58C Paintbrush 🖌 or U+1F3A8 Color Palette 🎨 | Painter, artist
-Art | U+1F3AD 🎭 | Actor, playwright, screenwriter
-Art | U+1F3AC 🎬 | Director, cinematographer
-Art | U+1F3B7 Saxophone 🎷 or U+1F3BA Trumpet 🎺 or U+1F3B8 Guitar 🎸 or U+1F3BB Violin 🎻 or U+1F3B9 Keyboard 🎹 | Actor, playwright, screenwriter
-Art | U+1F3BC 🎼 | Composer, musician
-Art | U+1F3A4 Microphone 🎤 | Singer
+Category       | Codepoint |                 |   | Professions
+---------------|-----------|-----------------|---|------------
+—              | U+1F3DA   |                 | 🏚 | broke, homeless
+Business       | U+        | White Telephone | ☏ | support, call center agent, personal assistant, secretary
+Business       | U+1F4DE   |                 | 📞 | support, call center agent, personal assistant, secretary
+Business       | U+260E    | Black Telephone | ☎️ | support, call center agent, personal assistant, secretary
+Business       | U+1F3E1   |                 | 🏡 | stay-at-home parent, housekeeper, realtor, estate agent, broker
+Business       | U+1F3E0   | House           | 🏠 | stay-at-home parent, housekeeper, realtor, estate agent, broker
+Business       | U+1F3E2   |                 | 🏢 | cubicle worker, white-collar worker
+Business       | U+1F3E6   | Bank            | 🏦 | bank teller, bank clerk, banker
+Business       | U+1F3EA   |                 | 🏪 | shop clerk
+Business       | U+1F3EC   |                 | 🏬 | sales person, seller, shpping assistant
+Education      | U+1F392   |                 | 🎒 | pupil, student, school kid
+Food service   | U+1F354   | Hamburger       | 🍔 | fast food clerk
+Food service   | U+1F35F   | French Fries    | 🍟 | fast food clerk
+Food service   | U+1F356   |                 | 🍖 | butcher
+Food service   | U+1F35E   | Bread           | 🍞 | baker, pastry cook, confectioner
+Food service   | U+1F382   | Birthday Cake   | 🎂 | baker, pastry cook, confectioner
+Food service   | U+1F370   |                 | 🍰 | baker, pastry cook, confectioner
+Food service   | U+1F374   |                 | 🍴 | waiter, maitre d’
+Food service   | U+1F37D   |                 | 🍽 | waiter, maitre d’
+Food service   | U+1F37A   |                 | 🍺 | innkeeper, barkeeper, bartender, sommelier, mixologist
+Food service   | U+1F37B   |                 | 🍻 | innkeeper, barkeeper, bartender, sommelier, mixologist
+Food service   | U+1F377   |                 | 🍷 | innkeeper, barkeeper, bartender, sommelier, mixologist
+Food service   | U+1F378   |                 | 🍸 | innkeeper, barkeeper, bartender, sommelier, mixologist
+Food service   | U+1F379   |                 | 🍹 | innkeeper, barkeeper, bartender, sommelier, mixologist
+Healthcare     | U+        |                 | 🚑 | paramedic
+Healthcare     | U+1F37C   |                 | 🍼 | nanny, midwife, wetnurse
+Healthcare     | U+1F3A9   | Top Hat         | 🎩 | undertaker, circus director
+Healthcare     | U+1F453   | Glasses         | 👓 | Ophthalmologist, optician
+Healthcare     | U+1F484   | Lipstick        | 💄 | visagist, makeup artist, manicurist
+Healthcare     | U+1F485   |                 | 💅 | visagist, makeup artist, manicurist
+Healthcare     | U+1F48A   | Pill            | 💊 | patient, junkie, addict
+Healthcare     | U+1F489   | Syringe         | 💉 | patient, junkie, addict
+Healthcare     | U+2651    |                 | ⛑  | rescue worker, paramedic
+Healthcare     | U+26B0    | Coffin          | ⚰  | undertaker
+Industry       | U+1F6C0   |                 | 🛀 | plumber
+Industry       | U+1F6BF   | Shower          | 🚿 | plumber
+Industry       | U+1F6BD   | Toilet          | 🚽 | plumber
+Industry       | U+1F6C1   | Bathtub         | 🛁 | plumber
+Industry       | U+2692    | Hammer and Pick | ⚒ | miner, manual labor
+Industry       | U+26CF    | Pick            | ⛏  | miner, manual labor
+Industry       | U+1F528   | Hammer          |  | miner, manual labor
+Media          | U+1F3A5   |                 | 🎥 | cinematographer, film star, movie star, TV star
+Media          | U+1F4FD   |                 | 📽 | cinematographer, film star, movie star, TV star
+Media          | U+1F39E   |                 | 🎞 | cinematographer, film star, movie star, TV star
+Media          | U+1F4F7   |                 | 📷 | photographer, photo model
+Media          | U+1F4F8   |                 | 📸 | photographer, photo model
+Media          | U+1F5E3   |                 | 🗣 | speaker, presenter, host, moderator, politician
+Media          | U+270D    |                 | ✍️ | author, writer, journalist, blogger, editor, columnist, artist
+Public service | U+        |                 | 🚒 | fire fighter
+Public service | U+        |                 | 🚔 | police force, see U+1F46E Police 👮 
+Public service | U+        |                 | 🚓 | police force, see U+1F46E Police 👮 
+Public service | U+1F3E3   |                 | 🏣 | post agent
+Public service | U+1F3E4   |                 | 🏤 | post agent
+Public service | U+267B    |                 | ♻  | cleaner janitor
+Public service | U+1F5D1   |                 | 🗑 | cleaner, janitor
+Public service | U+2696    | Scales          | ⚖  | judge, lawyer, attorney, prosecutor
+Public service | U+2694    | Crossed Swords  | ⚔ | knight, soldier, fighter, combattant
+Public service | U+269A    | Staff of Hermes |  | post worker, delivery, messenger
+Public service | U+        |                 | 📦 | post worker, delivery, messenger
+Public service | U+        |                 | 📯 | post worker, delivery, messenger
+Public service | U+        |                 | 🗞 | post worker, delivery, messenger
+Religion       | U+271D    |                 | ✝️ | orthodox Christian, Quaker, Amish
+Religion       | U+2626    |                 | ☦️ | Orthodox Christian
+Religion       | U+2721    |                 | ✡️  | orthodox Jew
+Religion       | U+262A    |                 | ☪️  | orthodox Muslim
+Religion       | U+2638    |                 | ☸️  | orthodox Buddhist
+Religion       | U+1F549   |                 | 🕉 | orthodox Hindu
+Religion       | U+1F492   | Wedding Chapel  | 💒 | minister, best man, bridesmaid
+Religion       | U+1F4A3   | Bomb            | 💣 | terrorist
+Religion       | U+1F4FF   |                 | 📿 | Christian nun / monk 
+Religion       | U+1F52E   |                 | 🔮  | medium, psychic
+Religion       | U+1F54C   | Mosque          | 🕌 | Muslim priest
+Religion       | U+1F54D   | Synagogue       | 🕍 | Jewish priest
+Religion       | U+26EA    | Church          | ⛪️ | Christian priest
+Science        | U+        |                 | 📜 | scientist, scholar
+Science        | U+        |                 | 📚 | scientist, scholar
+Science        | U+        |                 | 📖 | scientist, scholar
+Science        | U+1F3DB   |                 | 🏛 | archeologist, historian, archivar
+Science        | U+1F52D   | Telescope       | 🔭 | astronomer, astrologist, astrophysicist
+Science        | U+2697    |                 | ⚗ | chemist, scientist, laboratory worker
+Science        | U+269B    | Atom Symbol     | ⚛ | physicist, scientist
+Service        | U+1F3E8   | Hotel           | 🏨 | receptionist (cf. U+1F481 💁), maid, bellboy, … 
+Service        | U+1F3E9   | Love Hotel      | 🏩 | prostitute, pimp
+Service        | U+1F488   |                 | 💈 | barber, hairdresser, coiffeur, hair stylist
+Service        | U+2702    | Black Scissors  | ✂️ | barber, hairdresser, coiffeur, hair stylist
+Service        | U+1F487   |                 | 💇 | barber, hairdresser, coiffeur, hair stylist
+Service        | U+2698    | Flower          | ⚘  | florist, gardener, interior designer
+Technology     | U+        |                 | ⚙ | Engineer
+Transport      | U+1F680   | Rocket          | 🚀 | astronaut, cosmonaut, taikonaut, space pilot
+Transport      | U+2693    | Anchor          | ⚓️ | sailor, captain
+Transport      | U+2708    | Airplane        | ✈️ | pilot, flight assistant
+Art            | U+1F58C   | Paintbrush      | 🖌 | painter, artist
+Art            | U+1F3A8   | Color Palette   | 🎨 | painter, artist
+Art            | U+1F3AD   |                 | 🎭 | actor, playwright, screenwriter
+Art            | U+1F3AC   |                 | 🎬 | director, cinematographer
+Art            | U+1F3B7   | Saxophone       | 🎷 | musician (Jazz)
+Art            | U+1F3BA   | Trumpet         | 🎺 | musician (marching band)
+Art            | U+1F3B8   | Guitar          | 🎸 | musician (Rock/Folk)
+Art            | U+1F3BB   | Violin          | 🎻 | musician (classical orchestra)
+Art            | U+1F3B9   | Keyboard        | 🎹 | musician (Pop)
+Art            | U+1F3BC   |                 | 🎼 | Composer, musician
+Art            | U+1F3A4   | Microphone      | 🎤 | Singer
