@@ -5,8 +5,8 @@ Emoji hearts come in many colors, but so do books.
 Let’s use either one like Fitzpatrick skin tone modifieres, 
 but with mandatory Zero Width Joiner U+200D, 
 e.g. green car: 
-either &#x1F697;&zwj;&#x1F49A; / &#xU+1F698;&zwj;&#x1F49A;
-or  &#x1F697;&zwj;&#x1F4D7; / &#xU+1F698;&zwj;&#x1F4D7;.
+either &#x1F697;&zwj;&#x1F49A; / &#x1F698;&zwj;&#x1F49A;
+or  &#x1F697;&zwj;&#x1F4D7; / &#x1F698;&zwj;&#x1F4D7;.
 
 Hearts
 ------
