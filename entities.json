@@ -3560,6 +3560,6 @@
   "&Zscr;": { "codepoints": [119989], "characters": "\uD835\uDCB5" },
   "&zscr;": { "codepoints": [120015], "characters": "\uD835\uDCCF" },
   "&zwj;": { "codepoints": [8205], "characters": "\u200D" },
-  "&zwnj;": { "codepoints": [8204], "characters": "\u200C" }
-  "&zzz;": { "codepoints": [], "characters": "\u1F4A4" },
+  "&zwnj;": { "codepoints": [8204], "characters": "\u200C" },
+  "&zzz;": { "codepoints": [], "characters": "\u1F4A4" }
 }
