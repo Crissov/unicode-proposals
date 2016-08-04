@@ -1,0 +1,2921 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Language" content="en-us">
+<title>UTR #51: Unicode Emoji</title>
+<link rel="stylesheet" type="text/css"
+	href="http://www.unicode.org/reports/reports.css">
+<style type="text/css">
+<!--
+a:visited.plain, a:link.plain {
+	color: black;
+	text-decoration: none
+}
+
+a:hover.plain {
+	color: red;
+	text-decoration: underline;
+}
+
+.alink {
+	text-decoration: underline;
+}
+
+.linkstyle {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 90%;
+}
+
+.nolink:link, .nolink:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.nolink:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.body ol li em {
+	font-family: Georgia, Times New Roman, Times, serif;
+}
+
+.green {
+	color: #00B800;
+}
+
+th {
+	background-color: #EEE;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.serif {
+	font-family: serif;
+}
+
+.imgb {
+	width: 24px;
+	height: 24px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	vertical-align: text-bottom;
+}
+-->
+</style>
+</head>
+<body bgcolor="#ffffff">
+	<table class="header">
+		<tr>
+			<td class="icon"><a href="http://www.unicode.org"> <img
+					align="middle" alt="[Unicode]" border="0"
+					src="http://www.unicode.org/webscripts/logo60s2.gif" width="34"
+					height="33"></a>&nbsp; <a class="bar"
+				href="http://www.unicode.org/reports/">Technical Reports</a></td>
+		</tr>
+		<tr>
+			<td class="gray">&nbsp;</td>
+		</tr>
+	</table>
+	<div class="body">
+		<h2 align="center">Unicode® Technical Report #51</h2>
+		<h1>Unicode Emoji</h1>
+		<table class="wide" cellspacing="0" cellpadding="2" border="1">
+			<tr>
+				<td width="20%">Version</td>
+				<td>3.0</td>
+			</tr>
+			<tr>
+				<td>Editors</td>
+				<td><a
+					href="https://plus.google.com/114199149796022210033?rel=author">Mark
+						Davis</a> (Google Inc.), Peter Edberg (Apple Inc.)</td>
+			</tr>
+			<tr>
+				<td>Date</td>
+				<td>2016-06-03</td>
+			</tr>
+			<tr>
+				<td>This Version</td>
+				<td><a 
+					href="http://www.unicode.org/reports/tr51/tr51-7.html">http://www.unicode.org/reports/tr51/tr51-7.html</a></td>
+			</tr>
+			<tr>
+				<td>Previous Version</td>
+				<td><a href="http://www.unicode.org/reports/tr51/tr51-5.html">http://www.unicode.org/reports/tr51/tr51-5.html</a></td>
+			</tr>
+			<tr>
+				<td>Latest Version</td>
+				<td><a href="http://www.unicode.org/reports/tr51/">http://www.unicode.org/reports/tr51/</a></td>
+			</tr>
+			<tr>
+				<td valign="top">Latest Proposed Update</td>
+				<td valign="top"><a
+					href="http://www.unicode.org/reports/tr51/proposed.html">http://www.unicode.org/reports/tr51/proposed.html</a></td>
+			</tr>
+			<tr>
+				<td>Revision</td>
+				<td><a href="#Modifications">7</a></td>
+			</tr>
+		</table>
+		<h3>
+			<i>Summary</i>
+		</h3>
+		<p>
+			<i>This document provides design guidelines for improving the
+				interoperability of emoji characters across platforms and
+				implementations. It also provides data that designates which
+				characters are considered to be emoji, which emoji should be
+				displayed by default with a text style versus an emoji style, and
+				which can be displayed with a variety of skin tones.</i>
+		</p>
+		<h3>
+			<i>Status</i>
+		</h3>
+		<!-- NOT YET APPROVED
+		<p class="changed">
+			<i>This document is a <b><font color="#ff3333">
+						proposed update of a previously approved Unicode Technical Report</font></b>.
+				This document may be updated, replaced, or superseded by other
+				documents at any time. Publication does not imply endorsement by the
+				Unicode Consortium. This is not a stable document; it is
+				inappropriate to cite this document as other than a work in
+				progress.
+			</i>
+		</p>
+		 END NOT YET APPROVED -->
+		<!-- APPROVED -->
+		<p>
+			<i>This document has been reviewed by Unicode members and other
+				interested parties, and has been approved for publication by the
+				Unicode Consortium. This is a stable document and may be used as
+				reference material or cited as a normative reference by other
+				specifications.</i>
+		</p>
+		<!-- END APPROVED -->
+
+		<blockquote>
+			<p>
+				<i><b>A Unicode Technical Report (UTR)</b> contains informative
+					material. Conformance to the Unicode Standard does not imply
+					conformance to any UTR. Other specifications, however, are free to
+					make normative references to a UTR.</i>
+			</p>
+		</blockquote>
+		<p>
+			<i>Please submit corrigenda and other comments with the online
+				reporting form [<a href="http://www.unicode.org/reporting.html">Feedback</a>].
+				Related information that is useful in understanding this document is
+				found in the <a href="#References">References</a>. For the latest
+				version of the Unicode Standard, see [<a
+				href="http://www.unicode.org/versions/latest/">Unicode</a>]. For a
+				list of current Unicode Technical Reports, see [<a
+				href="http://www.unicode.org/reports/">Reports</a>]. For more
+				information about versions of the Unicode Standard, see [<a
+				href="http://www.unicode.org/versions/">Versions</a>].
+			</i>
+		</p>
+		<h3>
+			<i><a name="Contents" href="#Contents">Contents</a></i>
+		</h3>
+		<ul class="toc">
+			<li>1 <a href="#Introduction">Introduction</a>
+				<ul class="toc">
+					<li>Table: <a href="#Proposals">Emoji Proposals</a></li>
+					<li>Table: <a href="#Major_Sources">Major Sources</a></li>
+					<li>Table: <a href="#Selected_Products">Selected Products</a></li>
+					<li>1.1 <a href="#Emoticons">Emoticons and Emoji</a></li>
+					<li>1.2 <a href="#Encoding">Encoding Considerations</a></li>
+					<li>1.3 <a href="#Goals">Goals</a></li>
+					<li>1.4 <a href="#Definitions">Definitions</a>
+						<ul class="toc">
+							<li>1.4.1 <a href="#Emoji_Characters">Emoji Characters</a></li>
+							<li>1.4.2 <a href="#Emoji_Presentation">Emoji
+									Presentation</a></li>
+							<li>1.4.3 <a href="#Emoji_Variation_Sequences">Emoji
+									Variation Sequences</a></li>
+							<li>1.4.4 <a href="#Emoji_Modifiers">Emoji Modifiers</a></li>
+							<li>1.4.5 <a href="#Emoji_Sequences">Emoji Sequences</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>2 <a href="#Design_Guidelines">Design Guidelines</a>
+				<ul class="toc">
+					<li>2.1 <a href="#Gender">Gender</a></li>
+					<li>2.2 <a href="#Diversity">Diversity</a>
+						<ul class="toc">
+							<li>Table: <a href="#Emoji_Modifiers_Table">Emoji
+									Modifiers</a></li>
+							<li>2.2.1 <a href="#Multi_Person_Groupings">Multi-Person
+									Groupings</a></li>
+							<li>2.2.2 <a href="#Diversity_Implementations">Implementations</a>
+								<ul class="toc">
+									<li>Table: <a href="#Subject_Emoji_Modifiers">
+										Sample Emoji Modifier Bases</a></li>
+									<li>Table: <a href="#Emoji_Modifiers_Display">Expected
+											Emoji Modifiers Display</a></li>
+									<li>Table: <a
+										href="#Emoji_Modifiers_And_Variation_Selectors">Emoji
+											Modifiers and Variation Selectors</a></li>
+								</ul>
+							</li>
+							<li>2.2.3 <a href="#Emoji_Modifiers_in_Text">Emoji
+									Modifiers in Text</a>
+								<ul class="toc">
+									<li>Table: <a href="#Minipalette">Minipalettes</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>2.3 <a href="#Emoji_ZWJ_Sequences">Emoji ZWJ Sequences</a>
+						<ul class="toc">
+							<li>Table: <a href="#ZWJ_Display">ZWJ Sequence Display</a></li>
+						</ul>
+					</li>
+					<li>2.4 <a href="#Emoji_Implementation_Notes">Emoji Implementation Notes</a>
+					</li>
+				</ul>
+			</li>
+			<li>3 <a href="#Identification">Which Characters are Emoji</a>
+				<ul class="toc">
+					<li>Table: <a href="#Japanese_Carrier">Japanese Carrier
+							Emoji</a></li>
+					<li>Table: <a href="#Other_Flags">Other Flags</a></li>
+				</ul>
+			</li>
+			<li>4 <a href="#Presentation_Style">Presentation Style</a>
+				<ul class="toc">
+					<li>Table: <a href="#Emoji_vs_Text_Display">Emoji vs Text
+							Display</a></li>
+					<li>4.1 <a href="#Emoji_Variation_Selectors">Emoji Variation Selectors</a></li>
+					<li>4.2 <a href="#Emoji_Locale_Extension">Emoji Locale Extension</a></li>
+					<li>4.3 <a href="#Emoji_Script">Emoji Script</a></li>
+					<li>4.4 <a href="#Other_Emoji_Presentation_Approaches">Other
+							Approaches for Control of Emoji Presentation</a></li>
+				</ul>
+			</li>
+			<li>5 <a href="#Sorting">Ordering and Grouping</a></li>
+			<li>6 <a href="#Input">Input</a>
+				<ul class="toc">
+					<li>Table: <a href="#Palette_Input">Palette Input</a></li>
+				</ul>
+			</li>
+			<li>7 <a href="#Searching">Searching</a></li>
+			<li>8 <a href="#Longer_Term">Longer Term Solutions</a></li>
+			<li><a href="#Data_Files">Annex A: Emoji Properties and Data
+					Files</a>
+				<ul class="toc">
+					<li>Table: <a href="#Emoji_Properties">Emoji Properties</a></li>
+				</ul></li>
+			<li><a href="#Flags">Annex B: Flags</a></li>
+			<li><a href="#Acknowledgements">Acknowledgments</a></li>
+			<li><a href="#Rights_to_Emoji_Images">Rights to Emoji Images</a></li>
+			<li><a href="#References">References</a></li>
+			<li><a href="#Modifications">Modifications</a></li>
+		</ul>
+
+		<br>
+		<hr>
+		<br>
+		<h2>
+			1 <a name="Introduction" href="#Introduction">Introduction</a><a
+				name="Background"> </a>
+		</h2>
+		<p>Emoji are pictographs (pictorial symbols) that are typically
+			presented in a colorful cartoon form and used inline in text. They
+			represent things such as faces, weather, vehicles and buildings, food
+			and drink, animals and plants, or icons that represent emotions,
+			feelings, or activities.</p>
+		<p>
+			Emoji on smartphones and in chat and email applications have become
+			extremely popular worldwide. As of 2015, for example, Instagram
+			reported that “in March of this year, nearly half of text [on
+			Instagram] contained emoji.” Individual emoji also vary greatly in
+			popularity (and even by country), as described in the SwiftKey Emoji
+			Report. See <a href='../../press/emoji.html'>emoji press page</a> for
+			details about these reports and others.
+		</p>
+		<p>Emoji are most often used in social media—in quick, short
+			messages where they connect with the reader and add flavor, color,
+			and emotion. Emoji do not have the grammar or vocabulary to
+			substitute for written language. In social media, emoji make up for
+			the lack of gestures, facial expressions, and intonation that are
+			found in speech. They also add useful ambiguity to messages, allowing
+			the writer to convey many different possible concepts at the same
+			time. Many people are also attracted by the challenge of composing
+			messages in emoji, and puzzling out emoji messages.</p>
+		<p>
+			The word <em>emoji</em> comes from the Japanese:
+		</p>
+		<p align="center">
+			<a
+				href="http://unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%E7%B5%B5"
+				target='unihan' style="text-decoration: none">絵</a> (e ≅ picture) <a
+				href="http://unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%E6%96%87"
+				target='unihan' style="text-decoration: none">文</a> (mo ≅ writing) <a
+				href="http://unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%E5%AD%97"
+				target='unihan' style="text-decoration: none">字</a> (ji ≅
+			character).
+		</p>
+		<p>
+			Emoji may be represented internally as graphics or they may be
+			represented by normal glyphs encoded in fonts like other characters.
+			These latter are called <em>emoji characters</em> for clarity. Some
+			Unicode characters are normally displayed as emoji; some are normally
+			displayed as ordinary text, and some can be displayed both ways.
+		</p>
+		<p>
+			<a name="Media" href="#Media"></a>There’s been considerable media
+			attention to emoji since they appeared in the Unicode Standard, with
+			increased attention starting in late 2013. For example, there were
+			some 6,000 articles on the emoji appearing in Unicode 7.0, according
+			to Google News. See the <a href='../../press/emoji.html'>emoji
+				press page</a> for many samples of such articles, and also the <a
+				href='../../press/emoji.html#keynote'>Keynote</a> from the 38th
+			Internationalization &amp; Unicode Conference.
+		</p>
+		<p>Emoji became available in 1999 on Japanese mobile phones. There
+			was an early proposal in 2000 to encode DoCoMo emoji in Unicode. At
+			that time, it was unclear whether these characters would come into
+			widespread use—and there was not support from the Japanese mobile
+			phone carriers to add them to Unicode—so no action was taken.</p>
+		<p>The emoji turned out to be quite popular in Japan, but each
+			mobile phone carrier developed different (but partially overlapping)
+			sets, and each mobile phone vendor used their own text encoding
+			extensions, which were incompatible with one another. The vendors
+			developed cross-mapping tables to allow limited interchange of emoji
+			characters with phones from other vendors, including email.
+			Characters from other platforms that could not be displayed were
+			represented with 〓 (U+3013 GETA MARK), but it was all too easy for
+			the characters to get corrupted or dropped.</p>
+		<p>
+			When non-Japanese email and mobile phone vendors started to support
+			email exchange with the Japanese carriers, they ran into those
+			problems. Moreover, there was no way to represent these characters in
+			Unicode, which was the basis for text in all modern programs. In
+			2006, Google started work on converting Japanese emoji to Unicode
+			private-use codes, leading to the development of internal mapping
+			tables for supporting the carrier emoji via Unicode characters in <a
+				href="http://gmailblog.blogspot.com/2007/11/group-chat-and-rich-emoticons-now.html">2007<img src="http://unicode.org/img/external_link.png" alt="external link"></a>.
+		</p>
+		<p>There are, however, many problems with a private-use approach,
+			and thus a proposal was made to the Unicode Consortium to expand the
+			scope of symbols to encompass emoji. This proposal was approved in
+			May 2007, leading to the formation of a symbols subcommittee, and in
+			August 2007 the technical committee agreed to support the encoding of
+			emoji in Unicode based on a set of principles developed by the
+			subcommittee. The following are a few of the documents tracking the
+			progression of Unicode emoji characters.</p>
+		<div align="center">
+			<table border="1" cellspacing="0" cellpadding="0">
+				<caption>
+					<a name="Proposals" href="#Proposals">Emoji Proposals</a>
+				</caption>
+				<tr>
+					<th>Date</th>
+					<th>Doc No.</th>
+					<th>Title</th>
+					<th>Authors</th>
+				</tr>
+				<tr>
+					<td class="nowrap">2000-04-26</td>
+					<td class="nowrap">L2/00-152</td>
+					<td>NTT DoCoMo Pictographs</td>
+					<td>Graham Asher (Symbian)</td>
+				</tr>
+				<tr>
+					<td class="nowrap">2006-11-01</td>
+					<td class="nowrap">L2/06-369</td>
+					<td>Symbols (scope extension)</td>
+					<td>Mark Davis (Google)</td>
+				</tr>
+				<tr>
+					<td class="nowrap">2007-08-03</td>
+					<td class="nowrap">L2/07-257</td>
+					<td>Working Draft Proposal for Encoding Emoji Symbols</td>
+					<td>Kat Momoi, Mark Davis, Markus Scherer (Google)</td>
+				</tr>
+				<tr>
+					<td class="nowrap">2007-08-09</td>
+					<td class="nowrap">L2/07-274R</td>
+					<td>Symbols draft resolution</td>
+					<td>Mark Davis (Google)</td>
+				</tr>
+				<tr>
+					<td class="nowrap">2007-09-18</td>
+					<td class="nowrap">L2/07-391</td>
+					<td>Japanese TV Symbols (ARIB)</td>
+					<td>Michel Suignard (Microsoft)</td>
+				</tr>
+				<tr>
+					<td class="nowrap">2009-01-30</td>
+					<td class="nowrap">L2/09-026</td>
+					<td>Emoji Symbols Proposed for New Encoding</td>
+					<td rowspan="3">Markus Scherer, Mark Davis, Kat Momoi, Darick
+						Tong (Google);<br> Yasuo Kida, Peter Edberg (Apple)
+					</td>
+				</tr>
+				<tr>
+					<td class="nowrap">2009-03-05</td>
+					<td class="nowrap">L2/09-025R2</td>
+					<td>Proposal for Encoding Emoji Symbols</td>
+				</tr>
+				<tr>
+					<td class="nowrap">2010-04-27</td>
+					<td class="nowrap">L2/10-132</td>
+					<td>Emoji Symbols: Background Data</td>
+				</tr>
+				<tr>
+					<td class="nowrap">2011-02-15</td>
+					<td class="nowrap">L2/11-052R</td>
+					<td>Wingdings and Webdings Symbols</td>
+					<td>Michel Suignard</td>
+				</tr>
+			</table>
+		</div>
+		<p>
+			To find the documents in this table, see <a
+				href='http://www.unicode.org/L2/all-docs.html'>UTC Documents</a>.
+		</p>
+		<p>In 2009, the first Unicode characters explicitly intended as
+			emoji were added to Unicode 5.2 for interoperability with the ARIB
+			(Association of Radio Industries and Businesses) set. A set of 722
+			characters was defined as the union of emoji characters used by
+			Japanese mobile phone carriers: 114 of these characters were already
+			in Unicode 5.2. In 2010, the remaining 608 emoji characters were
+			added to Unicode 6.0, along with some other emoji characters. In
+			2012, a few more emoji were added to Unicode 6.1, and in 2014 a
+			larger number were added to Unicode 7.0. 
+			Additional characters have been added since then, based on the
+			<em>Selection Factors</em> found in <a
+				href='http://unicode.org/emoji/selection.html'>Submitting Emoji
+				Character Proposals</a>.
+		</p>
+		<p>Here is a summary of when some of the major sources of
+			pictographs used as emoji were encoded in Unicode. These sources
+			include other characters in addition to emoji.
+		</p>
+		<div align="center">
+			<table border="1" cellspacing="0" cellpadding="1">
+				<caption>
+					<a name="Major_Sources" href="#Major_Sources">Major Sources</a>
+				</caption>
+				<tr>
+					<th rowspan="2">Source</th>
+					<th rowspan="2"><div align="center">Abbr</div></th>
+					<th rowspan="2"><div align="center">L</div></th>
+					<th rowspan="2"><div align="center">
+							Dev.<br>Starts
+						</div></th>
+					<th rowspan="2"><div align="center">Released</div></th>
+					<th rowspan="2"><div align="center">
+							Unicode<br>Version
+						</div></th>
+					<th colspan="4"><div align="center">Sample Character</div></th>
+				</tr>
+				<tr>
+					<th><div align="center">B&amp;W</div></th>
+					<th>
+						<div align="center">Color</div>
+					</th>
+					<th><div align="right">Code</div></th>
+					<th>Name</th>
+				</tr>
+				<tr>
+					<td>Zapf Dingbats</td>
+					<td><div align="center">ZDings</div></td>
+					<td><div align="center">z</div></td>
+					<td><div align="center">1989</div></td>
+					<td><div align="center" class="nowrap">1991-10</div></td>
+					<td><div align="center">
+							<a target="_blank"
+								href="http://www.unicode.org/versions/Unicode1.0.0/">1.0</a>
+				  </div></td>
+					<td><div align="center">
+							<img height='24' width="auto" alt="✏"
+								src="images/ref/ref_270f.png">
+						</div></td>
+					<td><div align="center">
+							<img height='24' width="auto" alt="✏"
+								src="images/apple/apple_270f.png">
+						</div></td>
+					<td><div align="right">U+270F</div></td>
+					<td><em>pencil</em></td>
+				</tr>
+				<tr>
+					<td>ARIB</td>
+					<td><div align="center">ARIB</div></td>
+					<td><div align="center">a</div></td>
+					<td><div align="center">2007</div></td>
+					<td><div align="center" class="nowrap">2008-10-01</div></td>
+					<td><div align="center">
+							<a target="_blank"
+								href="http://blog.unicode.org/2009/10/unicode-announcement-unicode-520.html">5.2</a>
+				  </div></td>
+					<td><div align="center">
+							<img height='24' width='auto' alt="☔"
+								src="images/ref/ref_2614.png">
+						</div></td>
+					<td><div align="center">
+							<img height='24' width='auto' alt="☔"
+								src="images/apple/apple_2614.png">
+						</div></td>
+					<td><div align="right">U+2614</div></td>
+					<td><em>umbrella with rain drops</em></td>
+				</tr>
+				<tr>
+					<td>Japanese carriers</td>
+					<td><div align="center">JCarrier</div></td>
+					<td><div align="center">j</div></td>
+					<td><div align="center">2007</div></td>
+					<td><div align="center" class="nowrap">2010-10-11</div></td>
+					<td><div align="center">
+							<a target="_blank"
+								href="http://blog.unicode.org/2010/10/unicode-version-60-support-for-popular.html">6.0</a>
+				  </div></td>
+					<td><div align="center">
+							<img height='24' width='auto' alt="😎"
+								src="images/ref/ref_1f60e.png">
+						</div></td>
+					<td><div align="center">
+							<img height='24' width='auto' alt="😎"
+								src="images/twitter/twitter_1f60e.png">
+						</div></td>
+					<td><div align="right">U+1F60E</div></td>
+					<td><em>smiling face with sunglasses</em></td>
+				</tr>
+				<tr>
+					<td>Wingdings &amp; Webdings</td>
+					<td><div align="center">WDings</div></td>
+					<td><div align="center">w</div></td>
+					<td><div align="center">2010</div></td>
+					<td><div align="center" class="nowrap">2014-06-16</div></td>
+					<td><div align="center">
+							<a target="_blank"
+								href="http://blog.unicode.org/2014/06/announcing-unicode-standard-version-70.html">7.0</a>
+				  </div></td>
+					<td><div align="center">
+							<img height='24' width="auto" alt="🌶"
+								src="images/ref/ref_1f336.png" title="U+1F336 🌶 hot pepper">
+						</div></td>
+					<td><div align="center">
+							<img height='20' width="auto" alt="🌶"
+								src="images/other/other_1f336.png" title="U+1F336 🌶 hot pepper">
+						</div></td>
+					<td><div align="right">U+1F336</div></td>
+					<td><em>hot pepper</em></td>
+				</tr>
+			</table>
+		</div>
+		<p>
+			Unicode characters can correspond to multiple sources. The L column
+			contains single-letter abbreviations for use in charts [<a
+				href="#emoji_charts">emoji-charts</a>] and data files [<a
+				href="#emoji_data">emoji-data</a>]. Characters that do not
+			correspond to any of these sources can be marked with Other (x).
+		</p>
+		<p>
+			For a detailed view of when various source sets of emoji were added
+			to Unicode, see <em>emoji-versions-sources</em> [<a
+				href="#emoji_charts">emoji-charts</a>]. The data file <span
+				class="noborder">[<a href="#JSources">JSources</a>]
+			</span> shows the correspondence to the original Japanese carrier symbols.
+		</p>
+		<p>
+			The <a href="#Selected_Products">Selected Products</a> table lists
+			when Unicode emoji characters were incorporated into selected
+			products. (The Private Use characters — PUA
+			— were a temporary solution.)
+		</p>
+		<div align="center">
+			<table>
+				<caption>
+					<a name="Selected_Products" href="#Selected_Products">Selected
+						Products</a>
+				</caption>
+				<tr>
+					<th><strong>Date</strong></th>
+					<th><strong>Product</strong></th>
+					<th><strong>Version</strong></th>
+					<th><strong>Emoji Support</strong></th>
+					<th><strong>Display</strong></th>
+					<th><strong>Input</strong></th>
+					<th><strong>Notes, Links</strong></th>
+				</tr>
+				<tr>
+					<td class="nowrap">2008-01</td>
+					<td>GMail mobile</td>
+					<td></td>
+					<td>PUA</td>
+					<td>color</td>
+					<td>palette</td>
+					<td><a
+						href="http://googlejapan.blogspot.com/2008/01/gmail.html">モバイル
+							Gmail が携帯絵文字に対応しました<img src="http://unicode.org/img/external_link.png" alt="external link"></a></td>
+				</tr>
+				<tr>
+					<td>2008-10</td>
+					<td>GMail web</td>
+					<td></td>
+					<td>PUA</td>
+					<td>color</td>
+					<td>palette</td>
+					<td><a
+						href="http://googlejapan.blogspot.com/2008/10/gmail.html">Gmail
+							で絵文字が使えるようになりました<img src="http://unicode.org/img/external_link.png" alt="external link"></a></td>
+				</tr>
+				<tr>
+					<td>2008-11</td>
+					<td>iPhone</td>
+					<td>iPhone OS 2.2</td>
+					<td>PUA</td>
+					<td>color</td>
+					<td>palette</td>
+					<td>Softbank users, others via 3rd party apps. <a
+						href="http://japan.cnet.com/news/media/20384088/">CNET Japan
+							article<img src="http://unicode.org/img/external_link.png" alt="external link"></a> on Nov. 21, 2008.
+					</td>
+				</tr>
+				<tr>
+					<td>2011-07</td>
+					<td>Mac</td>
+					<td>OSX 10.7</td>
+					<td>Unicode 6.0</td>
+					<td>color</td>
+					<td>Character Viewer</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>2011-11</td>
+					<td>iPhone, iPad</td>
+					<td>iOS 5</td>
+					<td>Unicode 6.0</td>
+					<td>color</td>
+					<td>+emoji keyboard</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>2012-06</td>
+					<td>Android</td>
+					<td>Jelly Bean</td>
+					<td></td>
+					<td>B&amp;W</td>
+					<td>3rd party input</td>
+					<td><a
+						href="http://phandroid.com/2012/08/30/tips-tricks-heres-a-quick-list-of-a-few-jelly-bean-emojis/">…Quick
+							List of Jelly Bean Emoji…<img src="http://unicode.org/img/external_link.png" alt="external link"></a></td>
+				</tr>
+				<tr>
+					<td>2012-09</td>
+					<td>iPhone, iPad</td>
+					<td>iOS 6</td>
+					<td>+ variation selectors</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>2012-08</td>
+					<td>Windows</td>
+					<td>8</td>
+					<td>Unicode only; no emoji variation sequences</td>
+					<td>desktop/tablet: b&amp;w;<br> phone: color
+					</td>
+					<td>integrated in touch keyboards</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>2013-08</td>
+					<td>Windows</td>
+					<td>8.1</td>
+					<td>Unicode only; emoji variation sequences</td>
+					<td>all: color</td>
+					<td>touch keyboards; phone: text prediction features (e.g.
+						&ldquo;love&rdquo; -&gt; ❤)</td>
+					<td>Color using scalable glyphs (OpenType extension)</td>
+				</tr>
+				<tr>
+					<td>2013-11</td>
+					<td>Android</td>
+					<td>Kitkat</td>
+					<td></td>
+					<td>color</td>
+					<td>native keyboard</td>
+					<td><a
+						href="https://web.archive.org/web/20131115035022/http://www.techhive.com/article/2062244/express-yourself-with-the-new-colorful-emoji-in-android-kitkat.html">…new,
+							colorful Emoji in Android KitKat<img src="http://unicode.org/img/external_link.png" alt="external link"></a></td>
+				</tr>
+
+				<tr>
+					<td>2015-04</td>
+					<td>iPhone, iPad, Mac</td>
+					<td>iOS 8.3, OSX 10.10.3</td>
+					<td>+ emoji modifiers, ZWJ sequences for people groupings</td>
+					<td>color</td>
+					<td>emoji keyboard with long press for modifier sequences,
+						separate keys for ZWJ sequences</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td>2015-12</td>
+					<td>Android</td>
+					<td>Marshmallow 6.0.1</td>
+					<td>+ ZWJ sequences for people groupings</td>
+					<td>color</td>
+					<td>separate keys for ZWJ sequences</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<p>
+			People often ask how many emoji are in the Unicode Standard. This
+			question does not have a simple answer, because there is no clear
+			line separating which pictographic characters should be displayed
+			with a typical emoji style. For a complete picture, see <a
+				href="#Identification">Which Characters are Emoji</a>.
+		</p>
+		<p>
+			The colored images used in this document and associated charts <span
+				class="noborder">[<a href="#emoji_charts">emoji-charts</a>]
+			</span> are for illustration only. They do not appear in the Unicode
+			Standard, which has only black and white images. They are either made
+			available by the respective vendors for use in this document, or are
+			believed to be available for non-commercial reuse. Inquiries for
+			permission to use vendor images should be directed to those vendors,
+			not to the Unicode Consortium. For more information, see <a
+				href="#Rights_to_Emoji_Images"><em>Rights to Emoji Images</em></a>.
+		</p>
+		<h3>
+			1.1 <a name="Emoticons" href="#Emoticons">Emoticons and Emoji</a>
+		</h3>
+		<p>
+			The term <em>emoticon</em> refers to a series of text characters
+			(typically punctuation or symbols) that is meant to represent a
+			facial expression or gesture (sometimes when viewed sideways), such
+			as the following.
+		</p>
+		<p align="center">;-)</p>
+		<p align="left">
+			Emoticons <a target="_blank"
+				href="http://en.wikipedia.org/wiki/Emoticon">predate Unicode and
+				emoji<img src="http://unicode.org/img/external_link.png" alt="external link"></a>,
+			but were later adapted to include Unicode characters. The
+			following examples use not only ASCII characters, but also U+203F ( ‿
+			), U+FE35 ( ︵ ), U+25C9 ( ◉ ), and U+0CA0 ( ಠ ).
+		</p>
+		<p align="center">^‿^</p>
+		<p align="center">◉︵◉</p>
+		<p align="center">ಠ_ಠ</p>
+		<p>
+			Often implementations allow emoticons to be used to input emoji. For
+			example, the emoticon ;-) can be mapped to <img height='14'
+				width='auto' alt="😉" src="images/apple/apple_1f609.png"> in a
+			chat window. The term <em>emoticon</em> is sometimes used in a
+			broader sense, to also include the emoji for facial expressions and
+			gestures. That broad sense is used in the Unicode block name <em>Emoticons</em>,
+			covering the code points from U+1F600 to U+1F64F.
+		</p>
+		<h3>
+			1.2 <a name="Encoding" href="#Encoding">Encoding Considerations</a>
+		</h3>
+		<p>
+			Unicode is the foundation for text in all modern software: it’s how
+			all mobile phones, desktops, and other computers represent the text
+			of every language. People are using Unicode every time they type a
+			key on their phone or desktop computer, and every time they look at a
+			web page or text in an application. It is very important that the
+			standard be stable, and that every character that goes into it be
+			scrutinized carefully. This requires a formal process with a long
+			development cycle. For example, the <img height='14' width="auto"
+				alt="🕶" src="images/ref/ref_1f576.png"> <em>dark
+				sunglasses</em> character was first proposed years before it was released
+			in Unicode 7.0.
+		</p>
+		<p>
+			Characters considered for encoding must normally be in widespread use
+			as elements of text. The emoji and various symbols were added to
+			Unicode because of their use as characters for text-messaging in a
+			number of Japanese manufacturers’ corporate standards, and other
+			places, or in long-standing use in widely distributed fonts such as
+			Wingdings and Webdings. In many cases, the characters were added for
+			complete round-tripping to and from a source set, <em>not</em>
+			because they were inherently of more importance than other
+			characters. For example, the <img height='14' width="auto" alt="🖁"
+				src="images/ref/ref_1f581.png"
+				title="U+1F581 🖁 clamshell mobile phone"> <em>clamshell
+				phone</em> character was included because it was in Wingdings and
+			Webdings, not because it is more important than, say, a “skunk”
+			character.
+		</p>
+		<p>
+			In some cases, a character was added to complete a set: for example,
+			a <img height='14' width="auto" alt="🏉"
+				src="images/apple/apple_1f3c9.png"> <em>rugby football</em>
+			character was added to Unicode 6.0 to complement the <img height='14'
+				width="auto" alt="🏈" src="images/apple/apple_1f3c8.png"> <em>american
+				football</em> character (the <img height='14' width="auto" alt="⚽"
+				src="images/apple/apple_26bd.png"> <em>soccer ball</em> had
+			been added back in Unicode 5.2). Similarly, a mechanism was added
+			that could be used to represent all country flags (those
+			corresponding to a two-letter <a target="_blank"
+				href="http://www.unicode.org/reports/tr35/#Language_Locale_Field_Definitions">unicode_region_subtag</a>),
+			such as the <em>flag for Canada</em>,
+			even though the Japanese carrier set only had 10 country flags.
+		</p>
+		<p>The data does not include non-pictographs, except for those in
+			Unicode that are used to represent characters from emoji sources, for
+			compatibility, such as:</p>
+		<p align="center">
+			<img height="24" width="auto" alt="🈹"
+				src="images/apple/apple_1f239.png"> or <img height="24"
+				width="auto" alt="🆔" src="images/apple/apple_1f194.png">
+		</p>
+		<p align="left">
+			Game pieces, such as the dominos (🀰 🀱 🀲 ... 🂑 🂒), are currently
+			not included as emoji, with the exceptions of U+1F0CF ( <img
+				height="18" width="auto" alt="🈹" src="images/apple/apple_1f0cf.png">
+			) PLAYING CARD BLACK JOKER and U+1F004&nbsp;(&nbsp;<img height="18"
+				width="auto" alt="🈹" src="images/apple/apple_1f004.png">&nbsp;)
+			MAHJONG TILE RED DRAGON. These are included because they correspond
+			each to an emoji character from one of the carrier sets.
+		</p>
+		<p>
+			<a name="Selection_Factors"></a> The selection factors used to weigh
+			the encoding of prospective candidates are found in <em>Selection
+			Factors</em> in <a href='http://unicode.org/emoji/selection.html'>Submitting
+				Emoji Character Proposals</a>. That document also provides
+			instructions for submitting proposals for new emoji.</p>
+		<p>
+			For a list of frequently asked questions on emoji, see the <a
+				href="http://unicode.org/faq/emoji_dingbats.html" target="_blank">Unicode
+				Emoji FAQ</a>.
+		</p>
+		<h3>
+			1.3 <a name="Goals" href="#Goals">Goals</a>
+		</h3>
+		<p>This document provides:</p>
+		<ul>
+			<li>design guidelines for improving interoperability across
+				platforms and implementations</li>
+			<li>background information about emoji characters, and long-term
+				alternatives</li>
+			<li>data for
+				<ul>
+					<li>which characters normally can be considered to be emoji</li>
+					<li>which of those should be displayed by default with a
+						text-style versus an emoji-style</li>
+					<li>displaying emoji with a variety of skin tones</li>
+				</ul>
+			</li>
+			<li>pointers to [<a href="#CLDR">CLDR]</a> data for
+				<ul>
+					<li>sorting emoji characters more naturally</li>
+					<li>annotations for searching and grouping emoji characters</li>
+				</ul>
+			</li>
+		</ul>
+		<p>It also provides background information about emoji, and
+			discusses longer-term approaches to emoji.</p>
+		<p>As new Unicode characters are added or the “common practice”
+			for emoji usage changes, the data and recommendations supplied by
+			this document may change in accordance. Thus the recommendations and
+			data will change across versions of this document.</p>
+		<h3>
+			1.4 <a name="Definitions" href="#Definitions">Definitions</a>
+		</h3>
+		<p>
+			The following provide more formal definitions of some of the terms
+			used in this document. Readers who are more interested in other
+			features of the document may choose to continue from <em>Section
+				2 <a href="#Design_Guidelines">Design Guidelines</a>
+			</em>.
+		</p>
+		<blockquote>
+			<p>
+				<strong><em><a name="def_emoji" href="#def_emoji">ED-1</a>.
+						emoji</em></strong> — A colorful pictograph that can be used inline in text.
+				Internally the representation is either (a) an image or (b) an
+				encoded character. The term <em>emoji character</em> can be used for
+				(b) where not clear from context.
+			</p>
+			<p>
+				<strong><em><a name="def_emoticon"
+						href="#def_emoticon">ED-2</a>. emoticon</em></strong> — (1) A series of text
+				characters (typically punctuation or symbols) that is meant to
+				represent a facial expression or gesture such as ;-) (2) a broader
+				sense, also including emoji for facial expressions and gestures.
+			</p>
+		</blockquote>
+		<h4>
+			1.4.1 <a name="Emoji_Characters" href="#Emoji_Characters">Emoji
+				Characters</a>
+		</h4>
+		<blockquote>
+			<p>
+				<em><strong><a name="def_emoji_character"
+						href="#def_emoji_character">ED-3</a>. emoji character</strong></em> — A
+				character that is recommended for use as emoji.
+			</p>
+			<ul>
+				<li>These are the characters with the <strong>Emoji</strong>
+					property. See <a href="#Data_Files">Annex A: Emoji Properties
+						and Data Files</a>.
+				</li>
+			</ul>
+			<p>
+				<em><strong><a
+						name="def_level1_emoji" href="#def_level1_emoji">ED-4</a>.</strong></em>
+				(This definition has been removed.)
+			</p>
+			<p>
+				<em><strong><a
+						name="def_level2_emoji" href="#def_level2_emoji">ED-5</a>.</strong></em>
+				(This definition has been removed.)
+			</p>
+		</blockquote>
+		<p>
+			For more information, see <em>Section 3 <a
+				href="#Identification">Which Characters are Emoji</a></em>.
+		</p>
+		<h4>
+			1.4.2 <a name="Emoji_Presentation" href="#Emoji_Presentation">Emoji
+				Presentation</a>
+		</h4>
+		<blockquote>
+			<p>
+				<em><strong><a name="def_emoji_presentation"
+						href="#def_emoji_presentation">ED-6</a>. default emoji
+						presentation character </strong></em>— A character that, by default, should
+				appear with an emoji presentation, rather than a text presentation.
+			</p>
+			<ul>
+				<li>These are the characters with the <strong>Emoji_Presentation</strong>
+					property. See <a href="#Data_Files">Annex A: Emoji Properties
+						and Data Files</a>.
+				</li>
+			</ul>
+			<p>
+				<em><strong><a name="def_text_presentation"
+						href="#def_text_presentation">ED-7</a>. default text presentation
+						character</strong></em> — A character that, by default, should appear with a
+				text presentation, rather than an emoji presentation.
+			</p>
+			<ul>
+				<li>These are the characters that do not have the <strong>Emoji_Presentation</strong>
+					property. That is, their <strong>Emoji_Presentation</strong>
+					property value is <strong>No</strong>. See <a href="#Data_Files">Annex
+						A: Emoji Properties and Data Files</a>.
+				</li>
+			</ul>
+
+		</blockquote>
+		<p>
+			For more details about emoji and text presentation, see <em>Section 2 <a
+				href="#Design_Guidelines">Design Guidelines</a></em> and <em>Section
+				4 <a href="#Presentation_Style">Presentation Style</a>
+			</em>.
+		</p>
+		<h4>
+			1.4.3 <a name="Emoji_Variation_Sequences"
+				href="#Emoji_Variation_Sequences">Emoji Variation Sequences</a>
+		</h4>
+		<blockquote>
+			<p>
+				<em><strong><a name="def_emoji_variation_selector"
+						href="#def_emoji_variation_selector">ED-8</a>. emoji variation
+						selector</strong></em> — Either of the two variation selectors
+				used to request a text or emoji presentation for an emoji character:
+			</p>
+			<ul>
+				<li>U+FE0E VARIATION SELECTOR-15 (VS15) for a text presentation
+				</li>
+				<li>U+FE0F VARIATION SELECTOR-16 (VS16) for an emoji
+					presentation</li>
+			</ul>
+			<p>
+				<em><strong><a name="def_emoji_variation_sequence"
+						href="#def_emoji_variation_sequence">ED-9</a>. emoji variation
+						sequence</strong></em> — A variation sequence listed in <span class="noborder">[<a
+					href="#VSData">VSData</a>]
+				</span> that contains an emoji variation selector.
+			</p>
+
+			<p>
+				<em><strong><a
+						name="def_emoji_base_variation_selector"
+						href="#def_emoji_base_variation_selector">ED-10</a>.</strong></em>
+				(This definition has been removed.)
+			</p>
+		</blockquote>
+		<h4>
+			1.4.4 <a name="Emoji_Modifiers" href="#Emoji_Modifiers">Emoji
+				Modifiers</a>
+		</h4>
+		<blockquote>
+			<p>
+				<em><strong><a name="def_emoji_modifier"
+						href="#def_emoji_modifier">ED-11</a>. emoji modifier</strong></em> —
+				A character that can be used to modify the appearance of a preceding emoji
+				in an <em><a href="#def_emoji_modifier_sequence">emoji modifier
+						sequence</a></em>.
+			</p>
+			<ul>
+				<li>These are the characters with the <strong>Emoji_Modifier</strong>
+					property. See <a href="#Data_Files">Annex A: Emoji Properties
+						and Data Files</a>.
+				</li>
+			</ul>
+
+			<p>
+				<em><strong><a name="def_emoji_modifier_base"
+						href="#def_emoji_modifier_base">ED-12</a>. emoji modifier base</strong></em> —
+				A character whose appearance can be modified by a subsequent emoji
+				modifier in an <em><a href="#def_emoji_modifier_sequence">emoji
+					modifier sequence</a></em>.
+			</p>
+			<ul>
+				<li>These are the characters with the <strong>Emoji_Modifier_Base</strong>
+					property. See <a href="#Data_Files">Annex A: Emoji Properties
+						and Data Files</a>.
+				</li>
+				<li>They are also listed in <a href="#Subject_Emoji_Modifiers">Characters
+						Subject to Emoji Modifiers</a>.
+				</li>
+			</ul>
+
+			<p>
+				<em><strong><a name="def_emoji_modifier_sequence"
+						href="#def_emoji_modifier_sequence">ED-13</a>. emoji modifier
+						sequence</strong></em> — A sequence of the following form:
+			</p>
+			<blockquote>
+				<p>
+					<code>emoji_modifier_sequence :=<br>
+					  emoji_modifier_base emoji_modifier</code>
+				</p>
+			</blockquote>
+		</blockquote>
+		<p>
+			For more details about emoji modifiers, see <em>Section 2.2 <a
+				href="#Diversity">Diversity</a>.
+			</em>
+		</p>
+		<h4>
+			1.4.5 <a name="Emoji_Sequences" href="#Emoji_Sequences">Emoji
+				Sequences</a>
+		</h4>
+
+		<blockquote>
+			<p>
+				<em><strong><a name="def_emoji_flag_sequence"
+						href="#def_emoji_flag_sequence">ED-14</a>. emoji flag sequence</strong></em> — A
+				sequence of two Regional Indicator characters, where the
+				corresponding ASCII characters are valid region sequences as
+				specified by <a
+					href="http://www.unicode.org/reports/tr35/#unicode_region_subtag">Unicode
+					region subtags</a> in [<a href="http://unicode.org/reports/tr51/#CLDR">CLDR</a>],
+					with idStatus=&quot;regular&quot; or &quot;deprecated&quot;. See also
+					<a href="#Flags">Annex B: Flags</a>.
+			</p>
+			<blockquote>
+				<p>
+					<code>emoji_flag_sequence :=<br>
+					  regional_indicator regional_indicator</code>
+				</p>
+			</blockquote>
+
+			<p>
+				<em><strong><a name="def_emoji_combining_sequence"
+						href="#def_emoji_combining_sequence">ED-14a</a>. emoji combining sequence</strong></em> —
+				A sequence of the following form:
+			</p>
+			<blockquote>
+				<p>
+					<code>
+						emoji_combining_sequence :=<br>
+						  emoji_character non_spacing_mark*<br>
+						 | emoji_variation_sequence non_spacing_mark*
+					</code>
+				</p>
+			</blockquote>
+
+			<p>
+				<em><strong><a name="def_emoji_core_sequence"
+						href="#def_emoji_core_sequence">ED-15</a>. emoji core sequence</strong></em> —
+				A sequence of the following form:
+			</p>
+			<blockquote>
+				<p>
+					<code>
+						emoji_core_sequence :=<br>
+						  emoji_combining_sequence<br>
+						 | emoji_modifier_sequence<br>
+						 | emoji_flag_sequence
+					</code>
+				</p>
+			</blockquote>
+
+			<p>
+				<em><strong><a name="def_emoji_zwj_element"
+						href="#def_emoji_zwj_element">ED-15a</a>. emoji zwj element</strong></em> —
+				A more limited element that can be used in a ZWJ sequence, as follows:
+			</p>
+			<blockquote>
+				<p>
+					<code>
+						emoji_zwj_element :=<br>  emoji_character<br>
+						 | emoji_variation_sequence<br>
+						 | emoji_modifier_sequence
+					</code>
+				</p>
+			</blockquote>
+
+			<p>
+				<em><strong><a name="def_emoji_zwj_sequence"
+						href="#def_emoji_zwj_sequence">ED-16</a>. emoji zwj sequence</strong></em> —
+				An emoji sequence with at least one joiner character.
+			</p>
+			<blockquote>
+				<p>
+					<code>emoji_zwj_sequence :=<br>
+					  emoji_zwj_element ( ZWJ emoji_zwj_element )+</code>
+				</p>
+			</blockquote>
+
+			<p>
+				<em><strong><a name="def_emoji_sequence"
+						href="#def_emoji_sequence">ED-17</a>. emoji sequence</strong></em> —
+				A core sequence or ZWJ sequence, as follows:
+			</p>
+			<blockquote>
+				<p>
+					<code>emoji_sequence :=<br>
+						  emoji_core_sequence<br>
+						 | emoji_zwj_sequence
+					</code>
+				</p>
+			</blockquote>
+		</blockquote>
+		<p>For recommendations on the use of variation selectors in
+			emoji sequences, see <em>Section 2.4 <a href="#Emoji_Implementation_Notes">Emoji
+			Implementation Notes</a></em>.
+		</p>
+
+		<h2>
+			2 <a name="Design_Guidelines" href="#Design_Guidelines">Design
+				Guidelines</a>
+		</h2>
+		<p>Unicode characters can have many different presentations as
+			text. An &quot;a&quot; for example, can look quite different
+			depending on the font. Emoji characters can have two main kinds of
+			presentation:</p>
+		<ul>
+			<li>an <em>emoji presentation, </em>with colorful and perhaps
+				whimsical shapes, even animated
+			</li>
+			<li>a <em>text presentation, </em>such as black &amp; white
+			</li>
+		</ul>
+		<p>
+			More precisely, a text presentation is a simple foreground shape
+			whose color which is determined by other information, such as setting
+			a <span class="green">color</span> on the text, while an emoji
+			presentation determines the color(s) of the character, and is
+			typically multicolored. In other words, when someone changes the text
+			color in a word processor, a character with an emoji presentation
+			will not change color.
+		</p>
+		<p>Any Unicode character can be presented with a text
+			presentation, as in the Unicode charts. For the emoji presentation,
+			both the name and the representative glyph in the Unicode chart
+			should be taken into account when designing the appearance of the
+			emoji, along with the images used by other vendors. The shape of the
+			character can vary significantly. For example, here are just some of
+			the possible images for U+1F36D LOLLIPOP, U+1F36E CUSTARD, U+1F36F
+			HONEY POT, and U+1F370 SHORTCAKE:</p>
+		<p align="center">
+			<img width='50%' height='auto'
+				src="http://unicode.org/faq/emoji-examples.png" alt="">
+		</p>
+		<p>
+			While the shape of the character can vary significantly, designers
+			should maintain the same “core” shape, based on the shapes used
+			mostly commonly in industry practice. For example, a U+1F36F HONEY
+			POT encodes for a pictorial representation of a pot of honey, not for
+			some semantic like &quot;sweet&quot;. It would be unexpected to
+			represent U+1F36F HONEY POT as a sugar cube, for example. Deviating
+			too far from that core shape can cause interoperability problems: see
+			<a target="_blank"
+				href="http://www.tuaw.com/2014/04/30/you-may-be-accidentally-sending-friends-a-hairy-heart-emoji/">accidentally-sending-friends-a-hairy-heart-emoji<img src="http://unicode.org/img/external_link.png" alt="external link"></a>.
+			Direction (whether a person or object faces to the right or left, up
+			or down) should also be maintained where possible, because a change
+			in direction can change the meaning: when sending <img width="auto"
+				height='14' alt="🐊" src="images/apple/apple_1f40a.png"> <img
+				width="auto" height='14' alt="🔫" src="images/apple/apple_1f52b.png"><img
+				width="auto" height='14' alt="👮"
+				src="images/twitter/twitter_1f46e.png"> “crocodile shot by
+			police”, people expect any recipient to see the pistol pointing in
+			the same direction as when they composed it. Similarly, the U+1F6B6 <em>pedestrian</em>
+			should face to the left <img width="auto" height='14' alt="🚶"
+				src="images/ref/ref_1f6b6.png">, not to the right.
+		</p>
+		<p>
+			General-purpose emoji for people and body parts should also not be
+			given overly specific images: the general recommendation is to be as
+			neutral as possible regarding race, ethnicity, and gender. Thus for
+			the character U+1F777 CONSTRUCTION WORKER, the
+			recommendation is to use a neutral graphic like 
+			<img src="images/android/android_1f477.png" alt="🙋" width="auto" height='14'> 
+			(with an orange skin tone) 
+			instead of an overly specific image like 
+			<img src="images/android/android_1f477_1f3fb.png" alt="🙋" width="auto" height='14'> 
+			(with a light skin tone). This includes the 
+			<a href="#def_emoji_modifier_base">emoji modifier base</a> characters
+			listed in 
+			<a href="#Subject_Emoji_Modifiers">Sample Emoji Modifier Bases</a>.
+			The emoji modifiers allow for variations in skin tone to
+				be expressed.</p>
+			<p>Unicode 9.0 adds several characters intended
+				to complete gender pairs, and there are ongoing efforts to provide
+				more gender choices in the future.
+			For more information, see the <a 
+				href="http://unicode.org/faq/emoji_dingbats.html">Unicode Emoji
+				FAQ</a>.
+		</p>
+		<p>
+			Names of symbols such as BLACK MEDIUM SQUARE or WHITE MEDIUM SQUARE
+			are not meant to indicate that the corresponding character must be
+			presented in black or white, respectively; rather, the use of “black”
+			and “white” in the names is generally just to contrast <strong>filled</strong>
+			versus <strong>outline</strong> shapes, or a darker color fill versus
+			a lighter color fill. Similarly, in other symbols such as the hands
+			U+261A BLACK LEFT POINTING INDEX and U+261C WHITE LEFT POINTING
+			INDEX, the words “white” and “black” also refer to outlined versus
+			filled, and do not indicate skin color.
+		</p>
+		<p>However, other color words in the name, such as YELLOW,
+			typically provide a recommendation as to the emoji presentation,
+			which should be followed to avoid interoperability problems.</p>
+		<p>Emoji characters may not always be displayed on a white
+			background. They are often best given a faint, narrow contrasting
+			border to keep the character visually distinct from a similarly
+			colored background. Thus a Japanese flag would have a border so that
+			it would be visible on a white background, and a Swiss flag have a
+			border so that it is visible on a red background.</p>
+		<p>Current practice is for emoji to have a square aspect ratio,
+			deriving from their origin in Japanese. For interoperability, it is
+			recommended that this practice be continued with current and future
+			emoji.</p>
+		<p>
+			Flag emoji characters are discussed in <a href="#Flags"> Annex B:
+				Flags</a>.
+		</p>
+		<p>
+			Combining marks may be applied to emoji, just like they can be
+			applied to other characters. When that is done, the combination
+			should take on an emoji presentation. For example, a <img height='14'
+				width='auto' alt="1⃣" src="images/apple/apple_0031_20e3.png">
+			is represented as the sequence &quot;1&quot; plus an emoji variation
+			selector plus U+20E3 COMBINING ENCLOSING KEYCAP. Systems are
+			unlikely, however, to support arbitrary combining marks with
+			arbitrary emoji. Aside from U+20E3, the most likely to be supported
+			is:
+		</p>
+		<ul>
+			<li>U+20E0 COMBINING ENCLOSING CIRCLE BACKSLASH, as an overlaid
+				<img height='14' width='auto' alt="  &#x20e0;"
+				src="http://www.unicode.org/reports/tr51/images/sample/sample_20e0.png">,
+				to indicate a prohibition or “NO”
+			</li>
+		</ul>
+		<p>For example:</p>
+		<ul>
+			<li><img height='18' width='auto' alt="&#x1f399;&#x20e0;"
+				src="http://www.unicode.org/reports/tr51/images/sample/sample_1f399_20e0.png">
+				&lt;U+1F399 U+20E0&gt; <em>no microphones</em></li>
+			<li><img height='18' width='auto' alt="&#x1f4f8;&#x20e0;"
+				src="http://www.unicode.org/reports/tr51/images/sample/sample_1f4f8_20e0.png">
+				&lt;U+1F4F8 U+20E0&gt; <em>no flashes</em></li>
+			<li><img height='18' width='auto' alt="&#x1f52b;&#x20e0;"
+				src="http://www.unicode.org/reports/tr51/images/sample/sample_1f52b_20e0.png">
+				&lt;U+1F52B U+20E0&gt; <em>no guns</em></li>
+		</ul>
+		<p>No combining marks other than U+20E0 and U+20E3, however, are
+			recommended for usage.</p>
+		<h3>
+			2.1 <a name="Gender" href="#Gender">Gender</a>
+		</h3>
+		<p>The following emoji have explicit gender, based on the name and
+			explicit, intentional contrasts with other characters.</p>
+		<p>
+			U+1F466 boy<br> U+1F467 girl<br> U+1F468 man<br>
+			U+1F469 woman<br> U+1F474 older man<br> U+1F475 older woman<br>
+			U+1F46B man and woman holding hands<br> U+1F46C two men holding
+			hands<br> U+1F46D two women holding hands<br> U+1F6B9 mens
+			symbol<br> U+1F6BA womens symbol<br>
+		</p>
+		<p>
+			U+1F478 princess<br> U+1F46F woman with bunny ears<br>
+			U+1F470 bride with veil<br> U+1F472 man with gua pi mao<br>
+			U+1F473 man with turban<br> U+1F574 man in business suit
+			levitating<br> U+1F385 father christmas
+		</p>
+		<p>
+			All others should be depicted in a gender-neutral way.<br>
+		</p>
+		<h3>
+			2.2 <a name="Diversity" href="#Diversity">Diversity</a>
+		</h3>
+		<p>People all over the world want to have emoji that reflect more
+			human diversity, especially for skin tone. The Unicode emoji
+			characters for people and body parts are meant to be generic, yet
+			following the precedents set by the original Japanese carrier images,
+			they are often shown with a light skin tone instead of a more generic
+			(nonhuman) appearance, such as a yellow/orange color or a silhouette.</p>
+		<p>
+			Five symbol modifier characters that provide for a range of skin
+			tones for human emoji were released in Unicode Version 8.0
+			(mid-2015). These characters are based on the six tones of the
+			Fitzpatrick scale, a recognized standard for dermatology (there are
+			many examples of this scale online, such as <a
+				href="http://www.arpansa.gov.au/pubs/RadiationProtection/FitzpatrickSkinType.pdf">FitzpatrickSkinType.pdf<img src="http://unicode.org/img/external_link.png" alt="external link"></a>).
+			The exact shades may vary between implementations.
+		</p>
+		<div align="center">
+			<table border="1" cellspacing="0" cellpadding="1">
+				<caption>
+					<a name="Emoji_Modifiers_Table" href="#Emoji_Modifiers_Table">Emoji
+						Modifiers</a>
+				</caption>
+				<tbody>
+					<tr>
+						<th><strong>Code</strong></th>
+						<th><strong>Name</strong></th>
+						<th colspan="2"><strong>Samples</strong></th>
+					</tr>
+					<tr>
+						<td>U+1F3FB</td>
+						<td>EMOJI MODIFIER FITZPATRICK TYPE-1-2</td>
+						<td><img src="images/other/swatch-type-1-2.png" height='20'
+							width='auto' alt=""></td>
+						<td><img src="images/other/swatch-type-1-2-bw.png"
+							height='20' width='auto' alt=""></td>
+					</tr>
+					<tr>
+						<td>U+1F3FC</td>
+						<td>EMOJI MODIFIER FITZPATRICK TYPE-3</td>
+						<td><img src="images/other/swatch-type-3.png" height='20'
+							width='auto' alt=""></td>
+						<td><img src="images/other/swatch-type-3-bw.png" height='20'
+							width='auto' alt=""></td>
+					</tr>
+					<tr>
+						<td>U+1F3FD</td>
+						<td>EMOJI MODIFIER FITZPATRICK TYPE-4</td>
+						<td><img src="images/other/swatch-type-4.png" height='20'
+							width='auto' alt=""></td>
+						<td><img src="images/other/swatch-type-4-bw.png" height='20'
+							width='auto' alt=""></td>
+					</tr>
+					<tr>
+						<td>U+1F3FE</td>
+						<td>EMOJI MODIFIER FITZPATRICK TYPE-5</td>
+						<td><img src="images/other/swatch-type-5.png" height='20'
+							width='auto' alt=""></td>
+						<td><img src="images/other/swatch-type-5-bw.png" height='20'
+							width='auto' alt=""></td>
+					</tr>
+					<tr>
+						<td>U+1F3FF</td>
+						<td>EMOJI MODIFIER FITZPATRICK TYPE-6</td>
+						<td><img src="images/other/swatch-type-6.png" height='20'
+							width='auto' alt=""></td>
+						<td><img src="images/other/swatch-type-6-bw.png" height='20'
+							width='auto' alt=""></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<p>These characters have been designed so that even where diverse
+			color images for human emoji are not available, readers can see what
+			the intended meaning was.</p>
+		<p>
+			The default representation of these modifier characters when used
+			alone is as a color swatch. Whenever one of these characters <em>immediately</em>
+			follows certain characters (such as WOMAN), then a font should show
+			the sequence as a single glyph corresponding to the image for the
+			person(s) or body part with the specified skin tone, such as the
+			following:
+		</p>
+		<p align="center">
+			<img src="images/other/person.png" height='36' width='auto' alt=""><font
+				size="36"> + </font><img src="images/other/swatch-type-5.png"
+				height='36' width='auto' alt=""><font size='36'>&nbsp;→&nbsp;</font><img
+				src="images/other/person-5.png" height='36' width='auto' alt="">
+		</p>
+		<p>However, even if the font doesn’t show the combined character,
+			the user can still see that a skin tone was intended:</p>
+		<p align="center">
+			<img src="images/other/person.png" height='36' width='auto' alt=""><img
+				src="images/other/swatch-type-5.png" height='36' width='auto' alt="">
+		</p>
+		<p>This may fall back to a black and white stippled or hatched
+			image such as when colorful emoji are not supported.</p>
+		<p align="center">
+			<img src="images/other/person-bw.png" height='36' width='auto' alt=""><font
+				size="36"> + </font><img src="images/other/swatch-type-4-bw.png"
+				height='36' width='auto' alt=""><font size='36'>&nbsp;→&nbsp;</font><img
+				src="images/other/person-5-bw.png" height='36' width='auto' alt="">
+		</p>
+		<p>
+			When a human emoji is not <em>immediately</em> followed by a emoji
+			modifier character, it should use a generic, <em><a
+				href="#non-realistic" name="non-realistic">non-realistic</a></em> skin
+			tone, such as:
+		</p>
+		<ul>
+			<li><img src="images/other/swatch-generic.png" height='18'
+				width='auto' alt=""> <code>RGB #FFCC22</code> (one of the
+				colors typically used for the smiley faces)</li>
+			<li><img src="images/other/swatch-avatar.png" height='18'
+				width='auto' alt=""> <code>RGB #3399CC</code></li>
+			<li><img src="images/other/swatch-gray.png" height='18'
+				width='auto' alt=""> <code>RGB #CCCCCC</code></li>
+		</ul>
+		<p>For example, the following set uses gray as the generic skin
+			tone:</p>
+		<p align="center">
+			<img src="images/other/palette-with-gray.png" alt="" height='48'
+				width='auto'>
+		</p>
+		<p>As to hair color, dark hair tends to be more neutral, because
+			people of every skin tone can have black (or very dark brown)
+			hair—however, there is no requirement for any particular hair color.
+			One exception is PERSON WITH BLOND HAIR, which needs to have blond
+			hair regardless of skin tone.</p>
+		<p>To have an effect on an emoji, an emoji modifier must
+			immediately follow that emoji. There is only one exception: there may
+			be an emoji variation selector between them. The emoji modifier
+			automatically implies the emoji presentation style, so the variation
+			selector is not needed. However, if the emoji modifier is present it
+			must come immediately after the modified emoji character, such as in:</p>
+		<p align="center">&lt;U+270C VICTORY HAND, FE0F, TYPE-3&gt;</p>
+		<p align="left">Any other intervening character causes the emoji
+			modifier to appear as a free-standing character. Thus</p>
+		<p align="center">
+			<img src="images/other/person.png" height='36' width='auto' alt=""><font
+				size="36"> + </font><img src="images/other/zwsp.png" width="auto"
+				height="36" alt=""><font size="36"> + </font><img
+				src="images/other/swatch-type-5.png" height='36' width='auto' alt=""><font
+				size='36'>&nbsp;→&nbsp;</font><img src="images/other/person.png"
+				height='36' width='auto' alt=""><img
+				src="images/other/swatch-type-5.png" height='36' width='auto' alt="">
+		</p>
+		<h4>
+			2.2.1 <a name="Multi_Person_Groupings" href="#Multi_Person_Groupings">Multi-Person
+				Groupings</a>
+		</h4>
+		<p>Emoji for multi-person groupings present some special
+			challenges:</p>
+		<ul>
+			<li><b>Gender combinations.</b> Some multi-person groupings
+				explicitly indicate gender: MAN AND WOMAN HOLDING HANDS, TWO MEN
+				HOLDING HANDS, TWO WOMEN HOLDING HANDS. Others do not: KISS, COUPLE
+				WITH HEART, FAMILY (the latter is also non-specific as to the number
+				of adult and child members). While the <em>default</em>
+				representation for the characters in the latter group should be
+				gender-neutral, implementations may desire to provide (and users may
+				desire to have available) multiple representations of each of these
+				with a variety of more-specific gender combinations.</li>
+			<li><b>Skin tones.</b> In real multi-person groupings, the
+				members may have a variety of skin tones. However, this cannot be
+				indicated using an emoji modifier with any <em>single</em> character
+				for a multi-person grouping.</li>
+		</ul>
+		<p>
+			The basic solution for each of these cases is to represent the
+			multi-person grouping as a sequence of characters—a separate
+			character for each person intended to be part of the grouping, along
+			with characters for any other symbols that are part of the grouping.
+			Each person in the grouping could optionally be followed by an emoji
+			modifier. For example, conveying the notion of COUPLE WITH HEART for
+			a couple involving two women can use a sequence with WOMAN followed
+			by an emoji-style HEAVY BLACK HEART followed by another WOMAN
+			character; each of the WOMAN characters could have an emoji modifier
+			if desired.<span class="noborder"><br> </span>
+		</p>
+		<p>This makes use of conventions already found in current emoji
+			usage, in which certain sequences of characters are intended to be
+			displayed as a single unit.</p>
+		<h4>
+			2.2.2 <a name="Diversity_Implementations"
+				href="#Diversity_Implementations">Implementations</a>
+		</h4>
+		<p>Implementations can present the emoji modifiers as separate
+			characters in an input palette, or present the combined characters
+			using mechanisms such as long press.</p>
+		<p>The emoji modifiers are not intended for combination with
+			arbitrary emoji characters. Instead, they are restricted to the
+			following characters: no other characters are to be combined with
+			emoji modifiers. This set may change over time, with successive
+			versions of this document.
+			To find the exact list of emoji modifier
+				bases for each version, use the Emoji_Modifer_Base character
+				property, as described in 
+				<a href="#Data_Files">Annex A: Emoji Properties and Data Files</a>.
+		</p>
+		<div align="center">
+			<table width="100%" border="1" cellspacing="0" cellpadding="1">
+				<caption>
+					<a href="#Subject_Emoji_Modifiers" name="Subject_Emoji_Modifiers">
+						Sample Emoji Modifier Bases</a>
+				</caption>
+				<tr>
+					<td><img
+						alt="👦 👧 👨 👩 👴 👵 👶 👱 👮 👲 👳 👷 👸 💂 🕵 🎅 👼 💆 💇 👰 🙍 🙎 🙅 🙆 💁 🙋 🙇 🙌 🙏 🚶 🏃 💃 💪 👈 👉 ☝ 👆 🖕 👇 ✌ 🖖 🤘 🖐 ✊ ✋ 👊 👌 👍 👎 👋 👏 👐 ✍ 💅 👂 👃 🚣 🛀 🏄 🏊 ⛹ 🏋 🚴 🚵"
+						width="100%" height="auto"
+						src="images/other/modifier-bases-v2.png"></td>
+				</tr>
+			</table>
+		</div>
+		<p>The following chart shows the expected display with emoji
+			modifiers, depending on the preceding character and the level of
+			support for the emoji modifier. The “Unsupported” rows show how the
+			character would typically appear on a system that does not have a
+			font with that character in it: with a missing glyph indicator.</p>
+		<div align="center">
+			<table border="1" cellspacing="0" cellpadding="1">
+				<caption>
+					<a name="Emoji_Modifiers_Display" href="#Emoji_Modifiers_Display">Expected
+						Emoji Modifiers Display</a>
+				</caption>
+				<tr>
+					<th align='center'><strong>Support Level</strong></th>
+					<th align='center'><strong>Emoji Modifier Base</strong></th>
+					<th align='center'><strong>Sequence</strong></th>
+					<th align='center'><strong>Display Color</strong></th>
+					<th align='center'><strong>Display B&amp;W</strong></th>
+				</tr>
+				<tr>
+					<td rowspan="2">Fully supported</td>
+					<td align='center'>Yes</td>
+					<td align='center'><img src="images/other/person.png"
+						height='36' width='auto' alt=""><font size="36"> + </font><img
+						src="images/other/swatch-type-5.png" height='36' width='auto'
+						alt=""></td>
+					<td align='center'><img src="images/other/person-5.png"
+						height='36' width='auto' alt=""><font size="36"> </font></td>
+					<td align='center'><img src="images/other/person-5-bw.png"
+						height='36' width='auto' alt=""><font size="36"> </font></td>
+				</tr>
+				<tr>
+					<td align='center'>No</td>
+					<td align='center'><img src="images/twitter/twitter_26fd.png"
+						alt="⛽" width="auto" height='36'><font size="36"> + </font><img
+						src="images/other/swatch-type-5.png" height='36' width='auto'
+						alt=""></td>
+					<td align='center'><img src="images/twitter/twitter_26fd.png"
+						alt="⛽" width="auto" height='36'><img
+						src="images/other/swatch-type-5.png" height='36' width='auto'
+						alt=""><font size="36"> </font></td>
+					<td align='center'><img src="images/other/fuel_pump.png"
+						height='36' width='auto' alt="⛽"><img
+						src="images/other/swatch-type-4-bw.png" height='36' width='auto'
+						alt=""><font size="36"> </font></td>
+				</tr>
+
+				<tr>
+					<td rowspan="2">Fallback</td>
+					<td align='center'>Yes</td>
+					<td align='center'><img src="images/other/person.png"
+						height='36' width='auto' alt=""><font size="36"> + </font><img
+						src="images/other/swatch-type-5.png" height='36' width='auto'
+						alt=""></td>
+					<td align='center'><img src="images/other/person.png"
+						height='36' width='auto' alt=""><img
+						src="images/other/swatch-type-5.png" height='36' width='auto'
+						alt=""><font size="36"> </font></td>
+					<td align='center'><img src="images/other/person-bw.png"
+						height='36' width='auto' alt=""><img
+						src="images/other/swatch-type-4-bw.png" height='36' width='auto'
+						alt=""><font size="36"> </font></td>
+				</tr>
+				<tr>
+					<td align='center'>No</td>
+					<td align='center'><img src="images/twitter/twitter_26fd.png"
+						alt="⛽" width="auto" height='36'><font size="36"> + </font><img
+						src="images/other/swatch-type-5.png" height='36' width='auto'
+						alt=""></td>
+					<td align='center'><img src="images/twitter/twitter_26fd.png"
+						alt="⛽" width="auto" height='36'><img
+						src="images/other/swatch-type-5.png" height='36' width='auto'
+						alt=""><font size="36"> </font></td>
+					<td align='center'><img src="images/other/fuel_pump.png"
+						height='36' width='auto' alt="⛽"><img
+						src="images/other/swatch-type-4-bw.png" height='36' width='auto'
+						alt=""><font size="36"> </font></td>
+				</tr>
+				<tr>
+					<td rowspan="2">Unsupported</td>
+					<td align='center'>Yes</td>
+					<td align='center'><img src="images/other/person.png"
+						height='36' width='auto' alt=""><font size="36"> + </font><img
+						src="images/other/swatch-type-5.png" height='36' width='auto'
+						alt=""></td>
+					<td align='center'><img src="images/other/person.png"
+						height='36' width='auto' alt=""><img
+						src="images/other/unsupported.png" height='36' width='auto' alt=""><font
+						size="36"> </font></td>
+					<td align='center'><img src="images/other/person-bw.png"
+						height='36' width='auto' alt=""><img
+						src="images/other/unsupported.png" height='36' width='auto' alt=""><font
+						size="36"> </font></td>
+				</tr>
+				<tr>
+					<td align='center'>No</td>
+					<td align='center'><img src="images/twitter/twitter_26fd.png"
+						alt="⛽" width="auto" height='36'><font size="36"> + </font><img
+						src="images/other/swatch-type-5.png" height='36' width='auto'
+						alt=""></td>
+					<td align='center'><img src="images/twitter/twitter_26fd.png"
+						alt="⛽" width="auto" height='36'><img
+						src="images/other/unsupported.png" height='36' width='auto' alt=""><font
+						size="36"> </font></td>
+					<td align='center'><img src="images/other/fuel_pump.png"
+						height='36' width='auto' alt="⛽"><img
+						src="images/other/unsupported.png" height='36' width='auto' alt=""><font
+						size="36"> </font></td>
+				</tr>
+			</table>
+		</div>
+		<p>The interaction between variation selectors and emoji modifiers
+			is specified as follows:</p>
+		<table border="1" cellspacing="0" cellpadding="1">
+			<caption>
+				<a name="Emoji_Modifiers_And_Variation_Selectors"
+					href="#Emoji_Modifiers_And_Variation_Selectors">Emoji Modifiers
+					and Variation Selectors</a>
+			</caption>
+			<tr>
+				<th align='center'>Variation Selector</th>
+				<th align='center'><strong>Emoji Modifier</strong></th>
+				<th align='center'><strong>Result</strong></th>
+				<th align='center'><strong>Comment</strong></th>
+			</tr>
+			<tr>
+				<td align='center'>None</td>
+				<td rowspan="3" align='center'>Yes</td>
+				<td align='center' rowspan="2">Emoji Presentation</td>
+				<td align='center'>In the absence of other information, the
+					emoji modifier implies emoji appearance.</td>
+			</tr>
+			<tr>
+				<td align='center'>Emoji (U+FE0F)</td>
+				<td align='center' rowspan="2">The <a
+					href="#def_emoji_modifier_base">emoji modifier base</a> and <a
+					href="#def_emoji_variation_selector">emoji variation selector</a>
+					must form a valid variation sequence, and the order must as
+					specified in <a href="#def_emoji_modifier_sequence">emoji
+						modifier sequence</a>—otherwise support of the variation selector
+					would be non-conformant.
+				</td>
+			</tr>
+			<tr>
+				<td align='center'>Text (U+FE0E)</td>
+				<td align='center'>Text Presentation</td>
+			</tr>
+		</table>
+		<h4>
+			2.2.3 <a name="Emoji_Modifiers_in_Text"
+				href="#Emoji_Modifiers_in_Text">Emoji Modifiers in Text</a>
+		</h4>
+
+		<p>
+			A supported emoji modifier sequence should be treated as a single
+			grapheme cluster for editing purposes (cursor moment, deletion,
+			etc.); word break, line break, etc. For input, the composition of
+			that cluster does not need to be apparent to the user: it appears on
+			the screen as a single image. On a phone, for example, a <a
+				href="http://en.wikipedia.org/wiki/Multi-touch#Multi-touch_gestures">long-press<img src="http://unicode.org/img/external_link.png" alt="external link"></a>
+			on a human figure can bring up a minipalette of different skin tones,
+			without the user having to separately find the human figure and then
+			the modifier. The following shows some possible appearances:
+		</p>
+		<div align="center">
+			<table class="noborder" cellspacing="0" cellpadding="1">
+				<caption>
+					<a name="Minipalette" href="#Minipalette">Minipalettes</a>
+				</caption>
+				<tr>
+					<td align='center'><img src="images/other/person-1-2.png"
+						height='36' width='auto' alt=""> <img
+						src="images/other/person-3.png" height='36' width='auto' alt="">
+						<img src="images/other/person-4.png" height='36' width='auto'
+						alt=""> <img src="images/other/person-5.png" height='36'
+						width='auto' alt=""><img src="images/other/person-6.png"
+						height='36' width='auto' alt=""></td>
+					<td class="noborder" align='center' width="30%"><div
+							align="center">
+							<em>or</em>
+						</div></td>
+					<td align='center'><img src="images/other/person-6.png"
+						height='36' width='auto' alt=""><img
+						src="images/other/person-5.png" height='36' width='auto' alt=""><img
+						src="images/other/person-4.png" height='36' width='auto' alt=""><img
+						src="images/other/person-3.png" height='36' width='auto' alt=""><img
+						src="images/other/person-1-2.png" height='36' width='auto' alt=""></td>
+				</tr>
+				<tr>
+					<td class="noborder" align='center'><div align="center">
+							<img src="images/other/person.png" height='36' width='auto'
+								alt="">
+						</div></td>
+					<td class="noborder" align='center'>&nbsp;</td>
+					<td class="noborder" align='center'><div align="center">
+							<img src="images/other/person.png" height='36' width='auto'
+								alt="">
+						</div></td>
+				</tr>
+			</table>
+		</div>
+		<p>
+			Of course, there are many other types of diversity in human
+			appearance besides different skin tones: Different hair styles and
+			color, use of eyeglasses, various kinds of facial hair, different
+			body shapes, different headwear, and so on. It is beyond the scope of
+			Unicode to provide an encoding-based mechanism for representing every
+			aspect of human appearance diversity that emoji users might want to
+			indicate. The best approach for communicating very specific human
+			images—or any type of image in which preservation of specific
+			appearance is very important—is the use of embedded graphics, as
+			described in <a href="#Longer_Term">Longer Term Solutions</a>.
+		</p>
+
+		<h3>
+			2.3 <a href="#Emoji_ZWJ_Sequences" name="Emoji_ZWJ_Sequences">Emoji
+				ZWJ Sequences</a>
+		</h3>
+		<p>The U+200D ZERO WIDTH JOINER (ZWJ) can be used between the
+			elements of a sequence of characters to indicate that a single glyph
+			should be presented if available. An implementation may use this
+			mechanism to handle such an emoji zwj sequence as a single glyph,
+			with a palette or keyboard that generates the appropriate sequences
+			for the glyphs shown. So to the user of such a system,
+			these behave like single
+			emoji characters, even though internally they are sequences.</p>
+		<p>When an emoji zwj sequence is sent to a system that does not
+			have a corresponding single glyph, the ZWJ characters are
+			ignored and a fallback sequence of separate emoji is displayed.
+			Thus an emoji zwj sequence should only be defined and supported by
+			implementations where the fallback sequence would also make sense to
+			a recipient.</p>
+		<p align="left">For example, the following are possible displays:</p>
+		<div align="center">
+			<table border="1" cellpadding="1" cellspacing="0">
+				<caption>
+					<a name="ZWJ_Display" href="#ZWJ_Display">ZWJ Sequence Display</a>
+				</caption>
+				<tr>
+					<th align='center'><strong>Sequence</strong></th>
+					<th align='center'><strong>Display</strong></th>
+					<th align='center'><strong>Combined glyph?</strong></th>
+				</tr>
+				<tr>
+					<td rowspan="2" style="vertical-align: center"><img
+						height='36' width="auto" alt="👩"
+						src="images/apple/apple_1f469.png"><img height='36'
+						width="auto" alt="&#x2764;️‍" src="images/other/zwj.png"><img
+						height='36' width="auto" alt="&#x2764;️‍"
+						src="images/apple/apple_2764.png"><img height='36'
+						width="auto" alt="&#x2764;️‍" src="images/other/zwj.png"><img
+						height='36' width="auto" alt="👩"
+						src="images/apple/apple_1f469.png"></td>
+					<td align='center'><div align="center">
+							<img height='36' width="auto" alt="👩‍❤️‍👩"
+								src="images/apple/apple_1f469_200d_2764_fe0f_200d_1f469.png">
+						</div></td>
+					<td align='center'><div align="center">Yes</div></td>
+				</tr>
+				<tr>
+					<td align='center'><div align="center">
+							<img height='36' width="auto" alt="👩"
+								src="images/apple/apple_1f469.png"><img height='36'
+								width="auto" alt="&#x2764;️‍" src="images/apple/apple_2764.png"><img
+								height='36' width="auto" alt="👩"
+								src="images/apple/apple_1f469.png">
+						</div></td>
+					<td align='center'><div align="center">No</div></td>
+				</tr>
+			</table>
+		</div>
+		<p align="left">
+			See also the chart containing <a target="style"
+				href="http://www.unicode.org/emoji/charts/emoji-zwj-sequences.html">Emoji
+				ZWJ Sequences</a>.
+		</p>
+		<p>The use of ZWJ sequences may be difficult in some
+			implementations, so caution should taken before adding new sequences.
+		</p>
+		<p>For recommendations on the use of variation selectors in ZWJ
+			sequences, see <em>Section 2.4 <a href="#Emoji_Implementation_Notes">Emoji
+			Implementation Notes</a></em> below.
+		</p>
+
+		<h3>
+			2.4 <a href="#Emoji_Implementation_Notes" name="Emoji_Implementation_Notes">Emoji
+				Implementation Notes</a>
+		</h3>
+		<h4>
+			<a name="Emoji_Variation_Selector_Notes" href="#Flag_Presentation">Variation Selectors</a>
+		</h4>
+		<ul>
+			<li>An emoji_modifier_sequence should <em>not</em> contain an emoji variation
+				selector. However, some older data may contain emoji_modifier_sequences in
+				which an emoji variation selector <em>does</em> follow the
+				emoji_modifier_base.</li>
+			<li>An emoji_flag_sequence does <em>not</em> contain an emoji variation
+				selector.</li>
+			<li>To ensure correct presentation across platforms, emoji variation
+				selectors <em>should</em> be used in emoji_combining_sequences
+				or emoji_zwj_sequences after any emoji character with
+				Emoji_Presentation=No. There is one exception in current practice:
+				the ZWJ sequence for EYE + LEFT SPEECH BUBBLE).</li>
+		</ul>
+		<h4>
+			<a name="Emoji_Segmentation_Notes" href="#Flag_Presentation">Segmentation</a>
+		</h4>
+		<p>
+			Some changes to rules and data are needed for best segmentation
+			behavior of additional emoji zwj sequences, prior to the eventual
+			publication of Unicode 10.0. Such changes are planned for inclusion
+			in CLDR Version 30.
+		</p>
+		<h4>
+			<a name="Emoji_With_Tags_Notes" href="#Flag_Presentation">Handling TAG Characters</a>
+		</h4>
+		<p>
+			The properties for TAG characters U+E0020..U+E007F (TAG SPACE..CANCEL TAG)
+			have been modified for use in indicating variants of emoji characters.
+			However, the fallback behavior of the TAG characters is not optimal.
+			It is strongly recommented that any implementation mark a sequence of
+			TAG characters after an emoji character or sequence with a distinctive
+			appearance, such as modifying the image for that character or sequence
+			by overlaying a question mark as shown below.
+		</p>
+		<p align="center"><img alt="" src="images/other/unknownTag2.png"
+			title="unsupported flag" height='36px' width='auto'>
+		</p>
+
+		<h2>
+			3 <a name="Identification" href="#Identification">Which
+				Characters are Emoji</a>
+		</h2>
+		<p>
+			There are different ways to count the emoji in Unicode,
+			especially since sequences of emoji may appear as single emoji image.
+			The following provides an overview of the ways to count emoji. There is
+			no single number; it can be (for example):</p>
+		<ul>
+			<li>The count of code points that can be used in emoji, though
+				this includes some code points that are only used as part of
+				sequences and don’t have emoji appearance by themselves;</li>
+			<li>All sequences of one or more characters that can appear as a
+				single glyph (which is probably closer to what users think of
+				as the number of emoji), though typically only a subset of
+				possible sequences are displayed as a single glyph on any
+				platform, and some sequences may be platform-specific extensions.</li>
+		</ul>
+		<p>
+			For example, there are only 26 Regional Indicator (RI)
+			code points, which are used in pairs. Some
+			of these pairs may be displayed as emoji flags, and others may not.
+			There are 257 valid pairs that can be used to represent 257 regions.
+			Single Regional Indicators are not used as emoji by themselves, so they
+			are listed as &quot;incomplete singletons&quot; in the table below.
+		</p>
+		<p>The following table provides more detail about the various
+			counts as of Unicode 9.0:
+		</p>
+
+		<div align="center">
+			<table class="simple" border="1" cellspacing="0" cellpadding="1">
+				<caption>
+				Emoji Counts
+				</caption>
+				<tbody>
+					<tr>
+						<th>Type</th>
+						<th>Count</th>
+						<th>Subtotal</th>
+					</tr>
+					<tr>
+						<td>singletons</td>
+						<td class='right'>1,123</td>
+						<td class='right'>1,123</td>
+					</tr>
+					<tr>
+						<td>incomplete singletons (12 keycap base characters, 26 RI characters)</td>
+						<td class='right'>-38</td>
+						<td class='right'>1,085</td>
+					</tr>
+					<tr>
+						<td>keycaps (sequences)</td>
+						<td class='right'>12</td>
+						<td class='right'>1,097</td>
+					</tr>
+					<tr>
+						<td>valid regional indicator sequences (a subset of these may be
+							displayed as flags)</td>
+						<td class='right'>257</td>
+						<td class='right'>1,354</td>
+					</tr>
+					<tr>
+						<td>modifier sequences (skin tones) for 83 base characters</td>
+						<td class='right'>415</td>
+						<td class='right'>1,769</td>
+					</tr>
+					<tr>
+						<td>ZWJ sequences, e.g. for family combinations (platform-specific extensions)</td>
+						<td class='right'>22</td>
+						<td class='right'>1,791</td>
+					</tr>
+					<tr>
+						<td>ZWJ sequences that typically duplicate singletons (produce
+							the same image as some singleton character)</td>
+						<td class='right'>-3</td>
+						<td class='right'>1,788</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<p>
+			Separate <a href='http://www.unicode.org/emoji/charts/index.html'>Emoji
+				Charts</a> provide
+			more information on many of these subsets and others, for example:
+		</p>
+		<ul>
+			<li>Keycap sequences, regional indicator sequence, and modifier sequences
+				are listed in separate sections of <a
+				href='http://www.unicode.org/emoji/charts/emoji-sequences.html'>Emoji
+				Sequences</a>.</li>
+			<li>Common ZWJ sequences are listed in <a
+				href='http://www.unicode.org/emoji/charts/emoji-zwj-sequences.html'>Emoji
+				ZWJ Sequences</a>.</li>
+			<li>Emoji characters that were released most recently are listed in
+				<a
+				href='http://www.unicode.org/emoji/charts/emoji-released.html'>Emoji
+				Recently Added</a>.</li>
+				<!-- note we need to preserve the Standard_Additions_8 target above -->
+			<li>Emoji candidates for a future version of Unicode are found in <a
+				href="http://www.unicode.org/emoji/charts/emoji-candidates.html">Emoji
+				Candidates</a>.</li>
+		</ul>
+
+		<p>
+			Historically, 722 Unicode emoji
+			correspond to the Japanese carrier sets. Three of these are space
+			characters in Unicode, which cannot have an emoji presentation. This
+			leaves 719 emoji, shown below. The
+			10 emoji flags require 15 unique Regional Indicator characters
+			(in 10 different pairs) for their representation. Most of the keycap emoji require
+			use of COMBINING ENCLOSING KEYCAP in addition to the base character.
+			Thus a total of 725 unique code points
+			are used to represent these emoji.
+		</p>
+		<table width="100%" border="1" cellpadding="1" cellspacing="0">
+			<caption>
+				<a href="#Japanese_Carrier" name="Japanese_Carrier">Japanese
+					Carrier Emoji</a>
+			</caption>
+			<tr>
+				<td><img
+					alt="😁 😂 😃 😄 😅 😆 😉 😊 😋 😍 😘 😚 ☺ 😏 😣 😥 😪 😫 😌 😜 😝 😒 😓 😔 😖 😷 😲 😞 😤 😢 😭 😨 😩 😰 😱 😳 😵 😡 😠 👿 👹 👺 💀 👻 👽 👾 💩 😺 😸 😹 😻 😼 😽 🙀 😿 😾 🙈 🙉 🙊 👦 👧 👨 👩 👴 👵 👶 👱 👮 👲 👳 👷 👸 💂 🎅 👼 👯 💆 💇 👰 🙍 🙎 🙅 🙆 💁 🙋 🙇 🙌 🙏 👤 🚶 🏃 💃 💏 💑 👪 👫 💪 👈 👉 ☝ 👆 👇 ✌ ✊ ✋ 👊 👌 👍 👎 👋 👏 👐 💅 👂 👃 👣 👀 👅 👄 💋 💘 ❤ 💓 💔 💕 💖 💗 💙 💚 💛 💜 💝 💞 💟 💌 💤 💢 💣 💥 💦 💨 💫 💬 👓 👔 👕 👖 👗 👘 👙 👚 👛 👜 👝 🎒 👞 👟 👠 👡 👢 👑 👒 🎩 🎓 💄 💍 💎 🐵 🐒 🐶 🐩 🐺 🐱 🐯 🐴 🐎 🐮 🐷 🐗 🐽 🐑 🐫 🐘 🐭 🐹 🐰 🐻 🐨 🐼 🐾 🐔 🐣 🐤 🐥 🐦 🐧 🐸 🐢 🐍 🐲 🐳 🐬 🐟 🐠 🐡 🐙 🐚 🐌 🐛 🐜 🐝 🐞 💐 🌸 💮 🌹 🌺 🌻 🌼 🌷 🌱 🌴 🌵 🌾 🌿 🍀 🍁 🍂 🍃 🍇 🍈 🍉 🍊 🍌 🍍 🍎 🍏 🍑 🍒 🍓 🍅 🍆 🌽 🍄 🌰 🍞 🍖 🍗 🍔 🍟 🍕 🍲 🍱 🍘 🍙 🍚 🍛 🍜 🍝 🍠 🍢 🍣 🍤 🍥 🍡 🍦 🍧 🍨 🍩 🍪 🎂 🍰 🍫 🍬 🍭 🍮 🍯 ☕ 🍵 🍶 🍷 🍸 🍹 🍺 🍻 🍴 🍳 🌏 🌋 🗻 🏠 🏡 ⛪ 🏢 🏣 🏥 🏦 🏨 🏩 🏪 🏫 🏬 🏭 🏯 🏰 💒 🗼 🗽 🗾 ⛲ ⛺ 🌁 🌃 🌄 🌅 🌆 🌇 🌉 ♨ 🌌 🎠 🎡 🎢 💈 🎪 🎭 🎨 🎰 🚃 🚄 🚅 🚇 🚉 🚌 🚏 🚑 🚒 🚓 🚕 🚗 🚙 🚚 🚲 ⛽ 🚨 🚥 🚧 ⚓ ⛵ 🚤 🚢 ✈ 💺 🚀 🚪 🚽 🛀 ⌛ ⏳ ⌚ ⏰ 🕛 🕐 🕑 🕒 🕓 🕔 🕕 🕖 🕗 🕘 🕙 🕚 🌑 🌓 🌔 🌕 🌙 🌛 ☀ ⭐ 🌟 🌠 ☁ ⛅ 🌀 🌈 🌂 ☔ ⚡ ❄ ⛄ 🔥 💧 🌊 🎃 🎄 🎆 🎇 ✨ 🎈 🎉 🎊 🎋 🎌 🎍 🎎 🎏 🎐 🎑 🎀 🎁 🎫 ⚽ ⚾ 🏀 🏈 🎾 🎱 🎳 ⛳ 🎣 🎽 🎿 🏂 🏄 🏊 🏆 🎯 🎮 🎲 ♠ ♥ ♦ ♣ 🃏 🀄 🎴 🔊 📢 📣 🔔 🎼 🎵 🎶 🎤 🎧 🎷 🎸 🎹 🎺 🎻 📻 📱 📲 ☎ 📞 📟 📠 🔋 🔌 💻 💽 💾 💿 📀 🎥 🎬 📺 📷 📹 📼 🔍 🔎 📡 💡 🔦 🏮 📔 📕 📖 📗 📘 📙 📚 📓 📒 📃 📜 📄 📰 📑 🔖 💰 💴 💵 💸 💳 💹 ✉ 📧 📨 📩 📤 📥 📦 📫 📪 📮 ✏ ✒ 📝 💼 📁 📂 📅 📆 📇 📈 📉 📊 📋 📌 📍 📎 📏 📐 ✂ 🔒 🔓 🔏 🔐 🔑 🔨 🔧 🔩 🔗 💉 💊 🔪 🔫 🏁 🚩 🚬 🗿 🔮 🏧 ♿ 🚹 🚺 🚻 🚼 🚾 ⚠ ⛔ 🚫 🚭 ⬆ ↗ ➡ ↘ ⬇ ↙ ⬅ ↖ ↕ ↔ ↩ ↪ ⤴ ⤵ 🔃 🔙 🔚 🔛 🔜 🔝 🔯 ♻ 📛 🔰 🔱 ⭕ ✅ ☑ ✔ ✖ ❌ ❎ ➕ ➖ ➗ ➰ 〽 ✳ ✴ ❇ 💱 💲 ‼ ⁉ ❓ ❔ ❕ ❗ 〰 © ® ™ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ⛎ ▶ ⏩ ◀ ⏪ 🔼 ⏫ 🔽 ⏬ 🎦 📶 📳 📴 #⃣ 0⃣ 1⃣ 2⃣ 3⃣ 4⃣ 5⃣ 6⃣ 7⃣ 8⃣ 9⃣ 🔟 💯 🔞 🔠 🔡 🔢 🔣 🔤 🅰 🆎 🅱 🆑 🆒 🆓 ℹ 🆔 Ⓜ 🆕 🆖 🅾 🆗 🅿 🆘 🆙 🆚 🈁 🈂 🈷 🈶 🈯 🉐 🈹 🈚 🈲 🉑 🈸 🈴 🈳 ㊗ ㊙ 🈺 🈵 ▪ ▫ ◻ ◼ ◽ ◾ ⬛ ⬜ 🔶 🔷 🔸 🔹 🔺 🔻 💠 🔘 🔲 🔳 ⚪ ⚫ 🔴 🔵 🇨🇳 🇩🇪 🇪🇸 🇫🇷 🇬🇧 🇮🇹 🇯🇵 🇰🇷 🇷🇺 🇺🇸"
+					width="100%" height="auto" src="images/other/jcarriers-v2.png"></td>
+			</tr>
+		</table>
+		<p>
+			There are another 247 flags (aside from the 10 from the
+			Japanese carrier sets) that can be supported with Unicode 6.0
+			characters. No additional code points are needed for these, since
+			they are combinations of Regional Indicator characters already
+			encoded for the Japanese Carrier Emoji.
+		</p>
+		<table width="100%" border="1" cellpadding="1" cellspacing="0">
+			<caption>
+				<a name="Other_Flags" href="#Other_Flags">Other Flags</a>
+			</caption>
+			<tr>
+				<td><img
+					alt="🇦🇨 🇦🇩 🇦🇪 🇦🇫 🇦🇬 🇦🇮 🇦🇱 🇦🇲 🇦🇴 🇦🇶 🇦🇷 🇦🇸 🇦🇹 🇦🇺 🇦🇼 🇦🇽 🇦🇿 🇧🇦 🇧🇧 🇧🇩 🇧🇪 🇧🇫 🇧🇬 🇧🇭 🇧🇮 🇧🇯 🇧🇱 🇧🇲 🇧🇳 🇧🇴 🇧🇶 🇧🇷 🇧🇸 🇧🇹 🇧🇻 🇧🇼 🇧🇾 🇧🇿 🇨🇦 🇨🇨 🇨🇩 🇨🇫 🇨🇬 🇨🇭 🇨🇮 🇨🇰 🇨🇱 🇨🇲 🇨🇴 🇨🇵 🇨🇷 🇨🇺 🇨🇻 🇨🇼 🇨🇽 🇨🇾 🇨🇿 🇩🇬 🇩🇯 🇩🇰 🇩🇲 🇩🇴 🇩🇿 🇪🇦 🇪🇨 🇪🇪 🇪🇬 🇪🇭 🇪🇷 🇪🇹 🇪🇺 🇫🇮 🇫🇯 🇫🇰 🇫🇲 🇫🇴 🇬🇦 🇬🇩 🇬🇪 🇬🇫 🇬🇬 🇬🇭 🇬🇮 🇬🇱 🇬🇲 🇬🇳 🇬🇵 🇬🇶 🇬🇷 🇬🇸 🇬🇹 🇬🇺 🇬🇼 🇬🇾 🇭🇰 🇭🇲 🇭🇳 🇭🇷 🇭🇹 🇭🇺 🇮🇨 🇮🇩 🇮🇪 🇮🇱 🇮🇲 🇮🇳 🇮🇴 🇮🇶 🇮🇷 🇮🇸 🇯🇪 🇯🇲 🇯🇴 🇰🇪 🇰🇬 🇰🇭 🇰🇮 🇰🇲 🇰🇳 🇰🇵 🇰🇼 🇰🇾 🇰🇿 🇱🇦 🇱🇧 🇱🇨 🇱🇮 🇱🇰 🇱🇷 🇱🇸 🇱🇹 🇱🇺 🇱🇻 🇱🇾 🇲🇦 🇲🇨 🇲🇩 🇲🇪 🇲🇫 🇲🇬 🇲🇭 🇲🇰 🇲🇱 🇲🇲 🇲🇳 🇲🇴 🇲🇵 🇲🇶 🇲🇷 🇲🇸 🇲🇹 🇲🇺 🇲🇻 🇲🇼 🇲🇽 🇲🇾 🇲🇿 🇳🇦 🇳🇨 🇳🇪 🇳🇫 🇳🇬 🇳🇮 🇳🇱 🇳🇴 🇳🇵 🇳🇷 🇳🇺 🇳🇿 🇴🇲 🇵🇦 🇵🇪 🇵🇫 🇵🇬 🇵🇭 🇵🇰 🇵🇱 🇵🇲 🇵🇳 🇵🇷 🇵🇸 🇵🇹 🇵🇼 🇵🇾 🇶🇦 🇷🇪 🇷🇴 🇷🇸 🇷🇼 🇸🇦 🇸🇧 🇸🇨 🇸🇩 🇸🇪 🇸🇬 🇸🇭 🇸🇮 🇸🇯 🇸🇰 🇸🇱 🇸🇲 🇸🇳 🇸🇴 🇸🇷 🇸🇸 🇸🇹 🇸🇻 🇸🇽 🇸🇾 🇸🇿 🇹🇦 🇹🇨 🇹🇩 🇹🇫 🇹🇬 🇹🇭 🇹🇯 🇹🇰 🇹🇱 🇹🇲 🇹🇳 🇹🇴 🇹🇷 🇹🇹 🇹🇻 🇹🇼 🇹🇿 🇺🇦 🇺🇬 🇺🇲 🇺🇾 🇺🇿 🇻🇦 🇻🇨 🇻🇪 🇻🇬 🇻🇮 🇻🇳 🇻🇺 🇼🇫 🇼🇸 🇽🇰 🇾🇪 🇾🇹 🇿🇦 🇿🇲 🇿🇼"
+					width="100%" height="auto" src="images/other/flags-v2.png"></td>
+			</tr>
+		</table>
+		<p>
+			Some of these flags use the same glyphs. For more about flags, see <a
+				href="#Flags">Annex B: Flags</a>.
+		</p>
+		<h2>
+			4 <a name="Presentation_Style" href="#Presentation_Style">Presentation
+				Style</a>
+		</h2>
+		<p>Certain emoji have defined variation sequences, where an emoji
+			character can be followed by one of two invisible emoji variation
+			selectors:</p>
+		<ul>
+			<li>U+FE0E for a text presentation</li>
+			<li>U+FE0F for an emoji presentation</li>
+		</ul>
+		<p>
+			This capability was added in <a
+				href="http://blog.unicode.org/2012/01/announcing-unicode-standard-version-61.html">Unicode
+				6.1</a>. Some systems may also provide this distinction with
+			higher-level markup, rather than variation sequences. For more information on
+			these selectors, see <a
+				target="variants" href="http://www.unicode.org/emoji/charts/emoji-variants.html">Emoji
+				Variation Sequences</a>.
+		</p>
+		<p>
+			Implementations should support both styles of presentation for the
+			characters with variation sequences, if possible. Most of these
+			characters are emoji that were unified with preexisting characters.
+			Because people are now using emoji presentation for a broader set of
+			characters, Unicode 9.0 adds variation sequences for all
+			emoji with default text presentation (see discussion below). These
+			are the characters shown in the column labeled “Default Text Style;
+			no VS in U8.0” in the <a
+				href="http://www.unicode.org/emoji/charts/text-style.html">Text
+				vs Emoji chart</a>.
+		</p>
+		<p>
+			However, even where the variation selectors exist, it had not been
+			clear for implementers whether the <em>default</em> presentation for
+			pictographs should be emoji or text. That means that a piece of text
+			may show up in a different style than intended when shared across
+			platforms. While this is all a perfectly legitimate for Unicode
+			characters—<em>presentation style is never guaranteed</em>—a shared
+			sense among developers of when to use emoji presentation by default
+			is important, so that there are fewer unexpected and
+			&quot;jarring&quot; presentations. Implementations need to know what
+			the generally expected default presentation is, to promote
+			interoperability across platforms and applications.
+		</p>
+		<p>There had been no clear line for implementers between three
+			categories of Unicode characters:
+		</p>
+		<ol>
+			<li><strong>emoji-default:</strong> those expected to have an
+				emoji presentation by default, but can also have a text presentation</li>
+			<li><strong>text-default:</strong> those expected to have a text
+				presentation by default, but could also have an emoji presentation</li>
+			<li><strong>text-only:</strong> those that should only have a
+				text presentation</li>
+		</ol>
+		<p>
+			These categories can be distinguished using properties listed in <a
+				href="#Data_Files">Annex A: Emoji Properties and Data Files</a>. The
+			first category are characters with <strong>Emoji=Yes</strong> and <strong>Emoji_Presentation=Yes</strong>.
+			The second category are characters with <strong>Emoji=Yes</strong>
+			and <strong>Emoji_Presentation=No</strong>. The third category are
+			characters with <strong>Emoji=No</strong>.
+		</p>
+
+		<p>The presentation of a given emoji character depends on the
+			environment, whether or not there is an emoji or text variation
+			selector, and the default presentation style (emoji vs text). In
+			informal environments like texting and chats, it is more appropriate
+			for most emoji characters to appear with a colorful emoji
+			presentation, and only get a text presentation with a text variation
+			selector. Conversely, in formal environments such as word processing,
+			it is generally better for emoji characters to appear with a text
+			presentation, and only get the colorful emoji presentation with the
+			emoji variation selector.
+		</p>
+		<p>Based on those factors, here is typical presentation behavior.
+			However, these guidelines may change with changing user expectations.
+		</p>
+		<div align="center">
+			<table border="1" cellspacing="0" cellpadding="1">
+				<caption>
+					<a name="Emoji_vs_Text_Display" href="#Emoji_vs_Text_Display">Emoji
+						vs Text Display</a>
+				</caption>
+				<tr>
+					<th rowspan="2">Example Environment</th>
+					<th rowspan="2"><div align="center">with Emoji VS</div></th>
+					<th rowspan="2"><div align="center">with Text VS</div></th>
+					<th colspan="2"><div align="center">with no VS</div></th>
+				</tr>
+				<tr>
+					<th><div align="center">text-default</div></th>
+					<th><div align="center">emoji-default</div></th>
+				</tr>
+				<tr>
+					<td>word processing</td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/apple/apple_2615.png">
+						</div></td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/ref/ref_2615.png">
+						</div></td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/ref/ref_2615.png">
+						</div></td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/ref/ref_2615.png">
+						</div></td>
+				</tr>
+				<tr>
+					<td>plain web pages</td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/apple/apple_2615.png">
+						</div></td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/ref/ref_2615.png">
+						</div></td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/ref/ref_2615.png">
+						</div></td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/apple/apple_2615.png">
+						</div></td>
+				</tr>
+				<tr>
+					<td>texting, chats</td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/apple/apple_2615.png">
+						</div></td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/ref/ref_2615.png">
+						</div></td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/apple/apple_2615.png">
+						</div></td>
+					<td><div align="center">
+							<img height='18' width='auto' alt="⎈"
+								src="images/apple/apple_2615.png">
+						</div></td>
+				</tr>
+			</table>
+			<br>
+		</div>
+		<h3>
+			4.1 <a name="Emoji_Variation_Selectors"
+				href="#Emoji_Variation_Selectors">Emoji Variation Selectors</a>
+		</h3>
+		<p>
+			As of Unicode 9.0, every emoji character with a
+			default text presentation allows for an emoji variation selector.
+			Thus the presentation of these characters can be controlled on a
+			character-by-character basis. The characters that can have emoji
+			variation selectors applied to them are listed in <a
+				href='http://www.unicode.org/emoji/charts/emoji-variants.html'>Emoji
+			Variation Sequences</a>.
+		</p>
+		<p>
+			In addition, the next two sections describe two other
+			mechanisms for globally controlling the emoji presentation: Using
+			language tags with locale extensions, or using special script codes.
+			Though these are new mechanisms and not yet widely supported, vendors
+			are encouraged to support the locale extension for most general usage
+			such as in browsers; the special script codes may be appropriate for
+			more specific usage such as OpenType font selection, or in APIs.
+			For more information, see [<a href="#CLDR">CLDR</a>].
+		</p>
+
+		<h3>
+			4.2 <a name="Emoji_Locale_Extension" href="#Emoji_Locale_Extension">Emoji
+				Locale Extension</a>
+		</h3>
+		<p>
+			The locale extension “-em” can be used to specify desired
+			presentation for characters that may have both text-style and emoji-style
+			presentations available. There are three values that can be used, here
+			illustrated with “sr-Latn”:
+		</p>
+		<table width="100%" border="1">
+			<tbody>
+				<tr>
+					<th>Locale Code</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>sr-Latn-u-em-<strong>emoji</strong></td>
+					<td>use an emoji presentation for emoji characters where
+						possible</td>
+				</tr>
+				<tr>
+					<td>sr-Latn-u-em-<strong>text</strong></td>
+					<td>use a text presentation for emoji characters where
+						possible</td>
+				</tr>
+				<tr>
+					<td nowrap>sr-Latn-u-em-<strong>default</strong></td>
+					<td>use the default presentation (only needed to reset an
+						inherited -em setting).</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			This can be used in HTML, for example, with
+			<code>&lt;html lang=&quot;sr-Latn-u-em-emoji&quot;&gt;</code>.
+			Note that this approach does not have the disadvantages listed below
+			for the script-tag approach.
+		</p>
+
+		<h3>
+			4.3 <a name="Emoji_Script" href="#Emoji_Script">Emoji Script</a>
+		</h3>
+		<p>
+			Two script subtags can be used to control the presentation style.
+			These use script codes defined by ISO 15924 but given more
+			specific semantics by CLDR, see <a
+			href='http://www.unicode.org/reports/tr35/#unicode_script_subtag_validity'>unicode_script_subtag</a>:
+		</p>
+		<ul>
+			<li>"Zsye" — prefer emoji style for characters that have both text and
+				emoji styles available.</li>
+			<li>"Zsym" — prefer text style for characters that have both text and
+				emoji styles available.</li>
+		</ul>
+		<p>
+			These script codes are not suitable for use in general language tags:</p>
+		<ul>
+			<li>They cannot be used with language-script combinations; for example,
+				if the language is “sr-Latn” (Serbian in Latin script), then Zsye
+				cannot be used.</li>
+			<li>They may confuse processes that depend on language tags, such as
+				spell checkers.</li>
+		</ul>
+		<p>
+			However, they may be useful by themselves in specific contexts such as
+			OpenType font selection, or in APIs that take script codes.</p>
+			
+
+		<h3>
+			4.4 <a name="Other_Emoji_Presentation_Approaches" href="#Other_Emoji_Presentation_Approaches">Other
+				Approaches for Control of Emoji Presentation</a>
+		</h3>
+		<p>
+			Other approaches for control of emoji presentation are also in use.
+			For example, in some CSS implementations, if any font in the lookup
+			list is an emoji font, then emoji presentation is used whenever possible.
+		</p>
+		<h2>
+			5 <a name="Sorting" href="#Sorting">Ordering and Grouping</a>
+		</h2>
+		<p>
+			Neither the Unicode code point order, nor the standard Unicode
+			Collation ordering (DUCET), are currently well suited for emoji,
+			since they separate conceptually-related characters. From the user's
+			perspective, the ordering in the following selection of characters
+			sorted by DUCET appears quite random, as illustrated by the following
+			example:</p>
+		<p align="center">
+			<img width='auto' height='36' alt="↪"
+				src="images/apple/apple_21aa.png"
+				title="U+21AA ↪ rightwards arrow with hook"> <img width='auto'
+				height='36' alt="⌚" src="images/apple/apple_231a.png"
+				title="U+231A ⌚ watch"> <img width='auto' height='36' alt="⌛"
+				src="images/apple/apple_231b.png" title="U+231B ⌛ hourglass"><img
+				width='auto' height='36' alt="⏩" src="images/apple/apple_23e9.png"
+				title="U+23E9 ⏩ black right-pointing double triangle"> <img
+				width='auto' height='36' alt="⏰" src="images/apple/apple_23f0.png"
+				title="U+23F0 ⏰ alarm clock"> <img width='auto' height='36'
+				alt="⏲" src="images/ref/ref_23f2.png" title="U+23F2 ⏲ timer clock">
+			<img width='auto' height='36' alt="⏳"
+				src="images/apple/apple_23f3.png"
+				title="U+23F3 ⏳ hourglass with flowing sand"> <img
+				width='auto' height='36' alt="▶" src="images/apple/apple_25b6.png"
+				title="U+25B6 ▶ black right-pointing triangle"> <img
+				width='auto' height='36' alt="☀" src="images/apple/apple_2600.png"
+				title="U+2600 ☀ black sun with rays"> <img width='auto'
+				height='36' alt="☝" src="images/apple/apple_261d.png"
+				title="U+261D ☝ white up pointing index"> <img width='auto'
+				height='36' alt="☺" src="images/apple/apple_263a.png"
+				title="U+263A ☺ white smiling face"> <img width='auto'
+				height='36' alt="🌞" src="images/apple/apple_1f31e.png"
+				title="U+1F31E 🌞 sun with face"> <img width='auto'
+				height='36' alt="👇" src="images/apple/apple_1f447.png"
+				title="U+1F447 👇 white down pointing backhand index"> <img
+				width='auto' height='36' alt="🕐" src="images/apple/apple_1f550.png"
+				title="U+1F550 🕐 clock face one oclock"> <img width='auto'
+				height='36' alt="😀" src="images/apple/apple_1f600.png"
+				title="U+1F600 😀 grinning face">
+		</p>
+		<p>
+			The <a target='order'
+				href="../../Public/emoji/1.0/emoji-ordering.html">emoji-ordering</a><a
+				href="http://blog.unicode.org/2012/01/announcing-unicode-standard-version-61.html"></a>
+			chart file shows an ordering for emoji characters that groups them
+			together in a more natural fashion. This data has been incorporated
+			into [<a href="#CLDR">CLDR]</a>.
+		</p>
+		<p align="center">
+			<img width='auto' height='36' alt="☺"
+				src="images/apple/apple_263a.png"
+				title="U+263A ☺ white smiling face"> <img width='auto'
+				height='36' alt="😀" src="images/apple/apple_1f600.png"
+				title="U+1F600 😀 grinning face"> <img width='auto'
+				height='36' alt="☝" src="images/apple/apple_261d.png"
+				title="U+261D ☝ white up pointing index"> <img width='auto'
+				height='36' alt="👇" src="images/apple/apple_1f447.png"
+				title="U+1F447 👇 white down pointing backhand index"><img
+				width='auto' height='36' alt="⌛" src="images/apple/apple_231b.png"
+				title="U+231B ⌛ hourglass"> <img width='auto' height='36'
+				alt="⏳" src="images/apple/apple_23f3.png"
+				title="U+23F3 ⏳ hourglass with flowing sand"> <img
+				width='auto' height='36' alt="⌚" src="images/apple/apple_231a.png"
+				title="U+231A ⌚ watch"> <img width='auto' height='36' alt="⏰"
+				src="images/apple/apple_23f0.png" title="U+23F0 ⏰ alarm clock">
+			<img width='auto' height='36' alt="⏲" src="images/ref/ref_23f2.png"
+				title="U+23F2 ⏲ timer clock"> <img width='auto' height='36'
+				alt="🕐" src="images/apple/apple_1f550.png"
+				title="U+1F550 🕐 clock face one oclock"> <img width='auto'
+				height='36' alt="☀" src="images/apple/apple_2600.png"
+				title="U+2600 ☀ black sun with rays"> <img width='auto'
+				height='36' alt="🌞" src="images/apple/apple_1f31e.png"
+				title="U+1F31E 🌞 sun with face"> <img width='auto'
+				height='36' alt="▶" src="images/apple/apple_25b6.png"
+				title="U+25B6 ▶ black right-pointing triangle"> <img
+				width='auto' height='36' alt="⏩" src="images/apple/apple_23e9.png"
+				title="U+23E9 ⏩ black right-pointing double triangle"> <img
+				width='auto' height='36' alt="↪" src="images/apple/apple_21aa.png"
+				title="U+21AA ↪ rightwards arrow with hook">
+		</p>
+		<p>
+			This ordering groups characters presents a cleaner and more expected
+			ordering for sorted lists of characters. The groupings include:
+			faces, people, body-parts, emotion, clothing, animals, plants, food,
+			places, transport, and so on. The ordering also groups more naturally
+			for the purpose of selection in input palettes. However, for sorting,
+			each character must occur in only one position, which is not a
+			restriction for input palettes. See <em>Section 6 <a
+				href="#Input">Input</a></em>.
+		</p>
+		<h2>
+			6 <a name="Input" href="#Input">Input</a>
+		</h2>
+		<p>
+			Emoji are not typically typed on a keyboard. Instead, they are
+			generally picked from a palette, or recognized via a dictionary. The
+			mobile keyboards typically have a <img src="images/ref/ref_263a.png"
+				alt="☺" width="auto" height='14'> button to select a palette
+			of emoji, such as in the left image below. Clicking on the <img
+				src="images/ref/ref_263a.png" alt="☺" width="auto" height='14'>
+			button reveals a palette, as in the right image.
+		</p>
+		<table style='width: 100%; border-width: 0px'>
+			<caption>
+				<a name="Palette_Input" href="#Palette_Input">Palette Input</a>
+			</caption>
+			<tr>
+				<td style='border-width: 0px'><div align="center">
+						<img alt="palette1" src="images/other/open-emoji-palette.png"
+							width="auto" height="220">
+					</div></td>
+				<td style='border-width: 0px; text-align: right'><div
+						align="center">
+						<img alt="palette1" src="images/other/emoji-palette.png"
+							width="auto" height="220">
+					</div></td>
+			</tr>
+		</table>
+		<p>
+			The palettes need to be organized in a meaningful way for
+			users. They typically provide a small number of broad categories,
+			such as People, Nature, and so on. These categories typically have
+			100-200 emoji.
+		</p>
+		<p>
+			Many characters can be categorized in multiple ways: an orange
+			is both a plant and a food. Unlike a sort order, an input palette can
+			have multiple instances of a single character. It can thus extend the
+			sort ordering to add characters in any groupings where people might
+			reasonably be expected to look for them.
+		</p>
+		<p>
+			More advanced palettes will have long-press enabled, so that
+			people can press-and-hold on an emoji and have a set of related emoji
+			pop up. This allows for faster navigation, with less scrolling
+			through the palette.
+		</p>
+		<p>
+			Annotations for emoji characters are much more finely grained
+			keywords. They can be used for searching characters, and are often
+			easier than palettes for entering emoji characters. For example, when
+			someone types “hourglass” on their mobile phone, they could see and
+			pick from either of the matching emoji characters <img
+				src="images/apple/apple_23f3.png" alt="⏳" width="auto" height='14'>
+			or <img alt="⌛" src="images/apple/apple_231b.png" width="auto"
+				height='14'>. That is often much easier than scrolling through
+			the palette and visually inspecting the screen. Input mechanisms may
+			also map <em>emoticons</em> to emoji as keyboard shortcuts: typing
+			:-) can result in <img height='14' width="auto" alt="😄"
+				src="images/twitter/twitter_1f604.png">.
+		</p>
+		<p>
+			In some input systems, a word or phrase bracketed by colons is used
+			to explicitly pick emoji characters. Thus typing in “I saw an <em>:ambulance:</em>”
+			is converted to “I saw an <img height='14' width='auto' alt="🚑"
+				src="images/android/android_1f691.png">”. For completeness,
+			such systems might support all of the full Unicode names, such as <em>:first
+				quarter moon with face:</em> for <img height='14' width="auto" alt="🌛"
+				src="images/apple/apple_1f31b.png">. Spaces within the phrase
+			may be represented by _, as in the following:
+		</p>
+		<p align="center">
+			“my <em>:alarm_clock: </em>didn’t work”
+		</p>
+		<p align="center">
+			<font size='36'>&nbsp;→&nbsp;</font>
+		</p>
+		<p align="center">
+			“my <img height='14' width='auto' alt="⏰"
+				src="images/android/android_23f0.png"> didn’t work”.
+		</p>
+		<p>However, in general the full Unicode names are not especially
+			suitable for that sort of use; they were designed to be unique
+			identifiers, and tend to be overly long or confusing.</p>
+		<h2>
+			7 <a name="Searching" href="#Searching">Searching</a>
+		</h2>
+		<p>
+			Searching includes both searching for emoji characters in queries,
+			and finding emoji characters in the target. These are most useful
+			when they include the annotations as synonyms or hints. For example,
+			when someone searches for <img src="images/twitter/twitter_26fd.png"
+				alt="⛽" width="auto" height='14'> on <a target='yelp'
+				href="http://www.yelp.com/search#find_desc=%E2%9B%BD">yelp.com<img src="http://unicode.org/img/external_link.png" alt="external link"></a>,
+			they see matches for “gas station”. Conversely, searching for “gas
+			pump” in a search engine could find pages containing <img
+				src="images/twitter/twitter_26fd.png" alt="⛽" width="auto"
+				height='14'>. Similarly, searching for “gas pump” in an email
+			program can bring up all the emails containing <img
+				src="images/twitter/twitter_26fd.png" alt="⛽" width="auto"
+				height='14'>.
+		</p>
+		<p>
+			There is no requirement for uniqueness in both palette categories and
+			annotations: an emoji should show up wherever users would expect it.
+			A gas pump <img src="images/twitter/twitter_26fd.png" alt="⛽"
+				width="auto" height='14'> might show up under “object” and
+			“travel”; a heart <img src="images/android/android_1f494.png"
+				alt="💔" width="auto" height='14'> under “heart” and
+			“emotion”, a <img src="images/twitter/twitter_1f63b.png" alt="😻"
+				width="auto" height='14'> under “animal”, “cat”, and “heart”.
+		</p>
+		<p>
+			Annotations are language-specific: searching on <a target='yelp'
+				href="http://www.yelp.de/search#find_desc=%E2%9B%BD">yelp.de<img src="http://unicode.org/img/external_link.png" alt="external link"></a>,
+			someone would expect a search for <img
+				src="images/twitter/twitter_26fd.png" alt="⛽" width="auto"
+				height='14'> to result in matches for “Tankstelle”. Thus
+			annotations need to be in multiple languages to be useful across
+			languages. They should also include regional annotations within a
+			given language, like “petrol station”, which people would expect
+			search for <img src="images/twitter/twitter_26fd.png" alt="⛽"
+				width="auto" height='14'> to result in on <a target='yelp'
+				href="http://www.yelp.co.uk/search#find_desc=%E2%9B%BD">yelp.co.uk<img src="http://unicode.org/img/external_link.png" alt="external link"></a>.
+			An English annotation cannot simply be translated into different
+			languages, since different words may have different associations in
+			different languages. The emoji <img width="auto" height='14' alt="🌵"
+				src="images/apple/apple_1f335.png" title="U+1F335 🌵 cactus">
+			may be associated with Mexican or Southwestern restaurants in the US,
+			but not be associated with them in, say, Greece.
+		</p>
+		<p>
+			There is one further kind of annotation, called a <em>TTS name</em>,
+			for text-to-speech processing. For accessibility when reading text,
+			it is useful to have a short, descriptive name for an emoji
+			character. A Unicode character name can often serve as a basis for
+			this, but its requirements for name uniqueness often ends up with
+			names that are overly long, such as <em>black right-pointing
+				double triangle with vertical bar</em> for <img alt="⏯"
+				src="images/windows/windows_23ef.png" width="auto" height='14'>.
+			TTS names are also outside the current scope of this document.
+		</p>
+		<h2>
+			8 <a name="Longer_Term" href="#Longer_Term">Longer Term Solutions</a>
+		</h2>
+		<p>
+			The longer-term goal for implementations should be to support
+			embedded graphics, in addition to the emoji characters. Embedded
+			graphics allow arbitrary emoji symbols, and are not dependent on
+			additional Unicode encoding. Some examples of this are found in Skype
+			and LINE—see the <a href='../../press/emoji.html'>emoji press
+				page</a> for more examples.
+		</p>
+		<p>
+			However, to be as effective and simple to use as emoji
+			characters, a full solution requires significant infrastructure
+			changes to allow simple, reliable input and transport of images
+			(stickers) in texting, chat, mobile phones, email programs, virtual
+			and mobile keyboards, and so on. (Even so, such images will never
+			interchange in environments that only support plain text, such as
+			email addresses.) Until that time, many implementations will need to
+			use Unicode emoji instead.</p>
+		<p>
+			For example, mobile keyboards need to be enhanced. Enabling embedded
+			graphics would involve adding an additional custom mechanism for
+			users to add in their own graphics or purchase additional sets, such
+			as a <img width='auto' height='14' alt="➕"
+				src="images/android/android_2795.png"> sign to add an image to
+			the palette above. This would prompt the user to paste or otherwise
+			select a graphic, and add annotations for dictionary selection.
+		</p>
+		<p>
+			With such an enhanced mobile keyboard, the user could then
+			select those graphics in the same way as selecting the Unicode emoji.
+			If users started adding many custom graphics, the mobile keyboard
+			might even be enhanced to allow ordering or organization of those
+			graphics so that they can be quickly accessed. The extra graphics
+			would need to be disabled if the target of the mobile keyboard (such
+			as an email header line) would only accept text.</p>
+		<p>
+			Other features required to make embedded graphics work well
+			include the ability of images to scale with font size, inclusion of
+			embedded images in more transport protocols, switching services and
+			applications to use protocols that do permit inclusion of embedded
+			images (eg, MMS versus SMS for text messages). There will always,
+			however, be places where embedded graphics can’t be used—such as
+			email headers, SMS messages, or file names. There are also privacy
+			aspects to implementations of embedded graphics: if the graphic
+			itself is not packaged with the text, but instead is just a reference
+			to an image on a server, then that server could track usage.</p>
+		<h2>
+			<a name="Data_Files" href="#Data_Files">Annex A: Emoji Properties
+				and Data Files </a>
+		</h2>
+		<p>
+			The following four binary character properties are available for
+			emoji characters. These are not formally part of the <a
+				href='http://www.unicode.org/ucd/'>Unicode Character Database</a>
+			(UCD), but share the
+			same namespace and structure.
+		</p>
+		<div align="center">
+		<table>
+			<caption>
+				<a name="Emoji_Properties" href="#Emoji_Properties">Emoji
+					Properties</a>
+			</caption>
+			<tr>
+				<th>Property</th>
+				<th>Property Values</th>
+			</tr>
+			<tr>
+				<th>Emoji</th>
+				<td><strong>=Yes</strong> for characters that are emoji <br>
+					<strong>=No</strong> otherwise</td>
+			</tr>
+			<tr>
+				<th>Emoji_Presentation</th>
+				<td><strong>=Yes</strong> for characters that have emoji
+					presentation by default <br> <strong>=No</strong> otherwise</td>
+			</tr>
+			<tr>
+				<th>Emoji_Modifier</th>
+				<td><strong>=Yes</strong> for characters that are emoji
+					modifiers <br> <strong>=No</strong> otherwise</td>
+			</tr>
+			<tr>
+				<th>Emoji_Modifier_Base</th>
+				<td><strong>=Yes</strong> for characters that can serve as a
+					base for emoji modifiers <br> <strong>=No</strong> otherwise</td>
+			</tr>
+		</table>
+		</div>
+		<p>
+			If <strong>Emoji=No</strong>, then <strong>Emoji_Presentation=No</strong>,
+			<strong>Emoji_Modifier=No</strong>, and <strong>Emoji_Modifier_Base=No</strong>.
+		</p>
+		<p>
+			The property values are specified in the main data file; see [<a
+				href="#emoji_data">emoji-data</a>]. The format for that file is
+			described in its header. There are two other data files listing
+			sequences used to represent emoji.
+		</p>
+		<p>
+			See [<a href="#emoji_charts">emoji-charts</a>] for a collection of
+			charts that have been generated from the emoji data file that may be
+			useful in helping to understand it and the related [<a href="#CLDR">CLDR]</a>
+			emoji data (annotations and ordering). These charts are not
+			versioned, and are purely illustrative; the data to use for
+			implementation is in [<a href="#emoji_data">emoji-data</a>].
+		</p>
+
+		<h2>
+			<a name="Flags" href="#Flags">Annex B: Flags</a>
+		</h2>
+		<p>26 REGIONAL INDICATOR symbols are used in pairs to represent regions;
+			these pairs are generally displayed as flags in systems that support them as emoji.
+			Only valid sequences should be used, where:
+		</p>
+		<ul>
+			<li>The valid region sequences are specified by <a
+				href="http://www.unicode.org/reports/tr35/#unicode_region_subtag">Unicode
+					region subtags</a> as defined in [<a href="#CLDR">CLDR</a>], with
+				idStatus=&quot;regular&quot; or &quot;deprecated&quot;. Deprecated region
+				sequences should not be generated, but may be supported for backward
+				compatibility.</li>
+		</ul>
+		<p>
+			Some region sequences represent countries (as recognized by the United
+			Nations, for example); others represent territories that are
+			associated with a country. Such territories may have flags of their own,
+			or may use the flag of the country with which they are associated.
+		</p>
+		<p>Caveats:</p>
+		<ul>
+			<li>Although a pair of REGIONAL INDICATOR symbols is referred to as an
+				emoji_flag_sequence, it really represents a specific region, not a
+				specific flag. The actual flag displayed for the pair may be
+				different on different platforms, for example for territories which do
+				not have an	official flag. The displayed flag may change over time as
+				regions change their flags and platforms update their software.</li>
+			<li>For some territories (especially those without separate official flags),
+				the displayed flag may be the same as the flag for the country
+				with which they are associated. For more about cases where characters
+				have the same appearance, see <em>UTR #36: Unicode Security
+				Considerations</em> [<a href="#UTR36">UTR36</a>].</li>
+		</ul>
+		<p>
+			For additional information see the sub-section on Regional Indicator Symbols
+			in <i>Section 22.10 Enclosed and Square</i> of
+			[<a href="#Unicode">Unicode</a>].
+		</p>
+
+		<h4>
+			<a name="Flag_Presentation" href="#Flag_Presentation">Presentation</a>
+		</h4>
+		<p>
+			Emoji are generally presented with a square aspect ratio, which
+			presents a problem for flags. The flag for Qatar
+			is over 150% wider than tall; for Switzerland
+			it is square; for Nepal it is over 20% taller
+			than wide. To avoid a ransom-note effect, implementations may want to
+			use a fixed ratio across all flags, such as 150%, with a blank band
+			on the top and bottom. (The average width for flags is between 150%
+			and 165%.) 
+			Presentation as a “waving” flag, or clipping to a
+			circle, can help to present a uniform appearance, masking the aspect
+			differences.
+		</p>
+		<p>Flags should have a visible edge. One option is to use a 1
+			pixel gray line chosen to be contrasting with the adjacent field
+			color.</p>
+		<p>
+			For an open-source set of flag images (png and svg), see <a
+				href="https://github.com/googlei18n/region-flags">region-flags<img src="http://unicode.org/img/external_link.png" alt="external link"></a>.
+		</p>
+		<p>Options for presenting an emoji_flag_sequence for which
+			a system does not have a specific flag or other glyph include:</p>
+		<ul>
+			<li>Displaying each REGIONAL INDICATOR symbol separately as a letter in a
+				dotted square, as shown in the Unicode charts. This provides
+				information about the specific region indicated, but may be mystifying
+				to some users.</li>
+			<li>For all unsupported REGIONAL INDICATOR pairs, displaying the same
+				“missing flag” glyph, such as the image shown below.
+				This would indicate that the supported pair was intended to represent
+				the flag of some region, without indicating which one.
+				<p align="center"><img alt="" src="images/other/unknownTag.png"
+				title="unsupported flag" height='36px' width='auto'></p></li>
+		</ul>
+
+		<h4>
+			<a name="Flag_Ordering" href="#Flag_Ordering">Ordering</a>
+		</h4>
+		<p>
+			The code point order of flags is by region code, which will not be
+			intuitive for viewers, since that rarely matches the order of
+			countries in the viewer's language. English speakers are surprised
+			that the flag for Germany comes before the flag for Djibouti. An
+			alternative is to present the sorted order according to the localized
+			country name, using [<a href="#CLDR">CLDR]</a> data.
+		</p>
+		<h2>
+			<a name="Acknowledgements" href="#Acknowledgements">Acknowledgments</a>
+		</h2>
+		<p>Mark Davis and Peter Edberg created the initial versions of
+			this document, and maintain the text.</p>
+		<p>Thanks to Shervin Afshar, Julie Allen, Jeremy Burge, Michele
+			Coady, Chenjintao (陈锦涛), Chenshiwei, Peter Constable, Craig Cummings,
+			Andrew Glass, Paul Hunt, Hiroyuki Komatsu, Norbert Lindenberg, Ken
+			Lunde, Gwyneth Marshall, Rick McGowan, Katsuhiko Momoi, Katsuhiro
+			Ogata, Katrina Parrott, Michelle Perham, Addison Phillips, Roozbeh
+			Pournader, Judy Safran-Aasen, Markus Scherer, Richard Tunnicliffe,
+			and Ken Whistler for feedback on and contributions to this document,
+			including earlier versions.</p>
+		<p>Thanks to Adobe / Paul Hunt, Apple, Michael Everson, Google,
+			Microsoft, and iDiversicons for supplying images for illustration.</p>
+		<h2>
+			<a href="#Rights_to_Emoji_Images" name="Rights_to_Emoji_Images">Rights
+				to Emoji Images</a>
+		</h2>
+		<p>
+			The content for this section has been moved to <a
+				href='http://unicode.org/emoji/images.html'>Emoji Images and
+				Rights</a>.
+		</p>
+		<h2>
+			<a name="References" href="#References">References</a>
+		</h2>
+		<table cellspacing="0" cellpadding="4" border="0" class="noborder"
+			style="border-collapse: collapse">
+			<!-- nocaption -->
+			<tbody>
+				<tr>
+					<td class="noborder" valign="top">[<a class="nolink"
+						name="CLDR" href="#CLDR">CLDR</a>]
+					</td>
+					<td class="noborder" valign="top">CLDR - Unicode Common Locale
+						Data Repository<br> <a target="_blank" href="http://cldr.org">http://cldr.unicode.org/</a>
+						<em><br> For the latest version of the associated
+							specification (LDML), see:</em><br> <a
+						href='http://unicode.org/reports/tr35/'>http://www.unicode.org/reports/tr35/</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="noborder nowrap" valign="top">[<a class="nolink"
+						name="emoji_charts" href="#emoji_charts">emoji-charts</a>]
+					</td>
+					<td class="noborder" valign="top">The illustrative charts of
+						emoji<br> <a href='../../emoji/charts/index.html'>http://unicode.org/emoji/charts/index.html</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="noborder nowrap" valign="top">[<a class="nolink"
+						name="emoji_data" href="#emoji_data">emoji-data</a>]
+					</td>
+					<td class="noborder" valign="top"><p>The associated data files
+						for emoji characters<br>
+						For the 3.0 versions, see <br>
+				        <a href='http://unicode.org/Public/emoji/3.0/emoji-data.txt'>http://unicode.org/Public/emoji/3.0/emoji-data.txt</a><br>
+                        <a href='http://unicode.org/Public/emoji/3.0/emoji-sequences.txt'>http://unicode.org/Public/emoji/3.0/emoji-sequences.txt</a><br>
+                        <a href='http://unicode.org/Public/emoji/3.0/emoji-zwj-sequences.txt'>http://unicode.org/Public/emoji/3.0/emoji-zwj-sequences.txt</a><br>
+					  <em>For the latest released version,
+							see:</em><br>
+						  <a href='../../Public/emoji/latest/emoji-data.txt'>http://unicode.org/Public/emoji/latest/emoji-data.txt</a><br>
+			          <a href='../../Public/emoji/latest/emoji-sequences.txt'>http://unicode.org/Public/emoji/latest/emoji-sequences.txt</a><br>
+			          <a href='../../Public/emoji/latest/emoji-zwj-sequences.txt'>http://unicode.org/Public/emoji/latest/emoji-zwj-sequences.txt</a><br>
+					</p></td>
+				</tr>
+				<tr>
+					<td class="noborder nowrap" valign="top">[<a class="nolink"
+						name="JSources" href="#JSources">JSources</a>]
+					</td>
+					<td class="noborder" valign="top">The UCD sources for the
+						JCarrier symbols<br> <em>For the latest version, see:</em><br>
+						<a
+						href='http://unicode.org/Public/UCD/latest/ucd/EmojiSources.txt'
+						target="_blank">http://unicode.org/Public/UCD/latest/ucd/EmojiSources.txt</a><br>
+						<em>For the 9.0 version, see:</em><br> <a
+						href="http://unicode.org/Public/9.0.0/ucd/EmojiSources.txt"
+						target="_blank">http://unicode.org/Public/9.0.0/ucd/EmojiSources.txt</a>
+				    </td>
+				</tr>
+				<tr>
+					<td class="noborder" valign="top">[<a class="nolink"
+						name="Unicode" href="#Unicode">Unicode</a>]
+					</td>
+					<td class="noborder" valign="top">The Unicode Standard<br>
+						<em>For the latest version, see:</em><br> <a
+						href="http://unicode.org/versions/latest/">http://unicode.org/versions/latest/</a></td>
+				</tr>
+				<tr>
+					<td class="noborder" valign="top">[<a class="nolink"
+						name="UTR36" href="#UTR36">UTR36</a>]
+					</td>
+					<td class="noborder" valign="top">UTR #36: Unicode Security Considerations<br>
+						<a href="http://www.unicode.org/reports/tr36/">http://www.unicode.org/reports/tr36/</a></td>
+				</tr>
+				<tr>
+					<td class="noborder" valign="top">[<a class="nolink"
+						href="#VSData" name="VSData">VSData</a>]
+					</td>
+					<td class="noborder" valign="top">A data file listing
+						permissible variation sequences<br> <em>For the latest
+							version, see:</em><br> <a
+						href="http://unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt"
+						target="_blank">http://unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt</a> <br>
+						<em>For the 9.0 version, see:</em><br> <a
+						href="http://unicode.org/Public/9.0.0/ucd/StandardizedVariants.txt"
+						target="_blank">http://unicode.org/Public/9.0.0/ucd/StandardizedVariants.txt</a>
+				    </td>
+				</tr>
+			</tbody>
+		</table>
+
+
+
+
+		<h2>
+			<a name="Modifications" href="#Modifications">Modifications</a>
+		</h2>
+		<p>The following summarizes modifications from the previous
+			revisions of this document.</p>
+
+		<p>
+			<strong>Revision 7</strong>
+		</p>
+		<ul>
+			<li>General
+				<ul>
+					<li>Updated to assume Unicode 9.0 as current version.</li>
+				</ul>
+			</li>
+			<li>Sections 1.4.3 <a href="#Emoji_Variation_Sequences">Emoji Variation Sequences</a>,
+				1.4.4 <a href="#Emoji_Modifiers">Emoji Modifiers</a>,
+				1.4.5 <a href="#Emoji_Sequences">Emoji Sequences</a>
+				<ul>
+					<li>Removed definition ED-10, updated ED-13 accordingly, added
+						definitions ED-14a and ED-15a, updated definitions ED-15,
+						ED-16, and ED-17. Among other things, the changes limit the
+						elements that can participate in ZWJ sequences.</li>
+				</ul>
+			</li>
+			<li>Section 2.3 <a href="#Emoji_ZWJ_Sequences">Emoji ZWJ
+					Sequences</a>
+				<ul>
+					<li>Updated the guidance on the use of variation selectors in ZWJ sequences.</li>
+					<li>Added  recommendation to use CLDR segmentation.</li>
+					<li>Added notes on the recommended display of TAG sequences after emoji.</li>
+				</ul>
+			</li>
+			<li>Section 2.4 <a href="#Emoji_Implementation_Notes">Emoji Implementation
+					Notes</a>
+				<ul>
+					<li>New section with notes on variation selector usage, segmentation,
+						and handling unsupported tag sequences.</li>
+				</ul>
+			</li>
+			<li>Section 3 <a href="#Identification">Which Characters are
+					Emoji</a>
+				<ul>
+					<li>Added a table of counts of different types of emoji and
+						emoji sequences, and expanded the discussion on how to
+						count emoji.</li>
+					<li>Removed the tables of common and standard additions.</li>
+				</ul>
+			</li>
+			<li>Sections 4.1 <a href="#Emoji_Variation_Selectors">Emoji
+					Variation Selectors</a>,
+				4.2 <a href="#Emoji_Locale_Extension">Emoji Locale Extension</a>,
+				4.3 <a href="#Emoji_Script">Emoji Script</a>,
+				4.4 <a href="#Other_Emoji_Presentation_Approaches">Other Approaches
+				for Control of Emoji Presentation</a>
+				<ul>
+					<li>Added descriptions of the new locale extension and script subtags
+						that can be used to control emoji presentation,
+						and a description of other mechanisms in use.</li>
+				</ul>
+			</li>
+			<li><a href="#Flags">Annex B: Flags</a>
+				<ul>
+					<li>Updated to be more precise, to add caveats, and to refer to relevant
+					material in The Unicode Standard.</li>
+					<li>Added information on handling unsupported REGIONAL INDICATOR pairs.</li></ul></li>
+		</ul>
+		<p>
+			Modifications for previous revisions are listed in the <a
+				href="http://www.unicode.org/reports/tr51/tr51-5.html">previous
+				version</a> of this document.
+		</p>
+		<hr width="50%">
+		<p class="copyright">© 2016
+				Unicode, Inc. All Rights Reserved. The Unicode Consortium makes no
+				expressed or implied warranty of any kind, and assumes no liability
+				for errors or omissions. No liability is assumed for incidental and
+				consequential damages in connection with or arising out of the use
+				of the information or programs contained or accompanying this
+				technical report. The Unicode <a
+				href="http://unicode.org/copyright.html">Terms of Use</a> apply.
+		</p>
+		<p class="copyright">
+			Unicode and the Unicode logo are trademarks of
+				Unicode, Inc., and are registered in some jurisdictions.
+		</p>
+	</div>
+</body>
+</html>
