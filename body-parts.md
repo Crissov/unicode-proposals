@@ -15,7 +15,7 @@ Encoded body parts
 Missing body parts
 ------------------
 
-- Leg
+- Leg (proposed before)
 - Foot (footsteps: 👣 and various shoes available)
 - Toes
 - Back, behind
@@ -45,3 +45,17 @@ Current metaphors
   * ideographic: hole ⭕️🔞🕳🍩, target  🎯🏁, ⚡️⭐️✨
 - Butt, asshole
   * visual: 🍑🍏🍎🍐♓️; 🏵🍩
+
+Egyptian hieroglyphs
+--------------------
+
+https://docs.google.com/spreadsheets/d/1-wM7uPQIOZrulEsLGAi0Gnbd60lKVMUrif_dwBo9VNM/edit#gid=1555261600
+http://www.unicode.org/L2/L2015/15209-hieroglyphs-sheet.pdf
+
+ - U+13076–, e.g.:
+ - U+13091 Small Breast &#x13091;
+ - U+13092 Large Breast &#x13092;
+ - U+130B8 Phallus &#x130B8;
+ - U+130BA Liquid Issuing from Phallus &#x130BA;
+ - U+13130 Uterus &#x13130;
+ - 
