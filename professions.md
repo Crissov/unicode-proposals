@@ -6,19 +6,24 @@ Unicode Emoji Professions
 Bases for People
 ----------------
 
-Codepoints |           |    | Meaning
---------|--------------|----|----------
-U+263A  | White Smiley | ☺️ | Neutral
-U+1F469 | Woman        | 👩 | Female, woman
-U+1F468 | Man          | 👨 | Male, man
-U+1F475 | Old Woman    | 👵 | Retired female, senior woman, female expert
-U+1F474 | Old Man      | 👴 | Retired male, senior man, male expert
-U+1F476 | Baby         | 👶 | Trainee, learner, student, beginner, intern
-U+1F467 | Girl         | 👧 | Female trainee, learner, student, beginner, intern
-U+1F466 | Boy          | 👦 | Male trainee, learner, student, beginner, intern
-U+1F47D | Alien        | 👽 | Extraterrestrial, alien, off-shore, out-sourced, unknown, anonymous
-U+1F916 | Robot        | 🤖 | Android, robot, automated service, machine, self-service, bot
-U+1F63A | Cat          | 😺 | Furry, humanoid animal
+Codepoint |                    |    | Meaning
+----------|--------------------|----|----------
+U+263A    | White Smiley       | ☺️ | Neutral
+U+1F610   | Neutral Face       | 😐 | Neutral
+U+1F464   | Bust in Silhouette | 👤 | Neutral
+U+        | Adult Person       |    | Person, grown up
+U+1F469   | Woman              | 👩 | Female, woman, feminine
+U+1F468   | Man                | 👨 | Male, man, masculine
+U+        | Older Person       |    | Retired person, senior, expert
+U+1F475   | Older Woman        | 👵 | Retired female, senior woman, female expert
+U+1F474   | Older Man          | 👴 | Retired male, senior man, male expert
+U+        | Child              |    | Trainee, learner, student, beginner, intern
+U+1F476   | Baby               | 👶 | Trainee, learner, student, beginner, intern
+U+1F467   | Girl               | 👧 | Female trainee, learner, student, beginner, intern
+U+1F466   | Boy                | 👦 | Male trainee, learner, student, beginner, intern
+U+1F47D   | Alien              | 👽 | Extraterrestrial, alien, off-shore, out-sourced, unknown, anonymous
+U+1F916   | Robot              | 🤖 | Android, robot, automated service, machine, self-service, bot
+U+1F63A   | Cat                | 😺 | Furry, humanoid animal
 
 Existing Emojis that Resemble Professions
 -----------------------------------------
