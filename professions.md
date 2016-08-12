@@ -28,7 +28,7 @@ U+1F63A   | Cat                | 😺 | Furry, humanoid animal
 Existing Emojis that Resemble Professions
 -----------------------------------------
 
-Codepoint |                     |    
+Codepoint |                     | Sample
 ----------|---------------------|----
 U+1F46E   | Police officer      | 👮
 U+1F575   | Sleuth              | 🕵
@@ -40,7 +40,7 @@ There are several sports, other activities and emotions that are commonly depict
 Existing Emojis that Resemble Work Places or Buildings
 ------------------------------------------------------
 
-Codepoint |                     |    
+Codepoint |                     | Sample
 ----------|---------------------|----
 U+1F3D7   | Construction site   | 🏗
 U+1F3D8   | House Buildings     | 🏘
@@ -73,7 +73,7 @@ National Park U+1F3DE could be used for a guide or ranger, though, and Beach wit
 Existing Emojis that Resemble Work Vehicles
 -------------------------------------------
 
-Codepoint    |                 |    
+Codepoint    |                 | Sample
 -------------|-----------------|----
 U+1F680      | Rocket          | 🚀
 U+1F681      | Helicopter      | 🚁
@@ -97,7 +97,7 @@ Existing Emojis that Resemble Work Tools or Symbols
 
 (To do: very incomplete, only from BMP “Miscellaneous Symbols” block currently)
 
-Codepoint |                         |    
+Codepoint |                         | Sample
 ----------|-------------------------|----
 U+2692    | Hammer and Pick         | ⚒
 U+2693    | Anchor                  | ⚓
