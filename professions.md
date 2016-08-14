@@ -8,10 +8,10 @@ Bases for People
 
 Codepoint |                    |    | Meaning
 ----------|--------------------|----|----------
-U+263A    | White Smiley       | ☺️ | Neutral
-U+1F610   | Neutral Face       | 😐 | Neutral
-U+1F464   | Bust in Silhouette | 👤 | Neutral
-U+        | Adult Person       |    | Person, grown up
+U+263A    | White Smiley       | ☺️ | Neutral, (details unknown, unimportant, unavailable)
+U+1F610   | Neutral Face       | 😐 | Neutral, (details unknown, unimportant, unavailable)
+U+1F464   | Bust in Silhouette | 👤 | Neutral, (details unknown, unimportant, unavailable)
+U+        | Adult Person       |    | Person, grown-up
 U+1F469   | Woman              | 👩 | Female, woman, feminine
 U+1F468   | Man                | 👨 | Male, man, masculine
 U+        | Older Person       |    | Retired person, senior, expert
@@ -21,19 +21,19 @@ U+        | Child              |    | Trainee, learner, student, beginner, inter
 U+1F476   | Baby               | 👶 | Trainee, learner, student, beginner, intern
 U+1F467   | Girl               | 👧 | Female trainee, learner, student, beginner, intern
 U+1F466   | Boy                | 👦 | Male trainee, learner, student, beginner, intern
-U+1F47D   | Alien              | 👽 | Extraterrestrial, alien, off-shore, out-sourced, unknown, anonymous
+U+1F47D   | Alien              | 👽 | Extraterrestrial, alien, foreign, out-sourced, anonymous
 U+1F916   | Robot              | 🤖 | Android, robot, automated service, machine, self-service, bot
-U+1F63A   | Cat                | 😺 | Furry, humanoid animal
+U+1F63A   | Cat                | 😺 | Furry, humanoid/anthropomorphous animal, toon
 
 Existing Emojis that Resemble Professions
 -----------------------------------------
 
 Codepoint |                     | Sample
 ----------|---------------------|----
-U+1F46E   | Police officer      | 👮
+U+1F46E   | Police Officer      | 👮
 U+1F575   | Sleuth              | 🕵
 U+1F482   | Guard               | 💂
-U+1F477   | Construction worker | 👷
+U+1F477   | Construction Worker | 👷
 
 There are several sports, other activities and emotions that are commonly depicted by or with people.
 
@@ -42,7 +42,7 @@ Existing Emojis that Resemble Work Places or Buildings
 
 Codepoint |                     | Sample
 ----------|---------------------|----
-U+1F3D7   | Construction site   | 🏗
+U+1F3D7   | Construction Site   | 🏗
 U+1F3D8   | House Buildings     | 🏘
 U+1F3DB   | Classical Building  | 🏛
 U+1F3DF   | Stadium             | 🏟
@@ -57,12 +57,12 @@ U+1F3E8   | Hotel               | 🏨
 U+1F3E9   | Love Hotel          | 🏩
 U+1F3EA   | Convenience Store   | 🏪
 U+1F3EB   | School              | 🏫
-U+1F3EC   | Department store    | 🏬
+U+1F3EC   | Department Store    | 🏬
 U+1F3ED   | Factory             | 🏭
 U+1F3EF   | Japanese Castle     | 🏯
 U+1F3F0   | European Castle     | 🏰
 U+1F6E3   | Highway             | 🛣
-U+1F6E4   | Rail tracks         | 🛤
+U+1F6E4   | Rail Tracks         | 🛤
 U+26EA    | Church              | ⛪
 U+26EB    | Castle              | ⛫
 
