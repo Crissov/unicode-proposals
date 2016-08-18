@@ -1,3 +1,8 @@
+Relationship and Family Emojis and Character Sequences
+======================================================
+
+* http://www.unicode.org/emoji/charts/emoji-zwj-sequences.html
+
 Existing Constituent Characters
 -------------------------------
 

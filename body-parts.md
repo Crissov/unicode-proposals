@@ -35,9 +35,9 @@ Current metaphors
   * linguistic (other languages): cups  ☕️☕️ 🍵🍵,  balls  ⚽️⚽️ 🏀🏀 ⚾️⚾️ 🎾🎾 🏐🏐 🎱🎱 🔮🔮, bags 🛍 💰💰 👜👜
 - Penis, testicles
   * visual: 🍌🌭🍗🍖🍍🍡🍢🍾🐛💊⚰🗞📏🔨⛏💘↖️🖊🖋🖍🖌🗡🌶🍼🚀🛩✈️🔦🔑🗝🏈🏉♐️↗️⤴️🔧🌡🕯📍🌵👃
-  * linguistic (English): cock 🐓, 📯,  joystick 🕹, pole 🚩;  balls: ⚽️🏀⚾️🎾🏐🎱, nuts: 🌰 
+  * linguistic (English): cock 🐓, 📯, joystick 🕹, pole 🚩;  balls: ⚽️🏀⚾️🎾🏐🎱, nuts: 🌰 
   * linguistic (other languages): key 🔑 🗝
-  * spliff vs. erect vs. ejaculating:
+  * spliff vs. erect vs. ejaculating: 🤥
 - Vagina, clitoris, labiae
   * visual: ♈️♉️🌷🌮🍕🍸🍷🍰🍑🛡🍣🔱⚜⚓️📐🏈❤️💛💚💙💜💓💗💖💝💟♥️🍁🎄🔥💎
   * gesture: 🖖

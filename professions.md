@@ -2,6 +2,7 @@ Unicode Emoji Professions
 =========================
 * http://www.unicode.org/L2/L2016/16182-gender-zwj-sequences-list.pdf
 * [http://goo.gl/yRXj3S](https://docs.google.com/document/d/1pflCUy4NnVHoyZu9WEo9aZ1WfSH-QGrbJBhEvi5t6Xg/edit)
+* http://www.unicode.org/emoji/charts/emoji-zwj-sequences.html
 
 Bases for People
 ----------------

@@ -25,6 +25,19 @@ Pink   | U+1F49F/D/8/3/7  | &#x1F49F;/&#x1F49D;/&#x1F498;/&#x1F493;/&#x1F497;
 Broken | U+1F494 | &#x1F494;
 Sparks | U+1F496 | &#x1F496;
 
+Circles and Diamonds
+--------------------
+
+Color  | Unicode | Sample
+-------|---------|----------
+White  | U+26AA  | &#x26AA;&#xFE0F;
+Black  | U+26AB  | &#x26AB;&#xFE0F;
+Red    | U+1F534 | &#x1F534;
+Blue   | U+1F535 | &#x1F535;
+Blue   | U+1F537 | &#x1F537;
+Orange | U+1F536 | &#x1F536;
+
+
 Books
 -----
 
