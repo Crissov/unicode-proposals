@@ -1,0 +1,2006 @@
+# emoji-candidate-symbols.txt
+# Date: 2016-08-27
+#
+# Filter:
+# General Category = Other_Symbol (So), 
+# Bidirectional Category = Other_Neutral (ON),
+# Script = Common,
+# Emoji = No
+#
+# 1989 code points as of Unicode 9.0 and Emoji 4.0
+#
+# Format: 
+# codepoint ; property(=Yes) # comments 
+#
+# Characters and sequences are listed in code point order.
+# Users should be shown a more natural order.
+#
+ 00A6 ; ideograph # ¦
+ 2100 ; letter-like # ℀
+ 2101 ; letter-like # ℁
+ 2103 ; letter-like # ℃
+ 2104 ; letter-like # ℄
+ 2105 ; letter-like # ℅
+ 2106 ; letter-like # ℆
+ 2108 ; letter-like # ℈
+ 2109 ; letter-like # ℉
+ 2114 ; letter-like # ℔
+ 2116 ; letter-like # №
+ 2117 ; letter-like # ℗
+ 211E ; letter-like # ℞
+ 211F ; letter-like # ℟
+ 2120 ; letter-like # ℠
+ 2121 ; letter-like # ℡
+ 2123 ; letter-like # ℣
+ 2125 ; letter-like # ℥
+ 2127 ; letter-like # ℧
+ 2129 ; letter-like # ℩
+ 213A ; letter-like # ℺
+ 213B ; letter-like # ℻
+ 214A ; letter-like # ⅊
+ 214C ; letter-like # ⅌
+ 214D ; letter-like # ⅍
+ 218A ; letter-like # ↊
+ 218B ; letter-like # ↋
+ 219C ; ideograph # ↜
+ 219D ; ideograph # ↝
+ 219E ; ideograph # ↞
+ 219F ; ideograph # ↟
+ 21A1 ; ideograph # ↡
+ 21A2 ; ideograph # ↢
+ 21A4 ; ideograph # ↤
+ 21A5 ; ideograph # ↥
+ 21A7 ; ideograph # ↧
+ 21A8 ; ideograph # ↨
+ 21AB ; ideograph # ↫
+ 21AC ; ideograph # ↬
+ 21AD ; ideograph # ↭
+ 21AF ; ideograph # ↯
+ 21B0 ; ideograph # ↰
+ 21B1 ; ideograph # ↱
+ 21B2 ; ideograph # ↲
+ 21B3 ; ideograph # ↳
+ 21B4 ; ideograph # ↴
+ 21B5 ; ideograph # ↵
+ 21B6 ; ideograph # ↶
+ 21B7 ; ideograph # ↷
+ 21B8 ; ideograph # ↸
+ 21B9 ; ideograph # ↹
+ 21BA ; ideograph # ↺
+ 21BB ; ideograph # ↻
+ 21BC ; ideograph # ↼
+ 21BD ; ideograph # ↽
+ 21BE ; ideograph # ↾
+ 21BF ; ideograph # ↿
+ 21C0 ; ideograph # ⇀
+ 21C1 ; ideograph # ⇁
+ 21C2 ; ideograph # ⇂
+ 21C3 ; ideograph # ⇃
+ 21C4 ; ideograph # ⇄
+ 21C5 ; ideograph # ⇅
+ 21C6 ; ideograph # ⇆
+ 21C7 ; ideograph # ⇇
+ 21C8 ; ideograph # ⇈
+ 21C9 ; ideograph # ⇉
+ 21CA ; ideograph # ⇊
+ 21CB ; ideograph # ⇋
+ 21CC ; ideograph # ⇌
+ 21CD ; ideograph # ⇍
+ 21D0 ; ideograph # ⇐
+ 21D1 ; ideograph # ⇑
+ 21D3 ; ideograph # ⇓
+ 21D5 ; ideograph # ⇕
+ 21D6 ; ideograph # ⇖
+ 21D7 ; ideograph # ⇗
+ 21D8 ; ideograph # ⇘
+ 21D9 ; ideograph # ⇙
+ 21DA ; ideograph # ⇚
+ 21DB ; ideograph # ⇛
+ 21DC ; ideograph # ⇜
+ 21DD ; ideograph # ⇝
+ 21DE ; ideograph # ⇞
+ 21DF ; ideograph # ⇟
+ 21E0 ; ideograph # ⇠
+ 21E1 ; ideograph # ⇡
+ 21E2 ; ideograph # ⇢
+ 21E3 ; ideograph # ⇣
+ 21E4 ; ideograph # ⇤
+ 21E5 ; ideograph # ⇥
+ 21E6 ; ideograph # ⇦
+ 21E7 ; ideograph # ⇧
+ 21E8 ; ideograph # ⇨
+ 21E9 ; ideograph # ⇩
+ 21EA ; ideograph # ⇪
+ 21EB ; ideograph # ⇫
+ 21EC ; ideograph # ⇬
+ 21ED ; ideograph # ⇭
+ 21EE ; ideograph # ⇮
+ 21EF ; ideograph # ⇯
+ 21F0 ; ideograph # ⇰
+ 21F1 ; ideograph # ⇱
+ 21F2 ; ideograph # ⇲
+ 21F3 ; ideograph # ⇳
+ 2300 ; ideograph # ⌀
+ 2301 ; ideograph # ⌁
+ 2302 ; ideograph # ⌂
+ 2303 ; ideograph # ⌃
+ 2304 ; ideograph # ⌄
+ 2305 ; ideograph # ⌅
+ 2306 ; ideograph # ⌆
+ 2307 ; ideograph # ⌇
+ 230C ; ideograph # ⌌
+ 230D ; ideograph # ⌍
+ 230E ; ideograph # ⌎
+ 230F ; ideograph # ⌏
+ 2310 ; ideograph # ⌐
+ 2311 ; ideograph # ⌑
+ 2312 ; ideograph # ⌒
+ 2313 ; ideograph # ⌓
+ 2314 ; ideograph # ⌔
+ 2315 ; ideograph # ⌕
+ 2316 ; ideograph # ⌖
+ 2317 ; ideograph # ⌗
+ 2318 ; ideograph # ⌘
+ 2319 ; ideograph # ⌙
+ 231C ; ideograph # ⌜
+ 231D ; ideograph # ⌝
+ 231E ; ideograph # ⌞
+ 231F ; ideograph # ⌟
+ 2322 ; ideograph # ⌢
+ 2323 ; ideograph # ⌣
+ 2324 ; ideograph # ⌤
+ 2325 ; ideograph # ⌥
+ 2326 ; ideograph # ⌦
+ 2327 ; ideograph # ⌧
+ 232B ; ideograph # ⌫
+ 232C ; ideograph # ⌬
+ 232D ; ideograph # ⌭
+ 232E ; ideograph # ⌮
+ 232F ; ideograph # ⌯
+ 2330 ; ideograph # ⌰
+ 2331 ; ideograph # ⌱
+ 2332 ; ideograph # ⌲
+ 2333 ; ideograph # ⌳
+ 2334 ; ideograph # ⌴
+ 2335 ; ideograph # ⌵
+ 237B ; ideograph # ⍻
+ 237D ; ideograph # ⍽
+ 237E ; ideograph # ⍾
+ 237F ; ideograph # ⍿
+ 2380 ; ideograph # ⎀
+ 2381 ; ideograph # ⎁
+ 2382 ; ideograph # ⎂
+ 2383 ; ideograph # ⎃
+ 2384 ; ideograph # ⎄
+ 2385 ; ideograph # ⎅
+ 2386 ; ideograph # ⎆
+ 2387 ; ideograph # ⎇
+ 2388 ; ideograph # ⎈
+ 2389 ; ideograph # ⎉
+ 238A ; ideograph # ⎊
+ 238B ; ideograph # ⎋
+ 238C ; ideograph # ⎌
+ 238D ; ideograph # ⎍
+ 238E ; ideograph # ⎎
+ 238F ; ideograph # ⎏
+ 2390 ; ideograph # ⎐
+ 2391 ; ideograph # ⎑
+ 2392 ; ideograph # ⎒
+ 2393 ; ideograph # ⎓
+ 2394 ; ideograph # ⎔
+ 2396 ; ideograph # ⎖
+ 2397 ; ideograph # ⎗
+ 2398 ; ideograph # ⎘
+ 2399 ; ideograph # ⎙
+ 239A ; ideograph # ⎚
+ 23B4 ; ideograph # ⎴
+ 23B5 ; ideograph # ⎵
+ 23B6 ; ideograph # ⎶
+ 23B7 ; ideograph # ⎷
+ 23B8 ; ideograph # ⎸
+ 23B9 ; ideograph # ⎹
+ 23BA ; ideograph # ⎺
+ 23BB ; ideograph # ⎻
+ 23BC ; ideograph # ⎼
+ 23BD ; ideograph # ⎽
+ 23BE ; ideograph # ⎾
+ 23BF ; ideograph # ⎿
+ 23C0 ; ideograph # ⏀
+ 23C1 ; ideograph # ⏁
+ 23C2 ; ideograph # ⏂
+ 23C3 ; ideograph # ⏃
+ 23C4 ; ideograph # ⏄
+ 23C5 ; ideograph # ⏅
+ 23C6 ; ideograph # ⏆
+ 23C7 ; ideograph # ⏇
+ 23C8 ; ideograph # ⏈
+ 23C9 ; ideograph # ⏉
+ 23CA ; ideograph # ⏊
+ 23CB ; ideograph # ⏋
+ 23CC ; ideograph # ⏌
+ 23CD ; ideograph # ⏍
+ 23CE ; ideograph # ⏎
+ 23D0 ; ideograph # ⏐
+ 23D1 ; ideograph # ⏑
+ 23D2 ; ideograph # ⏒
+ 23D3 ; ideograph # ⏓
+ 23D4 ; ideograph # ⏔
+ 23D5 ; ideograph # ⏕
+ 23D6 ; ideograph # ⏖
+ 23D7 ; ideograph # ⏗
+ 23D8 ; ideograph # ⏘
+ 23D9 ; ideograph # ⏙
+ 23DA ; ideograph # ⏚
+ 23DB ; ideograph # ⏛
+ 23E2 ; ideograph # ⏢
+ 23E3 ; ideograph # ⏣
+ 23E4 ; ideograph # ⏤
+ 23E5 ; ideograph # ⏥
+ 23E6 ; ideograph # ⏦
+ 23E7 ; ideograph # ⏧
+ 23E8 ; ideograph # ⏨
+ 23F4 ; ideograph # ⏴
+ 23F5 ; ideograph # ⏵
+ 23F6 ; ideograph # ⏶
+ 23F7 ; ideograph # ⏷
+ 23FB ; ideograph # ⏻
+ 23FC ; ideograph # ⏼
+ 23FD ; ideograph # ⏽
+ 23FE ; ideograph # ⏾
+ 2400 ; letter-like # ␀
+ 2401 ; letter-like # ␁
+ 2402 ; letter-like # ␂
+ 2403 ; letter-like # ␃
+ 2404 ; letter-like # ␄
+ 2405 ; letter-like # ␅
+ 2406 ; letter-like # ␆
+ 2407 ; letter-like # ␇
+ 2408 ; letter-like # ␈
+ 2409 ; letter-like # ␉
+ 240A ; letter-like # ␊
+ 240B ; letter-like # ␋
+ 240C ; letter-like # ␌
+ 240D ; letter-like # ␍
+ 240E ; letter-like # ␎
+ 240F ; letter-like # ␏
+ 2410 ; letter-like # ␐
+ 2411 ; letter-like # ␑
+ 2412 ; letter-like # ␒
+ 2413 ; letter-like # ␓
+ 2414 ; letter-like # ␔
+ 2415 ; letter-like # ␕
+ 2416 ; letter-like # ␖
+ 2417 ; letter-like # ␗
+ 2418 ; letter-like # ␘
+ 2419 ; letter-like # ␙
+ 241A ; letter-like # ␚
+ 241B ; letter-like # ␛
+ 241C ; letter-like # ␜
+ 241D ; letter-like # ␝
+ 241E ; letter-like # ␞
+ 241F ; letter-like # ␟
+ 2420 ; letter-like # ␠
+ 2421 ; letter-like # ␡
+ 2422 ; letter-like # ␢
+ 2423 ; ideograph # ␣
+ 2424 ; letter-like # ␤
+ 2425 ; ideograph # ␥
+ 2426 ; ideograph # ␦
+ 2440 ; ideograph # ⑀
+ 2441 ; ideograph # ⑁
+ 2442 ; ideograph # ⑂
+ 2443 ; ideograph # ⑃
+ 2444 ; ideograph # ⑄
+ 2445 ; ideograph # ⑅
+ 2446 ; ideograph # ⑆
+ 2447 ; ideograph # ⑇
+ 2448 ; ideograph # ⑈
+ 2449 ; ideograph # ⑉
+ 244A ; ideograph # ⑊
+ 2500 ; ideograph # ─
+ 2501 ; ideograph # ━
+ 2502 ; ideograph # │
+ 2503 ; ideograph # ┃
+ 2504 ; ideograph # ┄
+ 2505 ; ideograph # ┅
+ 2506 ; ideograph # ┆
+ 2507 ; ideograph # ┇
+ 2508 ; ideograph # ┈
+ 2509 ; ideograph # ┉
+ 250A ; ideograph # ┊
+ 250B ; ideograph # ┋
+ 250C ; ideograph # ┌
+ 250D ; ideograph # ┍
+ 250E ; ideograph # ┎
+ 250F ; ideograph # ┏
+ 2510 ; ideograph # ┐
+ 2511 ; ideograph # ┑
+ 2512 ; ideograph # ┒
+ 2513 ; ideograph # ┓
+ 2514 ; ideograph # └
+ 2515 ; ideograph # ┕
+ 2516 ; ideograph # ┖
+ 2517 ; ideograph # ┗
+ 2518 ; ideograph # ┘
+ 2519 ; ideograph # ┙
+ 251A ; ideograph # ┚
+ 251B ; ideograph # ┛
+ 251C ; ideograph # ├
+ 251D ; ideograph # ┝
+ 251E ; ideograph # ┞
+ 251F ; ideograph # ┟
+ 2520 ; ideograph # ┠
+ 2521 ; ideograph # ┡
+ 2522 ; ideograph # ┢
+ 2523 ; ideograph # ┣
+ 2524 ; ideograph # ┤
+ 2525 ; ideograph # ┥
+ 2526 ; ideograph # ┦
+ 2527 ; ideograph # ┧
+ 2528 ; ideograph # ┨
+ 2529 ; ideograph # ┩
+ 252A ; ideograph # ┪
+ 252B ; ideograph # ┫
+ 252C ; ideograph # ┬
+ 252D ; ideograph # ┭
+ 252E ; ideograph # ┮
+ 252F ; ideograph # ┯
+ 2530 ; ideograph # ┰
+ 2531 ; ideograph # ┱
+ 2532 ; ideograph # ┲
+ 2533 ; ideograph # ┳
+ 2534 ; ideograph # ┴
+ 2535 ; ideograph # ┵
+ 2536 ; ideograph # ┶
+ 2537 ; ideograph # ┷
+ 2538 ; ideograph # ┸
+ 2539 ; ideograph # ┹
+ 253A ; ideograph # ┺
+ 253B ; ideograph # ┻
+ 253C ; ideograph # ┼
+ 253D ; ideograph # ┽
+ 253E ; ideograph # ┾
+ 253F ; ideograph # ┿
+ 2540 ; ideograph # ╀
+ 2541 ; ideograph # ╁
+ 2542 ; ideograph # ╂
+ 2543 ; ideograph # ╃
+ 2544 ; ideograph # ╄
+ 2545 ; ideograph # ╅
+ 2546 ; ideograph # ╆
+ 2547 ; ideograph # ╇
+ 2548 ; ideograph # ╈
+ 2549 ; ideograph # ╉
+ 254A ; ideograph # ╊
+ 254B ; ideograph # ╋
+ 254C ; ideograph # ╌
+ 254D ; ideograph # ╍
+ 254E ; ideograph # ╎
+ 254F ; ideograph # ╏
+ 2550 ; ideograph # ═
+ 2551 ; ideograph # ║
+ 2552 ; ideograph # ╒
+ 2553 ; ideograph # ╓
+ 2554 ; ideograph # ╔
+ 2555 ; ideograph # ╕
+ 2556 ; ideograph # ╖
+ 2557 ; ideograph # ╗
+ 2558 ; ideograph # ╘
+ 2559 ; ideograph # ╙
+ 255A ; ideograph # ╚
+ 255B ; ideograph # ╛
+ 255C ; ideograph # ╜
+ 255D ; ideograph # ╝
+ 255E ; ideograph # ╞
+ 255F ; ideograph # ╟
+ 2560 ; ideograph # ╠
+ 2561 ; ideograph # ╡
+ 2562 ; ideograph # ╢
+ 2563 ; ideograph # ╣
+ 2564 ; ideograph # ╤
+ 2565 ; ideograph # ╥
+ 2566 ; ideograph # ╦
+ 2567 ; ideograph # ╧
+ 2568 ; ideograph # ╨
+ 2569 ; ideograph # ╩
+ 256A ; ideograph # ╪
+ 256B ; ideograph # ╫
+ 256C ; ideograph # ╬
+ 256D ; ideograph # ╭
+ 256E ; ideograph # ╮
+ 256F ; ideograph # ╯
+ 2570 ; ideograph # ╰
+ 2571 ; ideograph # ╱
+ 2572 ; ideograph # ╲
+ 2573 ; ideograph # ╳
+ 2574 ; ideograph # ╴
+ 2575 ; ideograph # ╵
+ 2576 ; ideograph # ╶
+ 2577 ; ideograph # ╷
+ 2578 ; ideograph # ╸
+ 2579 ; ideograph # ╹
+ 257A ; ideograph # ╺
+ 257B ; ideograph # ╻
+ 257C ; ideograph # ╼
+ 257D ; ideograph # ╽
+ 257E ; ideograph # ╾
+ 257F ; ideograph # ╿
+ 2580 ; ideograph # ▀
+ 2581 ; ideograph # ▁
+ 2582 ; ideograph # ▂
+ 2583 ; ideograph # ▃
+ 2584 ; ideograph # ▄
+ 2585 ; ideograph # ▅
+ 2586 ; ideograph # ▆
+ 2587 ; ideograph # ▇
+ 2588 ; ideograph # █
+ 2589 ; ideograph # ▉
+ 258A ; ideograph # ▊
+ 258B ; ideograph # ▋
+ 258C ; ideograph # ▌
+ 258D ; ideograph # ▍
+ 258E ; ideograph # ▎
+ 258F ; ideograph # ▏
+ 2590 ; ideograph # ▐
+ 2591 ; ideograph # ░
+ 2592 ; ideograph # ▒
+ 2593 ; ideograph # ▓
+ 2594 ; ideograph # ▔
+ 2595 ; ideograph # ▕
+ 2596 ; ideograph # ▖
+ 2597 ; ideograph # ▗
+ 2598 ; ideograph # ▘
+ 2599 ; ideograph # ▙
+ 259A ; ideograph # ▚
+ 259B ; ideograph # ▛
+ 259C ; ideograph # ▜
+ 259D ; ideograph # ▝
+ 259E ; ideograph # ▞
+ 259F ; ideograph # ▟
+ 25A0 ; ideograph # ■
+ 25A1 ; ideograph # □
+ 25A2 ; ideograph # ▢
+ 25A3 ; ideograph # ▣
+ 25A4 ; ideograph # ▤
+ 25A5 ; ideograph # ▥
+ 25A6 ; ideograph # ▦
+ 25A7 ; ideograph # ▧
+ 25A8 ; ideograph # ▨
+ 25A9 ; ideograph # ▩
+ 25AC ; ideograph # ▬
+ 25AD ; ideograph # ▭
+ 25AE ; ideograph # ▮
+ 25AF ; ideograph # ▯
+ 25B0 ; ideograph # ▰
+ 25B1 ; ideograph # ▱
+ 25B2 ; ideograph # ▲
+ 25B3 ; ideograph # △
+ 25B4 ; ideograph # ▴
+ 25B5 ; ideograph # ▵
+ 25B8 ; ideograph # ▸
+ 25B9 ; ideograph # ▹
+ 25BA ; ideograph # ►
+ 25BB ; ideograph # ▻
+ 25BC ; ideograph # ▼
+ 25BD ; ideograph # ▽
+ 25BE ; ideograph # ▾
+ 25BF ; ideograph # ▿
+ 25C2 ; ideograph # ◂
+ 25C3 ; ideograph # ◃
+ 25C4 ; ideograph # ◄
+ 25C5 ; ideograph # ◅
+ 25C6 ; ideograph # ◆
+ 25C7 ; ideograph # ◇
+ 25C8 ; ideograph # ◈
+ 25C9 ; ideograph # ◉
+ 25CA ; ideograph # ◊
+ 25CB ; ideograph # ○
+ 25CC ; ideograph # ◌
+ 25CD ; ideograph # ◍
+ 25CE ; ideograph # ◎
+ 25CF ; ideograph # ●
+ 25D0 ; ideograph # ◐
+ 25D1 ; ideograph # ◑
+ 25D2 ; ideograph # ◒
+ 25D3 ; ideograph # ◓
+ 25D4 ; ideograph # ◔
+ 25D5 ; ideograph # ◕
+ 25D6 ; ideograph # ◖
+ 25D7 ; ideograph # ◗
+ 25D8 ; ideograph # ◘
+ 25D9 ; ideograph # ◙
+ 25DA ; ideograph # ◚
+ 25DB ; ideograph # ◛
+ 25DC ; ideograph # ◜
+ 25DD ; ideograph # ◝
+ 25DE ; ideograph # ◞
+ 25DF ; ideograph # ◟
+ 25E0 ; ideograph # ◠
+ 25E1 ; ideograph # ◡
+ 25E2 ; ideograph # ◢
+ 25E3 ; ideograph # ◣
+ 25E4 ; ideograph # ◤
+ 25E5 ; ideograph # ◥
+ 25E6 ; ideograph # ◦
+ 25E7 ; ideograph # ◧
+ 25E8 ; ideograph # ◨
+ 25E9 ; ideograph # ◩
+ 25EA ; ideograph # ◪
+ 25EB ; ideograph # ◫
+ 25EC ; ideograph # ◬
+ 25ED ; ideograph # ◭
+ 25EE ; ideograph # ◮
+ 25EF ; ideograph # ◯
+ 25F0 ; ideograph # ◰
+ 25F1 ; ideograph # ◱
+ 25F2 ; ideograph # ◲
+ 25F3 ; ideograph # ◳
+ 25F4 ; ideograph # ◴
+ 25F5 ; ideograph # ◵
+ 25F6 ; ideograph # ◶
+ 25F7 ; ideograph # ◷
+ 2605 ; ideograph # ★
+ 2606 ; ideograph # ☆
+ 2607 ; ideograph # ☇
+ 2608 ; ideograph # ☈
+ 2609 ; ideograph # ☉
+ 260A ; ideograph # ☊
+ 260B ; ideograph # ☋
+ 260C ; ideograph # ☌
+ 260D ; ideograph # ☍
+ 260F ; pictograph # ☏
+ 2610 ; ideograph # ☐
+ 2612 ; ideograph # ☒
+ 2613 ; ideograph # ☓
+ 2616 ; pictograph # ☖
+ 2617 ; pictograph # ☗
+ 2619 ; ideograph # ☙
+ 261A ; pictograph # ☚
+ 261B ; pictograph # ☛
+ 261C ; pictograph # ☜
+ 261E ; pictograph # ☞
+ 261F ; pictograph # ☟
+ 2621 ; ideograph # ☡
+ 2624 ; ideograph # ☤
+ 2625 ; ideograph # ☥
+ 2627 ; letter-like # ☧
+ 2628 ; ideograph # ☨
+ 2629 ; ideograph # ☩
+ 262B ; ideograph # ☫
+ 262C ; ideograph # ☬
+ 262D ; pictograph # ☭
+ 2630 ; ideograph # ☰
+ 2631 ; ideograph # ☱
+ 2632 ; ideograph # ☲
+ 2633 ; ideograph # ☳
+ 2634 ; ideograph # ☴
+ 2635 ; ideograph # ☵
+ 2636 ; ideograph # ☶
+ 2637 ; ideograph # ☷
+ 263B ; pictograph # ☻
+ 263C ; pictograph # ☼
+ 263D ; pictograph # ☽
+ 263E ; pictograph # ☾
+ 263F ; ideograph # ☿
+ 2641 ; ideograph # ♁
+ 2643 ; ideograph # ♃
+ 2644 ; ideograph # ♄
+ 2645 ; ideograph # ♅
+ 2646 ; ideograph # ♆
+ 2647 ; ideograph # ♇
+ 2654 ; pictograph # ♔
+ 2655 ; pictograph # ♕
+ 2656 ; pictograph # ♖
+ 2657 ; pictograph # ♗
+ 2658 ; pictograph # ♘
+ 2659 ; pictograph # ♙
+ 265A ; pictograph # ♚
+ 265B ; pictograph # ♛
+ 265C ; pictograph # ♜
+ 265D ; pictograph # ♝
+ 265E ; pictograph # ♞
+ 265F ; pictograph # ♟
+ 2661 ; ideograph # ♡
+ 2662 ; ideograph # ♢
+ 2664 ; ideograph # ♤
+ 2667 ; ideograph # ♧
+ 2669 ; ideograph # ♩
+ 266A ; ideograph # ♪
+ 266B ; ideograph # ♫
+ 266C ; ideograph # ♬
+ 266D ; ideograph # ♭
+ 266E ; ideograph # ♮
+ 2670 ; ideograph # ♰
+ 2671 ; ideograph # ♱
+ 2672 ; ideograph # ♲
+ 2673 ; ideograph # ♳
+ 2674 ; ideograph # ♴
+ 2675 ; ideograph # ♵
+ 2676 ; ideograph # ♶
+ 2677 ; ideograph # ♷
+ 2678 ; ideograph # ♸
+ 2679 ; ideograph # ♹
+ 267A ; ideograph # ♺
+ 267C ; ideograph # ♼
+ 267D ; ideograph # ♽
+ 267E ; ideograph # ♾
+ 2680 ; pictograph # ⚀
+ 2681 ; pictograph # ⚁
+ 2682 ; pictograph # ⚂
+ 2683 ; pictograph # ⚃
+ 2684 ; pictograph # ⚄
+ 2685 ; pictograph # ⚅
+ 2686 ; ideograph # ⚆
+ 2687 ; ideograph # ⚇
+ 2688 ; ideograph # ⚈
+ 2689 ; ideograph # ⚉
+ 268A ; ideograph # ⚊
+ 268B ; ideograph # ⚋
+ 268C ; ideograph # ⚌
+ 268D ; ideograph # ⚍
+ 268E ; ideograph # ⚎
+ 268F ; ideograph # ⚏
+ 2690 ; pictograph # ⚐
+ 2691 ; pictograph # ⚑
+ 2698 ; pictograph # ⚘
+ 269A ; ideograph # ⚚
+ 269D ; ideograph # ⚝
+ 269E ; ideograph # ⚞
+ 269F ; ideograph # ⚟
+ 26A2 ; ideograph # ⚢
+ 26A3 ; ideograph # ⚣
+ 26A4 ; ideograph # ⚤
+ 26A5 ; ideograph # ⚥
+ 26A6 ; ideograph # ⚦
+ 26A7 ; ideograph # ⚧
+ 26A8 ; ideograph # ⚨
+ 26A9 ; ideograph # ⚩
+ 26AD ; ideograph # ⚭
+ 26AE ; ideograph # ⚮
+ 26AF ; ideograph # ⚯
+ 26B2 ; ideograph # ⚲
+ 26B3 ; ideograph # ⚳
+ 26B4 ; ideograph # ⚴
+ 26B5 ; ideograph # ⚵
+ 26B6 ; ideograph # ⚶
+ 26B7 ; ideograph # ⚷
+ 26B8 ; ideograph # ⚸
+ 26B9 ; ideograph # ⚹
+ 26BA ; ideograph # ⚺
+ 26BB ; ideograph # ⚻
+ 26BC ; ideograph # ⚼
+ 26BF ; pictograph # ⚿
+ 26C0 ; pictograph # ⛀
+ 26C1 ; pictograph # ⛁
+ 26C2 ; pictograph # ⛂
+ 26C3 ; pictograph # ⛃
+ 26C6 ; pictograph # ⛆
+ 26C7 ; pictograph # ⛇
+ 26C9 ; pictograph # ⛉
+ 26CA ; pictograph # ⛊
+ 26CB ; ideograph # ⛋
+ 26CC ; ideograph # ⛌
+ 26CD ; pictograph # ⛍
+ 26D0 ; pictograph # ⛐
+ 26D2 ; ideograph # ⛒
+ 26D5 ; ideograph # ⛕
+ 26D6 ; ideograph # ⛖
+ 26D7 ; ideograph # ⛗
+ 26D8 ; pictograph # ⛘
+ 26D9 ; pictograph # ⛙
+ 26DA ; ideograph # ⛚
+ 26DB ; ideograph # ⛛
+ 26DC ; pictograph # ⛜
+ 26DD ; ideograph # ⛝
+ 26DE ; ideograph # ⛞
+ 26DF ; pictograph # ⛟
+ 26E0 ; ideograph # ⛠
+ 26E1 ; ideograph # ⛡
+ 26E2 ; ideograph # ⛢
+ 26E3 ; ideograph # ⛣
+ 26E4 ; ideograph # ⛤
+ 26E5 ; ideograph # ⛥
+ 26E6 ; ideograph # ⛦
+ 26E7 ; ideograph # ⛧
+ 26E8 ; ideograph # ⛨
+ 26EB ; ideograph # ⛫
+ 26EC ; ideograph # ⛬
+ 26ED ; pictograph # ⛭
+ 26EE ; pictograph # ⛮
+ 26EF ; ideograph # ⛯
+ 26F6 ; ideograph # ⛶
+ 26FB ; ideograph # ⛻
+ 26FC ; ideograph # ⛼
+ 26FE ; pictograph # ⛾
+ 26FF ; pictograph # ⛿
+ 2700 ; pictograph # ✀
+ 2701 ; pictograph # ✁
+ 2703 ; pictograph # ✃
+ 2704 ; pictograph # ✄
+ 2706 ; pictograph # ✆
+ 2707 ; pictograph # ✇
+ 270E ; pictograph # ✎
+ 2710 ; pictograph # ✐
+ 2711 ; pictograph # ✑
+ 2713 ; ideograph # ✓
+ 2715 ; ideograph # ✕
+ 2717 ; ideograph # ✗
+ 2718 ; ideograph # ✘
+ 2719 ; ideograph # ✙
+ 271A ; ideograph # ✚
+ 271B ; ideograph # ✛
+ 271C ; ideograph # ✜
+ 271E ; ideograph # ✞
+ 271F ; ideograph # ✟
+ 2720 ; ideograph # ✠
+ 2722 ; ideograph # ✢
+ 2723 ; ideograph # ✣
+ 2724 ; ideograph # ✤
+ 2725 ; ideograph # ✥
+ 2726 ; ideograph # ✦
+ 2727 ; ideograph # ✧
+ 2729 ; ideograph # ✩
+ 272A ; ideograph # ✪
+ 272B ; ideograph # ✫
+ 272C ; ideograph # ✬
+ 272D ; ideograph # ✭
+ 272E ; ideograph # ✮
+ 272F ; ideograph # ✯
+ 2730 ; ideograph # ✰
+ 2731 ; ideograph # ✱
+ 2732 ; ideograph # ✲
+ 2735 ; ideograph # ✵
+ 2736 ; ideograph # ✶
+ 2737 ; ideograph # ✷
+ 2738 ; ideograph # ✸
+ 2739 ; ideograph # ✹
+ 273A ; ideograph # ✺
+ 273B ; ideograph # ✻
+ 273C ; ideograph # ✼
+ 273D ; ideograph # ✽
+ 273E ; ideograph # ✾
+ 273F ; ideograph # ✿
+ 2740 ; ideograph # ❀
+ 2741 ; ideograph # ❁
+ 2742 ; ideograph # ❂
+ 2743 ; ideograph # ❃
+ 2745 ; ideograph # ❅
+ 2746 ; ideograph # ❆
+ 2748 ; ideograph # ❈
+ 2749 ; ideograph # ❉
+ 274A ; ideograph # ❊
+ 274B ; ideograph # ❋
+ 274D ; ideograph # ❍
+ 274F ; ideograph # ❏
+ 2750 ; ideograph # ❐
+ 2751 ; ideograph # ❑
+ 2752 ; ideograph # ❒
+ 2756 ; ideograph # ❖
+ 2758 ; ideograph # ❘
+ 2759 ; ideograph # ❙
+ 275A ; ideograph # ❚
+ 275B ; ideograph # ❛
+ 275C ; ideograph # ❜
+ 275D ; ideograph # ❝
+ 275E ; ideograph # ❞
+ 275F ; ideograph # ❟
+ 2760 ; ideograph # ❠
+ 2761 ; ideograph # ❡
+ 2762 ; ideograph # ❢
+ 2765 ; ideograph # ❥
+ 2766 ; ideograph # ❦
+ 2767 ; ideograph # ❧
+ 2794 ; ideograph # ➔
+ 2798 ; ideograph # ➘
+ 2799 ; ideograph # ➙
+ 279A ; ideograph # ➚
+ 279B ; ideograph # ➛
+ 279C ; ideograph # ➜
+ 279D ; ideograph # ➝
+ 279E ; ideograph # ➞
+ 279F ; ideograph # ➟
+ 27A0 ; ideograph # ➠
+ 27A2 ; ideograph # ➢
+ 27A3 ; ideograph # ➣
+ 27A4 ; ideograph # ➤
+ 27A5 ; ideograph # ➥
+ 27A6 ; ideograph # ➦
+ 27A7 ; ideograph # ➧
+ 27A8 ; ideograph # ➨
+ 27A9 ; ideograph # ➩
+ 27AA ; ideograph # ➪
+ 27AB ; ideograph # ➫
+ 27AC ; ideograph # ➬
+ 27AD ; ideograph # ➭
+ 27AE ; ideograph # ➮
+ 27AF ; ideograph # ➯
+ 27B1 ; ideograph # ➱
+ 27B2 ; ideograph # ➲
+ 27B3 ; ideograph # ➳
+ 27B4 ; ideograph # ➴
+ 27B5 ; ideograph # ➵
+ 27B6 ; ideograph # ➶
+ 27B7 ; ideograph # ➷
+ 27B8 ; ideograph # ➸
+ 27B9 ; ideograph # ➹
+ 27BA ; ideograph # ➺
+ 27BB ; ideograph # ➻
+ 27BC ; ideograph # ➼
+ 27BD ; ideograph # ➽
+ 27BE ; ideograph # ➾
+ 2B00 ; ideograph # ⬀
+ 2B01 ; ideograph # ⬁
+ 2B02 ; ideograph # ⬂
+ 2B03 ; ideograph # ⬃
+ 2B04 ; ideograph # ⬄
+ 2B08 ; ideograph # ⬈
+ 2B09 ; ideograph # ⬉
+ 2B0A ; ideograph # ⬊
+ 2B0B ; ideograph # ⬋
+ 2B0C ; ideograph # ⬌
+ 2B0D ; ideograph # ⬍
+ 2B0E ; ideograph # ⬎
+ 2B0F ; ideograph # ⬏
+ 2B10 ; ideograph # ⬐
+ 2B11 ; ideograph # ⬑
+ 2B12 ; ideograph # ⬒
+ 2B13 ; ideograph # ⬓
+ 2B14 ; ideograph # ⬔
+ 2B15 ; ideograph # ⬕
+ 2B16 ; ideograph # ⬖
+ 2B17 ; ideograph # ⬗
+ 2B18 ; ideograph # ⬘
+ 2B19 ; ideograph # ⬙
+ 2B1A ; ideograph # ⬚
+ 2B1D ; ideograph # ⬝
+ 2B1E ; ideograph # ⬞
+ 2B1F ; ideograph # ⬟
+ 2B20 ; ideograph # ⬠
+ 2B21 ; ideograph # ⬡
+ 2B22 ; ideograph # ⬢
+ 2B23 ; ideograph # ⬣
+ 2B24 ; ideograph # ⬤
+ 2B25 ; ideograph # ⬥
+ 2B26 ; ideograph # ⬦
+ 2B27 ; ideograph # ⬧
+ 2B28 ; ideograph # ⬨
+ 2B29 ; ideograph # ⬩
+ 2B2A ; ideograph # ⬪
+ 2B2B ; ideograph # ⬫
+ 2B2C ; ideograph # ⬬
+ 2B2D ; ideograph # ⬭
+ 2B2E ; ideograph # ⬮
+ 2B2F ; ideograph # ⬯
+ 2B45 ; ideograph # ⭅
+ 2B46 ; ideograph # ⭆
+ 2B4D ; ideograph # ⭍
+ 2B4E ; ideograph # ⭎
+ 2B4F ; ideograph # ⭏
+ 2B51 ; ideograph # ⭑
+ 2B52 ; ideograph # ⭒
+ 2B53 ; ideograph # ⭓
+ 2B54 ; ideograph # ⭔
+ 2B56 ; ideograph # ⭖
+ 2B57 ; ideograph # ⭗
+ 2B58 ; ideograph # ⭘
+ 2B59 ; ideograph # ⭙
+ 2B5A ; ideograph # ⭚
+ 2B5B ; ideograph # ⭛
+ 2B5C ; ideograph # ⭜
+ 2B5D ; ideograph # ⭝
+ 2B5E ; ideograph # ⭞
+ 2B5F ; ideograph # ⭟
+ 2B60 ; ideograph # ⭠
+ 2B61 ; ideograph # ⭡
+ 2B62 ; ideograph # ⭢
+ 2B63 ; ideograph # ⭣
+ 2B64 ; ideograph # ⭤
+ 2B65 ; ideograph # ⭥
+ 2B66 ; ideograph # ⭦
+ 2B67 ; ideograph # ⭧
+ 2B68 ; ideograph # ⭨
+ 2B69 ; ideograph # ⭩
+ 2B6A ; ideograph # ⭪
+ 2B6B ; ideograph # ⭫
+ 2B6C ; ideograph # ⭬
+ 2B6D ; ideograph # ⭭
+ 2B6E ; ideograph # ⭮
+ 2B6F ; ideograph # ⭯
+ 2B70 ; ideograph # ⭰
+ 2B71 ; ideograph # ⭱
+ 2B72 ; ideograph # ⭲
+ 2B73 ; ideograph # ⭳
+ 2B76 ; ideograph # ⭶
+ 2B77 ; ideograph # ⭷
+ 2B78 ; ideograph # ⭸
+ 2B79 ; ideograph # ⭹
+ 2B7A ; ideograph # ⭺
+ 2B7B ; ideograph # ⭻
+ 2B7C ; ideograph # ⭼
+ 2B7D ; ideograph # ⭽
+ 2B7E ; ideograph # ⭾
+ 2B7F ; ideograph # ⭿
+ 2B80 ; ideograph # ⮀
+ 2B81 ; ideograph # ⮁
+ 2B82 ; ideograph # ⮂
+ 2B83 ; ideograph # ⮃
+ 2B84 ; ideograph # ⮄
+ 2B85 ; ideograph # ⮅
+ 2B86 ; ideograph # ⮆
+ 2B87 ; ideograph # ⮇
+ 2B88 ; ideograph # ⮈
+ 2B89 ; ideograph # ⮉
+ 2B8A ; ideograph # ⮊
+ 2B8B ; ideograph # ⮋
+ 2B8C ; ideograph # ⮌
+ 2B8D ; ideograph # ⮍
+ 2B8E ; ideograph # ⮎
+ 2B8F ; ideograph # ⮏
+ 2B90 ; ideograph # ⮐
+ 2B91 ; ideograph # ⮑
+ 2B92 ; ideograph # ⮒
+ 2B93 ; ideograph # ⮓
+ 2B94 ; ideograph # ⮔
+ 2B95 ; ideograph # ⮕
+ 2B98 ; ideograph # ⮘
+ 2B99 ; ideograph # ⮙
+ 2B9A ; ideograph # ⮚
+ 2B9B ; ideograph # ⮛
+ 2B9C ; ideograph # ⮜
+ 2B9D ; ideograph # ⮝
+ 2B9E ; ideograph # ⮞
+ 2B9F ; ideograph # ⮟
+ 2BA0 ; ideograph # ⮠
+ 2BA1 ; ideograph # ⮡
+ 2BA2 ; ideograph # ⮢
+ 2BA3 ; ideograph # ⮣
+ 2BA4 ; ideograph # ⮤
+ 2BA5 ; ideograph # ⮥
+ 2BA6 ; ideograph # ⮦
+ 2BA7 ; ideograph # ⮧
+ 2BA8 ; ideograph # ⮨
+ 2BA9 ; ideograph # ⮩
+ 2BAA ; ideograph # ⮪
+ 2BAB ; ideograph # ⮫
+ 2BAC ; ideograph # ⮬
+ 2BAD ; ideograph # ⮭
+ 2BAE ; ideograph # ⮮
+ 2BAF ; ideograph # ⮯
+ 2BB0 ; ideograph # ⮰
+ 2BB1 ; ideograph # ⮱
+ 2BB2 ; ideograph # ⮲
+ 2BB3 ; ideograph # ⮳
+ 2BB4 ; ideograph # ⮴
+ 2BB5 ; ideograph # ⮵
+ 2BB6 ; ideograph # ⮶
+ 2BB7 ; ideograph # ⮷
+ 2BB8 ; ideograph # ⮸
+ 2BB9 ; ideograph # ⮹
+ 2BBD ; ideograph # ⮽
+ 2BBE ; ideograph # ⮾
+ 2BBF ; ideograph # ⮿
+ 2BC0 ; ideograph # ⯀
+ 2BC1 ; ideograph # ⯁
+ 2BC2 ; ideograph # ⯂
+ 2BC3 ; ideograph # ⯃
+ 2BC4 ; ideograph # ⯄
+ 2BC5 ; ideograph # ⯅
+ 2BC6 ; ideograph # ⯆
+ 2BC7 ; ideograph # ⯇
+ 2BC8 ; ideograph # ⯈
+ 2BCA ; ideograph # ⯊
+ 2BCB ; ideograph # ⯋
+ 2BCC ; ideograph # ⯌
+ 2BCD ; ideograph # ⯍
+ 2BCE ; ideograph # ⯎
+ 2BCF ; ideograph # ⯏
+ 2BD0 ; ideograph # ⯐
+ 2BD1 ; ideograph # ⯑
+ 2BEC ; ideograph # ⯬
+ 2BED ; ideograph # ⯭
+ 2BEE ; ideograph # ⯮
+ 2BEF ; ideograph # ⯯
+ 2FF0 ; ideograph # ⿰
+ 2FF1 ; ideograph # ⿱
+ 2FF2 ; ideograph # ⿲
+ 2FF3 ; ideograph # ⿳
+ 2FF4 ; ideograph # ⿴
+ 2FF5 ; ideograph # ⿵
+ 2FF6 ; ideograph # ⿶
+ 2FF7 ; ideograph # ⿷
+ 2FF8 ; ideograph # ⿸
+ 2FF9 ; ideograph # ⿹
+ 2FFA ; ideograph # ⿺
+ 2FFB ; ideograph # ⿻
+ 3004 ; letter-like # 〄
+ 3012 ; ideograph # 〒
+ 3013 ; ideograph # 〓
+ 3020 ; ideograph # 〠
+ 3036 ; ideograph # 〶
+ 3037 ; ideograph # 〷
+ 303E ; ideograph # 〾
+ 303F ; ideograph # 〿
+ 31C0 ; letter-like # ㇀
+ 31C1 ; letter-like # ㇁
+ 31C2 ; letter-like # ㇂
+ 31C3 ; letter-like # ㇃
+ 31C4 ; letter-like # ㇄
+ 31C5 ; letter-like # ㇅
+ 31C6 ; letter-like # ㇆
+ 31C7 ; letter-like # ㇇
+ 31C8 ; letter-like # ㇈
+ 31C9 ; letter-like # ㇉
+ 31CA ; letter-like # ㇊
+ 31CB ; letter-like # ㇋
+ 31CC ; letter-like # ㇌
+ 31CD ; letter-like # ㇍
+ 31CE ; letter-like # ㇎
+ 31CF ; letter-like # ㇏
+ 31D0 ; letter-like # ㇐
+ 31D1 ; letter-like # ㇑
+ 31D2 ; letter-like # ㇒
+ 31D3 ; letter-like # ㇓
+ 31D4 ; letter-like # ㇔
+ 31D5 ; letter-like # ㇕
+ 31D6 ; letter-like # ㇖
+ 31D7 ; letter-like # ㇗
+ 31D8 ; letter-like # ㇘
+ 31D9 ; letter-like # ㇙
+ 31DA ; letter-like # ㇚
+ 31DB ; letter-like # ㇛
+ 31DC ; letter-like # ㇜
+ 31DD ; letter-like # ㇝
+ 31DE ; letter-like # ㇞
+ 31DF ; letter-like # ㇟
+ 31E0 ; letter-like # ㇠
+ 31E1 ; letter-like # ㇡
+ 31E2 ; letter-like # ㇢
+ 31E3 ; letter-like # ㇣
+ 3250 ; letter-like # ㉐
+ 32CC ; letter-like # ㋌
+ 32CD ; letter-like # ㋍
+ 32CE ; letter-like # ㋎
+ 32CF ; letter-like # ㋏
+ 3377 ; letter-like # ㍷
+ 3378 ; letter-like # ㍸
+ 3379 ; letter-like # ㍹
+ 337A ; letter-like # ㍺
+ 33DE ; letter-like # ㏞
+ 33DF ; letter-like # ㏟
+ 33FF ; letter-like # ㏿
+ 4DC0 ; ideograph # ䷀
+ 4DC1 ; ideograph # ䷁
+ 4DC2 ; ideograph # ䷂
+ 4DC3 ; ideograph # ䷃
+ 4DC4 ; ideograph # ䷄
+ 4DC5 ; ideograph # ䷅
+ 4DC6 ; ideograph # ䷆
+ 4DC7 ; ideograph # ䷇
+ 4DC8 ; ideograph # ䷈
+ 4DC9 ; ideograph # ䷉
+ 4DCA ; ideograph # ䷊
+ 4DCB ; ideograph # ䷋
+ 4DCC ; ideograph # ䷌
+ 4DCD ; ideograph # ䷍
+ 4DCE ; ideograph # ䷎
+ 4DCF ; ideograph # ䷏
+ 4DD0 ; ideograph # ䷐
+ 4DD1 ; ideograph # ䷑
+ 4DD2 ; ideograph # ䷒
+ 4DD3 ; ideograph # ䷓
+ 4DD4 ; ideograph # ䷔
+ 4DD5 ; ideograph # ䷕
+ 4DD6 ; ideograph # ䷖
+ 4DD7 ; ideograph # ䷗
+ 4DD8 ; ideograph # ䷘
+ 4DD9 ; ideograph # ䷙
+ 4DDA ; ideograph # ䷚
+ 4DDB ; ideograph # ䷛
+ 4DDC ; ideograph # ䷜
+ 4DDD ; ideograph # ䷝
+ 4DDE ; ideograph # ䷞
+ 4DDF ; ideograph # ䷟
+ 4DE0 ; ideograph # ䷠
+ 4DE1 ; ideograph # ䷡
+ 4DE2 ; ideograph # ䷢
+ 4DE3 ; ideograph # ䷣
+ 4DE4 ; ideograph # ䷤
+ 4DE5 ; ideograph # ䷥
+ 4DE6 ; ideograph # ䷦
+ 4DE7 ; ideograph # ䷧
+ 4DE8 ; ideograph # ䷨
+ 4DE9 ; ideograph # ䷩
+ 4DEA ; ideograph # ䷪
+ 4DEB ; ideograph # ䷫
+ 4DEC ; ideograph # ䷬
+ 4DED ; ideograph # ䷭
+ 4DEE ; ideograph # ䷮
+ 4DEF ; ideograph # ䷯
+ 4DF0 ; ideograph # ䷰
+ 4DF1 ; ideograph # ䷱
+ 4DF2 ; ideograph # ䷲
+ 4DF3 ; ideograph # ䷳
+ 4DF4 ; ideograph # ䷴
+ 4DF5 ; ideograph # ䷵
+ 4DF6 ; ideograph # ䷶
+ 4DF7 ; ideograph # ䷷
+ 4DF8 ; ideograph # ䷸
+ 4DF9 ; ideograph # ䷹
+ 4DFA ; ideograph # ䷺
+ 4DFB ; ideograph # ䷻
+ 4DFC ; ideograph # ䷼
+ 4DFD ; ideograph # ䷽
+ 4DFE ; ideograph # ䷾
+ 4DFF ; ideograph # ䷿
+ FFE4 ; ideograph # ￤
+ FFE8 ; ideograph # ￨
+ FFED ; ideograph # ￭
+ FFEE ; ideograph # ￮
+ FFFC ; ideograph # ￼
+ FFFD ; ideograph # �
+10190 ; ideograph # 𐆐
+10191 ; ideograph # 𐆑
+10192 ; letter-like # 𐆒
+10193 ; letter-like # 𐆓
+10194 ; letter-like # 𐆔
+10195 ; ideograph # 𐆕
+10196 ; letter-like # 𐆖
+10197 ; letter-like # 𐆗
+10198 ; letter-like # 𐆘
+10199 ; letter-like # 𐆙
+1019A ; letter-like # 𐆚
+1019B ; letter-like # 𐆛
+1D300 ; ideograph # 𝌀
+1D301 ; ideograph # 𝌁
+1D302 ; ideograph # 𝌂
+1D303 ; ideograph # 𝌃
+1D304 ; ideograph # 𝌄
+1D305 ; ideograph # 𝌅
+1D306 ; ideograph # 𝌆
+1D307 ; ideograph # 𝌇
+1D308 ; ideograph # 𝌈
+1D309 ; ideograph # 𝌉
+1D30A ; ideograph # 𝌊
+1D30B ; ideograph # 𝌋
+1D30C ; ideograph # 𝌌
+1D30D ; ideograph # 𝌍
+1D30E ; ideograph # 𝌎
+1D30F ; ideograph # 𝌏
+1D310 ; ideograph # 𝌐
+1D311 ; ideograph # 𝌑
+1D312 ; ideograph # 𝌒
+1D313 ; ideograph # 𝌓
+1D314 ; ideograph # 𝌔
+1D315 ; ideograph # 𝌕
+1D316 ; ideograph # 𝌖
+1D317 ; ideograph # 𝌗
+1D318 ; ideograph # 𝌘
+1D319 ; ideograph # 𝌙
+1D31A ; ideograph # 𝌚
+1D31B ; ideograph # 𝌛
+1D31C ; ideograph # 𝌜
+1D31D ; ideograph # 𝌝
+1D31E ; ideograph # 𝌞
+1D31F ; ideograph # 𝌟
+1D320 ; ideograph # 𝌠
+1D321 ; ideograph # 𝌡
+1D322 ; ideograph # 𝌢
+1D323 ; ideograph # 𝌣
+1D324 ; ideograph # 𝌤
+1D325 ; ideograph # 𝌥
+1D326 ; ideograph # 𝌦
+1D327 ; ideograph # 𝌧
+1D328 ; ideograph # 𝌨
+1D329 ; ideograph # 𝌩
+1D32A ; ideograph # 𝌪
+1D32B ; ideograph # 𝌫
+1D32C ; ideograph # 𝌬
+1D32D ; ideograph # 𝌭
+1D32E ; ideograph # 𝌮
+1D32F ; ideograph # 𝌯
+1D330 ; ideograph # 𝌰
+1D331 ; ideograph # 𝌱
+1D332 ; ideograph # 𝌲
+1D333 ; ideograph # 𝌳
+1D334 ; ideograph # 𝌴
+1D335 ; ideograph # 𝌵
+1D336 ; ideograph # 𝌶
+1D337 ; ideograph # 𝌷
+1D338 ; ideograph # 𝌸
+1D339 ; ideograph # 𝌹
+1D33A ; ideograph # 𝌺
+1D33B ; ideograph # 𝌻
+1D33C ; ideograph # 𝌼
+1D33D ; ideograph # 𝌽
+1D33E ; ideograph # 𝌾
+1D33F ; ideograph # 𝌿
+1D340 ; ideograph # 𝍀
+1D341 ; ideograph # 𝍁
+1D342 ; ideograph # 𝍂
+1D343 ; ideograph # 𝍃
+1D344 ; ideograph # 𝍄
+1D345 ; ideograph # 𝍅
+1D346 ; ideograph # 𝍆
+1D347 ; ideograph # 𝍇
+1D348 ; ideograph # 𝍈
+1D349 ; ideograph # 𝍉
+1D34A ; ideograph # 𝍊
+1D34B ; ideograph # 𝍋
+1D34C ; ideograph # 𝍌
+1D34D ; ideograph # 𝍍
+1D34E ; ideograph # 𝍎
+1D34F ; ideograph # 𝍏
+1D350 ; ideograph # 𝍐
+1D351 ; ideograph # 𝍑
+1D352 ; ideograph # 𝍒
+1D353 ; ideograph # 𝍓
+1D354 ; ideograph # 𝍔
+1D355 ; ideograph # 𝍕
+1D356 ; ideograph # 𝍖
+1F000 ; pictograph # 🀀
+1F001 ; pictograph # 🀁
+1F002 ; pictograph # 🀂
+1F003 ; pictograph # 🀃
+1F005 ; pictograph # 🀅
+1F006 ; pictograph # 🀆
+1F007 ; pictograph # 🀇
+1F008 ; pictograph # 🀈
+1F009 ; pictograph # 🀉
+1F00A ; pictograph # 🀊
+1F00B ; pictograph # 🀋
+1F00C ; pictograph # 🀌
+1F00D ; pictograph # 🀍
+1F00E ; pictograph # 🀎
+1F00F ; pictograph # 🀏
+1F010 ; pictograph # 🀐
+1F011 ; pictograph # 🀑
+1F012 ; pictograph # 🀒
+1F013 ; pictograph # 🀓
+1F014 ; pictograph # 🀔
+1F015 ; pictograph # 🀕
+1F016 ; pictograph # 🀖
+1F017 ; pictograph # 🀗
+1F018 ; pictograph # 🀘
+1F019 ; pictograph # 🀙
+1F01A ; pictograph # 🀚
+1F01B ; pictograph # 🀛
+1F01C ; pictograph # 🀜
+1F01D ; pictograph # 🀝
+1F01E ; pictograph # 🀞
+1F01F ; pictograph # 🀟
+1F020 ; pictograph # 🀠
+1F021 ; pictograph # 🀡
+1F022 ; pictograph # 🀢
+1F023 ; pictograph # 🀣
+1F024 ; pictograph # 🀤
+1F025 ; pictograph # 🀥
+1F026 ; pictograph # 🀦
+1F027 ; pictograph # 🀧
+1F028 ; pictograph # 🀨
+1F029 ; pictograph # 🀩
+1F02A ; pictograph # 🀪
+1F02B ; pictograph # 🀫
+1F030 ; pictograph # 🀰
+1F031 ; pictograph # 🀱
+1F032 ; pictograph # 🀲
+1F033 ; pictograph # 🀳
+1F034 ; pictograph # 🀴
+1F035 ; pictograph # 🀵
+1F036 ; pictograph # 🀶
+1F037 ; pictograph # 🀷
+1F038 ; pictograph # 🀸
+1F039 ; pictograph # 🀹
+1F03A ; pictograph # 🀺
+1F03B ; pictograph # 🀻
+1F03C ; pictograph # 🀼
+1F03D ; pictograph # 🀽
+1F03E ; pictograph # 🀾
+1F03F ; pictograph # 🀿
+1F040 ; pictograph # 🁀
+1F041 ; pictograph # 🁁
+1F042 ; pictograph # 🁂
+1F043 ; pictograph # 🁃
+1F044 ; pictograph # 🁄
+1F045 ; pictograph # 🁅
+1F046 ; pictograph # 🁆
+1F047 ; pictograph # 🁇
+1F048 ; pictograph # 🁈
+1F049 ; pictograph # 🁉
+1F04A ; pictograph # 🁊
+1F04B ; pictograph # 🁋
+1F04C ; pictograph # 🁌
+1F04D ; pictograph # 🁍
+1F04E ; pictograph # 🁎
+1F04F ; pictograph # 🁏
+1F050 ; pictograph # 🁐
+1F051 ; pictograph # 🁑
+1F052 ; pictograph # 🁒
+1F053 ; pictograph # 🁓
+1F054 ; pictograph # 🁔
+1F055 ; pictograph # 🁕
+1F056 ; pictograph # 🁖
+1F057 ; pictograph # 🁗
+1F058 ; pictograph # 🁘
+1F059 ; pictograph # 🁙
+1F05A ; pictograph # 🁚
+1F05B ; pictograph # 🁛
+1F05C ; pictograph # 🁜
+1F05D ; pictograph # 🁝
+1F05E ; pictograph # 🁞
+1F05F ; pictograph # 🁟
+1F060 ; pictograph # 🁠
+1F061 ; pictograph # 🁡
+1F062 ; pictograph # 🁢
+1F063 ; pictograph # 🁣
+1F064 ; pictograph # 🁤
+1F065 ; pictograph # 🁥
+1F066 ; pictograph # 🁦
+1F067 ; pictograph # 🁧
+1F068 ; pictograph # 🁨
+1F069 ; pictograph # 🁩
+1F06A ; pictograph # 🁪
+1F06B ; pictograph # 🁫
+1F06C ; pictograph # 🁬
+1F06D ; pictograph # 🁭
+1F06E ; pictograph # 🁮
+1F06F ; pictograph # 🁯
+1F070 ; pictograph # 🁰
+1F071 ; pictograph # 🁱
+1F072 ; pictograph # 🁲
+1F073 ; pictograph # 🁳
+1F074 ; pictograph # 🁴
+1F075 ; pictograph # 🁵
+1F076 ; pictograph # 🁶
+1F077 ; pictograph # 🁷
+1F078 ; pictograph # 🁸
+1F079 ; pictograph # 🁹
+1F07A ; pictograph # 🁺
+1F07B ; pictograph # 🁻
+1F07C ; pictograph # 🁼
+1F07D ; pictograph # 🁽
+1F07E ; pictograph # 🁾
+1F07F ; pictograph # 🁿
+1F080 ; pictograph # 🂀
+1F081 ; pictograph # 🂁
+1F082 ; pictograph # 🂂
+1F083 ; pictograph # 🂃
+1F084 ; pictograph # 🂄
+1F085 ; pictograph # 🂅
+1F086 ; pictograph # 🂆
+1F087 ; pictograph # 🂇
+1F088 ; pictograph # 🂈
+1F089 ; pictograph # 🂉
+1F08A ; pictograph # 🂊
+1F08B ; pictograph # 🂋
+1F08C ; pictograph # 🂌
+1F08D ; pictograph # 🂍
+1F08E ; pictograph # 🂎
+1F08F ; pictograph # 🂏
+1F090 ; pictograph # 🂐
+1F091 ; pictograph # 🂑
+1F092 ; pictograph # 🂒
+1F093 ; pictograph # 🂓
+1F0A0 ; pictograph # 🂠
+1F0A1 ; pictograph # 🂡
+1F0A2 ; pictograph # 🂢
+1F0A3 ; pictograph # 🂣
+1F0A4 ; pictograph # 🂤
+1F0A5 ; pictograph # 🂥
+1F0A6 ; pictograph # 🂦
+1F0A7 ; pictograph # 🂧
+1F0A8 ; pictograph # 🂨
+1F0A9 ; pictograph # 🂩
+1F0AA ; pictograph # 🂪
+1F0AB ; pictograph # 🂫
+1F0AC ; pictograph # 🂬
+1F0AD ; pictograph # 🂭
+1F0AE ; pictograph # 🂮
+1F0B1 ; pictograph # 🂱
+1F0B2 ; pictograph # 🂲
+1F0B3 ; pictograph # 🂳
+1F0B4 ; pictograph # 🂴
+1F0B5 ; pictograph # 🂵
+1F0B6 ; pictograph # 🂶
+1F0B7 ; pictograph # 🂷
+1F0B8 ; pictograph # 🂸
+1F0B9 ; pictograph # 🂹
+1F0BA ; pictograph # 🂺
+1F0BB ; pictograph # 🂻
+1F0BC ; pictograph # 🂼
+1F0BD ; pictograph # 🂽
+1F0BE ; pictograph # 🂾
+1F0BF ; pictograph # 🂿
+1F0C1 ; pictograph # 🃁
+1F0C2 ; pictograph # 🃂
+1F0C3 ; pictograph # 🃃
+1F0C4 ; pictograph # 🃄
+1F0C5 ; pictograph # 🃅
+1F0C6 ; pictograph # 🃆
+1F0C7 ; pictograph # 🃇
+1F0C8 ; pictograph # 🃈
+1F0C9 ; pictograph # 🃉
+1F0CA ; pictograph # 🃊
+1F0CB ; pictograph # 🃋
+1F0CC ; pictograph # 🃌
+1F0CD ; pictograph # 🃍
+1F0CE ; pictograph # 🃎
+1F0D1 ; pictograph # 🃑
+1F0D2 ; pictograph # 🃒
+1F0D3 ; pictograph # 🃓
+1F0D4 ; pictograph # 🃔
+1F0D5 ; pictograph # 🃕
+1F0D6 ; pictograph # 🃖
+1F0D7 ; pictograph # 🃗
+1F0D8 ; pictograph # 🃘
+1F0D9 ; pictograph # 🃙
+1F0DA ; pictograph # 🃚
+1F0DB ; pictograph # 🃛
+1F0DC ; pictograph # 🃜
+1F0DD ; pictograph # 🃝
+1F0DE ; pictograph # 🃞
+1F0DF ; pictograph # 🃟
+1F0E0 ; pictograph # 🃠
+1F0E1 ; pictograph # 🃡
+1F0E2 ; pictograph # 🃢
+1F0E3 ; pictograph # 🃣
+1F0E4 ; pictograph # 🃤
+1F0E5 ; pictograph # 🃥
+1F0E6 ; pictograph # 🃦
+1F0E7 ; pictograph # 🃧
+1F0E8 ; pictograph # 🃨
+1F0E9 ; pictograph # 🃩
+1F0EA ; pictograph # 🃪
+1F0EB ; pictograph # 🃫
+1F0EC ; pictograph # 🃬
+1F0ED ; pictograph # 🃭
+1F0EE ; pictograph # 🃮
+1F0EF ; pictograph # 🃯
+1F0F0 ; pictograph # 🃰
+1F0F1 ; pictograph # 🃱
+1F0F2 ; pictograph # 🃲
+1F0F3 ; pictograph # 🃳
+1F0F4 ; pictograph # 🃴
+1F0F5 ; pictograph # 🃵
+1F16A ; letter-like # 🅪
+1F16B ; letter-like # 🅫
+1F322 ; pictograph # 🌢
+1F323 ; pictograph # 🌣
+1F394 ; ideograph # 🎔
+1F395 ; pictograph # 🎕
+1F398 ; pictograph # 🎘
+1F39C ; ideograph # 🎜
+1F39D ; ideograph # 🎝
+1F3F1 ; pictograph # 🏱
+1F3F2 ; pictograph # 🏲
+1F3F6 ; pictograph # 🏶
+1F4FE ; pictograph # 📾
+1F53E ; ideograph # 🔾
+1F53F ; ideograph # 🔿
+1F540 ; ideograph # 🕀
+1F541 ; ideograph # 🕁
+1F542 ; ideograph # 🕂
+1F543 ; ideograph # 🕃
+1F544 ; ideograph # 🕄
+1F545 ; ideograph # 🕅
+1F546 ; ideograph # 🕆
+1F547 ; ideograph # 🕇
+1F548 ; ideograph # 🕈
+1F54F ; ideograph # 🕏
+1F568 ; pictograph # 🕨
+1F569 ; pictograph # 🕩
+1F56A ; pictograph # 🕪
+1F56B ; pictograph # 🕫
+1F56C ; pictograph # 🕬
+1F56D ; pictograph # 🕭
+1F56E ; pictograph # 🕮
+1F571 ; pictograph # 🕱
+1F572 ; pictograph # 🕲
+1F57B ; pictograph # 🕻
+1F57C ; pictograph # 🕼
+1F57D ; pictograph # 🕽
+1F57E ; pictograph # 🕾
+1F57F ; pictograph # 🕿
+1F580 ; pictograph # 🖀
+1F581 ; pictograph # 🖁
+1F582 ; pictograph # 🖂
+1F583 ; pictograph # 🖃
+1F584 ; pictograph # 🖄
+1F585 ; pictograph # 🖅
+1F586 ; pictograph # 🖆
+1F588 ; pictograph # 🖈
+1F589 ; pictograph # 🖉
+1F58E ; pictograph # 🖎
+1F58F ; pictograph # 🖏
+1F591 ; pictograph # 🖑
+1F592 ; pictograph # 🖒
+1F593 ; pictograph # 🖓
+1F594 ; pictograph # 🖔
+1F597 ; pictograph # 🖗
+1F598 ; pictograph # 🖘
+1F599 ; pictograph # 🖙
+1F59A ; pictograph # 🖚
+1F59B ; pictograph # 🖛
+1F59C ; pictograph # 🖜
+1F59D ; pictograph # 🖝
+1F59E ; pictograph # 🖞
+1F59F ; pictograph # 🖟
+1F5A0 ; pictograph # 🖠
+1F5A1 ; pictograph # 🖡
+1F5A2 ; pictograph # 🖢
+1F5A3 ; pictograph # 🖣
+1F5A6 ; pictograph # 🖦
+1F5A7 ; pictograph # 🖧
+1F5A9 ; pictograph # 🖩
+1F5AA ; pictograph # 🖪
+1F5AB ; pictograph # 🖫
+1F5AC ; pictograph # 🖬
+1F5AD ; pictograph # 🖭
+1F5AE ; pictograph # 🖮
+1F5AF ; pictograph # 🖯
+1F5B0 ; pictograph # 🖰
+1F5B3 ; pictograph # 🖳
+1F5B4 ; pictograph # 🖴
+1F5B5 ; ideograph # 🖵
+1F5B6 ; pictograph # 🖶
+1F5B7 ; pictograph # 🖷
+1F5B8 ; pictograph # 🖸
+1F5B9 ; pictograph # 🖹
+1F5BA ; pictograph # 🖺
+1F5BB ; pictograph # 🖻
+1F5BD ; pictograph # 🖽
+1F5BE ; pictograph # 🖾
+1F5BF ; pictograph # 🖿
+1F5C0 ; pictograph # 🗀
+1F5C1 ; pictograph # 🗁
+1F5C5 ; pictograph # 🗅
+1F5C6 ; pictograph # 🗆
+1F5C7 ; pictograph # 🗇
+1F5C8 ; pictograph # 🗈
+1F5C9 ; pictograph # 🗉
+1F5CA ; pictograph # 🗊
+1F5CB ; pictograph # 🗋
+1F5CC ; pictograph # 🗌
+1F5CD ; pictograph # 🗍
+1F5CE ; pictograph # 🗎
+1F5CF ; pictograph # 🗏
+1F5D0 ; pictograph # 🗐
+1F5D4 ; ideograph # 🗔
+1F5D5 ; ideograph # 🗕
+1F5D6 ; ideograph # 🗖
+1F5D7 ; ideograph # 🗗
+1F5D8 ; ideograph # 🗘
+1F5D9 ; ideograph # 🗙
+1F5DA ; letter-like # 🗚
+1F5DB ; letter-like # 🗛
+1F5DF ; pictograph # 🗟
+1F5E0 ; pictograph # 🗠
+1F5E2 ; pictograph # 🗢
+1F5E4 ; ideograph # 🗤
+1F5E5 ; ideograph # 🗥
+1F5E6 ; ideograph # 🗦
+1F5E7 ; ideograph # 🗧
+1F5E9 ; ideograph # 🗩
+1F5EA ; ideograph # 🗪
+1F5EB ; ideograph # 🗫
+1F5EC ; ideograph # 🗬
+1F5ED ; ideograph # 🗭
+1F5EE ; ideograph # 🗮
+1F5F0 ; ideograph # 🗰
+1F5F1 ; ideograph # 🗱
+1F5F2 ; ideograph # 🗲
+1F5F4 ; ideograph # 🗴
+1F5F5 ; ideograph # 🗵
+1F5F6 ; ideograph # 🗶
+1F5F7 ; ideograph # 🗷
+1F5F8 ; ideograph # 🗸
+1F5F9 ; ideograph # 🗹
+1F650 ; ideograph # 🙐
+1F651 ; ideograph # 🙑
+1F652 ; ideograph # 🙒
+1F653 ; ideograph # 🙓
+1F654 ; ideograph # 🙔
+1F655 ; ideograph # 🙕
+1F656 ; ideograph # 🙖
+1F657 ; ideograph # 🙗
+1F658 ; ideograph # 🙘
+1F659 ; ideograph # 🙙
+1F65A ; ideograph # 🙚
+1F65B ; ideograph # 🙛
+1F65C ; ideograph # 🙜
+1F65D ; ideograph # 🙝
+1F65E ; ideograph # 🙞
+1F65F ; ideograph # 🙟
+1F660 ; ideograph # 🙠
+1F661 ; ideograph # 🙡
+1F662 ; ideograph # 🙢
+1F663 ; ideograph # 🙣
+1F664 ; ideograph # 🙤
+1F665 ; ideograph # 🙥
+1F666 ; ideograph # 🙦
+1F667 ; ideograph # 🙧
+1F668 ; ideograph # 🙨
+1F669 ; ideograph # 🙩
+1F66A ; ideograph # 🙪
+1F66B ; ideograph # 🙫
+1F66C ; ideograph # 🙬
+1F66D ; ideograph # 🙭
+1F66E ; ideograph # 🙮
+1F66F ; ideograph # 🙯
+1F670 ; letter-like # 🙰
+1F671 ; letter-like # 🙱
+1F672 ; letter-like # 🙲
+1F673 ; letter-like # 🙳
+1F674 ; letter-like # 🙴
+1F675 ; letter-like # 🙵
+1F676 ; ideograph # 🙶
+1F677 ; ideograph # 🙷
+1F678 ; ideograph # 🙸
+1F679 ; ideograph # 🙹
+1F67A ; ideograph # 🙺
+1F67B ; ideograph # 🙻
+1F67C ; ideograph # 🙼
+1F67D ; ideograph # 🙽
+1F67E ; ideograph # 🙾
+1F67F ; ideograph # 🙿
+1F6C6 ; ideograph # 🛆
+1F6C7 ; ideograph # 🛇
+1F6C8 ; ideograph # 🛈
+1F6C9 ; pictograph # 🛉
+1F6CA ; pictograph # 🛊
+1F6E6 ; pictograph # 🛦
+1F6E7 ; pictograph # 🛧
+1F6E8 ; pictograph # 🛨
+1F6EA ; pictograph # 🛪
+1F6F1 ; pictograph # 🛱
+1F6F2 ; pictograph # 🛲
+1F700 ; letter-like # 🜀
+1F701 ; ideograph # 🜁
+1F702 ; ideograph # 🜂
+1F703 ; ideograph # 🜃
+1F704 ; ideograph # 🜄
+1F705 ; ideograph # 🜅
+1F706 ; ideograph # 🜆
+1F707 ; letter-like # 🜇
+1F708 ; ideograph # 🜈
+1F709 ; ideograph # 🜉
+1F70A ; ideograph # 🜊
+1F70B ; ideograph # 🜋
+1F70C ; ideograph # 🜌
+1F70D ; ideograph # 🜍
+1F70E ; ideograph # 🜎
+1F70F ; ideograph # 🜏
+1F710 ; ideograph # 🜐
+1F711 ; ideograph # 🜑
+1F712 ; ideograph # 🜒
+1F713 ; ideograph # 🜓
+1F714 ; ideograph # 🜔
+1F715 ; ideograph # 🜕
+1F716 ; ideograph # 🜖
+1F717 ; ideograph # 🜗
+1F718 ; ideograph # 🜘
+1F719 ; ideograph # 🜙
+1F71A ; ideograph # 🜚
+1F71B ; ideograph # 🜛
+1F71C ; ideograph # 🜜
+1F71D ; ideograph # 🜝
+1F71E ; ideograph # 🜞
+1F71F ; ideograph # 🜟
+1F720 ; ideograph # 🜠
+1F721 ; ideograph # 🜡
+1F722 ; ideograph # 🜢
+1F723 ; ideograph # 🜣
+1F724 ; ideograph # 🜤
+1F725 ; ideograph # 🜥
+1F726 ; ideograph # 🜦
+1F727 ; ideograph # 🜧
+1F728 ; ideograph # 🜨
+1F729 ; ideograph # 🜩
+1F72A ; ideograph # 🜪
+1F72B ; ideograph # 🜫
+1F72C ; ideograph # 🜬
+1F72D ; ideograph # 🜭
+1F72E ; ideograph # 🜮
+1F72F ; ideograph # 🜯
+1F730 ; ideograph # 🜰
+1F731 ; ideograph # 🜱
+1F732 ; ideograph # 🜲
+1F733 ; ideograph # 🜳
+1F734 ; ideograph # 🜴
+1F735 ; ideograph # 🜵
+1F736 ; ideograph # 🜶
+1F737 ; ideograph # 🜷
+1F738 ; ideograph # 🜸
+1F739 ; ideograph # 🜹
+1F73A ; ideograph # 🜺
+1F73B ; ideograph # 🜻
+1F73C ; ideograph # 🜼
+1F73D ; ideograph # 🜽
+1F73E ; ideograph # 🜾
+1F73F ; ideograph # 🜿
+1F740 ; ideograph # 🝀
+1F741 ; ideograph # 🝁
+1F742 ; ideograph # 🝂
+1F743 ; ideograph # 🝃
+1F744 ; ideograph # 🝄
+1F745 ; ideograph # 🝅
+1F746 ; ideograph # 🝆
+1F747 ; ideograph # 🝇
+1F748 ; letter-like # 🝈
+1F749 ; letter-like # 🝉
+1F74A ; ideograph # 🝊
+1F74B ; ideograph # 🝋
+1F74C ; letter-like # 🝌
+1F74D ; letter-like # 🝍
+1F74E ; ideograph # 🝎
+1F74F ; ideograph # 🝏
+1F750 ; ideograph # 🝐
+1F751 ; ideograph # 🝑
+1F752 ; ideograph # 🝒
+1F753 ; ideograph # 🝓
+1F754 ; ideograph # 🝔
+1F755 ; ideograph # 🝕
+1F756 ; ideograph # 🝖
+1F757 ; ideograph # 🝗
+1F758 ; ideograph # 🝘
+1F759 ; ideograph # 🝙
+1F75A ; ideograph # 🝚
+1F75B ; letter-like # 🝛
+1F75C ; letter-like # 🝜
+1F75D ; ideograph # 🝝
+1F75E ; ideograph # 🝞
+1F75F ; ideograph # 🝟
+1F760 ; ideograph # 🝠
+1F761 ; ideograph # 🝡
+1F762 ; ideograph # 🝢
+1F763 ; ideograph # 🝣
+1F764 ; ideograph # 🝤
+1F765 ; ideograph # 🝥
+1F766 ; ideograph # 🝦
+1F767 ; ideograph # 🝧
+1F768 ; ideograph # 🝨
+1F769 ; ideograph # 🝩
+1F76A ; ideograph # 🝪
+1F76B ; letter-like # 🝫
+1F76C ; letter-like # 🝬
+1F76D ; ideograph # 🝭
+1F76E ; ideograph # 🝮
+1F76F ; ideograph # 🝯
+1F770 ; ideograph # 🝰
+1F771 ; ideograph # 🝱
+1F772 ; letter-like # 🝲
+1F773 ; letter-like # 🝳
+1F780 ; ideograph # 🞀
+1F781 ; ideograph # 🞁
+1F782 ; ideograph # 🞂
+1F783 ; ideograph # 🞃
+1F784 ; ideograph # 🞄
+1F785 ; ideograph # 🞅
+1F786 ; ideograph # 🞆
+1F787 ; ideograph # 🞇
+1F788 ; ideograph # 🞈
+1F789 ; ideograph # 🞉
+1F78A ; ideograph # 🞊
+1F78B ; ideograph # 🞋
+1F78C ; ideograph # 🞌
+1F78D ; ideograph # 🞍
+1F78E ; ideograph # 🞎
+1F78F ; ideograph # 🞏
+1F790 ; ideograph # 🞐
+1F791 ; ideograph # 🞑
+1F792 ; ideograph # 🞒
+1F793 ; ideograph # 🞓
+1F794 ; ideograph # 🞔
+1F795 ; ideograph # 🞕
+1F796 ; ideograph # 🞖
+1F797 ; ideograph # 🞗
+1F798 ; ideograph # 🞘
+1F799 ; ideograph # 🞙
+1F79A ; ideograph # 🞚
+1F79B ; ideograph # 🞛
+1F79C ; ideograph # 🞜
+1F79D ; ideograph # 🞝
+1F79E ; ideograph # 🞞
+1F79F ; ideograph # 🞟
+1F7A0 ; ideograph # 🞠
+1F7A1 ; ideograph # 🞡
+1F7A2 ; ideograph # 🞢
+1F7A3 ; ideograph # 🞣
+1F7A4 ; ideograph # 🞤
+1F7A5 ; ideograph # 🞥
+1F7A6 ; ideograph # 🞦
+1F7A7 ; ideograph # 🞧
+1F7A8 ; ideograph # 🞨
+1F7A9 ; ideograph # 🞩
+1F7AA ; ideograph # 🞪
+1F7AB ; ideograph # 🞫
+1F7AC ; ideograph # 🞬
+1F7AD ; ideograph # 🞭
+1F7AE ; ideograph # 🞮
+1F7AF ; ideograph # 🞯
+1F7B0 ; ideograph # 🞰
+1F7B1 ; ideograph # 🞱
+1F7B2 ; ideograph # 🞲
+1F7B3 ; ideograph # 🞳
+1F7B4 ; ideograph # 🞴
+1F7B5 ; ideograph # 🞵
+1F7B6 ; ideograph # 🞶
+1F7B7 ; ideograph # 🞷
+1F7B8 ; ideograph # 🞸
+1F7B9 ; ideograph # 🞹
+1F7BA ; ideograph # 🞺
+1F7BB ; ideograph # 🞻
+1F7BC ; ideograph # 🞼
+1F7BD ; ideograph # 🞽
+1F7BE ; ideograph # 🞾
+1F7BF ; ideograph # 🞿
+1F7C0 ; ideograph # 🟀
+1F7C1 ; ideograph # 🟁
+1F7C2 ; ideograph # 🟂
+1F7C3 ; ideograph # 🟃
+1F7C4 ; ideograph # 🟄
+1F7C5 ; ideograph # 🟅
+1F7C6 ; ideograph # 🟆
+1F7C7 ; ideograph # 🟇
+1F7C8 ; ideograph # 🟈
+1F7C9 ; ideograph # 🟉
+1F7CA ; ideograph # 🟊
+1F7CB ; ideograph # 🟋
+1F7CC ; ideograph # 🟌
+1F7CD ; ideograph # 🟍
+1F7CE ; ideograph # 🟎
+1F7CF ; ideograph # 🟏
+1F7D0 ; ideograph # 🟐
+1F7D1 ; ideograph # 🟑
+1F7D2 ; ideograph # 🟒
+1F7D3 ; ideograph # 🟓
+1F7D4 ; ideograph # 🟔
+1F800 ; ideograph # 🠀
+1F801 ; ideograph # 🠁
+1F802 ; ideograph # 🠂
+1F803 ; ideograph # 🠃
+1F804 ; ideograph # 🠄
+1F805 ; ideograph # 🠅
+1F806 ; ideograph # 🠆
+1F807 ; ideograph # 🠇
+1F808 ; ideograph # 🠈
+1F809 ; ideograph # 🠉
+1F80A ; ideograph # 🠊
+1F80B ; ideograph # 🠋
+1F810 ; ideograph # 🠐
+1F811 ; ideograph # 🠑
+1F812 ; ideograph # 🠒
+1F813 ; ideograph # 🠓
+1F814 ; ideograph # 🠔
+1F815 ; ideograph # 🠕
+1F816 ; ideograph # 🠖
+1F817 ; ideograph # 🠗
+1F818 ; ideograph # 🠘
+1F819 ; ideograph # 🠙
+1F81A ; ideograph # 🠚
+1F81B ; ideograph # 🠛
+1F81C ; ideograph # 🠜
+1F81D ; ideograph # 🠝
+1F81E ; ideograph # 🠞
+1F81F ; ideograph # 🠟
+1F820 ; ideograph # 🠠
+1F821 ; ideograph # 🠡
+1F822 ; ideograph # 🠢
+1F823 ; ideograph # 🠣
+1F824 ; ideograph # 🠤
+1F825 ; ideograph # 🠥
+1F826 ; ideograph # 🠦
+1F827 ; ideograph # 🠧
+1F828 ; ideograph # 🠨
+1F829 ; ideograph # 🠩
+1F82A ; ideograph # 🠪
+1F82B ; ideograph # 🠫
+1F82C ; ideograph # 🠬
+1F82D ; ideograph # 🠭
+1F82E ; ideograph # 🠮
+1F82F ; ideograph # 🠯
+1F830 ; ideograph # 🠰
+1F831 ; ideograph # 🠱
+1F832 ; ideograph # 🠲
+1F833 ; ideograph # 🠳
+1F834 ; ideograph # 🠴
+1F835 ; ideograph # 🠵
+1F836 ; ideograph # 🠶
+1F837 ; ideograph # 🠷
+1F838 ; ideograph # 🠸
+1F839 ; ideograph # 🠹
+1F83A ; ideograph # 🠺
+1F83B ; ideograph # 🠻
+1F83C ; ideograph # 🠼
+1F83D ; ideograph # 🠽
+1F83E ; ideograph # 🠾
+1F83F ; ideograph # 🠿
+1F840 ; ideograph # 🡀
+1F841 ; ideograph # 🡁
+1F842 ; ideograph # 🡂
+1F843 ; ideograph # 🡃
+1F844 ; ideograph # 🡄
+1F845 ; ideograph # 🡅
+1F846 ; ideograph # 🡆
+1F847 ; ideograph # 🡇
+1F850 ; ideograph # 🡐
+1F851 ; ideograph # 🡑
+1F852 ; ideograph # 🡒
+1F853 ; ideograph # 🡓
+1F854 ; ideograph # 🡔
+1F855 ; ideograph # 🡕
+1F856 ; ideograph # 🡖
+1F857 ; ideograph # 🡗
+1F858 ; ideograph # 🡘
+1F859 ; ideograph # 🡙
+1F860 ; ideograph # 🡠
+1F861 ; ideograph # 🡡
+1F862 ; ideograph # 🡢
+1F863 ; ideograph # 🡣
+1F864 ; ideograph # 🡤
+1F865 ; ideograph # 🡥
+1F866 ; ideograph # 🡦
+1F867 ; ideograph # 🡧
+1F868 ; ideograph # 🡨
+1F869 ; ideograph # 🡩
+1F86A ; ideograph # 🡪
+1F86B ; ideograph # 🡫
+1F86C ; ideograph # 🡬
+1F86D ; ideograph # 🡭
+1F86E ; ideograph # 🡮
+1F86F ; ideograph # 🡯
+1F870 ; ideograph # 🡰
+1F871 ; ideograph # 🡱
+1F872 ; ideograph # 🡲
+1F873 ; ideograph # 🡳
+1F874 ; ideograph # 🡴
+1F875 ; ideograph # 🡵
+1F876 ; ideograph # 🡶
+1F877 ; ideograph # 🡷
+1F878 ; ideograph # 🡸
+1F879 ; ideograph # 🡹
+1F87A ; ideograph # 🡺
+1F87B ; ideograph # 🡻
+1F87C ; ideograph # 🡼
+1F87D ; ideograph # 🡽
+1F87E ; ideograph # 🡾
+1F87F ; ideograph # 🡿
+1F880 ; ideograph # 🢀
+1F881 ; ideograph # 🢁
+1F882 ; ideograph # 🢂
+1F883 ; ideograph # 🢃
+1F884 ; ideograph # 🢄
+1F885 ; ideograph # 🢅
+1F886 ; ideograph # 🢆
+1F887 ; ideograph # 🢇
+1F890 ; ideograph # 🢐
+1F891 ; ideograph # 🢑
+1F892 ; ideograph # 🢒
+1F893 ; ideograph # 🢓
+1F894 ; ideograph # 🢔
+1F895 ; ideograph # 🢕
+1F896 ; ideograph # 🢖
+1F897 ; ideograph # 🢗
+1F898 ; ideograph # 🢘
+1F899 ; ideograph # 🢙
+1F89A ; ideograph # 🢚
+1F89B ; ideograph # 🢛
+1F89C ; ideograph # 🢜
+1F89D ; ideograph # 🢝
+1F89E ; ideograph # 🢞
+1F89F ; ideograph # 🢟
+1F8A0 ; ideograph # 🢠
+1F8A1 ; ideograph # 🢡
+1F8A2 ; ideograph # 🢢
+1F8A3 ; ideograph # 🢣
+1F8A4 ; ideograph # 🢤
+1F8A5 ; ideograph # 🢥
+1F8A6 ; ideograph # 🢦
+1F8A7 ; ideograph # 🢧
+1F8A8 ; ideograph # 🢨
+1F8A9 ; ideograph # 🢩
+1F8AA ; ideograph # 🢪
+1F8AB ; ideograph # 🢫
+1F8AC ; ideograph # 🢬
+1F8AD ; ideograph # 🢭
+1F93B ; pictograph # 🤻
+1F946 ; pictograph # 🥆

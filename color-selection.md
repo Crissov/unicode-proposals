@@ -51,3 +51,22 @@ Yellow     | U+1F4D2 | &#x1F4D2;
 Monochrome | U+1F4D3 | &#x1F4D3;
 Decorative | U+1F4D4 | &#x1F4D4;
 Multiple   | U+1F4DA | &#x1F4DA;
+
+Heraldic Color Patterns
+-----------------------
+“Tincture”
+
+Color            | Unicode | Sample   | Hatching
+-----------------|---------|----------|----------
+Black            | U+25A0  | &#x25A0; | Solid
+White (argent)   | U+25A1  | &#x25A1; | None, blank
+Blue (azure)     | U+25A4  | &#x25A4; | Horizontal stripes
+Red (gules)      | U+25A5  | &#x25A5; | Vertical stripes
+Black (sable)    | U+25A6  | &#x25A6; | Square pattern
+Green (vert)     | U+25A7  | &#x25A7; | Forward diagonals
+Purple (purpure) | U+25A8  | &#x25A8; | Backward diagonals
+Maroon (sanguine)| U+25A9  | &#x25A9; | Diamond pattern
+Brown (tenné)    | U+?     | ?        | Vertical-forward crosshatch
+Light Shade      | U+2591  | &#x2591; | 
+Medium Shade (or)| U+2592  | &#x2592; | Dotted
+Dark Shade       | U+2593  | &#x2593; | 

@@ -1,0 +1,403 @@
+# emoji-candidate-pictographs.txt
+# Date: 2016-08-27
+#
+# Filter:
+# General Category = Other_Symbol (So), 
+# Bidirectional Category = Other_Neutral (ON),
+# Script = Common,
+# Emoji = No,
+# Pictograph = Yes
+# Subset of emoji-candidate-symbols.txt
+#
+# 384 code points as of Unicode 9.0 and Emoji 4.0
+#
+# Format: 
+# codepoint ; property(=Yes) # comments 
+#
+# Characters and sequences are listed in code point order.
+# Users should be shown a more natural order.
+#
+ 260F ; pictograph # ☏ object, office/GUI
+ 2616 ; pictograph # ☖ game piece
+ 2617 ; pictograph # ☗ game piece
+ 261A ; pictograph # ☚ hand gesture
+ 261B ; pictograph # ☛ hand gesture
+ 261C ; pictograph # ☜ hand gesture
+ 261E ; pictograph # ☞ hand gesture
+ 261F ; pictograph # ☟ hand gesture
+ 262D ; pictograph # ☭ symbol
+ 263B ; pictograph # ☻ emoticon
+ 263C ; pictograph # ☼ object, sky
+ 263D ; pictograph # ☽ object, sky
+ 263E ; pictograph # ☾ object, sky
+ 2654 ; pictograph # ♔ game piece
+ 2655 ; pictograph # ♕ game piece
+ 2656 ; pictograph # ♖ game piece
+ 2657 ; pictograph # ♗ game piece
+ 2658 ; pictograph # ♘ game piece
+ 2659 ; pictograph # ♙ game piece
+ 265A ; pictograph # ♚ game piece
+ 265B ; pictograph # ♛ game piece
+ 265C ; pictograph # ♜ game piece
+ 265D ; pictograph # ♝ game piece
+ 265E ; pictograph # ♞ game piece
+ 265F ; pictograph # ♟ game piece
+ 2680 ; pictograph # ⚀ game piece
+ 2681 ; pictograph # ⚁ game piece
+ 2682 ; pictograph # ⚂ game piece
+ 2683 ; pictograph # ⚃ game piece
+ 2684 ; pictograph # ⚄ game piece
+ 2685 ; pictograph # ⚅ game piece
+ 2690 ; pictograph # ⚐ object
+ 2691 ; pictograph # ⚑ object
+ 2698 ; pictograph # ⚘ object, nature
+ 26BF ; pictograph # ⚿ object (enclosed)
+ 26C0 ; pictograph # ⛀ game piece
+ 26C1 ; pictograph # ⛁ game piece
+ 26C2 ; pictograph # ⛂ game piece
+ 26C3 ; pictograph # ⛃ game piece
+ 26C6 ; pictograph # ⛆ object, sky
+ 26C7 ; pictograph # ⛇ object, sky
+ 26C9 ; pictograph # ⛉ game piece
+ 26CA ; pictograph # ⛊ game piece
+ 26CD ; pictograph # ⛍ symbol, traffic
+ 26D0 ; pictograph # ⛐ symbol, traffic
+ 26D8 ; pictograph # ⛘ symbol, traffic
+ 26D9 ; pictograph # ⛙ symbol, traffic
+ 26DC ; pictograph # ⛜ symbol, traffic
+ 26DF ; pictograph # ⛟ object, vehicle
+ 26ED ; pictograph # ⛭ symbol
+ 26EE ; pictograph # ⛮ symbol
+ 26FE ; pictograph # ⛾ object (enclosed)
+ 26FF ; pictograph # ⛿ object
+ 2700 ; pictograph # ✀ tool
+ 2701 ; pictograph # ✁ tool
+ 2703 ; pictograph # ✃ tool
+ 2704 ; pictograph # ✄ tool
+ 2706 ; pictograph # ✆ symbol
+ 2707 ; pictograph # ✇ object, office
+ 270E ; pictograph # ✎ tool
+ 2710 ; pictograph # ✐ tool
+ 2711 ; pictograph # ✑ tool
+1F000 ; pictograph # 🀀 game piece
+1F001 ; pictograph # 🀁 game piece
+1F002 ; pictograph # 🀂 game piece
+1F003 ; pictograph # 🀃 game piece
+1F005 ; pictograph # 🀅 game piece
+1F006 ; pictograph # 🀆 game piece
+1F007 ; pictograph # 🀇 game piece
+1F008 ; pictograph # 🀈 game piece
+1F009 ; pictograph # 🀉 game piece
+1F00A ; pictograph # 🀊 game piece
+1F00B ; pictograph # 🀋 game piece
+1F00C ; pictograph # 🀌 game piece
+1F00D ; pictograph # 🀍 game piece
+1F00E ; pictograph # 🀎 game piece
+1F00F ; pictograph # 🀏 game piece
+1F010 ; pictograph # 🀐 game piece
+1F011 ; pictograph # 🀑 game piece
+1F012 ; pictograph # 🀒 game piece
+1F013 ; pictograph # 🀓 game piece
+1F014 ; pictograph # 🀔 game piece
+1F015 ; pictograph # 🀕 game piece
+1F016 ; pictograph # 🀖 game piece
+1F017 ; pictograph # 🀗 game piece
+1F018 ; pictograph # 🀘 game piece
+1F019 ; pictograph # 🀙 game piece
+1F01A ; pictograph # 🀚 game piece
+1F01B ; pictograph # 🀛 game piece
+1F01C ; pictograph # 🀜 game piece
+1F01D ; pictograph # 🀝 game piece
+1F01E ; pictograph # 🀞 game piece
+1F01F ; pictograph # 🀟 game piece
+1F020 ; pictograph # 🀠 game piece
+1F021 ; pictograph # 🀡 game piece
+1F022 ; pictograph # 🀢 game piece
+1F023 ; pictograph # 🀣 game piece
+1F024 ; pictograph # 🀤 game piece
+1F025 ; pictograph # 🀥 game piece
+1F026 ; pictograph # 🀦 game piece
+1F027 ; pictograph # 🀧 game piece
+1F028 ; pictograph # 🀨 game piece
+1F029 ; pictograph # 🀩 game piece
+1F02A ; pictograph # 🀪 game piece
+1F02B ; pictograph # 🀫 game piece
+1F030 ; pictograph # 🀰 game piece
+1F031 ; pictograph # 🀱 game piece
+1F032 ; pictograph # 🀲 game piece
+1F033 ; pictograph # 🀳 game piece
+1F034 ; pictograph # 🀴 game piece
+1F035 ; pictograph # 🀵 game piece
+1F036 ; pictograph # 🀶 game piece
+1F037 ; pictograph # 🀷 game piece
+1F038 ; pictograph # 🀸 game piece
+1F039 ; pictograph # 🀹 game piece
+1F03A ; pictograph # 🀺 game piece
+1F03B ; pictograph # 🀻 game piece
+1F03C ; pictograph # 🀼 game piece
+1F03D ; pictograph # 🀽 game piece
+1F03E ; pictograph # 🀾 game piece
+1F03F ; pictograph # 🀿 game piece
+1F040 ; pictograph # 🁀 game piece
+1F041 ; pictograph # 🁁 game piece
+1F042 ; pictograph # 🁂 game piece
+1F043 ; pictograph # 🁃 game piece
+1F044 ; pictograph # 🁄 game piece
+1F045 ; pictograph # 🁅 game piece
+1F046 ; pictograph # 🁆 game piece
+1F047 ; pictograph # 🁇 game piece
+1F048 ; pictograph # 🁈 game piece
+1F049 ; pictograph # 🁉 game piece
+1F04A ; pictograph # 🁊 game piece
+1F04B ; pictograph # 🁋 game piece
+1F04C ; pictograph # 🁌 game piece
+1F04D ; pictograph # 🁍 game piece
+1F04E ; pictograph # 🁎 game piece
+1F04F ; pictograph # 🁏 game piece
+1F050 ; pictograph # 🁐 game piece
+1F051 ; pictograph # 🁑 game piece
+1F052 ; pictograph # 🁒 game piece
+1F053 ; pictograph # 🁓 game piece
+1F054 ; pictograph # 🁔 game piece
+1F055 ; pictograph # 🁕 game piece
+1F056 ; pictograph # 🁖 game piece
+1F057 ; pictograph # 🁗 game piece
+1F058 ; pictograph # 🁘 game piece
+1F059 ; pictograph # 🁙 game piece
+1F05A ; pictograph # 🁚 game piece
+1F05B ; pictograph # 🁛 game piece
+1F05C ; pictograph # 🁜 game piece
+1F05D ; pictograph # 🁝 game piece
+1F05E ; pictograph # 🁞 game piece
+1F05F ; pictograph # 🁟 game piece
+1F060 ; pictograph # 🁠 game piece
+1F061 ; pictograph # 🁡 game piece
+1F062 ; pictograph # 🁢 game piece
+1F063 ; pictograph # 🁣 game piece
+1F064 ; pictograph # 🁤 game piece
+1F065 ; pictograph # 🁥 game piece
+1F066 ; pictograph # 🁦 game piece
+1F067 ; pictograph # 🁧 game piece
+1F068 ; pictograph # 🁨 game piece
+1F069 ; pictograph # 🁩 game piece
+1F06A ; pictograph # 🁪 game piece
+1F06B ; pictograph # 🁫 game piece
+1F06C ; pictograph # 🁬 game piece
+1F06D ; pictograph # 🁭 game piece
+1F06E ; pictograph # 🁮 game piece
+1F06F ; pictograph # 🁯 game piece
+1F070 ; pictograph # 🁰 game piece
+1F071 ; pictograph # 🁱 game piece
+1F072 ; pictograph # 🁲 game piece
+1F073 ; pictograph # 🁳 game piece
+1F074 ; pictograph # 🁴 game piece
+1F075 ; pictograph # 🁵 game piece
+1F076 ; pictograph # 🁶 game piece
+1F077 ; pictograph # 🁷 game piece
+1F078 ; pictograph # 🁸 game piece
+1F079 ; pictograph # 🁹 game piece
+1F07A ; pictograph # 🁺 game piece
+1F07B ; pictograph # 🁻 game piece
+1F07C ; pictograph # 🁼 game piece
+1F07D ; pictograph # 🁽 game piece
+1F07E ; pictograph # 🁾 game piece
+1F07F ; pictograph # 🁿 game piece
+1F080 ; pictograph # 🂀 game piece
+1F081 ; pictograph # 🂁 game piece
+1F082 ; pictograph # 🂂 game piece
+1F083 ; pictograph # 🂃 game piece
+1F084 ; pictograph # 🂄 game piece
+1F085 ; pictograph # 🂅 game piece
+1F086 ; pictograph # 🂆 game piece
+1F087 ; pictograph # 🂇 game piece
+1F088 ; pictograph # 🂈 game piece
+1F089 ; pictograph # 🂉 game piece
+1F08A ; pictograph # 🂊 game piece
+1F08B ; pictograph # 🂋 game piece
+1F08C ; pictograph # 🂌 game piece
+1F08D ; pictograph # 🂍 game piece
+1F08E ; pictograph # 🂎 game piece
+1F08F ; pictograph # 🂏 game piece
+1F090 ; pictograph # 🂐 game piece
+1F091 ; pictograph # 🂑 game piece
+1F092 ; pictograph # 🂒 game piece
+1F093 ; pictograph # 🂓 game piece
+1F0A0 ; pictograph # 🂠 game piece
+1F0A1 ; pictograph # 🂡 game piece
+1F0A2 ; pictograph # 🂢 game piece
+1F0A3 ; pictograph # 🂣 game piece
+1F0A4 ; pictograph # 🂤 game piece
+1F0A5 ; pictograph # 🂥 game piece
+1F0A6 ; pictograph # 🂦 game piece
+1F0A7 ; pictograph # 🂧 game piece
+1F0A8 ; pictograph # 🂨 game piece
+1F0A9 ; pictograph # 🂩 game piece
+1F0AA ; pictograph # 🂪 game piece
+1F0AB ; pictograph # 🂫 game piece
+1F0AC ; pictograph # 🂬 game piece
+1F0AD ; pictograph # 🂭 game piece
+1F0AE ; pictograph # 🂮 game piece
+1F0B1 ; pictograph # 🂱 game piece
+1F0B2 ; pictograph # 🂲 game piece
+1F0B3 ; pictograph # 🂳 game piece
+1F0B4 ; pictograph # 🂴 game piece
+1F0B5 ; pictograph # 🂵 game piece
+1F0B6 ; pictograph # 🂶 game piece
+1F0B7 ; pictograph # 🂷 game piece
+1F0B8 ; pictograph # 🂸 game piece
+1F0B9 ; pictograph # 🂹 game piece
+1F0BA ; pictograph # 🂺 game piece
+1F0BB ; pictograph # 🂻 game piece
+1F0BC ; pictograph # 🂼 game piece
+1F0BD ; pictograph # 🂽 game piece
+1F0BE ; pictograph # 🂾 game piece
+1F0BF ; pictograph # 🂿 game piece
+1F0C1 ; pictograph # 🃁 game piece
+1F0C2 ; pictograph # 🃂 game piece
+1F0C3 ; pictograph # 🃃 game piece
+1F0C4 ; pictograph # 🃄 game piece
+1F0C5 ; pictograph # 🃅 game piece
+1F0C6 ; pictograph # 🃆 game piece
+1F0C7 ; pictograph # 🃇 game piece
+1F0C8 ; pictograph # 🃈 game piece
+1F0C9 ; pictograph # 🃉 game piece
+1F0CA ; pictograph # 🃊 game piece
+1F0CB ; pictograph # 🃋 game piece
+1F0CC ; pictograph # 🃌 game piece
+1F0CD ; pictograph # 🃍 game piece
+1F0CE ; pictograph # 🃎 game piece
+1F0D1 ; pictograph # 🃑 game piece
+1F0D2 ; pictograph # 🃒 game piece
+1F0D3 ; pictograph # 🃓 game piece
+1F0D4 ; pictograph # 🃔 game piece
+1F0D5 ; pictograph # 🃕 game piece
+1F0D6 ; pictograph # 🃖 game piece
+1F0D7 ; pictograph # 🃗 game piece
+1F0D8 ; pictograph # 🃘 game piece
+1F0D9 ; pictograph # 🃙 game piece
+1F0DA ; pictograph # 🃚 game piece
+1F0DB ; pictograph # 🃛 game piece
+1F0DC ; pictograph # 🃜 game piece
+1F0DD ; pictograph # 🃝 game piece
+1F0DE ; pictograph # 🃞 game piece
+1F0DF ; pictograph # 🃟 game piece
+1F0E0 ; pictograph # 🃠 game piece
+1F0E1 ; pictograph # 🃡 game piece
+1F0E2 ; pictograph # 🃢 game piece
+1F0E3 ; pictograph # 🃣 game piece
+1F0E4 ; pictograph # 🃤 game piece
+1F0E5 ; pictograph # 🃥 game piece
+1F0E6 ; pictograph # 🃦 game piece
+1F0E7 ; pictograph # 🃧 game piece
+1F0E8 ; pictograph # 🃨 game piece
+1F0E9 ; pictograph # 🃩 game piece
+1F0EA ; pictograph # 🃪 game piece
+1F0EB ; pictograph # 🃫 game piece
+1F0EC ; pictograph # 🃬 game piece
+1F0ED ; pictograph # 🃭 game piece
+1F0EE ; pictograph # 🃮 game piece
+1F0EF ; pictograph # 🃯 game piece
+1F0F0 ; pictograph # 🃰 game piece
+1F0F1 ; pictograph # 🃱 game piece
+1F0F2 ; pictograph # 🃲 game piece
+1F0F3 ; pictograph # 🃳 game piece
+1F0F4 ; pictograph # 🃴 game piece
+1F0F5 ; pictograph # 🃵 game piece
+1F322 ; pictograph # 🌢 object, sky
+1F323 ; pictograph # 🌣 object, sky
+1F395 ; pictograph # 🎕 object, nature
+1F398 ; pictograph # 🎘 object, activity
+1F3F1 ; pictograph # 🏱 object
+1F3F2 ; pictograph # 🏲 object
+1F3F6 ; pictograph # 🏶 object, nature
+1F4FE ; pictograph # 📾 object, office/GUI
+1F568 ; pictograph # 🕨 object, office/GUI
+1F569 ; pictograph # 🕩 object, office/GUI
+1F56A ; pictograph # 🕪 object, office/GUI
+1F56B ; pictograph # 🕫 object, office/GUI
+1F56C ; pictograph # 🕬 object, office/GUI
+1F56D ; pictograph # 🕭 object, office/GUI
+1F56E ; pictograph # 🕮 object, office/GUI
+1F571 ; pictograph # 🕱 symbol
+1F572 ; pictograph # 🕲 symbol
+1F57B ; pictograph # 🕻 object, office/GUI
+1F57C ; pictograph # 🕼 object, office/GUI
+1F57D ; pictograph # 🕽 object, office/GUI
+1F57E ; pictograph # 🕾 object, office/GUI
+1F57F ; pictograph # 🕿 object, office/GUI
+1F580 ; pictograph # 🖀 object, office/GUI
+1F581 ; pictograph # 🖁 object, office/GUI
+1F582 ; pictograph # 🖂 object, office/GUI
+1F583 ; pictograph # 🖃 object, office/GUI
+1F584 ; pictograph # 🖄 object, office/GUI
+1F585 ; pictograph # 🖅 object, office/GUI
+1F586 ; pictograph # 🖆 object, office/GUI
+1F588 ; pictograph # 🖈 tool
+1F589 ; pictograph # 🖉 tool
+1F58E ; pictograph # 🖎 hand gesture
+1F58F ; pictograph # 🖏 hand gesture
+1F591 ; pictograph # 🖑 hand gesture
+1F592 ; pictograph # 🖒 hand gesture
+1F593 ; pictograph # 🖓 hand gesture
+1F594 ; pictograph # 🖔 hand gesture
+1F597 ; pictograph # 🖗 hand gesture
+1F598 ; pictograph # 🖘 hand gesture
+1F599 ; pictograph # 🖙 hand gesture
+1F59A ; pictograph # 🖚 hand gesture
+1F59B ; pictograph # 🖛 hand gesture
+1F59C ; pictograph # 🖜 hand gesture
+1F59D ; pictograph # 🖝 hand gesture
+1F59E ; pictograph # 🖞 hand gesture
+1F59F ; pictograph # 🖟 hand gesture
+1F5A0 ; pictograph # 🖠 hand gesture
+1F5A1 ; pictograph # 🖡 hand gesture
+1F5A2 ; pictograph # 🖢 hand gesture
+1F5A3 ; pictograph # 🖣 hand gesture
+1F5A6 ; pictograph # 🖦 object, office/GUI
+1F5A7 ; pictograph # 🖧 object, office/GUI
+1F5A9 ; pictograph # 🖩 object, office/GUI
+1F5AA ; pictograph # 🖪 object, office/GUI
+1F5AB ; pictograph # 🖫 object, office/GUI
+1F5AC ; pictograph # 🖬 object, office/GUI
+1F5AD ; pictograph # 🖭 object, office/GUI
+1F5AE ; pictograph # 🖮 object, office/GUI
+1F5AF ; pictograph # 🖯 object, office/GUI
+1F5B0 ; pictograph # 🖰 object, office/GUI
+1F5B3 ; pictograph # 🖳 object, office/GUI
+1F5B4 ; pictograph # 🖴 object, office/GUI
+1F5B6 ; pictograph # 🖶 object, office/GUI
+1F5B7 ; pictograph # 🖷 object, office/GUI
+1F5B8 ; pictograph # 🖸 object, office/GUI
+1F5B9 ; pictograph # 🖹 object, office/GUI
+1F5BA ; pictograph # 🖺 object, office/GUI
+1F5BB ; pictograph # 🖻 object, office/GUI
+1F5BD ; pictograph # 🖽 object, office/GUI
+1F5BE ; pictograph # 🖾 object, office/GUI
+1F5BF ; pictograph # 🖿 object, office/GUI
+1F5C0 ; pictograph # 🗀 object, office/GUI
+1F5C1 ; pictograph # 🗁 object, office/GUI
+1F5C5 ; pictograph # 🗅 object, office/GUI
+1F5C6 ; pictograph # 🗆 object, office/GUI
+1F5C7 ; pictograph # 🗇 object, office/GUI
+1F5C8 ; pictograph # 🗈 object, office/GUI
+1F5C9 ; pictograph # 🗉 object, office/GUI
+1F5CA ; pictograph # 🗊 object, office/GUI
+1F5CB ; pictograph # 🗋 object, office/GUI
+1F5CC ; pictograph # 🗌 object, office/GUI
+1F5CD ; pictograph # 🗍 object, office/GUI
+1F5CE ; pictograph # 🗎 object, office/GUI
+1F5CF ; pictograph # 🗏 object, office/GUI
+1F5D0 ; pictograph # 🗐 object, office/GUI
+1F5DF ; pictograph # 🗟 object, office/GUI
+1F5E0 ; pictograph # 🗠 object, office/GUI
+1F5E2 ; pictograph # 🗢 symbol
+1F6C9 ; pictograph # 🛉 symbol, person
+1F6CA ; pictograph # 🛊 symbol, person
+1F6E6 ; pictograph # 🛦 object, vehicle
+1F6E7 ; pictograph # 🛧 object, vehicle
+1F6E8 ; pictograph # 🛨 object, vehicle
+1F6EA ; pictograph # 🛪 object, vehicle
+1F6F1 ; pictograph # 🛱 object, vehicle
+1F6F2 ; pictograph # 🛲 object, vehicle
+1F93B ; pictograph # 🤻 object, activity
+1F946 ; pictograph # 🥆 object, activity

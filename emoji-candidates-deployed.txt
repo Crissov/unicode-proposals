@@ -1,0 +1,376 @@
+# Date: 27 August 2016
+#
+# from https://docs.google.com/spreadsheets/d/1txhi8XYKFMkCaOOFMI2z1tQkNwhzkUN-htofj-oJ1GM/edit
+# 366 entries
+# 
+# Format: Codepoint ; Platform count # Character Name
+#
+# 5 entries from that spreadsheet are already in http://www.unicode.org/Public/emoji/4.0/emoji-data.txt
+ 002A ; 1 # * Asterisk 
+ 23CF ; 2 # ⏏ Eject Symbol 
+ 2640 ; 1 # ♀ Female Sign 
+ 2642 ; 1 # ♂ Male Sign 
+ 2695 ; 1 # ⚕ Staff of Aesculapius 
+#
+# 361 entries remain
+#
+ 2605 ; 1 # ★ Black Star 
+ 2607 ; 1 # ☇ Lightning 
+ 2608 ; 1 # ☈ Thunderstorm 
+ 2609 ; 1 # ☉ Sun 
+ 260A ; 1 # ☊ Ascending Node 
+ 260B ; 1 # ☋ Descending Node 
+ 260C ; 1 # ☌ Conjunction 
+ 260D ; 1 # ☍ Opposition 
+ 260F ; 1 # ☏ White Telephone 
+ 2610 ; 1 # ☐ Ballot Box 
+ 2612 ; 2 # ☒ Ballot Box with X 
+ 2616 ; 1 # ☖ White Shogi Piece 
+ 2617 ; 1 # ☗ Black Shogi Piece 
+ 2619 ; 1 # ☙ Reversed Rotated Floral Heart Bullet 
+ 261A ; 1 # ☚ Black Left Pointing Index 
+ 261B ; 1 # ☛ Black Right Pointing Index 
+ 261C ; 2 # ☜ White Left Pointing Index 
+ 261E ; 2 # ☞ White Right Pointing Index 
+ 261F ; 2 # ☟ White Down Pointing Index 
+ 2621 ; 1 # ☡ Caution Sign 
+ 2624 ; 1 # ☤ Caduceus 
+ 2625 ; 1 # ☥ Ankh 
+ 2627 ; 1 # ☧ Chi Rho 
+ 2628 ; 1 # ☨ Cross of Lorraine 
+ 2629 ; 1 # ☩ Cross of Jerusalem 
+ 262B ; 1 # ☫ Farsi Symbol 
+ 262C ; 1 # ☬ Adi Shakti 
+ 262D ; 1 # ☭ Hammer and Sickle 
+ 2630 ; 1 # ☰ Trigram for Heaven 
+ 2631 ; 1 # ☱ Trigram for Lake 
+ 2632 ; 1 # ☲ Trigram for Fire 
+ 2633 ; 1 # ☳ Trigram for Thunder 
+ 2634 ; 1 # ☴ Trigram for Wind 
+ 2635 ; 1 # ☵ Trigram for Water 
+ 2636 ; 1 # ☶ Trigram for Mountain 
+ 2637 ; 1 # ☷ Trigram for Earth 
+ 263B ; 1 # ☻ Black Smiling Face 
+ 263C ; 1 # ☼ White Sun with Rays 
+ 263D ; 1 # ☽ First Quarter Moon 
+ 263E ; 1 # ☾ Last Quarter Moon 
+ 263F ; 1 # ☿ Mercury 
+ 2641 ; 1 # ♁ Earth 
+ 2643 ; 1 # ♃ Jupiter 
+ 2644 ; 1 # ♄ Saturn 
+ 2645 ; 1 # ♅ Uranus 
+ 2646 ; 1 # ♆ Neptune 
+ 2647 ; 1 # ♇ Pluto 
+ 2654 ; 1 # ♔ White Chess King 
+ 2655 ; 1 # ♕ White Chess Queen 
+ 2656 ; 1 # ♖ White Chess Rook 
+ 2657 ; 1 # ♗ White Chess Bishop 
+ 2658 ; 1 # ♘ White Chess Knight 
+ 2659 ; 1 # ♙ White Chess Pawn 
+ 265A ; 1 # ♚ Black Chess King 
+ 265B ; 1 # ♛ Black Chess Queen 
+ 265C ; 1 # ♜ Black Chess Rook 
+ 265D ; 1 # ♝ Black Chess Bishop 
+ 265E ; 1 # ♞ Black Chess Knight 
+ 265F ; 1 # ♟ Black Chess Pawn 
+ 2661 ; 1 # ♡ White Heart Suit 
+ 2662 ; 1 # ♢ White Diamond Suit 
+ 2664 ; 1 # ♤ White Spade Suit 
+ 2667 ; 1 # ♧ White Club Suit 
+ 2669 ; 1 # ♩ Quarter Note 
+ 266A ; 1 # ♪ Eighth Note 
+ 266B ; 1 # ♫ Beamed Eighth Notes 
+ 266C ; 1 # ♬ Beamed Sixteenth Notes 
+ 266D ; 1 # ♭ Music Flat Sign 
+ 266E ; 1 # ♮ Music Natural Sign 
+ 266F ; 1 # ♯ Music Sharp Sign 
+ 2670 ; 1 # ♰ West Syriac Cross 
+ 2671 ; 1 # ♱ East Syriac Cross 
+ 2672 ; 1 # ♲ Universal Recycling Symbol 
+ 2673 ; 1 # ♳ Recycling Symbol for Type-1 Plastics 
+ 2674 ; 1 # ♴ Recycling Symbol for Type-2 Plastics 
+ 2675 ; 1 # ♵ Recycling Symbol for Type-3 Plastics 
+ 2676 ; 1 # ♶ Recycling Symbol for Type-4 Plastics 
+ 2677 ; 1 # ♷ Recycling Symbol for Type-5 Plastics 
+ 2678 ; 1 # ♸ Recycling Symbol for Type-6 Plastics 
+ 2679 ; 1 # ♹ Recycling Symbol for Type-7 Plastics 
+ 267A ; 1 # ♺ Recycling Symbol for Generic Materials 
+ 267C ; 1 # ♼ Recycled Paper Symbol 
+ 267D ; 1 # ♽ Partially-Recycled Paper Symbol 
+ 267E ; 1 # ♾ Permanent Paper Sign 
+ 2680 ; 1 # ⚀ Die Face-1 
+ 2681 ; 1 # ⚁ Die Face-2 
+ 2682 ; 1 # ⚂ Die Face-3 
+ 2683 ; 1 # ⚃ Die Face-4 
+ 2684 ; 1 # ⚄ Die Face-5 
+ 2685 ; 1 # ⚅ Die Face-6 
+ 2686 ; 1 # ⚆ White Circle with Dot Right 
+ 2687 ; 1 # ⚇ White Circle with Two Dots 
+ 2688 ; 1 # ⚈ Black Circle with White Dot Right 
+ 2689 ; 1 # ⚉ Black Circle with Two White Dots 
+ 268A ; 1 # ⚊ Monogram for Yang 
+ 268B ; 1 # ⚋ Monogram for Yin 
+ 268C ; 1 # ⚌ Digram for Greater Yang 
+ 268D ; 1 # ⚍ Digram for Lesser Yin 
+ 268E ; 1 # ⚎ Digram for Lesser Yang 
+ 268F ; 1 # ⚏ Digram for Greater Yin 
+ 2690 ; 1 # ⚐ White Flag 
+ 2691 ; 1 # ⚑ Black Flag 
+ 2698 ; 1 # ⚘ Flower 
+ 269A ; 1 # ⚚ Staff of Hermes 
+ 269D ; 1 # ⚝ Outlined White Star 
+ 269E ; 1 # ⚞ Three Lines Converging Right 
+ 269F ; 1 # ⚟ Three Lines Converging Left 
+ 26A2 ; 1 # ⚢ Doubled Female Sign 
+ 26A3 ; 1 # ⚣ Doubled Male Sign 
+ 26A4 ; 1 # ⚤ Interlocked Female and Male Sign 
+ 26A5 ; 1 # ⚥ Male and Female Sign 
+ 26A6 ; 1 # ⚦ Male with Stroke Sign 
+ 26A7 ; 1 # ⚧ Male with Stroke and Male and Female Sign 
+ 26A8 ; 1 # ⚨ Vertical Male with Stroke Sign 
+ 26A9 ; 1 # ⚩ Horizontal Male with Stroke Sign 
+ 26AC ; 1 # ⚬ Medium Small White Circle 
+ 26AD ; 1 # ⚭ Marriage Symbol 
+ 26AE ; 1 # ⚮ Divorce Symbol 
+ 26AF ; 1 # ⚯ Unmarried Partnership Symbol 
+ 26B2 ; 1 # ⚲ Neuter 
+ 26B3 ; 1 # ⚳ Ceres 
+ 26B4 ; 1 # ⚴ Pallas 
+ 26B5 ; 1 # ⚵ Juno 
+ 26B6 ; 1 # ⚶ Vesta 
+ 26B7 ; 1 # ⚷ Chiron 
+ 26B8 ; 1 # ⚸ Black Moon Lilith 
+ 26B9 ; 1 # ⚹ Sextile 
+ 26BA ; 1 # ⚺ Semisextile 
+ 26BB ; 1 # ⚻ Quincunx 
+ 26BC ; 1 # ⚼ Sesquiquadrate 
+ 26BF ; 1 # ⚿ Squared Key 
+ 26C0 ; 1 # ⛀ White Draughts Man 
+ 26C1 ; 1 # ⛁ White Draughts King 
+ 26C2 ; 1 # ⛂ Black Draughts Man 
+ 26C3 ; 1 # ⛃ Black Draughts King 
+ 26C6 ; 1 # ⛆ Rain 
+ 26C7 ; 1 # ⛇ Black Snowman 
+ 26C9 ; 1 # ⛉ Turned White Shogi Piece 
+ 26CA ; 1 # ⛊ Turned Black Shogi Piece 
+ 26CB ; 1 # ⛋ White Diamond In Square 
+ 26CC ; 1 # ⛌ Crossing Lanes 
+ 26CD ; 1 # ⛍ Disabled Car 
+ 26D0 ; 1 # ⛐ Car Sliding 
+ 26D2 ; 1 # ⛒ Circled Crossing Lanes 
+ 26D5 ; 1 # ⛕ Alternate One-Way Left Way Traffic 
+ 26D6 ; 1 # ⛖ Black Two-Way Left Way Traffic 
+ 26D7 ; 1 # ⛗ White Two-Way Left Way Traffic 
+ 26D8 ; 1 # ⛘ Black Left Lane Merge 
+ 26D9 ; 1 # ⛙ White Left Lane Merge 
+ 26DA ; 1 # ⛚ Drive Slow Sign 
+ 26DB ; 1 # ⛛ Heavy White Down-Pointing Triangle 
+ 26DC ; 1 # ⛜ Left Closed Entry 
+ 26DD ; 1 # ⛝ Squared Saltire 
+ 26DE ; 1 # ⛞ Falling Diagonal In White Circle In Black Square 
+ 26DF ; 1 # ⛟ Black Truck 
+ 26E0 ; 1 # ⛠ Restricted Left Entry-1 
+ 26E1 ; 1 # ⛡ Restricted Left Entry-2 
+ 26E2 ; 1 # ⛢ Astronomical Symbol for Uranus 
+ 26E3 ; 1 # ⛣ Heavy Circle with Stroke and Two Dots Above 
+ 26E4 ; 1 # ⛤ Pentagram 
+ 26E5 ; 1 # ⛥ Right-Handed Interlaced Pentagram 
+ 26E6 ; 1 # ⛦ Left-Handed Interlaced Pentagram 
+ 26E7 ; 1 # ⛧ Inverted Pentagram 
+ 26E8 ; 1 # ⛨ Black Cross On Shield 
+ 26EB ; 1 # ⛫ Castle 
+ 26EC ; 1 # ⛬ Historic Site 
+ 26ED ; 1 # ⛭ Gear Without Hub 
+ 26EE ; 1 # ⛮ Gear with Handles 
+ 26EF ; 1 # ⛯ Map Symbol for Lighthouse 
+ 26F6 ; 1 # ⛶ Square Four Corners 
+ 26FB ; 1 # ⛻ Japanese Bank Symbol 
+ 26FC ; 1 # ⛼ Headstone Graveyard Symbol 
+ 26FE ; 1 # ⛾ Cup On Black Square 
+ 26FF ; 1 # ⛿ White Flag with Horizontal Middle Black Stripe 
+ 270E ; 1 # ✎ Lower Right Pencil 
+ 2710 ; 1 # ✐ Upper Right Pencil 
+1F000 ; 1 # 🀀 Mahjong Tile East Wind 
+1F001 ; 1 # 🀁 Mahjong Tile South Wind 
+1F002 ; 1 # 🀂 Mahjong Tile West Wind 
+1F003 ; 1 # 🀃 Mahjong Tile North Wind 
+1F005 ; 1 # 🀅 Mahjong Tile Green Dragon 
+1F006 ; 1 # 🀆 Mahjong Tile White Dragon 
+1F007 ; 1 # 🀇 Mahjong Tile One of Characters 
+1F008 ; 1 # 🀈 Mahjong Tile Two of Characters 
+1F009 ; 1 # 🀉 Mahjong Tile Three of Characters 
+1F00A ; 1 # 🀊 Mahjong Tile Four of Characters 
+1F00B ; 1 # 🀋 Mahjong Tile Five of Characters 
+1F00C ; 1 # 🀌 Mahjong Tile Six of Characters 
+1F00D ; 1 # 🀍 Mahjong Tile Seven of Characters 
+1F00E ; 1 # 🀎 Mahjong Tile Eight of Characters 
+1F00F ; 1 # 🀏 Mahjong Tile Nine of Characters 
+1F010 ; 1 # 🀐 Mahjong Tile One of Bamboos 
+1F011 ; 1 # 🀑 Mahjong Tile Two of Bamboos 
+1F012 ; 1 # 🀒 Mahjong Tile Three of Bamboos 
+1F013 ; 1 # 🀓 Mahjong Tile Four of Bamboos 
+1F014 ; 1 # 🀔 Mahjong Tile Five of Bamboos 
+1F015 ; 1 # 🀕 Mahjong Tile Six of Bamboos 
+1F016 ; 1 # 🀖 Mahjong Tile Seven of Bamboos 
+1F017 ; 1 # 🀗 Mahjong Tile Eight of Bamboos 
+1F018 ; 1 # 🀘 Mahjong Tile Nine of Bamboos 
+1F019 ; 1 # 🀙 Mahjong Tile One of Circles 
+1F01A ; 1 # 🀚 Mahjong Tile Two of Circles 
+1F01B ; 1 # 🀛 Mahjong Tile Three of Circles 
+1F01C ; 1 # 🀜 Mahjong Tile Four of Circles 
+1F01D ; 1 # 🀝 Mahjong Tile Five of Circles 
+1F01E ; 1 # 🀞 Mahjong Tile Six of Circles 
+1F01F ; 1 # 🀟 Mahjong Tile Seven of Circles 
+1F020 ; 1 # 🀠 Mahjong Tile Eight of Circles 
+1F021 ; 1 # 🀡 Mahjong Tile Nine of Circles 
+1F022 ; 1 # 🀢 Mahjong Tile Plum 
+1F023 ; 1 # 🀣 Mahjong Tile Orchid 
+1F024 ; 1 # 🀤 Mahjong Tile Bamboo 
+1F025 ; 1 # 🀥 Mahjong Tile Chrysanthemum 
+1F026 ; 1 # 🀦 Mahjong Tile Spring 
+1F027 ; 1 # 🀧 Mahjong Tile Summer 
+1F028 ; 1 # 🀨 Mahjong Tile Autumn 
+1F029 ; 1 # 🀩 Mahjong Tile Winter 
+1F02A ; 1 # 🀪 Mahjong Tile Joker 
+1F02B ; 1 # 🀫 Mahjong Tile Back 
+1F322 ; 1 # 🌢 Black Droplet 
+1F323 ; 2 # 🌣 White Sun 
+1F394 ; 1 # 🎔 Heart with Tip On the Left 
+1F395 ; 1 # 🎕 Bouquet of Flowers 
+1F398 ; 1 # 🎘 Musical Keyboard with Jacks 
+1F39C ; 1 # 🎜 Beamed Ascending Musical Notes 
+1F39D ; 1 # 🎝 Beamed Descending Musical Notes 
+1F3F1 ; 1 # 🏱 White Pennant 
+1F3F2 ; 1 # 🏲 Black Pennant 
+1F3F6 ; 1 # 🏶 Black Rosette 
+1F4FE ; 1 # 📾 Portable Stereo 
+1F53E ; 1 # 🔾 Lower Right Shadowed White Circle 
+1F53F ; 1 # 🔿 Upper Right Shadowed White Circle 
+1F540 ; 1 # 🕀 Circled Cross Pommee 
+1F541 ; 1 # 🕁 Cross Pommee with Half-Circle Below 
+1F542 ; 1 # 🕂 Cross Pommee 
+1F543 ; 1 # 🕃 Notched Left Semicircle with Three Dots 
+1F544 ; 2 # 🕄 Notched Right Semicircle with Three Dots 
+1F545 ; 1 # 🕅 Symbol for Marks Chapter 
+1F546 ; 2 # 🕆 White Latin Cross 
+1F547 ; 2 # 🕇 Heavy Latin Cross 
+1F548 ; 1 # 🕈 Celtic Cross 
+1F568 ; 2 # 🕨 Right Speaker 
+1F569 ; 2 # 🕩 Right Speaker with One Sound Wave 
+1F56A ; 2 # 🕪 Right Speaker with Three Sound Waves 
+1F56B ; 1 # 🕫 Bullhorn 
+1F56C ; 1 # 🕬 Bullhorn with Sound Waves 
+1F56D ; 2 # 🕭 Ringing Bell 
+1F56E ; 1 # 🕮 Book 
+1F571 ; 1 # 🕱 Black Skull and Crossbones 
+1F572 ; 1 # 🕲 No Piracy 
+1F57B ; 1 # 🕻 Left Hand Telephone Receiver 
+1F57C ; 1 # 🕼 Telephone Receiver with Page 
+1F57D ; 1 # 🕽 Right Hand Telephone Receiver 
+1F57E ; 1 # 🕾 White Touchtone Telephone 
+1F57F ; 1 # 🕿 Black Touchtone Telephone 
+1F580 ; 1 # 🖀 Telephone On Top of Modem 
+1F581 ; 1 # 🖁 Clamshell Mobile Phone 
+1F582 ; 1 # 🖂 Back of Envelope 
+1F583 ; 1 # 🖃 Stamped Envelope 
+1F584 ; 1 # 🖄 Envelope with Lightning 
+1F585 ; 1 # 🖅 Flying Envelope 
+1F586 ; 1 # 🖆 Pen Over Stamped Envelope 
+1F588 ; 1 # 🖈 Black Pushpin 
+1F589 ; 1 # 🖉 Lower Left Pencil 
+1F58E ; 2 # 🖎 Left Writing Hand 
+1F58F ; 1 # 🖏 Turned Ok Hand Sign 
+1F591 ; 2 # 🖑 Reversed Raised Hand with Fingers Splayed 
+1F592 ; 2 # 🖒 Reversed Thumbs Up Sign 
+1F593 ; 2 # 🖓 Reversed Thumbs Down Sign 
+1F594 ; 1 # 🖔 Reversed Victory Hand 
+1F597 ; 1 # 🖗 White Down Pointing Left Hand Index 
+1F598 ; 1 # 🖘 Sideways White Left Pointing Index 
+1F599 ; 1 # 🖙 Sideways White Right Pointing Index 
+1F59A ; 1 # 🖚 Sideways Black Left Pointing Index 
+1F59B ; 1 # 🖛 Sideways Black Right Pointing Index 
+1F59C ; 1 # 🖜 Black Left Pointing Backhand Index 
+1F59D ; 1 # 🖝 Black Right Pointing Backhand Index 
+1F59E ; 1 # 🖞 Sideways White Up Pointing Index 
+1F59F ; 1 # 🖟 Sideways White Down Pointing Index 
+1F5A0 ; 1 # 🖠 Sideways Black Up Pointing Index 
+1F5A1 ; 1 # 🖡 Sideways Black Down Pointing Index 
+1F5A2 ; 1 # 🖢 Black Up Pointing Backhand Index 
+1F5A3 ; 1 # 🖣 Black Down Pointing Backhand Index 
+1F5A6 ; 1 # 🖦 Keyboard and Mouse 
+1F5A7 ; 1 # 🖧 Three Networked Computers 
+1F5A9 ; 1 # 🖩 Pocket Calculator 
+1F5AA ; 1 # 🖪 Black Hard Shell Floppy Disk 
+1F5AB ; 1 # 🖫 White Hard Shell Floppy Disk 
+1F5AC ; 1 # 🖬 Soft Shell Floppy Disk 
+1F5AD ; 1 # 🖭 Tape Cartridge 
+1F5AE ; 1 # 🖮 Wired Keyboard 
+1F5AF ; 1 # 🖯 One Button Mouse 
+1F5B0 ; 1 # 🖰 Two Button Mouse 
+1F5B3 ; 1 # 🖳 Old Personal Computer 
+1F5B4 ; 1 # 🖴 Hard Disk 
+1F5B5 ; 1 # 🖵 Screen 
+1F5B6 ; 1 # 🖶 Printer Icon 
+1F5B7 ; 1 # 🖷 Fax Icon 
+1F5B8 ; 1 # 🖸 Optical Disc Icon 
+1F5B9 ; 1 # 🖹 Document with Text 
+1F5BA ; 1 # 🖺 Document with Text and Picture 
+1F5BB ; 1 # 🖻 Document with Picture 
+1F5BD ; 1 # 🖽 Frame with Tiles 
+1F5BE ; 1 # 🖾 Frame with an X 
+1F5BF ; 1 # 🖿 Black Folder 
+1F5C0 ; 1 # 🗀 Folder 
+1F5C1 ; 1 # 🗁 Open Folder 
+1F5C5 ; 1 # 🗅 Empty Note 
+1F5C6 ; 1 # 🗆 Empty Note Page 
+1F5C7 ; 1 # 🗇 Empty Note Pad 
+1F5C8 ; 1 # 🗈 Note 
+1F5C9 ; 1 # 🗉 Note Page 
+1F5CA ; 1 # 🗊 Note Pad 
+1F5CB ; 1 # 🗋 Empty Document 
+1F5CC ; 1 # 🗌 Empty Page 
+1F5CD ; 1 # 🗍 Empty Pages 
+1F5CE ; 1 # 🗎 Document 
+1F5CF ; 1 # 🗏 Page 
+1F5D0 ; 1 # 🗐 Pages 
+1F5D4 ; 1 # 🗔 Desktop Window 
+1F5D5 ; 1 # 🗕 Minimize 
+1F5D6 ; 1 # 🗖 Maximize 
+1F5D7 ; 1 # 🗗 Overlap 
+1F5D8 ; 1 # 🗘 Clockwise Right and Left Semicircle Arrows 
+1F5D9 ; 1 # 🗙 Cancellation X 
+1F5DA ; 1 # 🗚 Increase Font Size Symbol 
+1F5DB ; 1 # 🗛 Decrease Font Size Symbol 
+1F5DF ; 1 # 🗟 Page with Circled Text 
+1F5E0 ; 1 # 🗠 Stock Chart 
+1F5E2 ; 2 # 🗢 Lips 
+1F5E4 ; 1 # 🗤 Three Rays Above 
+1F5E5 ; 1 # 🗥 Three Rays Below 
+1F5E6 ; 1 # 🗦 Three Rays Left 
+1F5E7 ; 1 # 🗧 Three Rays Right 
+1F5E9 ; 1 # 🗩 Right Speech Bubble 
+1F5EA ; 1 # 🗪 Two Speech Bubbles 
+1F5EB ; 1 # 🗫 Three Speech Bubbles 
+1F5EC ; 1 # 🗬 Left Thought Bubble 
+1F5ED ; 1 # 🗭 Right Thought Bubble 
+1F5EE ; 1 # 🗮 Left Anger Bubble 
+1F5F0 ; 1 # 🗰 Mood Bubble 
+1F5F1 ; 1 # 🗱 Lightning Mood Bubble 
+1F5F2 ; 1 # 🗲 Lightning Mood 
+1F5F4 ; 1 # 🗴 Ballot Script X 
+1F5F5 ; 1 # 🗵 Ballot Box with Script X 
+1F5F6 ; 1 # 🗶 Ballot Bold Script X 
+1F5F7 ; 1 # 🗷 Ballot Box with Bold Script X 
+1F5F8 ; 1 # 🗸 Light Check Mark 
+1F5F9 ; 1 # 🗹 Ballot Box with Bold Check 
+1F6C6 ; 2 # 🛆 Triangle with Rounded Corners 
+1F6C7 ; 2 # 🛇 Prohibited Sign 
+1F6C8 ; 1 # 🛈 Circled Information Source 
+1F6C9 ; 1 # 🛉 Boys Symbol 
+1F6CA ; 1 # 🛊 Girls Symbol 
+1F6E6 ; 1 # 🛦 Up-Pointing Military Airplane 
+1F6E7 ; 1 # 🛧 Up-Pointing Airplane 
+1F6E8 ; 1 # 🛨 Up-Pointing Small Airplane 
+1F6EA ; 1 # 🛪 Northeast-Pointing Airplane 
+1F6F1 ; 1 # 🛱 Oncoming Fire Engine 
+1F6F2 ; 1 # 🛲 Diesel Locomotive 

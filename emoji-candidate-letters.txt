@@ -1,0 +1,162 @@
+# emoji-candidate-letters.txt
+# Date: 2016-08-27
+#
+# Filter:
+# General Category = Other_Symbol (So), 
+# Bidirectional Category = Other_Neutral (ON),
+# Script = Common,
+# Emoji = No,
+# Letterlike = Yes
+# Subset of emoji-candidate-symbols.txt
+#
+# 143 code points as of Unicode 9.0 and Emoji 4.0
+#
+# Format: 
+# codepoint ; property(=Yes) # comments 
+#
+# Characters and sequences are listed in code point order.
+# Users should be shown a more natural order.
+#
+ 2100 ; letter-like # ℀ a/c
+ 2101 ; letter-like # ℁ a/s
+ 2103 ; letter-like # ℃ °C
+ 2104 ; letter-like # ℄ cL
+ 2105 ; letter-like # ℅ c/o
+ 2106 ; letter-like # ℆ c/u
+ 2108 ; letter-like # ℈ E
+ 2109 ; letter-like # ℉ °F
+ 2114 ; letter-like # ℔ lb
+ 2116 ; letter-like # № No
+ 2117 ; letter-like # ℗ P
+ 211E ; letter-like # ℞ R or Px
+ 211F ; letter-like # ℟ R
+ 2120 ; letter-like # ℠ SM
+ 2121 ; letter-like # ℡ TEL
+ 2123 ; letter-like # ℣ V
+ 2125 ; letter-like # ℥ ʒ or #ezhzh or zz
+ 2127 ; letter-like # ℧ S or #Omega
+ 2129 ; letter-like # ℩ #iota
+ 213A ; letter-like # ℺ Q
+ 213B ; letter-like # ℻ FAX
+ 214A ; letter-like # ⅊ PL
+ 214C ; letter-like # ⅌ per
+ 214D ; letter-like # ⅍ A/B
+ 218A ; letter-like # ↊ 2 or A or X
+ 218B ; letter-like # ↋ 3 or B or Y
+ 2400 ; letter-like # ␀ NUL
+ 2401 ; letter-like # ␁ SOH
+ 2402 ; letter-like # ␂ STX
+ 2403 ; letter-like # ␃ ETX
+ 2404 ; letter-like # ␄ EOT
+ 2405 ; letter-like # ␅ ENQ
+ 2406 ; letter-like # ␆ ACK
+ 2407 ; letter-like # ␇ BEL
+ 2408 ; letter-like # ␈ BS
+ 2409 ; letter-like # ␉ HT
+ 240A ; letter-like # ␊ LF
+ 240B ; letter-like # ␋ VT
+ 240C ; letter-like # ␌ FF
+ 240D ; letter-like # ␍ CR
+ 240E ; letter-like # ␎ SO
+ 240F ; letter-like # ␏ SI
+ 2410 ; letter-like # ␐ DLE
+ 2411 ; letter-like # ␑ DC1
+ 2412 ; letter-like # ␒ DC2
+ 2413 ; letter-like # ␓ DC3
+ 2414 ; letter-like # ␔ DC4
+ 2415 ; letter-like # ␕ NAK
+ 2416 ; letter-like # ␖ SYN
+ 2417 ; letter-like # ␗ ETB
+ 2418 ; letter-like # ␘ CAN
+ 2419 ; letter-like # ␙ EM
+ 241A ; letter-like # ␚ SUB
+ 241B ; letter-like # ␛ ESC
+ 241C ; letter-like # ␜ FS
+ 241D ; letter-like # ␝ GS
+ 241E ; letter-like # ␞ RS
+ 241F ; letter-like # ␟ US
+ 2420 ; letter-like # ␠ SP
+ 2421 ; letter-like # ␡ DEL
+ 2422 ; letter-like # ␢ b
+ 2424 ; letter-like # ␤ NL
+ 2627 ; letter-like # ☧ XP
+ 3004 ; letter-like # 〄 JIS
+ 31C0 ; letter-like # ㇀
+ 31C1 ; letter-like # ㇁
+ 31C2 ; letter-like # ㇂
+ 31C3 ; letter-like # ㇃
+ 31C4 ; letter-like # ㇄
+ 31C5 ; letter-like # ㇅
+ 31C6 ; letter-like # ㇆
+ 31C7 ; letter-like # ㇇
+ 31C8 ; letter-like # ㇈
+ 31C9 ; letter-like # ㇉
+ 31CA ; letter-like # ㇊
+ 31CB ; letter-like # ㇋
+ 31CC ; letter-like # ㇌
+ 31CD ; letter-like # ㇍
+ 31CE ; letter-like # ㇎
+ 31CF ; letter-like # ㇏
+ 31D0 ; letter-like # ㇐
+ 31D1 ; letter-like # ㇑
+ 31D2 ; letter-like # ㇒
+ 31D3 ; letter-like # ㇓
+ 31D4 ; letter-like # ㇔
+ 31D5 ; letter-like # ㇕
+ 31D6 ; letter-like # ㇖
+ 31D7 ; letter-like # ㇗
+ 31D8 ; letter-like # ㇘
+ 31D9 ; letter-like # ㇙
+ 31DA ; letter-like # ㇚
+ 31DB ; letter-like # ㇛
+ 31DC ; letter-like # ㇜
+ 31DD ; letter-like # ㇝
+ 31DE ; letter-like # ㇞
+ 31DF ; letter-like # ㇟
+ 31E0 ; letter-like # ㇠
+ 31E1 ; letter-like # ㇡
+ 31E2 ; letter-like # ㇢
+ 31E3 ; letter-like # ㇣
+ 3250 ; letter-like # ㉐
+ 32CC ; letter-like # ㋌
+ 32CD ; letter-like # ㋍
+ 32CE ; letter-like # ㋎
+ 32CF ; letter-like # ㋏
+ 3377 ; letter-like # ㍷
+ 3378 ; letter-like # ㍸
+ 3379 ; letter-like # ㍹
+ 337A ; letter-like # ㍺
+ 33DE ; letter-like # ㏞
+ 33DF ; letter-like # ㏟
+ 33FF ; letter-like # ㏿
+10192 ; letter-like # 𐆒 L
+10193 ; letter-like # 𐆓 S
+10194 ; letter-like # 𐆔 S
+10196 ; letter-like # 𐆖 X
+10197 ; letter-like # 𐆗 V
+10198 ; letter-like # 𐆘 HS
+10199 ; letter-like # 𐆙 H
+1019A ; letter-like # 𐆚 I
+1019B ; letter-like # 𐆛 L
+1F16A ; letter-like # 🅪 MC
+1F16B ; letter-like # 🅫 MD
+1F5DA ; letter-like # 🗚 aA
+1F5DB ; letter-like # 🗛 Aa
+1F670 ; letter-like # 🙰 et
+1F671 ; letter-like # 🙱 et
+1F672 ; letter-like # 🙲 et
+1F673 ; letter-like # 🙳 et
+1F674 ; letter-like # 🙴 et
+1F675 ; letter-like # 🙵 et
+1F700 ; letter-like # 🜀 QE
+1F707 ; letter-like # 🜇 AR
+1F748 ; letter-like # 🝈 TR
+1F749 ; letter-like # 🝉 SbS
+1F74C ; letter-like # 🝌 c
+1F74D ; letter-like # 🝍 AV or XO
+1F75B ; letter-like # 🝛 aaa
+1F75C ; letter-like # 🝜 SSS
+1F76B ; letter-like # 🝫 MB
+1F76C ; letter-like # 🝬 VB
+1F772 ; letter-like # 🝲 #ezh#beta or zs
+1F773 ; letter-like # 🝳 #ezhzh#beta or zzs
