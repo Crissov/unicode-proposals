@@ -29,10 +29,10 @@ Most, but by far not all, manual counting systems count to *five* on a single ha
 	3. pinky only
 2. 3 main variants:
 	1. thumb and index finger
-	2. index and middle finger (Victory sign ✌️)
+	2. index and middle finger (Victory sign ✌️ = air quotes)
 	3. pinky and ring finger
 3. 3 main variants (notable pop culture reference: *Inglorious Basterds*):
-	1. thumb, index and middle finger
+	1. thumb, index and middle finger (see [L2/16-071](http://www.unicode.org/L2/L2016/16071-three-fingers.pdf) for non-counting use)
 	2. index, middle and ring finger
 	3. pinky, ring and middle finger
 4. 2 main variants:
@@ -56,7 +56,7 @@ There are several finger alphabets for different scripts in use worldwide. For t
 
 ### Gesturing
 
-Many hand gestures have unambiguous and well known meaning among a single (sub-)culture, but may conflict across cultures and also with proper sign languages. Some of them have already been encoded, even ones that are considered obscene in many places (e.g. 🖕👌✌️🖖✊).
+Many hand gestures have unambiguous and well known meaning among a single (sub-)culture, but may conflict across cultures and also with proper sign languages. Some of them have already been encoded, even ones that are considered obscene in many places (e.g. 🖕👌✌️🖖✊). There are more worthy of inclusion: *pistol*, *loser*
 
 ### Signing
 
@@ -74,8 +74,8 @@ There are many games like Roshambo that are based on finger gestures. Unicode an
 	- *lizard*: tips of thumb, index and middle finger touching, forming a head
 	- *snake*: fingers held next to each other, thumb touches the base  or middle link of index and possibly ring finger
 - the Japanese *snake*, however, is just a raised index finger ☝️/👆, 
-- *slug* (also Japanese): raised thumb 👍, pointing sideways
-- *frog* (also Japanese): raised pinky, pointing sideways
+- *slug* (also Japanese): extended thumb 👍, pointing sideways, like hitchhiker’s thumb
+- *frog* (also Japanese): extended pinky, pointing sideways
 - *well/fountain*: similar to OK gesture 👌, but the ring formed of thumb and index finger faces up and the fingers are hold together, i.e. half-closed between ✊ and ✋
 - *bull, fox, dog*: all similar to the devil sign 🤘 with pinky and index finger raised
 	* the *bull* faces sidewards and often has the tip of the thumb touching the nails of ring and middle finger touching, so 
@@ -142,6 +142,8 @@ All of the existing emojis are using one’s own right hand or other’s left ha
 ### Left hand versus right hand
 
 Right-handedness is the major preference in all the world’s populations. It’s therefore not discriminating to use it as the default hand (from the reader’s perspective) for emojis, although the emojis pointing left and down are already using the opposite hand. In most cases, we could therefore associate White hand characters with one’s own right hand and Black ones with one’s own left hand.
+
+### Gloves, Rings
 
 Description
 
