@@ -5,9 +5,9 @@ In a proposed addition to ISO 3166 Part 2, (first-level) subdivisions of Alpha-2
 country codes from Part 1 can be coded as a single emoji as defined by Unicode /
 ISO 10646.
 
-Any Unicode character with \`Emoji\` property set to \`yes\` can be chosen as a
-symbol, regardless of the state of its \`Emoji\_Presentation\` property or the
-applicability of variation selectors \`VS-15\` and \`VS-16\` (U+FE0E/F).
+Any Unicode character with `Emoji` property set to `yes` can be chosen as a
+symbol, regardless of the state of its `Emoji_Presentation` property or the
+applicability of variation selectors `VS-15` and `VS-16` (U+FE0E/F).
 
 In a new part of ISO 3166 to be proposed, former geopolitical entities can be
 encoded as a “subdivision” of its legal successor.
