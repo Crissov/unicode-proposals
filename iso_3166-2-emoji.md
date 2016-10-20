@@ -22,7 +22,7 @@ ISO 3166-2:DE
 | DE-BE | 🐻                  | Berlin                 | Berlin                        | state (city)     |
 | DE-BB | 🦅                  | Brandenburg            | Brandenburg                   | state            |
 | DE-HB | 🗝                  | Bremen                 | Bremen                        | state (city)     |
-| DE-HH | 🏰 / 🏛             | Hamburg                | Hamburg                       | state (city)     |
+| DE-HH | 🏰 / 🏛 / ⚓️         | Hamburg                | Hamburg                       | state (city)     |
 | DE-HE | 🦁                  | Hessen                 | Hesse                         | state            |
 | DE-MV | 🐮 / 🌅             | Mecklenburg-Vorpommern | Mecklenburg-Western Pomerania | state            |
 | DE-NI | 🐴                  | Niedersachsen          | Lower Saxony                  | state            |
