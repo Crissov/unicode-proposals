@@ -44,6 +44,8 @@ Missing body parts
 
 -   Guts, intestines
 
+-	Brain → [L2/16-299](http://www.unicode.org/L2/L2016/16299-brain-emoji.pdf)
+
 Current metaphors
 -----------------
 

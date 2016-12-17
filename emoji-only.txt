@@ -96,7 +96,8 @@
 
 
 
-
+# collapsed ranges
+#
 23E9..23EC
 23F0
 23F3

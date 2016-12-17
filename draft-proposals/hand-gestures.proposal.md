@@ -52,7 +52,7 @@ All raised fingers are canonically pointing up. Some otherwise identical convent
 
 ### Spelling
 
-There are several finger alphabets for different scripts in use worldwide. For the roman script alone, there are at least __ ones known, which may share symbols for some letters, though.
+There are several finger alphabets for different scripts in use worldwide. For the roman script alone, there are at least __ ones known, many of which share symbols for most letters, though.
 
 ### Gesturing
 
