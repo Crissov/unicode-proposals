@@ -1,0 +1,74 @@
+Hijab / Headscarf Emoji http://www.unicode.org/L2/L2016/16284-hijab-headscarf-emoji.pdf 
+http://www.unicode.org/L2/L2016/16282-breastfeeding-morzone.pdf
+http://www.unicode.org/L2/L2016/16280-breastfeeding-emoji.pdf
+http://www.unicode.org/L2/L2016/16279-person-meditating.pdf
+http://www.unicode.org/L2/L2016/16275-almond-emoji.pdf
+http://www.unicode.org/L2/L2016/16274-mermaid-emoji.pdf
+http://www.unicode.org/L2/L2016/16273-coconut-emoji.pdf
+http://www.unicode.org/L2/L2016/16272-pie-emoji.pdf
+http://www.unicode.org/L2/L2016/16260-beard-emoji.pdf
+	http://www.unicode.org/L2/L2016/16254-n4747-halfstars.pdf
+	http://www.unicode.org/L2/L2016/16253-n4746-ichthys.pdf
+	http://www.unicode.org/L2/L2016/16252-n4745-indalo.pdf
+http://www.unicode.org/L2/L2016/16247-climber-emoji.pdf
+http://www.unicode.org/L2/L2016/16240-socks-emoji-.pdf
+	http://www.unicode.org/L2/L2016/16238-defective.html
+	http://www.unicode.org/L2/L2016/16234-alt-model-subdiv-flags.pdf
+	http://www.unicode.org/L2/L2016/16230-half-star-unicode.pdf
+	http://www.unicode.org/L2/L2016/16228-mod-base-add.txt
+	http://www.unicode.org/L2/L2016/16226-reactivate-uts52.pdf
+http://www.unicode.org/L2/L2016/16221r2-additional-zwj-seq.pdf
+	http://www.unicode.org/L2/L2016/16208r-emoji-future-proof.pdf
+	http://www.unicode.org/L2/L2016/16207-tr51-emoji-proposal.pdf
+http://www.unicode.org/L2/L2016/16206r-flying-saucer-emoji.pdf
+http://www.unicode.org/L2/L2016/16197-sauna-emoji.pdf
+	http://www.unicode.org/L2/L2016/16193-gendered-emoji-2.pdf
+http://www.unicode.org/L2/L2016/16191-salt-shaker-emoji.pdf
+	http://www.unicode.org/L2/L2016/16186-half-stars.pdf
+	http://www.unicode.org/L2/L2016/16185-go-symbols.pdf
+http://www.unicode.org/L2/L2016/16184-regional-indicators.pdf
+http://www.unicode.org/L2/L2016/16183-rainbow-flag.pdf
+http://www.unicode.org/L2/L2016/16182-gender-zwj-sequences-list.pdf
+http://www.unicode.org/L2/L2016/16181-gender-zwj-sequences.pdf
+http://www.unicode.org/L2/L2016/16180-eng-scot-wales-flags.pdf
+	http://www.unicode.org/L2/L2016/16169-gendered-prof-cmt.pdf
+	http://www.unicode.org/L2/L2016/16162-constraints.pdf
+http://www.unicode.org/L2/L2016/16160-emoji-professions.pdf
+	http://www.unicode.org/L2/L2016/16157-vs-emoji.html
+	http://www.unicode.org/L2/L2016/16147-uts52-1-draft.pdf
+	http://www.unicode.org/L2/L2016/16145-utr51-6-draft.pdf
+	http://www.unicode.org/L2/L2016/16130-emoji-subcom.pdf
+	http://www.unicode.org/L2/L2016/16128-additional-emoji-selection-factor.pdf
+http://www.unicode.org/L2/L2016/16127r2-winter-activities.pdf
+http://www.unicode.org/L2/L2016/16126-menstrual-cycle.pdf
+http://www.unicode.org/L2/L2016/16124-orange-heart-emoji.pdf
+	http://www.unicode.org/L2/L2016/16108-n4719-go-game-encoding.pdf
+	http://www.unicode.org/L2/L2016/16105-unicode-image-hash.pdf
+http://www.unicode.org/L2/L2016/16103-jurassic-fdbk.pdf
+	http://www.unicode.org/L2/L2016/16094-seg-and-emoji-props.pdf
+	http://www.unicode.org/L2/L2016/16093-zwj-segmentation.pdf
+	http://www.unicode.org/L2/L2016/16088-chars-for-emoji-provisional.pdf
+	http://www.unicode.org/L2/L2016/16087-provisional-value-for-emoji.pdf
+	http://www.unicode.org/L2/L2016/16080r-add-astrology.pdf
+http://www.unicode.org/L2/L2016/16072-jurassic-emoji.pdf
+http://www.unicode.org/L2/L2016/16071-three-fingers.pdf
+	http://www.unicode.org/L2/L2016/16067r-astrological-plutos.pdf
+	http://www.unicode.org/L2/L2016/16064r-uranian-planets.pdf
+	http://www.unicode.org/L2/L2016/16060-flag-tofus.txt
+	http://www.unicode.org/L2/L2016/16050-emoji.txt
+	http://www.unicode.org/L2/L2016/16045-prop-new-emoji.pdf
+	http://www.unicode.org/L2/L2016/16042-emoji-clarifications.txt
+	http://www.unicode.org/L2/L2016/16038-esc-report-jan2016.pdf
+	http://www.unicode.org/L2/L2016/16036-nameslist.html
+	http://www.unicode.org/L2/L2016/16029r-utr51-3-draft.pdf
+http://www.unicode.org/L2/L2016/16026-takeout-box-emoji.pdf
+http://www.unicode.org/L2/L2016/16025-fortune-cookie-emoji.pdf
+http://www.unicode.org/L2/L2016/16024-dumpling-emoji.pdf
+http://www.unicode.org/L2/L2016/16023-chopsticks-emoji.pdf
+http://www.unicode.org/L2/L2016/16022-condom-emoji.pdf
+http://www.unicode.org/L2/L2016/16021-game-pieces-emoji.pdf
+http://www.unicode.org/L2/L2016/16012-2B95-rightwards-arrow.pdf
+	http://www.unicode.org/L2/L2016/16011r3-break-prop-emoji.pdf
+	http://www.unicode.org/L2/L2016/16010-custom-emoji-registry.pdf
+	http://www.unicode.org/L2/L2016/16009-custom-emoji-framewk.pdf
+	http://www.unicode.org/L2/L2016/16008r3-custom-emoji.pdf
