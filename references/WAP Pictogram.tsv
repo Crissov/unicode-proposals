@@ -22,12 +22,12 @@ Emoji	Class	Subclass	Name	Description
 9️⃣	core	button	9	Button symbol labelled to number nine
 0️⃣	core	button	0	Button symbol labelled to number zero
 📞📲	core	action	makePhoneCall	Off-hook sign
-🔎🔍	core	action	find	A sign indicating "look-up"
-🔏	core	action	userAuthentication	A sign indicating "authentication request"
-🔒	core	action	password	A sign indicating "password input"
-⏭	core	action	nextItem	A sign indicating "the next item exists and/or a link to it"
-🆑	core	action	clear	A sign indicating "clean up"
-⏹	core	action	stop	"Stop" sign
+🔎🔍	core	action	find	A sign indicating “look-up”
+🔏	core	action	userAuthentication	A sign indicating “authentication request”
+🔒	core	action	password	A sign indicating “password input”
+⏭	core	action	nextItem	A sign indicating “the next item exists and/or a link to it”
+🆑	core	action	clear	A sign indicating “clean up”
+⏹	core	action	stop	“Stop” sign
 🔝🔼	core	action	top	A link sign to the home page
 🔜▶️⏩	core	action	next	A link sign to the next page or card
 🔙◀️⏪	core	action	back	A link sign to the previous page or card
@@ -43,7 +43,7 @@ Emoji	Class	Subclass	Name	Description
 🔓	core	state	insecure	A sign indicating unsecured
 ©️	core	state	copyright	A copyright symbol
 ™️	core	state	trademark	A trademark symbol
-🚧🏗	core	state	underConstruction	A sign indicating "under construction" status
+🚧🏗	core	state	underConstruction	A sign indicating “under construction” status
 🔰	core	state	beginner	A sign indicating aimed for a beginner
 📖📕	core	media	book	A symbol for a book
 📼	core	media	video	A symbol for a video
@@ -159,9 +159,9 @@ Emoji	Class	Subclass	Name	Description
 👶🚼	human	age	baby	baby
 👁👀	human	body	eye	eye(s)
 👂	human	body	ear	ear(s)
-✊	human	body	rock	a rock symbol of "scissors-paper-rock"
-✌️	human	body	scissors	a rock symbol of "scissors-paper-rock"
-✋	human	body	paper	a rock symbol of "scissors-paper-rock"
+✊	human	body	rock	a rock symbol of “scissors-paper-rock”
+✌️	human	body	scissors	a rock symbol of “scissors-paper-rock”
+✋	human	body	paper	a rock symbol of “scissors-paper-rock”
 👣	human	body	foot	a symbol of foot
 👞👟👢	human	body	shoes	shoe
 👓	human	body	spectacles	eye glasses
@@ -206,7 +206,7 @@ Emoji	Class	Subclass	Name	Description
 🎁	misc		giftBox	a symbol of gift box
 🔥	misc		fire	a symbol of fire
 ☃️⛄️	misc		snowman	a symbol of snowman
-🚧🏗	misc		work	a sing showing "under work"
+🚧🏗	misc		work	a sing showing “under work”
 💸💵💴💶💷💰	misc		money	a symbol showing money, cash
 🎵🎶	music		quarterNote	a quarter note sign
 🎼	music		G-clef	a G clef sign
@@ -235,12 +235,12 @@ Emoji	Class	Subclass	Name	Description
 	sport		scuba	a symbol of scuba diving
 📅📆🗓	time	event	anniversary	a sign of anniversary
 📅📆🗓🎌	time	event	holiday	a sign of holiday
-🎅🎄	time	event	xmas	a sign of Christmas (X'mas) season
+🎅🎄	time	event	xmas	a sign of Christmas (X’mas) season
 🎂🎀	time	event	birthday	a sign of birthday
 🎊🎉	time	event	party	a sign of a party event
-🎆🎇	time	event	newYearsEve	a sign of New Year's Eve
+🎆🎇	time	event	newYearsEve	a sign of New Year’s Eve
 🎇🎆📆🗓📅	time	event	newYearsDay	a sign of New Year's Day
-🕒	time	schedule	3oclock	a clock sign showing 3 o'clock
+🕒	time	schedule	3oclock	a clock sign showing 3 o’clock
 📆🗓📅	time	schedule	calendar	a symbol of calendar
 🌱🌷🌼	time	season	spring	a sign of Spring
 🌞☀️	time	season	summer	a sign of Summer
@@ -254,7 +254,7 @@ Emoji	Class	Subclass	Name	Description
 🚕🚖	vehicle		taxi	a sign of taxi
 ✈️	vehicle		plane	a symbol of air plane
 ⛴🛳	vehicle		ship	a symbol of ship, boat
-🚶	vehicle		onFoot	a symbol of "on foot"
+🚶	vehicle		onFoot	a symbol of “on foot”
 🚇	vehicle		subway	a sign of subway, tube, underground train
 🚀	vehicle		rocket	a symbol of rocket
 🔫	weapon		gun	a symbol of gun, pistol
