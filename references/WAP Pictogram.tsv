@@ -246,7 +246,7 @@ Emoji	Class	Subclass	Name	Description
 🌞☀️	time	season	summer	a sign of Summer
 🍃🍂🌬☂️☔️🌫	time	season	autumn	a sign of Autumn
 ❄️☃️⛄️🌨	time	season	winter	a sign of Winter
-🔨	tool	hammer	a symbol of hammer
+🔨	tool		hammer	a symbol of hammer
 🚌🚍	vehicle		bus	a symbol of bus
 🚂🚃🚆	vehicle		train	a symbol of train
 🚄🚅	vehicle		expressTrain	a symbol of express train
