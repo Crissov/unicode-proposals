@@ -9,17 +9,6 @@ Emoticons, Actions, People, Body and Clothing/Fashion
 - [Grimacing face with smiling eyes](https://www.change.org/p/apple-change-the-grinning-emoji-back-to-how-it-was-in-ios-9)
 - [Face wearing makeup](https://www.change.org/p/kik-team-help-kik-com-http-www-kik-com-contact-kik-interactive-inc-this-drawing-needs-to-be-a-real-kik-emoji)
 
-Puke Emoji, Vomit Emoji, Barf Emoji Disgust Emoji, Sick Emojis
--------------------------------------------------------------
-
-[FACE WITH OPEN MOUTH VOMITING](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f92e)
-
-- [Face vomiting](https://www.change.org/p/you-vomit-emoji)
-- [Face vomiting](https://www.change.org/p/facebook-add-puke-or-ill-to-available-reactions-for-posts)
-- [Face vomiting](https://www.change.org/p/mark-zuckerberg-add-the-barf-disgust-reaction-to-facebook)
-- [Face vomiting](https://www.change.org/p/apple-an-emoji-symbolizing-someone-throwing-up)
-- [Face vomiting](https://www.openpetition.de/petition/online/wir-moechten-ein-kotzendes-smiley-bei-whatsapp)
-
 👤 Professions, Roles, Costumes, Clichés Emoji
 ----------------------------------------------
 
@@ -31,10 +20,6 @@ Puke Emoji, Vomit Emoji, Barf Emoji Disgust Emoji, Sick Emojis
 - [Rabbi](http://www.thepetitionsite.com/148/741/454/make-a-rabbi-emoji/)
 - [Viking](http://www.ipetitions.com/petition/apple-needs-to-add-a-viking-emoji)
 - [Stoner](http://www.ipetitions.com/petition/stoner-emojis)
-
-[MAGE](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f9d9)
-
-- [Wizard](https://www.change.org/p/the-get-a-wizard-emoji-for-skype)
 
 ### Fandom Emoji
 
@@ -74,23 +59,6 @@ Puke Emoji, Vomit Emoji, Barf Emoji Disgust Emoji, Sick Emojis
 - [Kidney](https://www.change.org/p/apple-samsung-android-kidney-emoji)
 - [Vagina](http://www.ipetitions.com/petition/add-a-vagina-emoji) (seems to have been deleted from site)
 
-[BRAIN](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f9e0)
-
-- [Brain](https://www.change.org/p/whatsapp-volem-l-emoticona-d-un-cervell-a-whatsapp)
-
-Beard and Mustache Emoji
-------------------------
-
-[BEARDED PERSON](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f9d4)
-
-- [Beard](https://www.change.org/p/unicode-please-release-a-beardemoji)
-- [Beard](https://www.change.org/p/the-unicode-consortium-apple-create-a-beard-emoji)
-- [not mustache](https://www.change.org/p/apple-new-beard-emoji)
-- [Beards](https://www.change.org/p/unicode-apple-blackberry-google-microsoft-emojis-need-beards-too)
-- [Bearded person and bald person](https://www.change.org/p/whatsapp-queremos-un-emoji-de-whatsapp-calvo-y-barbudo)
-- [Beard](http://www.beardemoji.com)
-- [Bearded person](http://www.ipetitions.com/petition/we-want-a-bearded-emoji)
-
 Health and Illness Emoji
 ------------------------
 
@@ -106,25 +74,10 @@ Health and Illness Emoji
 - [Fedora](https://www.change.org/p/my-friend-justin-approve-this-fedora-emoji)
 - [Fedora](https://www.change.org/p/president-of-the-united-states-obtain-a-fedora-emoji-for-all-mobile-devices)
 
-### Headscarf or Hijab Emoji
-
-[PERSON WITH HEADSCARF](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f9d5)
-
-- [Hijab](https://www.change.org/p/apple-add-a-hijab-emoji-for-muslims)
-- [Hijab](https://www.change.org/p/unicode-consortium-mark-davis-rachel-martin-i-want-the-hijab-emoji-i-want-diversity)
-- [Hijab](http://www.ipetitions.com/petition/hijabi-emojis)
-
 👞 Footwear and Shoe Emoji
 --------------------------
 
 - [Ballet shoes](https://www.change.org/p/whats-app-create-a-ballerina-emoji-shoe-emojis-are-either-red-high-heels-sex-heavy-boots-masculine-or-frumpy-sandals)
-
-### Socks and Stockings
-
-[SOCKS](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f9e6)
-
-- [Sock](https://www.change.org/p/apple-or-android-or-whoever-create-a-sock-emoji)
-- [Sock](https://www.change.org/p/national-rifle-association-add-a-sock-emoji-to-iphone)
 
 Waistwear and Belts
 -------------------
@@ -174,10 +127,6 @@ Hand with Thumb and Pinky Finger Extended, Pointing Sidewards
 
 - [Scout sign: Index, Middle and Ring Fingers Extended](https://www.change.org/p/whatsapp-queremos-un-emoji-para-la-seña-scout-i-we-want-an-emoji-of-the-scout-signal
 - [Shocker: Index, Middle and Pinky Fingers Extended](https://www.change.org/p/apple-make-the-shocker-hand-an-emoji)
-
-[I LOVE YOU HAND SIGN](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f91f)
-
-- [ASL ILY: Thumb, Index and Pinky Fingers extended](https://www.change.org/p/unicode-consortium-we-want-the-i-love-you-asl-handshape-emoji)
 
 Phan, Ladders Gesture Emoji
 ---------------------------
@@ -236,10 +185,6 @@ Waffle Emoji
 - [Dough](https://www.change.org/p/steve-jobs-apple-dough-quality)
 - [Chocolate cake](https://www.change.org/p/apple-add-a-chocolate-cake-emoji)
 
-[PIE](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f967)
-
-- [Pie](https://www.change.org/p/unicode-consortium-create-a-pie-emoji-seriously)
-
 ### Muffin and Cupcake Emoji
 
 - [Cupcake](https://www.change.org/p/unicode-consortium-we-need-a-cupcake-emoji-stat)
@@ -263,33 +208,6 @@ Waffle Emoji
 - [Garlic Bread](https://www.change.org/p/garlic-bread-fanatics-garlic-bread-emoji)
 - [Garlic Bread](https://www.change.org/p/google-make-garlic-bread-an-emoji-on-all-platforms)
 
-### Sandwich or Sub Emoji
-
-[SANDWICH](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f96a)
-
-- [Smore](https://www.change.org/p/apple-create-a-s-more-emoji)
-- [Meatball sub](https://www.change.org/p/apple-meatball-sub-emoji)
-- [Croque Monsieur](https://www.change.org/p/emoji-pour-un-emoji-croque-monsieur)
-
-Pretzel Emoji
--------------
-
-[PRETZEL](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f968)
-
-- [Pretzel](https://www.change.org/p/unicode-consortium-pretzel-emoji-the-perfect-twist)
-
-Dumpling Emoji and similar Stuffed Pasta
-----------------------------------------
-
-[DUMPLING](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f95f)
-
-- [Samosa](https://www.change.org/p/apple-samosa-emoji)
-- [Dumpling](https://www.change.org/p/unicode-consortium-we-need-a-dumpling-emoji)
-- [Ravioli](https://www.change.org/p/everyone-a-ravioli-emoji)
-- [Pizza roll](https://www.change.org/p/dani-add-a-pizza-roll-emoji)
-- [Dumpling](https://www.change.org/p/the-peopo-have-apple-add-a-dumpring-emoji)
-- [Empanada](https://www.change.org/p/apple-añadan-el-emoji-de-empanada)
-
 🍎 Edible Fruit, Plants and Seeds
 ---------------------------------
 
@@ -298,17 +216,6 @@ Dumpling Emoji and similar Stuffed Pasta
 - [Guava](https://www.change.org/p/people-who-work-for-the-emoji-company-there-should-be-a-guava-emoji)
 - [Grapefruit](http://www.ipetitions.com/petition/grapefruit-emoji-4-messenger)
 - [Macadamia nut (and peanut)](http://www.thepetitionsite.com/204/444/591/demand-peanut-and-macadamia-nut-emoji-now/) → U+1F95C Peanuts 🥜
-
-[COCONUT](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f965)
-
-- [Coconut](http://www.ipetitions.com/petition/coconut-emoji)
-
-### Broccoli Emoji
-
-[BROCCOLI](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f966)
-
-- [Broccoli](https://www.change.org/p/apple-give-broccoli-the-emoji-it-deserves)
-- [Broccoli](http://www.ipetitions.com/petition/officially-add-broccoli-as-an-emoji)
 
 ### Mango Emoji
 
@@ -401,13 +308,6 @@ Sports, Hobbies and Activities
 🚶 Activity
 -----------
 
-### Breastfeeding Emoji
-
-[BREAST-FEEDING](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f931)
-
-- [Breastfeeding](https://www.change.org/p/for-more-breastfeeding-on-the-world-we-wish-an-emoji-a-mum-breastfeeding-her-baby-por-un-emoticón-pro-lactancia-materna)
-- [Breastfeeding](https://www.change.org/p/apple-where-is-the-breastfeeding-emoji)
-
 🛠 Machines, Tools and Objects
 ==============================
 
@@ -473,10 +373,6 @@ Animal Emoji
 🐛 Insects and Bugs Emoji
 -------------------------
 
-[CRICKET](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f997)
-
-- [Crickets](https://www.change.org/p/facebook-new-crickets-emoji)
-
 🐦 Birds Emoji
 --------------
 
@@ -527,61 +423,10 @@ Ferret and Weasel Emoji
 - [Lobster](https://www.change.org/p/unicode-a-lobster-emoji)
 - [Lobster](https://www.change.org/p/we-have-a-crab-emoji-now-it-s-time-for-a-lobster-emoji)
 
-Giraffe Emoji
--------------
-
-[GIRAFFE FACE](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f992)
-
-- [Giraffe](https://www.change.org/p/apple-microsoft-facebook-giraffe-emoji)
-- [Giraffe](https://www.change.org/p/apple-apple-to-create-a-giraffe-emoji)
-- [Giraffe](https://www.change.org/p/tim-cook-a-giraffe-emoji)
-- [Giraffe](https://www.change.org/p/apple-make-a-giraffe-emoji-a5a0e90f-45c5-44dc-aa52-674a884dda45)
-- [Giraffe](https://www.change.org/p/apple-apple-make-a-giraffe-emoji)
-- [Giraffe](https://www.change.org/p/apple-petition-to-have-a-giraffe-emoji)
-- [Giraffe](https://www.change.org/p/apple-get-apple-to-make-a-giraffe-emoji)
-- [Giraffe](https://www.change.org/p/unicode-consortium-there-should-be-a-giraffe-emoji)
-- [Giraffe](https://www.change.org/p/emoji-there-needs-to-be-a-giraffe-emoji-who-s-with-me)
-- [Giraffe](https://www.change.org/p/whatsapp-inc-para-que-whatsapp-inlcuya-un-emoji-de-jirafa-en-la-sección-de-animales)
-- [Giraffe](https://www.change.org/p/apple-we-want-giraffe-emoji-s)
-- [Giraffe](http://www.thepetitionsite.com/701/400/453/make-a-giraffe-emoji-apple/)
-- [Giraffe](http://www.ipetitions.com/petition/giraffe-emoji-2)
-- [Giraffe](http://www.ipetitions.com/petition/giraffe-emoji-3)
-- [Giraffe](http://www.ipetitions.com/petition/giraffe-emoji-4)
-- [Giraffe](http://www.ipetitions.com/petition/help-create-the-giraffe-emoji)
-- [Giraffe](http://www.ipetitions.com/petition/we-need-a-giraffe-emoji)
-- [Giraffe Face](https://www.emojirequest.com/r/GiraffeFaceEmoji)
-
-Hedgehog Emoji
---------------
-
-[HEDGEHOG](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f994)
-
-- [Hedgehog](http://www.ipetitions.com/petition/hedgehog-emoji)
-- [Hedgehog](https://www.emojirequest.com/r/HedgehogFaceEmoji)
-
-Zebra Emoji
------------
-
-[ZEBRA FACE](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f993)
-
-- [ZEBRA FACE](https://www.emojirequest.com/r/ZebraFaceEmoji)
-
 🐲 Dinosaurs Emoji
 ------------------
 
-[SAUROPOD](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f995)
-
-[T-REX](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f996)
-
-- [Dinosaur](https://www.change.org/p/apple-dinosaur-emoji)
-- [Dinosaur](https://www.change.org/p/apple-have-a-dinosaur-emoji)
-- [Dinosaur](https://www.change.org/p/apple-let-s-get-a-dinosaur-emoji)
 - [Dinosaur](https://www.change.org/p/apple-help-us-get-a-velociraptor-emoji)
-- [Dinosaur](https://www.change.org/p/apple-apple-where-tf-is-the-dinosaur-emoji-tho)
-- [Dinosaur](https://www.change.org/p/apple-let-s-get-a-dinosaur-emoji-on-apple-devices)
-- [Dinosaur](https://www.change.org/p/apple-get-apple-to-give-us-a-dinosaur-emoji-06440e0b-d456-464c-a1e7-4d48e44d9f19)
-- [Dinosaur](http://www.ipetitions.com/petition/dino-emoji)
-- [Dinosaur](https://www.emojirequest.com/r/DinosaurEmoji)
 
 Llama or Alpaka Emoji
 ---------------------
@@ -690,42 +535,6 @@ Recreational Drugs
 🏴 Flags
 ========
 
-🇬🇧 Countries of United Kingdom
--------------------------------
-
-### Scotland/Alba or Saltire or St. Andrew Cross Flag
-
-- [Scotland](https://www.change.org/p/nicola-sturgeon-saltire-flag-emoji)
-- [Scotland](https://www.change.org/p/facebook-create-a-scottish-saltire-flag-emoticon-standrewsday)
-- [Scotland](https://www.change.org/p/international-organisation-we-want-a-scotland-emoji-flag)
-- [Scotland](http://www.ipetitions.com/petition/change-the-icon-on-facebook-for-burns-supper-from)
-- [Scotland and Northern Ireland](http://www.petitions24.com/scotland_and_northern_ireland_to_get_an_emoji)
-
-### Wales/Cymru or Dragon Flag
-
-- [Wales](https://www.change.org/p/apple-get-apple-to-add-a-welsh-flag-emoji)
-- [Wales](https://www.change.org/p/the-unicode-consortium-welsh-flag-emoji-appeal)
-- [Wales](https://www.change.org/p/apple-i-really-want-apple-to-aknowledge-wales-as-a-country-and-give-us-our-flag-emoji)
-- [Wales](https://www.change.org/p/kane-to-add-the-welsh-flag-to-emoji)
-- [Wales](http://www.gopetition.com/petitions/get-the-welsh-flag-on-the-emoji-lists.html)
-- [Wales](http://www.ipetitions.com/petition/welsh-flag-emoji-for-apple-emoji-keyboard)
-- [Wales](http://www.ipetitions.com/petition/facebook-welsh-flag-emoji)
-
-### Northern Ireland Flag
-
-- [Northern Ireland](https://www.change.org/p/apple-why-isn-t-there-an-northern-ireland-flag-emoji-let-s-ensure-apple-knows-we-exist)
-- [Northern Ireland and Scotland](http://www.petitions24.com/scotland_and_northern_ireland_to_get_an_emoji)
-
-### England or St. George Cross Flag
-
-- [England](https://www.gopetition.com/petitions/england-flag-emoji.html)
-
-🇺🇸 US States Flags
---------------------
-
-- [Texas](https://www.change.org/p/ted-cruz-need-texas-emoji)
-- [Confederate States of America](http://www.ipetitions.com/petition/have-apple-make-a-confederate-flag-emoji)
-
 Natives and Aboriginals Flags
 -----------------------------
 
@@ -750,7 +559,7 @@ Independence Movements Intranational
 ===========================================
 
 - [Transgender flag](https://www.change.org/p/unicode-add-transgender-pride-flag-emoji)
-- [](https://www.change.org/p/obama-ya-mama-stop-emoji-racism)
+- https://www.change.org/p/obama-ya-mama-stop-emoji-racism
 
 Gender Equality (New Versions of Existing Emojis)
 -------------------------------------------------
@@ -760,7 +569,7 @@ Gender Equality (New Versions of Existing Emojis)
 - [Runner](http://www.ipetitions.com/petition/athletic-running-woman-emoji)
 - [Runner](http://www.ipetitions.com/petition/petition-for-female-runnig-emoji)
 - [King](http://www.ipetitions.com/petition/King-Emoji) → 🤴 U+1F934 Prince
-- [](https://www.change.org/p/petición-para-por-el-derecho-de-las-mujeres-a-ir-solas-por-el-mundo)
+- https://www.change.org/p/petición-para-por-el-derecho-de-las-mujeres-a-ir-solas-por-el-mundo
 
 Femojis
 -------
@@ -776,7 +585,7 @@ Complexion and Ethniticy
 - [African-American](http://www.thepetitionsite.com/450/195/279/demand-apple-to-include-african-american-emoji/)
 - [African-American](http://www.ipetitions.com/petition/african-american-emojis)
 - [Ethnicity](http://www.ipetitions.com/petition/represent-all-ethnicities-as-emojis)
-- [](http://www.ipetitions.com/petition/love-doesnt-see-color-it-just-knows-how-to-mix)
+- http://www.ipetitions.com/petition/love-doesnt-see-color-it-just-knows-how-to-mix
 
 🛐 Faith, Religion, Belief
 -------------------------
@@ -796,18 +605,6 @@ Symbols, Signs and Icons
 
 - [Sponsored Content “#Ad”](http://corp.izea.com/emoji/)
 - [Planets (not symbols)](http://www.petitions24.com/planet_emojis)
-
-❤ Hearts Emoji
---------------
-
-### Orange Heart Emoji
-
-[ORANGE HEART](http://unicode.org/emoji/charts-beta/emoji-candidates.html#1f9e1)
-
-- [Orange heart](https://www.change.org/p/apple-make-an-orange-heart-emoji)
-- [Orange heart](https://www.change.org/p/apple-make-apple-and-android-create-an-orange-heart)
-- [Orange heart](http://www.ipetitions.com/petition/add-an-orange-heart-emoji-to-apples-emoji)
-- [Orange heart](http://www.ipetitions.com/petition/heart-rainbow)
 
 💰 Money Emoji
 --------------
