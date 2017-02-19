@@ -14,6 +14,7 @@ Broader Scope, Unspecific, Unclear
 - http://www.ipetitions.com/petition/create-a-iphone-bleach-emoji-by-alfie-lawrence-and
 - http://www.ipetitions.com/petition/add-in-a-wheat-thin-emoji
 
+<!-- All of the following have been added to Github issues #269, #270 and #262 -->
 
 � Obsolete Proposals: Already Standardized
 ============================================
@@ -293,7 +294,7 @@ Prince
 - https://www.change.org/p/pokeball-emoji-en-whatsapp
 - https://www.change.org/p/facebook-il-faut-que-facebook-crée-un-emoji-pokeball
 
-### U+1F479 👹 Shrek Emoji, Ogre, Monster or Troll Emoji
+### U+1F479 👹 Shrek Emoji
 
 - https://www.change.org/p/apple-making-a-shrek-emoji
 - https://www.change.org/p/family-friends-everyone-a-shrek-emoji
@@ -301,7 +302,7 @@ Prince
 - https://www.change.org/p/unicode-add-a-shrek-emoji-to-the-next-ios-update
 
 ### 😮 Pacman Emoji
-:V
+`:V`
 
 - https://www.change.org/p/mark-zuckerburg-we-want-the-pacman-emoji-back-facebook-give-it-back-we-the-geeks-we-the-gamers-demand
 - https://www.change.org/p/facebook-bring-v-emoji-back-on-facebook-d1cc5895-67dd-4cbf-8dd4-8f7e486df7ec
