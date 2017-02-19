@@ -20,7 +20,7 @@ Yellow | U+1F49B | &#x1F49B;
 Green  | U+1F49A | &#x1F49A;
 Blue   | U+1F499 | &#x1F499;
 Purple | U+1F49C | &#x1F49C;
-Orange | U+[TBA](http://www.unicode.org/L2/L2016/16124-orange-heart-emoji.pdf) | N/A
+Orange | [U+1F9E1](http://www.unicode.org/L2/L2016/16124-orange-heart-emoji.pdf) | &#x1F9E1;
 Pink   | U+1F49F/D/8/3/7  | &#x1F49F;/&#x1F49D;/&#x1F498;/&#x1F493;/&#x1F497;
 Broken | U+1F494 | &#x1F494;
 Sparks | U+1F496 | &#x1F496;
