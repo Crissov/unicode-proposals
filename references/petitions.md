@@ -566,9 +566,6 @@ Gender Equality (New Versions of Existing Emojis)
 
 - [Gender equality](https://www.change.org/p/apple-gender-equality-emojis-9a6b29ca-98f3-4bb9-bbb7-14ee6a50ff65)
 - [Gender equality](https://www.change.org/p/emojiquality)
-- [Runner](http://www.ipetitions.com/petition/athletic-running-woman-emoji)
-- [Runner](http://www.ipetitions.com/petition/petition-for-female-runnig-emoji)
-- [King](http://www.ipetitions.com/petition/King-Emoji) → 🤴 U+1F934 Prince
 - https://www.change.org/p/petición-para-por-el-derecho-de-las-mujeres-a-ir-solas-por-el-mundo
 
 Femojis
@@ -620,12 +617,3 @@ Symbols, Signs and Icons
 - https://www.change.org/p/unicode-dat-boi-emoji-added-to-uni-code-character-set
 - https://www.change.org/p/google-inc-change-the-placement-of-the-lgbtq-flag-in-emojis
 - https://www.change.org/p/facebook-add-praying-emoticon-to-facebook-like
-
-### Butt-like Peach
-
-- https://www.change.org/p/apple-make-apple-keep-the-old-peach-emoji-savethepeach
-- https://www.change.org/p/apple-save-the-peach-emoji
-- https://www.change.org/p/apple-keep-the-current-peach-emoji
-- https://www.change.org/p/apple-save-the-butt-peach-emoji-please
-- https://www.change.org/p/apple-don-t-let-apple-change-the-peach-emoji
-- https://www.change.org/p/emoji-save-the-peach-and-eggplant
