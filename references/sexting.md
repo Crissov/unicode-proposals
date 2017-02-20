@@ -162,3 +162,25 @@ U+1F4 U+1F4 | “****: ” |
 
 U+1F4 U+1F4 | “****: ” | 
 -->
+
+## Daily Mail: Femail
+- Source: [Revealed: The X-rated meanings behind popular emojis that will make you think twice before sending your next text](http://www.dailymail.co.uk/femail/article-4200384/The-X-rated-meanings-popular-emojis.html "2017-02-09 Stephanie Linning (for Mail Online)")
+
+Codepoints | Alleged meaning or use | Sequence
+-----------|------------|------------------------
+U+1F635 | “This smiley face with crosses for eyes … might appear shocked but it can actually mean the user has seen something X-rated.” | 😵
+U+1F646 | “this emoji can be used to signal a woman's orgasm” | 🙆
+U+1F525 | “This flame is used to indicate someone is attractive or sexy, or can add a racy touch to other messages.” | 🔥
+U+1F4EC | “few probably realise this innocuous mailbox emoji can be used to mean 'sex'” | 📬
+U+1F34C | “Two of the best-known X-rated emojis, both the banana and aubergine can mean a penis” | 🍌
+U+1F346 | “Two of the best-known X-rated emojis, both the banana and aubergine can mean a penis” | 🍆
+U+1F352 | “The cherries emoji can represent breasts” | 🍒
+U+1F351 | “the peach can be used to refer to a bottom ” | 🍑
+U+1F3AA | “Men can signal an erection with the circus tent” | 🎪
+U+1F3A4 | “Men can signal an […] ejaculation with this microphone” | 🎤
+U+1F39E | “The film strip can mean the user wants an X-rated video” | 🎞
+U+1F5A5 | “the computer [can mean the user wants] an X-rated chat” | 🖥
+U+1F3A5 | “Like the film strip, the video camera can mean the sender wants an X-rated video.” | 🎥
+U+1F4F8 | “the snapping camera can be used by someone looking for sexting to be taken to the next level” | 📸
+U+1F347 | “The grapes [can] be used to mean a man's testicles” | 🍇
+U+1F37B | “The […] clinking beer glasses [can] be used to mean a man's testicles” | 🍻
