@@ -6,29 +6,29 @@
 Codepoints | Alleged meaning or use | Sequence
 -----------|------------|------------------------
 U+1F423 U+1F41D U+1F4AC | “**Sex Talk**: Guys, it's time for us to talk.” | 🐣🐝💬
-U+1F4 U+1F4 | “**Junk**: Here are the correct emoji representations of male and female genitalia” | 🍆🍑
-U+1F4 U+1F4 U+1F4 U+1F4 | “**Sexy Time**: Set the mood” | 🍷😘🎷🌅
-U+1F4 U+1F4 | “**Ready for Liftoff!**: His rocket ship is ready for your tunnel of love.” | 🚀🚇
-U+1F4 U+1F4 U+1F4 | “**Foreplay**: Hint at the peep show that awaits.” | 💃👀👙
-U+1F4 U+1F4 | “**Second Base**: Both hands.” | 👐🍑🍑
-U+1F4 U+1F4 U+1F4 U+1F4 U+1F4 | “**Good Sex!**: For when the eggplant meets the peach in just the right way.” | 🍆🍑🎉💫😊
-U+1F4 U+1F4 | “**A Dramatic Person Describing Good Sex**: Caution: This may suggest "overcompensation."” | 🌋😍
-U+1F4 U+1F4 | “**Lame Sex**: The sad garden-snake-as-phallus speaks sad volumes.” | 🐍🌺
-U+1F4 | “**Blow Job**: Use repetition to suggest movement.” | 😮😮😮😮😮
-U+1F4 | “**Cunnilingus**: The disembodied tongue says, Keep going, like that.” | 👅👅👅👅👅
-U+1F4 U+1F4 U+1F4 | “**Finger-Banging to Completion**: For the truly uninhibited.” | 👉👉👉👉👌💦
-U+1F4 U+1F4 U+1F4 U+1F4 U+1F4 | “**Hand Job to Completion**: Note: Emoji face is displeased with poor aim.” | 👊🍆💦😓😠
-U+1F4 | “**Fingering (No. 1): Incorrect**: This does not adequately convey the pleasure of the sext.” | 👉👉👉👉👉👉 👉👉👉👉👉👉
-U+1F4 U+1F4 U+1F4 | “**Fingering (No. 2): Correct**: Varied finger positions make a more convincing sales pitch.” | 👉👇👉👇👉👇👉👇 ✌️✌️✌️✌️
-U+1F4 U+1F4 | “**_Cosmo_ Sex Tips**: "Slip a doughnut around his penis, and slowly eat it off."” | 🍩🍌
-U+1F4 U+1F4 U+1F4 | “**69-ing**: The subtle impression of synchronized genital stimulation.” | ♋️♈️♐️
-U+1F4 U+1F4 U+1F4 | “**69 Variation No. 1**: His 'n' hers.” | 👦🏽♋️👧🏽 <!-- boy and girl -->
-U+1F4 U+1F4 | “**69 Variation No. 2**: Hers 'n' hers.” | 🙆♋️🙆
-U+1F4 U+1F4 U+1F4 U+1F4 | “**Shower Sex**: Subtext: We'll never get clean, because we're getting so dirty.” | 🛁🍆🍑🚿
-U+1F4 U+1F4 | “**Spanking**: Hand to ass, pretty self-explanatory. A slightly intimidating request.” | 👋🐴
-U+1F4 U+1F4 U+1F4 | “**A Vibrator**: An inviting response to "What are you doing right now?"” | 🌵🔛♒️
-U+1F4 U+1F4 | “**Hot Pocket Sex**: Look, the kids on Vine are doing it. Who knows what people are into.” | 🍕🍆
-U+1F4 U+1F4 | “**Humping**: If your sext recipient reads this as "camel-ing," find a more worthy sex partner.” | 🐫ing
+U+1F346 U+1F351 | “**Junk**: Here are the correct emoji representations of male and female genitalia” | 🍆🍑
+U+1F377 U+1F618 U+1F3B7 U+1F305 | “**Sexy Time**: Set the mood” | 🍷😘🎷🌅
+U+1F680 U+1F687 | “**Ready for Liftoff!**: His rocket ship is ready for your tunnel of love.” | 🚀🚇
+U+1F483 U+1F440 U+1F459 | “**Foreplay**: Hint at the peep show that awaits.” | 💃👀👙
+U+1F450 U+1F351×2 | “**Second Base**: Both hands.” | 👐🍑🍑
+U+1F346 U+1F351 U+1F389 U+1F4AB U+1F60A | “**Good Sex!**: For when the eggplant meets the peach in just the right way.” | 🍆🍑🎉💫😊
+U+1F30B U+1F60D | “**A Dramatic Person Describing Good Sex**: Caution: This may suggest "overcompensation."” | 🌋😍
+U+1F40D U+1F33A | “**Lame Sex**: The sad garden-snake-as-phallus speaks sad volumes.” | 🐍🌺
+U+1F62E×*n* | “**Blow Job**: Use repetition to suggest movement.” | 😮😮😮😮😮
+U+1F445×*n* | “**Cunnilingus**: The disembodied tongue says, Keep going, like that.” | 👅👅👅👅👅
+U+1F449×*n* U+1F44C U+1F4A6 | “**Finger-Banging to Completion**: For the truly uninhibited.” | 👉👉👉👉👌💦
+U+1F44A U+1F346 U+1F4A6 U+1F613 U+1F620 | “**Hand Job to Completion**: Note: Emoji face is displeased with poor aim.” | 👊🍆💦😓😠
+U+1F449×*n* | “**Fingering (No. 1): Incorrect**: This does not adequately convey the pleasure of the sext.” | 👉👉👉👉👉👉 👉👉👉👉👉👉
+U+1F449+1F447×*n* U+270C×*n* | “**Fingering (No. 2): Correct**: Varied finger positions make a more convincing sales pitch.” | 👉👇👉👇👉👇👉👇 ✌️✌️✌️✌️
+U+1F369 U+1F34C | “**_Cosmo_ Sex Tips**: "Slip a doughnut around his penis, and slowly eat it off."” | 🍩🍌
+U+264B U+2648 U+2650 | “**69-ing**: The subtle impression of synchronized genital stimulation.” | ♋️♈️♐️
+U+1F466 U+264B U+1F467 | “**69 Variation No. 1**: His 'n' hers.” | 👦🏽♋️👧🏽 <!-- boy and girl -->
+U+1F646 U+264B U+1F646 | “**69 Variation No. 2**: Hers 'n' hers.” | 🙆♋️🙆
+U+1F6C1 U+1F346 U+1F351 U+1F6BF | “**Shower Sex**: Subtext: We'll never get clean, because we're getting so dirty.” | 🛁🍆🍑🚿
+U+1F44B U+1F434 | “**Spanking**: Hand to ass, pretty self-explanatory. A slightly intimidating request.” | 👋🐴
+U+1F335 U+1F51B U+2652 | “**A Vibrator**: An inviting response to "What are you doing right now?"” | 🌵🔛♒️
+U+1F355 U+1F346 | “**Hot Pocket Sex**: Look, the kids on Vine are doing it. Who knows what people are into.” | 🍕🍆
+U+1F42B | “**Humping**: If your sext recipient reads this as "camel-ing," find a more worthy sex partner.” | 🐫ing
 
 ## Buzzfeed
 - [The Complete Guide To Emojis That Mean Dirty Words. Shall I compare thee to a [peach emoji]?](https://www.buzzfeed.com/katienotopoulos/complete-dictionary-of-dirty-emojis "2015-08-06 Katie Notopoulos (thanking Jenna Wortham, Helen Holmes, Lindsey Weber, Melissa Broder, Hannah Cruickshank, Zoe Salditch, Laia Garcia)")
