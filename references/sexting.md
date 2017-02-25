@@ -185,9 +185,11 @@ U+1F4F8 | “the snapping camera can be used by someone looking for sexting to b
 U+1F347 | “The grapes [can] be used to mean a man's testicles” | 🍇
 U+1F37B | “The […] clinking beer glasses [can] be used to mean a man's testicles” | 🍻
 
-## Betches
-- Source: [The 6 Emoji You Should Never Use For Sexting & 6 That Will Get You Laid](http://www.betches.com/best-and-worst-emojis-to-use-for-dating "2017-02-24 Jane Duh “Real World”")
+## Betches: Real World
+- Source: [The 6 Emoji You Should Never Use For Sexting & 6 That Will Get You Laid](http://www.betches.com/best-and-worst-emojis-to-use-for-dating "2017-02-24 Jane Duh")
 
+Codepoint | Comment | Emoji
+-----------|------------|------------------------
 U+1F346 | “****: The eggplant is the king of all flirt-mojis for a very simple reason: it looks like a dick. If you want to see someone’s dick, you can send them this emoji and they’ll understand what you want. Given that men don’t need much prompting to send their junk to strangers, only send this emoji if you’re prepared for the dick pics to follow.” | 🍆
 U+1F60D | “****: Short, sweet, and to the point. Your eyes are hearts, and your hearts are for bae. It’s not subtle, but it’ll send the message to whomever you’re texting that their flirting is having the desired effect. Can be used interchangeably with the cat heart eye emoji, which means the exact same thing except also you like cats. However, if you are going to use the cat heart eye emoji, you must remain vigilant that you're not swapping out all applicable emojis for their cat-faced counterparts, or you risk looking like a crazy cat lady in training.” | 😍
 U+1F608 | “****: What better way to let someone you just met at a bar know you’re down for a little trouble than the smiling devil emoji? The smiling devil is cute (like you) but also not to be trusted (also like you), leaving the person on the other end of your text wanting to know more. Why is the devil smiling? What kind of trouble does this little guy want to get into? Is it sex? I bet it’s sex…” | 😈
