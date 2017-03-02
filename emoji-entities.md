@@ -16,3 +16,8 @@ Entity     | Emoji short code | HTML   | Solution
 `&ring;`   | U+1F48D          | U+02DA | ?
 `&smile;`  | U+1F604          | U+2323 | ?
 `&top;`    | U+1F51D          | U+22A4 | ?
+
+Incubation
+==========
+
+This topic should not be brought forward to the Unicode Consortium but either W3C or WHATWG. There already is an [incubation topic](https://discourse.wicg.io/t/named-emoji-entities-or-short-names/1636) at [WICG](https://www.w3.org/community/wicg/) for this.
