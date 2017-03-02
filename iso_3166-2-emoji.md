@@ -17,7 +17,7 @@ ISO 3166-2:DE
 
 | Code  | Emoji               | Local Name             | English Name                  | Subdivision Type |
 |-------|---------------------|------------------------|-------------------------------|------------------|
-| DE-BW | 💛? / ☯?            | Baden-Württemberg      | Baden-Württemberg             | state            |
+| DE-BW | 💛? / ☯&#xFE0F;?            | Baden-Württemberg      | Baden-Württemberg             | state            |
 | DE-BY | 🔷                  | Bayern                 | Bavaria                       | state            |
 | DE-BE | 🐻                  | Berlin                 | Berlin                        | state (city)     |
 | DE-BB | 🦅                  | Brandenburg            | Brandenburg                   | state            |
@@ -26,9 +26,9 @@ ISO 3166-2:DE
 | DE-HE | 🦁                  | Hessen                 | Hesse                         | state            |
 | DE-MV | 🐮 / 🌅             | Mecklenburg-Vorpommern | Mecklenburg-Western Pomerania | state            |
 | DE-NI | 🐴                  | Niedersachsen          | Lower Saxony                  | state            |
-| DE-NW | ⚒ / ⚙ / 🐎?         | Nordrhein-Westfalen    | North Rhine-Westphalia        | state            |
+| DE-NW | ⚒ / ⚙&#xFE0F; / 🐎?         | Nordrhein-Westfalen    | North Rhine-Westphalia        | state            |
 | DE-RP | 🍷 / 🍇 / 👑?       | Rheinland-Pfalz        | Rhineland-Palatinate          | state            |
-| DE-SL | ➕? / ⚜?             | Saarland               | Saarland                      | state            |
+| DE-SL | ➕? / ⚜&#xFE0F;?             | Saarland               | Saarland                      | state            |
 | DE-SN | 🏛? / 〰? / ➿? / 🎽 | Sachsen                | Saxony                        | state            |
 | DE-ST | 🚧?                 | Sachsen-Anhalt         | Saxony-Anhalt                 | state            |
 | DE-SH | 🌊 / 🏰?            | Schleswig-Holstein     | Schleswig-Holstein            | state            |
@@ -39,8 +39,8 @@ ISO 3166-2:GB
 
 | Code   | Emoji                                                                                      | English Name     | Subdivision Type |
 |--------|--------------------------------------------------------------------------------------------|------------------|------------------|
-| GB-ENG | 🦁 / ➕ / ✝ / 🕂                                                                            | England          | country          |
-| GB-NIR | 🍀? / ☘? / …                                                                               | Northern Ireland | province         |
+| GB-ENG | 🦁 / ➕ / ✝&#xFE0F; / 🕂                                                                            | England          | country          |
+| GB-NIR | 🍀? / ☘&#xFE0F;? / …                                                                               | Northern Ireland | province         |
 | GB-SCT | ❌ / ❎ / ✖ / 🔷 / 🔵 / ☓ U+2613 Saltire                                                     | Scotland         | country          |
 | GB-WLS | 🐲 / 🐉                                                                                    | Wales            | country          |
 | GB-CYM | 🐲 / 🐉                                                                                    | Wales (Cymru)    | country          |
@@ -57,7 +57,7 @@ ISO 3166-2:US
 | US-AK | 🏔? / ❄️?              | Alaska                                    | state              |
 | US-AZ |                       | Arizona                                   | state              |
 | US-AR |                       | Arkansas                                  | state              |
-| US-CA | 🌞? / ☀?              | California                                | state              |
+| US-CA | 🌞? / ☀&#xFE0F;?              | California                                | state              |
 | US-CO | 🌈?                   | Colorado                                  | state              |
 | US-CT |                       | Connecticut                               | state              |
 | US-DE |                       | Delaware                                  | state              |
@@ -95,7 +95,7 @@ ISO 3166-2:US
 | US-SC |                       | South Carolina                            | state              |
 | US-SD |                       | South Dakota                              | state              |
 | US-TN | 🥃                    | Tennessee                                 | state              |
-| US-TX | 🌟 / ⭐                | Texas                                     | state              |
+| US-TX | 🌟 / ⭐&#xFE0F;                | Texas                                     | state              |
 | US-UT | ⛪?                    | Utah                                      | state              |
 | US-VT | 🍂?                   | Vermont                                   | state              |
 | US-VA |                       | Virginia                                  | state              |
@@ -109,4 +109,4 @@ ISO 3166-2:US
 | US-MP | 🇲🇵                  | Northern Mariana Islands (MP)             | outlying territory |
 | US-PR | 🇵🇷                  | Puerto Rico (PR)                          | outlying territory |
 | US-UM | 🇺🇲                  | United States Minor Outlying Islands (UM) | outlying territory |
-| US-VI | 🇻🇮 / ♍?             | Virgin Islands (VI)                       | outlying territory |
+| US-VI | 🇻🇮 / ♍&#xFE0F;?             | Virgin Islands (VI)                       | outlying territory |
