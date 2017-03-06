@@ -1,0 +1,8 @@
+title: Unicode Proposals
+description: Proposals for new characters to encode and canonic character sequences to register
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
