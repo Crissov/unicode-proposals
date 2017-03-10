@@ -33,7 +33,8 @@ Emoticon to Emoji
     :O   :-O     O-:   O:
     :o   :-o     o-:   o:
     :0   :-0     0-:   0:
-    :@   :-@     @-:   @:
+    :@   :-@     -:   :
+    :&   :-&     -:   :
 
 #### Eyes
 
@@ -46,6 +47,7 @@ Emoticon to Emoji
     !-)   !-(   !-|
     ?-)   ?-(   ?-|
     |-)   |-(   |-|
+    I-)   I-(   I-|
     &-)   &-(   &-|
     6-)   6-(   6-|
     9-)   9-(   9-|
@@ -117,6 +119,7 @@ Emoticon to Emoji
     \o/
     o/   \o
     /o\
+    \:D/
 
 ##### Hearts and other ASCII Art
 
@@ -131,6 +134,8 @@ Emoticon to Emoji
     ~@~
     V.v.V
     +/'\
+    
+    3==>
 
 ### Native Emoji
 
