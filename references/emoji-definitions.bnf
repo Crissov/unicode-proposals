@@ -1,0 +1,41 @@
+emoji_modifier_sequence	:= emoji_modifier_base emoji_modifier
+emoji_combining_sequence	:= 
+	 ( emoji_character
+	 | emoji_presentation_sequence
+	 | text_presentation_sequence 
+	 ) non_spacing_mark*
+text_presentation_sequence	:= emoji_character text_variation_selector
+emoji_presentation_sequence	:= emoji_character emoji_variation_selector
+text_variation_selector	:= \x{FE0E}
+emoji_variation_selector	:= \x{FE0F}
+emoji_keycap_sequence	:= [0-9#*] emoji_variation_selector \x{20E3}
+emoji_core_sequence	:= emoji_combining_sequence
+	 | emoji_modifier_sequence
+	 | emoji_flag_sequence
+emoji_zwj_element	:= emoji_character
+	 | emoji_presentation_sequence
+	 | emoji_modifier_sequence
+emoji_zwj_sequence	:= emoji_zwj_element ( ZWJ emoji_zwj_element )+
+emoji_sequence	:= emoji_core_sequence
+	 | emoji_zwj_sequence
+	 | emoji_tag_sequence
+emoji_flag_sequence	:= regional_indicator regional_indicator
+emoji_tag_sequence	:= tag_base tag_spec tag_term
+tag_base	:= emoji_character
+	 | emoji_modifier_sequence
+	 | emoji_presentation_sequence
+tag_spec	:= [\x{E0020}-\x{E007E}]+
+tag_term	:= \x{E007F}
+emoji_character	:= \p{Emoji}
+default_emoji_presentation_character	:= \p{Emoji_Presentation=Yes}
+default_text_presentation_character	:= \p{Emoji & Emoji_Presentation=No}
+emoji_modifier_base	:= [	\x{261D}  \x{26F9}  \x{270A}-\x{270D} 
+		\x{1F385} \x{1F3C2}-\x{1F3C4} \x{1F3C7} \x{1F3CA}-\x{1F3CC}
+		\x{1F442}-\x{1F443} \x{1F446}-\x{1F450} \x{1F466}-\x{1F478} \x{1F47C}
+		\x{1F481}-\x{1F483} \x{1F485}-\x{1F487} \x{1F4AA}
+		\x{1F574}-\x{1F575} \x{1F57A} \x{1F590} \x{1F595}-\x{1F596}
+		\x{1F645}-\x{1F647} \x{1F64B}-\x{1F64F}
+		\x{1F6A3} \x{1F6B4}-\x{1F6B6} \x{1F6C0} \x{1F6CC} 
+		\x{1F918}-\x{1F91E} \x{1F926} \x{1F930} \x{1F933}-\x{1F939} \x{1F93C}-\x{1F93E} 
+	 ] 
+emoji_modifier	:= \p{Emoji_Modifier}
