@@ -1,4 +1,7 @@
-emoji_modifier_sequence	:= emoji_modifier_base emoji_modifier
+; Notation:
+; - http://unicode.org/reports/tr18/tr18-5.html#Notation
+; - http://unicode.org/cldr/utility/bnf.jsp
+emoji_modifier_sequence	:= emoji_modifier_base, emoji_modifier
 emoji_combining_sequence	:= 
 	 ( emoji_character
 	 | emoji_presentation_sequence
@@ -25,8 +28,8 @@ tag_base	:= emoji_character
 	 | emoji_modifier_sequence
 	 | emoji_presentation_sequence
 tag_spec	:= [\x{E0020}-\x{E007E}]+
-tag_term	:= \x{E007F}
-emoji_character	:= \p{Emoji}
+tag_term	:= \x{E007F};
+emoji_character	:= \p{Emoji};
 default_emoji_presentation_character	:= \p{Emoji_Presentation}
 default_text_presentation_character	:= \p{Emoji & Emoji_Presentation=No}
 emoji_presentation_base	:= [\x0023 \x002A \x0030-\x0039 \x00A9 \x00AE
