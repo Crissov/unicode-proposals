@@ -4,8 +4,8 @@ emoji_combining_sequence	:=
 	 | emoji_presentation_sequence
 	 | text_presentation_sequence 
 	 ) non_spacing_mark*
-text_presentation_sequence	:= emoji_character text_variation_selector
-emoji_presentation_sequence	:= emoji_character emoji_variation_selector
+text_presentation_sequence	:= emoji_presentation_base text_variation_selector
+emoji_presentation_sequence	:= emoji_presentation_base emoji_variation_selector
 text_variation_selector	:= \x{FE0E}
 emoji_variation_selector	:= \x{FE0F}
 emoji_keycap_sequence	:= [0-9#*] emoji_variation_selector \x{20E3}
@@ -27,18 +27,8 @@ tag_base	:= emoji_character
 tag_spec	:= [\x{E0020}-\x{E007E}]+
 tag_term	:= \x{E007F}
 emoji_character	:= \p{Emoji}
-default_emoji_presentation_character	:= \p{Emoji_Presentation=Yes}
+default_emoji_presentation_character	:= \p{Emoji_Presentation}
 default_text_presentation_character	:= \p{Emoji & Emoji_Presentation=No}
-emoji_modifier_base	:= [	\x{261D}  \x{26F9}  \x{270A}-\x{270D} 
-		\x{1F385} \x{1F3C2}-\x{1F3C4} \x{1F3C7} \x{1F3CA}-\x{1F3CC}
-		\x{1F442}-\x{1F443} \x{1F446}-\x{1F450} \x{1F466}-\x{1F478} \x{1F47C}
-		\x{1F481}-\x{1F483} \x{1F485}-\x{1F487} \x{1F4AA}
-		\x{1F574}-\x{1F575} \x{1F57A} \x{1F590} \x{1F595}-\x{1F596}
-		\x{1F645}-\x{1F647} \x{1F64B}-\x{1F64F}
-		\x{1F6A3} \x{1F6B4}-\x{1F6B6} \x{1F6C0} \x{1F6CC} 
-		\x{1F918}-\x{1F91E} \x{1F926} \x{1F930} \x{1F933}-\x{1F939} \x{1F93C}-\x{1F93E} 
-	 ] 
-emoji_modifier	:= \p{Emoji_Modifier}
 emoji_presentation_base	:= [\x0023 \x002A \x0030-\x0039 \x00A9 \x00AE
 		\x203C \x2049 \x2122 \x2139 \x2194-\x2199 \x21A9-\x21AA
 		\x231A-\x231B \x2328 \x23CF \x23E9-\x23EA \x23ED-\x23EF \x23F1-\x23F3 \x23F8-\x23F9 \x23FA
@@ -65,3 +55,13 @@ emoji_presentation_base	:= [\x0023 \x002A \x0030-\x0039 \x00A9 \x00AE
 		\x1F610 \x1F687 \x1F68D \x1F691 \x1F694 \x1F698 \x1F6AD \x1F6B2 \x1F6B9 \x1F6BA \x1F6BC 
 		\x1F6CB \x1F6CD-\x1F6CF \x1F6E0-\x1F6E5 \x1F6E9 \x1F6F0 \x1F6F3
 	]
+emoji_modifier_base	:= [	\x{261D}  \x{26F9}  \x{270A}-\x{270D} 
+		\x{1F385} \x{1F3C2}-\x{1F3C4} \x{1F3C7} \x{1F3CA}-\x{1F3CC}
+		\x{1F442}-\x{1F443} \x{1F446}-\x{1F450} \x{1F466}-\x{1F478} \x{1F47C}
+		\x{1F481}-\x{1F483} \x{1F485}-\x{1F487} \x{1F4AA}
+		\x{1F574}-\x{1F575} \x{1F57A} \x{1F590} \x{1F595}-\x{1F596}
+		\x{1F645}-\x{1F647} \x{1F64B}-\x{1F64F}
+		\x{1F6A3} \x{1F6B4}-\x{1F6B6} \x{1F6C0} \x{1F6CC} 
+		\x{1F918}-\x{1F91E} \x{1F926} \x{1F930} \x{1F933}-\x{1F939} \x{1F93C}-\x{1F93E} 
+	 ] 
+emoji_modifier	:= \p{Emoji_Modifier}
