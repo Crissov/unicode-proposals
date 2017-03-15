@@ -1,7 +1,8 @@
 ; Notation:
-; - http://www.unicode.org/versions/Unicode9.0.0/appA.pdf Unicode 9.0 Appendix A, pages 877-878
+; - http://www.unicode.org/versions/Unicode9.0.0/appA.pdf Unicode 9.0 Appendix A, pages 877-879
 ; - http://unicode.org/cldr/utility/bnf.jsp
-emoji_modifier_sequence	:= emoji_modifier_base, emoji_modifier
+; Status: Unicode 10.0 beta, Emoji 5.0 beta (2017-03)
+emoji_modifier_sequence	:= emoji_modifier_base emoji_modifier
 emoji_combining_sequence	:= 
 	 ( emoji_character
 	 | emoji_presentation_sequence
@@ -9,9 +10,11 @@ emoji_combining_sequence	:=
 	 ) non_spacing_mark*
 text_presentation_sequence	:= emoji_presentation_base text_variation_selector
 emoji_presentation_sequence	:= emoji_presentation_base emoji_variation_selector
-text_variation_selector	:= \x{FE0E}
-emoji_variation_selector	:= \x{FE0F}
-emoji_keycap_sequence	:= [0-9#*] emoji_variation_selector \x{20E3}
+text_variation_selector	:= \uFE0E
+emoji_variation_selector	:= \uFE0F
+emoji_keycap_sequence	:= emoji_keycap_base emoji_variation_selector combining_keycap
+emoji_keycap_base	:= [0-9#*]
+combining_keycap	:= \u20E3
 emoji_core_sequence	:= emoji_combining_sequence
 	 | emoji_modifier_sequence
 	 | emoji_flag_sequence
@@ -27,44 +30,44 @@ emoji_tag_sequence	:= tag_base tag_spec tag_term
 tag_base	:= emoji_character
 	 | emoji_modifier_sequence
 	 | emoji_presentation_sequence
-tag_spec	:= [\x{E0020}-\x{E007E}]+
-tag_term	:= \x{E007F};
-emoji_character	:= \p{Emoji};
+tag_spec	:= [\U000E0020-\U000E007E]+
+tag_term	:= \U000E007F
+emoji_character	:= \p{Emoji}
 default_emoji_presentation_character	:= \p{Emoji_Presentation}
-default_text_presentation_character	:= \p{Emoji & Emoji_Presentation=No}
-emoji_presentation_base	:= [\x0023 \x002A \x0030-\x0039 \x00A9 \x00AE
-		\x203C \x2049 \x2122 \x2139 \x2194-\x2199 \x21A9-\x21AA
-		\x231A-\x231B \x2328 \x23CF \x23E9-\x23EA \x23ED-\x23EF \x23F1-\x23F3 \x23F8-\x23F9 \x23FA
-		\x24C2 \x25AA-\x25AB \x25B6 \x25C0 \x25FB-\x25FE 
-		\x2600-\x2604 \x260E \x2611 \x2614-\x2615 \x2618 \x261D \x2620 \x2622-\x2623 \x2626 \x262A \x262E-\x262F 
-		\x2638-\x263A \x2640 \x2642 \x2648-\x2653 \x2660 \x2663 \x2665-\x2666 \x2668 \x267B \x267F 
-		\x2692-\x2697 \x2699 \x269B-\x269C \x26A0-\x26A1 \x26AA-\x26AB \x26B0-\x26B1 \x26BD-\x26BE 
-		\x26C4-\x26C5 \x26C8 \x26CF \x26D1 \x26D3-\x26D4 \x26E9-\x26EA \x26F0-\x26F5 \x26F7-\x26F9 \x26FA \x26FD 
-		\x2702 \x2708-\x2709 \x270C-\x270D \x270F \x2712 \x2714 \x2716 \x271D \x2721 \x2733-\x2734 \x2744 \x2747 
-		\x2753 \x2757 \x2763-\x2764 \x27A1 \x2934-\x2935 \x2B05-\x2B07 \x2B1B-\x2B1C \x2B50 \x2B55 
-		\x3030 \x303D \x3297 \x3299 
-		\x1F004 \x1F170 \x1F171 \x1F17E-\x1F17F 
-		\x1F202 \x1F21A \x1F22F \x1F237 
-		\x1F30D-\x1F30F \x1F315 \x1F31C \x1F321 \x1F324-\x1F32C \x1F336 \x1F378 \x1F37D 
-		\x1F393 \x1F396-\x1F397 \x1F399 \x1F39A-\x1F39B \x1F39E-\x1F39F 
-		\x1F3A7 \x1F3AC-\x1F3AE \x1F3C2 \x1F3C4 \x1F3C6 \x1F3CA-\x1F3CE 
-		\x1F3D4-\x1F3E0 \x1F3ED \x1F3F3 \x1F3F5 \x1F3F7 
-		\x1F408 \x1F415 \x1F41F \x1F426 \x1F43F \x1F441 \x1F442 \x1F446-\x1F449 \x1F44D-\x1F44E 
-		\x1F453 \x1F46A \x1F47D \x1F4A3 \x1F4B0 \x1F4B3 \x1F4BB \x1F4BF \x1F4CB \x1F4DA \x1F4DF 
-		\x1F4E4-\x1F4E6 \x1F4EA-\x1F4ED \x1F4F7 \x1F4F9 \x1F4FA-\x1F4FB \x1F4FD 
-		\x1F508 \x1F50D \x1F512-\x1F513 \x1F549 \x1F54A \x1F550-\x1F567 \x1F56F \x1F570 \x1F573-\x1F579 
-		\x1F587 \x1F58A-\x1F58D \x1F590 \x1F5A5 \x1F5A8 \x1F5B1-\x1F5B2 \x1F5BC \x1F5C2-\x1F5C4 
-		\x1F5D1-\x1F5D3 \x1F5DC-\x1F5DE \x1F5E1 \x1F5E3 \x1F5E8 \x1F5EF \x1F5F3 \x1F5FA 
-		\x1F610 \x1F687 \x1F68D \x1F691 \x1F694 \x1F698 \x1F6AD \x1F6B2 \x1F6B9 \x1F6BA \x1F6BC 
-		\x1F6CB \x1F6CD-\x1F6CF \x1F6E0-\x1F6E5 \x1F6E9 \x1F6F0 \x1F6F3
+default_text_presentation_character	:= [\p{Emoji} - \p{Emoji_Presentation}]
+emoji_presentation_base	:= [	\u0023 \u002A \u0030-\u0039 \u00A9 \u00AE
+		\u203C \u2049 \u2122 \u2139 \u2194-\u2199 \u21A9-\u21AA
+		\u231A-\u231B \u2328 \u23CF \u23E9-\u23EA \u23ED-\u23EF \u23F1-\u23F3 \u23F8-\u23F9 \u23FA
+		\u24C2 \u25AA-\u25AB \u25B6 \u25C0 \u25FB-\u25FE 
+		\u2600-\u2604 \u260E \u2611 \u2614-\u2615 \u2618 \u261D \u2620 \u2622-\u2623 \u2626 \u262A \u262E-\u262F 
+		\u2638-\u263A \u2640 \u2642 \u2648-\u2653 \u2660 \u2663 \u2665-\u2666 \u2668 \u267B \u267F 
+		\u2692-\u2697 \u2699 \u269B-\u269C \u26A0-\u26A1 \u26AA-\u26AB \u26B0-\u26B1 \u26BD-\u26BE 
+		\u26C4-\u26C5 \u26C8 \u26CF \u26D1 \u26D3-\u26D4 \u26E9-\u26EA \u26F0-\u26F5 \u26F7-\u26F9 \u26FA \u26FD 
+		\u2702 \u2708-\u2709 \u270C-\u270D \u270F \u2712 \u2714 \u2716 \u271D \u2721 \u2733-\u2734 \u2744 \u2747 
+		\u2753 \u2757 \u2763-\u2764 \u27A1 \u2934-\u2935 \u2B05-\u2B07 \u2B1B-\u2B1C \u2B50 \u2B55 
+		\u3030 \u303D \u3297 \u3299 
+		\U0001F004 \U0001F170 \U0001F171 \U0001F17E-\U0001F17F 
+		\U0001F202 \U0001F21A \U0001F22F \U0001F237 
+		\U0001F30D-\U0001F30F \U0001F315 \U0001F31C \U0001F321 \U0001F324-\U0001F32C \U0001F336 \U0001F378 \U0001F37D 
+		\U0001F393 \U0001F396-\U0001F397 \U0001F399 \U0001F39A-\U0001F39B \U0001F39E-\U0001F39F 
+		\U0001F3A7 \U0001F3AC-\U0001F3AE \U0001F3C2 \U0001F3C4 \U0001F3C6 \U0001F3CA-\U0001F3CE 
+		\U0001F3D4-\U0001F3E0 \U0001F3ED \U0001F3F3 \U0001F3F5 \U0001F3F7 
+		\U0001F408 \U0001F415 \U0001F41F \U0001F426 \U0001F43F \U0001F441 \U0001F442 \U0001F446-\U0001F449 \U0001F44D-\U0001F44E 
+		\U0001F453 \U0001F46A \U0001F47D \U0001F4A3 \U0001F4B0 \U0001F4B3 \U0001F4BB \U0001F4BF \U0001F4CB \U0001F4DA \U0001F4DF 
+		\U0001F4E4-\U0001F4E6 \U0001F4EA-\U0001F4ED \U0001F4F7 \U0001F4F9 \U0001F4FA-\U0001F4FB \U0001F4FD 
+		\U0001F508 \U0001F50D \U0001F512-\U0001F513 \U0001F549 \U0001F54A \U0001F550-\U0001F567 \U0001F56F \U0001F570 \U0001F573-\U0001F579 
+		\U0001F587 \U0001F58A-\U0001F58D \U0001F590 \U0001F5A5 \U0001F5A8 \U0001F5B1-\U0001F5B2 \U0001F5BC \U0001F5C2-\U0001F5C4 
+		\U0001F5D1-\U0001F5D3 \U0001F5DC-\U0001F5DE \U0001F5E1 \U0001F5E3 \U0001F5E8 \U0001F5EF \U0001F5F3 \U0001F5FA 
+		\U0001F610 \U0001F687 \U0001F68D \U0001F691 \U0001F694 \U0001F698 \U0001F6AD \U0001F6B2 \U0001F6B9 \U0001F6BA \U0001F6BC 
+		\U0001F6CB \U0001F6CD-\U0001F6CF \U0001F6E0-\U0001F6E5 \U0001F6E9 \U0001F6F0 \U0001F6F3
 	]
-emoji_modifier_base	:= [	\x{261D}  \x{26F9}  \x{270A}-\x{270D} 
-		\x{1F385} \x{1F3C2}-\x{1F3C4} \x{1F3C7} \x{1F3CA}-\x{1F3CC}
-		\x{1F442}-\x{1F443} \x{1F446}-\x{1F450} \x{1F466}-\x{1F478} \x{1F47C}
-		\x{1F481}-\x{1F483} \x{1F485}-\x{1F487} \x{1F4AA}
-		\x{1F574}-\x{1F575} \x{1F57A} \x{1F590} \x{1F595}-\x{1F596}
-		\x{1F645}-\x{1F647} \x{1F64B}-\x{1F64F}
-		\x{1F6A3} \x{1F6B4}-\x{1F6B6} \x{1F6C0} \x{1F6CC} 
-		\x{1F918}-\x{1F91E} \x{1F926} \x{1F930} \x{1F933}-\x{1F939} \x{1F93C}-\x{1F93E} 
+emoji_modifier_base	:= [	\u261D  \u26F9  \u270A-\u270D 
+		\U0001F385 \U0001F3C2-\U0001F3C4 \U0001F3C7 \U0001F3CA-\U0001F3CC
+		\U0001F442-\U0001F443 \U0001F446-\U0001F450 \U0001F466-\U0001F478 \U0001F47C
+		\U0001F481-\U0001F483 \U0001F485-\U0001F487 \U0001F4AA
+		\U0001F574-\U0001F575 \U0001F57A \U0001F590 \U0001F595-\U0001F596
+		\U0001F645-\U0001F647 \U0001F64B-\U0001F64F
+		\U0001F6A3 \U0001F6B4-\U0001F6B6 \U0001F6C0 \U0001F6CC 
+		\U0001F918-\U0001F91E \U0001F926 \U0001F930 \U0001F933-\U0001F939 \U0001F93C-\U0001F93E 
 	 ] 
 emoji_modifier	:= \p{Emoji_Modifier}
