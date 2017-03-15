@@ -1,5 +1,5 @@
 ; Notation:
-; - http://unicode.org/reports/tr18/tr18-5.html#Notation
+; - http://www.unicode.org/versions/Unicode9.0.0/appA.pdf Unicode 9.0 Appendix A, pages 877-878
 ; - http://unicode.org/cldr/utility/bnf.jsp
 emoji_modifier_sequence	:= emoji_modifier_base, emoji_modifier
 emoji_combining_sequence	:= 
