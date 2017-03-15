@@ -1,4 +1,5 @@
-# Collection of Sexting Emoji Glossaries and similar references
+Collection of *Sexting* Emoji Glossaries and similar references
+===============================================================
 
 ## NY Mag: The Cut
 - Source: [The Definitive Emoji-Sexting Glossary](http://nymag.com/thecut/2014/03/definitive-emoji-sexting-glossary.html "2014-03-11 Allison P. Davis & Maggie Lange")
@@ -353,3 +354,36 @@ Die zwei eindeutigen Finger: Einfach nur Sex!
 Der Pfirsich: Was die Aubergine für den Mann ist, ist der Pfirsich bei den Emojis für die Frau. Und die Ähnlichkeit zu einem knackigen Po ist doch auch wirklich eindeutig!
 
 http://www.racked.com/entertainment/2015/10/22/9591742/new-emojis-emoji-sext-apple
+
+Collection of *Swearing* Emoji Glossaries and similar references
+================================================================
+
+https://stronglang.wordpress.com/2017/03/14/the-whimsical-world-of-emoji-swearing/
+
+## Buzzfeed
+
+- Source: [21 Glorious Ways To Swear Using Emojis. You’re such a shower handbag.](https://www.buzzfeed.com/robinedds/21-glorious-ways-to-swear-using-emojis "2014-09-19T11:49 by Robin Edds")
+
+Codepoint | Comment | Emoji
+-----------|------------|------------------------
+U+1F  | ass hat | 🐴🎩
+U+1F  | motherfucker | 👩👉👌
+U+1F  | douchebag | 🚿👜
+U+1F  | douchecanoe | 🚿🚣
+U+1F  | cockwomble | 🐓🐹
+U+1F  | bellend | 🔔🔚
+U+1F  | cocksucker | 🐓👄
+U+1F  | shithouse | 💩🏡
+U+1F  | spunktrumpet | 💦🎺
+U+1F  | wanker | 👐⚓
+U+1F  | prick | 💉
+U+1F  | knobjockey | 🚪🏇
+U+1F  | ballback | 🎾👜
+U+1F  | arsehole | 🍑🍩
+U+1F  | piece of shit | 🍕💩
+U+1F  | dishface | 📡😀
+U+1F  | cut the crap | 💇💩
+U+1F  | bastard | 👪🚫💍
+U+1F  | fuckpants | 👉👌👖
+U+1F  | jizz breath | 💦🙊
+U+1F  | bollock-faced shit licker | 🍒😀💩👅
