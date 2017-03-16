@@ -5,8 +5,8 @@ Since Emoji 3.0 (released with Unicode 8.0 in June 2016), each character occurs 
 The data in the following table is also found in [emoji-variation-base.tsv](emoji-variation-base.tsv).
 It is planned to also track the UTR#51 version that added the sequences.
 
-| Position	| Character	| Designation	| TUS Version	|
-|----------|-----------|-------------|-------------|
+| Position	| Character	| Designation	| TUS Version	| Emoji Version	|
+|----------|-----------|-------------|-------------|-------------|
 | U+0023	| &#x0023;	| NUMBER SIGN	| 1.1	|
 | U+002A	| &#x002A;	| ASTERISK	| 1.1	|
 | U+0030	| &#x0030;	| DIGIT ZERO	| 1.1	|
@@ -45,9 +45,9 @@ It is planned to also track the UTR#51 version that added the sequences.
 | U+23F1	| &#x23F1;	| STOPWATCH	| 6.0	|
 | U+23F2	| &#x23F2;	| TIMER CLOCK	| 6.0	|
 | U+23F3	| &#x23F3;	| HOURGLASS WITH FLOWING SAND	| 6.0	|
-| U+23F8	| &#x23F8;	| DOUBLE VERTICAL BAR	| 7.0	|
-| U+23F9	| &#x23F9;	| BLACK SQUARE FOR STOP	| 7.0	|
-| U+23FA	| &#x23FA;	| BLACK CIRCLE FOR RECORD	| 7.0	|
+| U+23F8	| &#x23F8;	| DOUBLE VERTICAL BAR	| 7.0	| 1.0	|
+| U+23F9	| &#x23F9;	| BLACK SQUARE FOR STOP	| 7.0	| 1.0	|
+| U+23FA	| &#x23FA;	| BLACK CIRCLE FOR RECORD	| 7.0	| 1.0	|
 | U+24C2	| &#x24C2;	| CIRCLED LATIN CAPITAL LETTER M	| 1.1	|
 | U+25AA	| &#x25AA;	| BLACK SMALL SQUARE	| 1.1	|
 | U+25AB	| &#x25AB;	| WHITE SMALL SQUARE	| 1.1	|
@@ -78,8 +78,8 @@ It is planned to also track the UTR#51 version that added the sequences.
 | U+2638	| &#x2638;	| WHEEL OF DHARMA	| 1.1	|
 | U+2639	| &#x2639;	| WHITE FROWNING FACE	| 1.1	|
 | U+263A	| &#x263A;	| WHITE SMILING FACE	| 1.1	|
-| U+2640	| &#x2640;	| FEMALE SIGN	| 1.1	|
-| U+2642	| &#x2642;	| MALE SIGN	| 1.1	|
+| U+2640	| &#x2640;	| FEMALE SIGN	| 1.1	| 4.0 |
+| U+2642	| &#x2642;	| MALE SIGN	| 1.1	| 4.0 |
 | U+2648	| &#x2648;	| ARIES	| 1.1	|
 | U+2649	| &#x2649;	| TAURUS	| 1.1	|
 | U+264A	| &#x264A;	| GEMINI	| 1.1	|
@@ -102,7 +102,7 @@ It is planned to also track the UTR#51 version that added the sequences.
 | U+2692	| &#x2692;	| HAMMER AND PICK	| 4.1	|
 | U+2693	| &#x2693;	| ANCHOR	| 4.1	|
 | U+2694	| &#x2694;	| CROSSED SWORDS	| 4.1	|
-| U+2695	| &#x2695;	| STAFF OF AESCULAPIUS	| 4.1	|
+| U+2695	| &#x2695;	| STAFF OF AESCULAPIUS	| 4.1	| 4.0 |
 | U+2696	| &#x2696;	| SCALES	| 4.1	|
 | U+2697	| &#x2697;	| ALEMBIC	| 4.1	|
 | U+2699	| &#x2699;	| GEAR	| 4.1	|
@@ -183,27 +183,27 @@ It is planned to also track the UTR#51 version that added the sequences.
 | U+1F30F	| &#x1F30F;	| EARTH GLOBE ASIA-AUSTRALIA	| 6.0	|
 | U+1F315	| &#x1F315;	| FULL MOON SYMBOL	| 6.0	|
 | U+1F31C	| &#x1F31C;	| LAST QUARTER MOON WITH FACE	| 6.0	|
-| U+1F321	| &#x1F321;	| THERMOMETER	| 7.0	|
-| U+1F324	| &#x1F324;	| WHITE SUN WITH SMALL CLOUD	| 7.0	|
-| U+1F325	| &#x1F325;	| WHITE SUN BEHIND CLOUD	| 7.0	|
-| U+1F326	| &#x1F326;	| WHITE SUN BEHIND CLOUD WITH RAIN	| 7.0	|
-| U+1F327	| &#x1F327;	| CLOUD WITH RAIN	| 7.0	|
-| U+1F328	| &#x1F328;	| CLOUD WITH SNOW	| 7.0	|
-| U+1F329	| &#x1F329;	| CLOUD WITH LIGHTNING	| 7.0	|
-| U+1F32A	| &#x1F32A;	| CLOUD WITH TORNADO	| 7.0	|
-| U+1F32B	| &#x1F32B;	| FOG	| 7.0	|
-| U+1F32C	| &#x1F32C;	| WIND BLOWING FACE	| 7.0	|
-| U+1F336	| &#x1F336;	| HOT PEPPER	| 7.0	|
+| U+1F321	| &#x1F321;	| THERMOMETER	| 7.0	| 1.0	|
+| U+1F324	| &#x1F324;	| WHITE SUN WITH SMALL CLOUD	| 7.0	| 1.0	|
+| U+1F325	| &#x1F325;	| WHITE SUN BEHIND CLOUD	| 7.0	| 1.0	|
+| U+1F326	| &#x1F326;	| WHITE SUN BEHIND CLOUD WITH RAIN	| 7.0	| 1.0	|
+| U+1F327	| &#x1F327;	| CLOUD WITH RAIN	| 7.0	| 1.0	|
+| U+1F328	| &#x1F328;	| CLOUD WITH SNOW	| 7.0	| 1.0	|
+| U+1F329	| &#x1F329;	| CLOUD WITH LIGHTNING	| 7.0	| 1.0	|
+| U+1F32A	| &#x1F32A;	| CLOUD WITH TORNADO	| 7.0	| 1.0	|
+| U+1F32B	| &#x1F32B;	| FOG	| 7.0	| 1.0	|
+| U+1F32C	| &#x1F32C;	| WIND BLOWING FACE	| 7.0	| 1.0	|
+| U+1F336	| &#x1F336;	| HOT PEPPER	| 7.0	| 1.0	|
 | U+1F378	| &#x1F378;	| COCKTAIL GLASS	| 6.0	|
-| U+1F37D	| &#x1F37D;	| FORK AND KNIFE WITH PLATE	| 7.0	|
+| U+1F37D	| &#x1F37D;	| FORK AND KNIFE WITH PLATE	| 7.0	| 1.0	|
 | U+1F393	| &#x1F393;	| GRADUATION CAP	| 6.0	|
-| U+1F396	| &#x1F396;	| MILITARY MEDAL	| 7.0	|
-| U+1F397	| &#x1F397;	| REMINDER RIBBON	| 7.0	|
-| U+1F399	| &#x1F399;	| STUDIO MICROPHONE	| 7.0	|
-| U+1F39A	| &#x1F39A;	| LEVEL SLIDER	| 7.0	|
-| U+1F39B	| &#x1F39B;	| CONTROL KNOBS	| 7.0	|
-| U+1F39E	| &#x1F39E;	| FILM FRAMES	| 7.0	|
-| U+1F39F	| &#x1F39F;	| ADMISSION TICKETS	| 7.0	|
+| U+1F396	| &#x1F396;	| MILITARY MEDAL	| 7.0	| 1.0	|
+| U+1F397	| &#x1F397;	| REMINDER RIBBON	| 7.0	| 1.0	|
+| U+1F399	| &#x1F399;	| STUDIO MICROPHONE	| 7.0	| 1.0	|
+| U+1F39A	| &#x1F39A;	| LEVEL SLIDER	| 7.0	| 1.0	|
+| U+1F39B	| &#x1F39B;	| CONTROL KNOBS	| 7.0	| 1.0	|
+| U+1F39E	| &#x1F39E;	| FILM FRAMES	| 7.0	| 1.0	|
+| U+1F39F	| &#x1F39F;	| ADMISSION TICKETS	| 7.0	| 1.0	|
 | U+1F3A7	| &#x1F3A7;	| HEADPHONE	| 6.0	|
 | U+1F3AC	| &#x1F3AC;	| CLAPPER BOARD	| 6.0	|
 | U+1F3AD	| &#x1F3AD;	| PERFORMING ARTS	| 6.0	|
@@ -212,33 +212,33 @@ It is planned to also track the UTR#51 version that added the sequences.
 | U+1F3C4	| &#x1F3C4;	| SURFER	| 6.0	|
 | U+1F3C6	| &#x1F3C6;	| TROPHY	| 6.0	|
 | U+1F3CA	| &#x1F3CA;	| SWIMMER	| 6.0	|
-| U+1F3CB	| &#x1F3CB;	| WEIGHT LIFTER	| 7.0	|
-| U+1F3CC	| &#x1F3CC;	| GOLFER	| 7.0	|
-| U+1F3CD	| &#x1F3CD;	| RACING MOTORCYCLE	| 7.0	|
-| U+1F3CE	| &#x1F3CE;	| RACING CAR	| 7.0	|
-| U+1F3D4	| &#x1F3D4;	| SNOW CAPPED MOUNTAIN	| 7.0	|
-| U+1F3D5	| &#x1F3D5;	| CAMPING	| 7.0	|
-| U+1F3D6	| &#x1F3D6;	| BEACH WITH UMBRELLA	| 7.0	|
-| U+1F3D7	| &#x1F3D7;	| BUILDING CONSTRUCTION	| 7.0	|
-| U+1F3D8	| &#x1F3D8;	| HOUSE BUILDINGS	| 7.0	|
-| U+1F3D9	| &#x1F3D9;	| CITYSCAPE	| 7.0	|
-| U+1F3DA	| &#x1F3DA;	| DERELICT HOUSE BUILDING	| 7.0	|
-| U+1F3DB	| &#x1F3DB;	| CLASSICAL BUILDING	| 7.0	|
-| U+1F3DC	| &#x1F3DC;	| DESERT	| 7.0	|
-| U+1F3DD	| &#x1F3DD;	| DESERT ISLAND	| 7.0	|
-| U+1F3DE	| &#x1F3DE;	| NATIONAL PARK	| 7.0	|
-| U+1F3DF	| &#x1F3DF;	| STADIUM	| 7.0	|
+| U+1F3CB	| &#x1F3CB;	| WEIGHT LIFTER	| 7.0	| 1.0	|
+| U+1F3CC	| &#x1F3CC;	| GOLFER	| 7.0	| 1.0	|
+| U+1F3CD	| &#x1F3CD;	| RACING MOTORCYCLE	| 7.0	| 1.0	|
+| U+1F3CE	| &#x1F3CE;	| RACING CAR	| 7.0	| 1.0	|
+| U+1F3D4	| &#x1F3D4;	| SNOW CAPPED MOUNTAIN	| 7.0	| 1.0	|
+| U+1F3D5	| &#x1F3D5;	| CAMPING	| 7.0	| 1.0	|
+| U+1F3D6	| &#x1F3D6;	| BEACH WITH UMBRELLA	| 7.0	| 1.0	|
+| U+1F3D7	| &#x1F3D7;	| BUILDING CONSTRUCTION	| 7.0	| 1.0	|
+| U+1F3D8	| &#x1F3D8;	| HOUSE BUILDINGS	| 7.0	| 1.0	|
+| U+1F3D9	| &#x1F3D9;	| CITYSCAPE	| 7.0	| 1.0	|
+| U+1F3DA	| &#x1F3DA;	| DERELICT HOUSE BUILDING	| 7.0	| 1.0	|
+| U+1F3DB	| &#x1F3DB;	| CLASSICAL BUILDING	| 7.0	| 1.0	|
+| U+1F3DC	| &#x1F3DC;	| DESERT	| 7.0	| 1.0	|
+| U+1F3DD	| &#x1F3DD;	| DESERT ISLAND	| 7.0	| 1.0	|
+| U+1F3DE	| &#x1F3DE;	| NATIONAL PARK	| 7.0	| 1.0	|
+| U+1F3DF	| &#x1F3DF;	| STADIUM	| 7.0	| 1.0	|
 | U+1F3E0	| &#x1F3E0;	| HOUSE BUILDING	| 6.0	|
 | U+1F3ED	| &#x1F3ED;	| FACTORY	| 6.0	|
-| U+1F3F3	| &#x1F3F3;	| WAVING WHITE FLAG	| 7.0	|
-| U+1F3F5	| &#x1F3F5;	| ROSETTE	| 7.0	|
-| U+1F3F7	| &#x1F3F7;	| LABEL	| 7.0	|
+| U+1F3F3	| &#x1F3F3;	| WAVING WHITE FLAG	| 7.0	| 1.0	|
+| U+1F3F5	| &#x1F3F5;	| ROSETTE	| 7.0	| 1.0	|
+| U+1F3F7	| &#x1F3F7;	| LABEL	| 7.0	| 1.0	|
 | U+1F408	| &#x1F408;	| CAT	| 6.0	|
 | U+1F415	| &#x1F415;	| DOG	| 6.0	|
 | U+1F41F	| &#x1F41F;	| FISH	| 6.0	|
 | U+1F426	| &#x1F426;	| BIRD	| 6.0	|
-| U+1F43F	| &#x1F43F;	| CHIPMUNK	| 7.0	|
-| U+1F441	| &#x1F441;	| EYE	| 7.0	|
+| U+1F43F	| &#x1F43F;	| CHIPMUNK	| 7.0	| 1.0	|
+| U+1F441	| &#x1F441;	| EYE	| 7.0	| 1.0	|
 | U+1F442	| &#x1F442;	| EAR	| 6.0	|
 | U+1F446	| &#x1F446;	| WHITE UP POINTING BACKHAND INDEX	| 6.0	|
 | U+1F447	| &#x1F447;	| WHITE DOWN POINTING BACKHAND INDEX	| 6.0	|
@@ -268,13 +268,13 @@ It is planned to also track the UTR#51 version that added the sequences.
 | U+1F4F9	| &#x1F4F9;	| VIDEO CAMERA	| 6.0	|
 | U+1F4FA	| &#x1F4FA;	| TELEVISION	| 6.0	|
 | U+1F4FB	| &#x1F4FB;	| RADIO	| 6.0	|
-| U+1F4FD	| &#x1F4FD;	| FILM PROJECTOR	| 7.0	|
+| U+1F4FD	| &#x1F4FD;	| FILM PROJECTOR	| 7.0	| 1.0	|
 | U+1F508	| &#x1F508;	| SPEAKER	| 6.0	|
 | U+1F50D	| &#x1F50D;	| LEFT-POINTING MAGNIFYING GLASS	| 6.0	|
 | U+1F512	| &#x1F512;	| LOCK	| 6.0	|
 | U+1F513	| &#x1F513;	| OPEN LOCK	| 6.0	|
-| U+1F549	| &#x1F549;	| OM SYMBOL	| 7.0	|
-| U+1F54A	| &#x1F54A;	| DOVE OF PEACE	| 7.0	|
+| U+1F549	| &#x1F549;	| OM SYMBOL	| 7.0	| 1.0	|
+| U+1F54A	| &#x1F54A;	| DOVE OF PEACE	| 7.0	| 1.0	|
 | U+1F550	| &#x1F550;	| CLOCK FACE ONE OCLOCK	| 6.0	|
 | U+1F551	| &#x1F551;	| CLOCK FACE TWO OCLOCK	| 6.0	|
 | U+1F552	| &#x1F552;	| CLOCK FACE THREE OCLOCK	| 6.0	|
@@ -299,41 +299,41 @@ It is planned to also track the UTR#51 version that added the sequences.
 | U+1F565	| &#x1F565;	| CLOCK FACE TEN-THIRTY	| 6.0	|
 | U+1F566	| &#x1F566;	| CLOCK FACE ELEVEN-THIRTY	| 6.0	|
 | U+1F567	| &#x1F567;	| CLOCK FACE TWELVE-THIRTY	| 6.0	|
-| U+1F56F	| &#x1F56F;	| CANDLE	| 7.0	|
-| U+1F570	| &#x1F570;	| MANTELPIECE CLOCK	| 7.0	|
-| U+1F573	| &#x1F573;	| HOLE	| 7.0	|
-| U+1F574	| &#x1F574;	| MAN IN BUSINESS SUIT LEVITATING	| 7.0	|
-| U+1F575	| &#x1F575;	| SLEUTH OR SPY	| 7.0	|
-| U+1F576	| &#x1F576;	| DARK SUNGLASSES	| 7.0	|
-| U+1F577	| &#x1F577;	| SPIDER	| 7.0	|
-| U+1F578	| &#x1F578;	| SPIDER WEB	| 7.0	|
-| U+1F579	| &#x1F579;	| JOYSTICK	| 7.0	|
-| U+1F587	| &#x1F587;	| LINKED PAPERCLIPS	| 7.0	|
-| U+1F58A	| &#x1F58A;	| LOWER LEFT BALLPOINT PEN	| 7.0	|
-| U+1F58B	| &#x1F58B;	| LOWER LEFT FOUNTAIN PEN	| 7.0	|
-| U+1F58C	| &#x1F58C;	| LOWER LEFT PAINTBRUSH	| 7.0	|
-| U+1F58D	| &#x1F58D;	| LOWER LEFT CRAYON	| 7.0	|
-| U+1F590	| &#x1F590;	| RAISED HAND WITH FINGERS SPLAYED	| 7.0	|
-| U+1F5A5	| &#x1F5A5;	| DESKTOP COMPUTER	| 7.0	|
-| U+1F5A8	| &#x1F5A8;	| PRINTER	| 7.0	|
-| U+1F5B1	| &#x1F5B1;	| THREE BUTTON MOUSE	| 7.0	|
-| U+1F5B2	| &#x1F5B2;	| TRACKBALL	| 7.0	|
-| U+1F5BC	| &#x1F5BC;	| FRAME WITH PICTURE	| 7.0	|
-| U+1F5C2	| &#x1F5C2;	| CARD INDEX DIVIDERS	| 7.0	|
-| U+1F5C3	| &#x1F5C3;	| CARD FILE BOX	| 7.0	|
-| U+1F5C4	| &#x1F5C4;	| FILE CABINET	| 7.0	|
-| U+1F5D1	| &#x1F5D1;	| WASTEBASKET	| 7.0	|
-| U+1F5D2	| &#x1F5D2;	| SPIRAL NOTE PAD	| 7.0	|
-| U+1F5D3	| &#x1F5D3;	| SPIRAL CALENDAR PAD	| 7.0	|
-| U+1F5DC	| &#x1F5DC;	| COMPRESSION	| 7.0	|
-| U+1F5DD	| &#x1F5DD;	| OLD KEY	| 7.0	|
-| U+1F5DE	| &#x1F5DE;	| ROLLED-UP NEWSPAPER	| 7.0	|
-| U+1F5E1	| &#x1F5E1;	| DAGGER KNIFE	| 7.0	|
-| U+1F5E3	| &#x1F5E3;	| SPEAKING HEAD IN SILHOUETTE	| 7.0	|
-| U+1F5E8	| &#x1F5E8;	| LEFT SPEECH BUBBLE	| 7.0	|
-| U+1F5EF	| &#x1F5EF;	| RIGHT ANGER BUBBLE	| 7.0	|
-| U+1F5F3	| &#x1F5F3;	| BALLOT BOX WITH BALLOT	| 7.0	|
-| U+1F5FA	| &#x1F5FA;	| WORLD MAP	| 7.0	|
+| U+1F56F	| &#x1F56F;	| CANDLE	| 7.0	| 1.0	|
+| U+1F570	| &#x1F570;	| MANTELPIECE CLOCK	| 7.0	| 1.0	|
+| U+1F573	| &#x1F573;	| HOLE	| 7.0	| 1.0	|
+| U+1F574	| &#x1F574;	| MAN IN BUSINESS SUIT LEVITATING	| 7.0	| 1.0	|
+| U+1F575	| &#x1F575;	| SLEUTH OR SPY	| 7.0	| 1.0	|
+| U+1F576	| &#x1F576;	| DARK SUNGLASSES	| 7.0	| 1.0	|
+| U+1F577	| &#x1F577;	| SPIDER	| 7.0	| 1.0	|
+| U+1F578	| &#x1F578;	| SPIDER WEB	| 7.0	| 1.0	|
+| U+1F579	| &#x1F579;	| JOYSTICK	| 7.0	| 1.0	|
+| U+1F587	| &#x1F587;	| LINKED PAPERCLIPS	| 7.0	| 1.0	|
+| U+1F58A	| &#x1F58A;	| LOWER LEFT BALLPOINT PEN	| 7.0	| 1.0	|
+| U+1F58B	| &#x1F58B;	| LOWER LEFT FOUNTAIN PEN	| 7.0	| 1.0	|
+| U+1F58C	| &#x1F58C;	| LOWER LEFT PAINTBRUSH	| 7.0	| 1.0	|
+| U+1F58D	| &#x1F58D;	| LOWER LEFT CRAYON	| 7.0	| 1.0	|
+| U+1F590	| &#x1F590;	| RAISED HAND WITH FINGERS SPLAYED	| 7.0	| 1.0	|
+| U+1F5A5	| &#x1F5A5;	| DESKTOP COMPUTER	| 7.0	| 1.0	|
+| U+1F5A8	| &#x1F5A8;	| PRINTER	| 7.0	| 1.0	|
+| U+1F5B1	| &#x1F5B1;	| THREE BUTTON MOUSE	| 7.0	| 1.0	|
+| U+1F5B2	| &#x1F5B2;	| TRACKBALL	| 7.0	| 1.0	|
+| U+1F5BC	| &#x1F5BC;	| FRAME WITH PICTURE	| 7.0	| 1.0	|
+| U+1F5C2	| &#x1F5C2;	| CARD INDEX DIVIDERS	| 7.0	| 1.0	|
+| U+1F5C3	| &#x1F5C3;	| CARD FILE BOX	| 7.0	| 1.0	|
+| U+1F5C4	| &#x1F5C4;	| FILE CABINET	| 7.0	| 1.0	|
+| U+1F5D1	| &#x1F5D1;	| WASTEBASKET	| 7.0	| 1.0	|
+| U+1F5D2	| &#x1F5D2;	| SPIRAL NOTE PAD	| 7.0	| 1.0	|
+| U+1F5D3	| &#x1F5D3;	| SPIRAL CALENDAR PAD	| 7.0	| 1.0	|
+| U+1F5DC	| &#x1F5DC;	| COMPRESSION	| 7.0	| 1.0	|
+| U+1F5DD	| &#x1F5DD;	| OLD KEY	| 7.0	| 1.0	|
+| U+1F5DE	| &#x1F5DE;	| ROLLED-UP NEWSPAPER	| 7.0	| 1.0	|
+| U+1F5E1	| &#x1F5E1;	| DAGGER KNIFE	| 7.0	| 1.0	|
+| U+1F5E3	| &#x1F5E3;	| SPEAKING HEAD IN SILHOUETTE	| 7.0	| 1.0	|
+| U+1F5E8	| &#x1F5E8;	| LEFT SPEECH BUBBLE	| 7.0	| 1.0	|
+| U+1F5EF	| &#x1F5EF;	| RIGHT ANGER BUBBLE	| 7.0	| 1.0	|
+| U+1F5F3	| &#x1F5F3;	| BALLOT BOX WITH BALLOT	| 7.0	| 1.0	|
+| U+1F5FA	| &#x1F5FA;	| WORLD MAP	| 7.0	| 1.0	|
 | U+1F610	| &#x1F610;	| NEUTRAL FACE	| 6.0	|
 | U+1F687	| &#x1F687;	| METRO	| 6.0	|
 | U+1F68D	| &#x1F68D;	| ONCOMING BUS	| 6.0	|
@@ -345,16 +345,16 @@ It is planned to also track the UTR#51 version that added the sequences.
 | U+1F6B9	| &#x1F6B9;	| MENS SYMBOL	| 6.0	|
 | U+1F6BA	| &#x1F6BA;	| WOMENS SYMBOL	| 6.0	|
 | U+1F6BC	| &#x1F6BC;	| BABY SYMBOL	| 6.0	|
-| U+1F6CB	| &#x1F6CB;	| COUCH AND LAMP	| 7.0	|
-| U+1F6CD	| &#x1F6CD;	| SHOPPING BAGS	| 7.0	|
-| U+1F6CE	| &#x1F6CE;	| BELLHOP BELL	| 7.0	|
-| U+1F6CF	| &#x1F6CF;	| BED	| 7.0	|
-| U+1F6E0	| &#x1F6E0;	| HAMMER AND WRENCH	| 7.0	|
-| U+1F6E1	| &#x1F6E1;	| SHIELD	| 7.0	|
-| U+1F6E2	| &#x1F6E2;	| OIL DRUM	| 7.0	|
-| U+1F6E3	| &#x1F6E3;	| MOTORWAY	| 7.0	|
-| U+1F6E4	| &#x1F6E4;	| RAILWAY TRACK	| 7.0	|
-| U+1F6E5	| &#x1F6E5;	| MOTOR BOAT	| 7.0	|
-| U+1F6E9	| &#x1F6E9;	| SMALL AIRPLANE	| 7.0	|
-| U+1F6F0	| &#x1F6F0;	| SATELLITE	| 7.0	|
-| U+1F6F3	| &#x1F6F3;	| PASSENGER SHIP	| 7.0	|
+| U+1F6CB	| &#x1F6CB;	| COUCH AND LAMP	| 7.0	| 1.0	|
+| U+1F6CD	| &#x1F6CD;	| SHOPPING BAGS	| 7.0	| 1.0	|
+| U+1F6CE	| &#x1F6CE;	| BELLHOP BELL	| 7.0	| 1.0	|
+| U+1F6CF	| &#x1F6CF;	| BED	| 7.0	| 1.0	|
+| U+1F6E0	| &#x1F6E0;	| HAMMER AND WRENCH	| 7.0	| 1.0	|
+| U+1F6E1	| &#x1F6E1;	| SHIELD	| 7.0	| 1.0	|
+| U+1F6E2	| &#x1F6E2;	| OIL DRUM	| 7.0	| 1.0	|
+| U+1F6E3	| &#x1F6E3;	| MOTORWAY	| 7.0	| 1.0	|
+| U+1F6E4	| &#x1F6E4;	| RAILWAY TRACK	| 7.0	| 1.0	|
+| U+1F6E5	| &#x1F6E5;	| MOTOR BOAT	| 7.0	| 1.0	|
+| U+1F6E9	| &#x1F6E9;	| SMALL AIRPLANE	| 7.0	| 1.0	|
+| U+1F6F0	| &#x1F6F0;	| SATELLITE	| 7.0	| 1.0	|
+| U+1F6F3	| &#x1F6F3;	| PASSENGER SHIP	| 7.0	| 1.0	|
