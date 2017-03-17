@@ -2,39 +2,18 @@
 ; - http://www.unicode.org/versions/Unicode9.0.0/appA.pdf Unicode 9.0 Appendix A, pages 877-879
 ; - http://unicode.org/cldr/utility/bnf.jsp
 ; Status: Unicode 10.0 beta, Emoji 5.0 beta (2017-03)
-emoji_modifier_sequence	:= emoji_modifier_base emoji_modifier
-emoji_combining_sequence	:= 
-	 ( emoji_character
-	 | emoji_presentation_sequence
-	 | text_presentation_sequence 
-	 ) non_spacing_mark*
-text_presentation_sequence	:= emoji_presentation_base text_variation_selector
-emoji_presentation_sequence	:= emoji_presentation_base emoji_variation_selector
-text_variation_selector	:= \uFE0E
-emoji_variation_selector	:= \uFE0F
-emoji_keycap_sequence	:= emoji_keycap_base emoji_variation_selector combining_keycap
-emoji_keycap_base	:= [0-9#*]
-combining_keycap	:= \u20E3
-emoji_core_sequence	:= emoji_combining_sequence
-	 | emoji_modifier_sequence
-	 | emoji_flag_sequence
-emoji_zwj_element	:= emoji_character
-	 | emoji_presentation_sequence
-	 | emoji_modifier_sequence
-emoji_zwj_sequence	:= emoji_zwj_element ( ZWJ emoji_zwj_element )+
-emoji_sequence	:= emoji_core_sequence
-	 | emoji_zwj_sequence
-	 | emoji_tag_sequence
-emoji_flag_sequence	:= regional_indicator regional_indicator
-emoji_tag_sequence	:= tag_base tag_spec tag_term
-tag_base	:= emoji_character
-	 | emoji_modifier_sequence
-	 | emoji_presentation_sequence
-tag_spec	:= [\U000E0020-\U000E007E]+
-tag_term	:= \U000E007F
+
+;		Emoji Characters
 emoji_character	:= \p{Emoji}
+;		Emoji Presentation
 default_emoji_presentation_character	:= \p{Emoji_Presentation}
 default_text_presentation_character	:= [\p{Emoji} - \p{Emoji_Presentation}]
+	;= emoji_character - default_emoji_presentation_character
+;		Emoji and Text Presentation Sequences
+text_presentation_selector	:= \uFE0E
+text_presentation_sequence	:= emoji_presentation_base text_variation_selector
+emoji_presentation_selector	:= \uFE0F
+emoji_presentation_sequence	:= emoji_presentation_base emoji_variation_selector
 emoji_presentation_base	:= [	\u0023 \u002A \u0030-\u0039 \u00A9 \u00AE
 		\u203C \u2049 \u2122 \u2139 \u2194-\u2199 \u21A9-\u21AA
 		\u231A-\u231B \u2328 \u23CF \u23E9-\u23EA \u23ED-\u23EF \u23F1-\u23F3 \u23F8-\u23F9 \u23FA
@@ -60,7 +39,9 @@ emoji_presentation_base	:= [	\u0023 \u002A \u0030-\u0039 \u00A9 \u00AE
 		\U0001F5D1-\U0001F5D3 \U0001F5DC-\U0001F5DE \U0001F5E1 \U0001F5E3 \U0001F5E8 \U0001F5EF \U0001F5F3 \U0001F5FA 
 		\U0001F610 \U0001F687 \U0001F68D \U0001F691 \U0001F694 \U0001F698 \U0001F6AD \U0001F6B2 \U0001F6B9 \U0001F6BA \U0001F6BC 
 		\U0001F6CB \U0001F6CD-\U0001F6CF \U0001F6E0-\U0001F6E5 \U0001F6E9 \U0001F6F0 \U0001F6F3
-	]
+	 ]
+; 		Emoji Modifiers
+emoji_modifier	:= \p{Emoji_Modifier}
 emoji_modifier_base	:= [	\u261D  \u26F9  \u270A-\u270D 
 		\U0001F385 \U0001F3C2-\U0001F3C4 \U0001F3C7 \U0001F3CA-\U0001F3CC
 		\U0001F442-\U0001F443 \U0001F446-\U0001F450 \U0001F466-\U0001F478 \U0001F47C
@@ -70,4 +51,38 @@ emoji_modifier_base	:= [	\u261D  \u26F9  \u270A-\u270D
 		\U0001F6A3 \U0001F6B4-\U0001F6B6 \U0001F6C0 \U0001F6CC 
 		\U0001F918-\U0001F91E \U0001F926 \U0001F930 \U0001F933-\U0001F939 \U0001F93C-\U0001F93E 
 	 ] 
-emoji_modifier	:= \p{Emoji_Modifier}
+emoji_modifier_sequence	:= emoji_modifier_base emoji_modifier
+;		Emoji Sequences
+emoji_flag_sequence	:= regional_indicator regional_indicator
+emoji_tag_sequence	:= tag_base tag_spec tag_term
+tag_base	:= emoji_character
+	 | emoji_modifier_sequence
+	 | emoji_presentation_sequence
+tag_spec	:= [\U000E0020-\U000E007E]+
+tag_term	:= \U000E007F
+emoji_combining_sequence	:= 
+	 (	emoji_character
+	 |	emoji_presentation_sequence
+	 |	text_presentation_sequence 
+	 ) non_spacing_mark*
+emoji_keycap_sequence	:= emoji_keycap_base emoji_variation_selector combining_keycap
+emoji_keycap_base	:= [0-9#*]
+combining_keycap	:= \u20E3
+emoji_core_sequence	:= emoji_combining_sequence
+	 | emoji_modifier_sequence
+	 | emoji_flag_sequence
+emoji_zwj_element	:= emoji_character
+	 | emoji_presentation_sequence
+	 | emoji_modifier_sequence
+fully-qualified_emoji_zwj_element	:= default_emoji_presentation_character
+	 | emoji_presentation_sequence
+	 | emoji_modifier_sequence
+emoji_zwj_sequence	:= emoji_zwj_element ( ZWJ emoji_zwj_element )+
+ZWJ	:= \u200D
+emoji_sequence	:= emoji_core_sequence
+	 | emoji_zwj_sequence
+	 | emoji_tag_sequence
+
+fully-qualified_emoji_zwj_sequence	:= ( fully-qualified_emoji_zwj_element ( ZWJ fully-qualified_emoji_zwj_element )+ )
+	 - text_presentation_selector
+non-fully-qualified_emoji_zwj_sequence	:= emoji_zwj_sequence - fully-qualified_emoji_zwj_sequence
