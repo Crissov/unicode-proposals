@@ -3,6 +3,7 @@ description: Proposals for new characters to encode and canonic character sequen
 google_analytics: 
 show_downloads: false
 theme: jekyll-theme-minimal
+include: draft-proposals references
 
 gems:
   - jekyll-mentions
