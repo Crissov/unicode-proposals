@@ -1,148 +1,172 @@
-Encoded body parts
-------------------
+Proposal to Add Several Body-Part Emojis to the Unicode Standard
+================================================================
 
--   various hands and fingers (*touch, feel, gesture, sign*)
+-   **Author:** Christoph Päper
 
--   mouth (*eat, speak, blow, suck*) 👄; 🗣 (explicit); 🌬
+-   **Mail:** christoph.paeper\@crissov.de
 
--   lips (*kiss*) 💋 🗢
+-   **Submitted:** 2016-09-[\_\_]
 
--   tongue (*taste, lick*) 👅
+Introduction
+------------
 
--   ear (*hear*) 👂
+I hereby request the addition of [\_\_\_\_\_\_] emojis to the Unicode Standard.
+These are \_\_\_. Rationals, glyph examples, character properties as well as
+discussion of inclusion and exclusion factors are included on the following
+pages. As per emoji submission guidelines
+(http://www.unicode.org/emoji/selection.html\#submission) this document does not
+include the character proposal form.
 
--   nose (*smell*) 👃
+Glyph and Design
+----------------
 
--   eyes (*see*) 👁 👀
+Foot/Feet
 
--   fingernails (*manicure*) 💅
+Leg/-s, Calves, Thighs
 
--   skull & bones (*dead*): ☠️ 💀
+Brain
 
--   various heads: (most emoticons) 🗿
+Guts
 
--   various hearts (*alive, love*): ❤️ 💟 💓
+Heart Organ
 
-Missing body parts
-------------------
+Lungs
 
--   Leg (proposed before – where?)
+Liver
 
--   Foot (footsteps: 👣 and various shoes available)
+Stomach
 
--   Toes
+Colons
 
--   Back, behind
+Butt
 
--   Breast, torso
+Genitalia, Crotch, Groin, Pubes
 
--   Belly, tummy, navel
+♀ ZWJ sequence (U+2640): Vulva, Vagina, Labia, Clitoris; Ovuaries, Uterus
 
--   Genitals
+♂ ZWJ sequence (U+2642): Hanging Penis and Testicles; Erect Penis
 
--   Teeth
+ZWJ for urinating and ejaculating
 
--   Guts, intestines
+Belly
 
--	Brain → [L2/16-299](http://www.unicode.org/L2/L2016/16299-brain-emoji.pdf)
+♀ ZWJ sequence (U+2640): Pregnant
 
-Current metaphors
------------------
+♂ ZWJ sequence (U+2642): Hairy
 
-Not all of these are actually attested yet, but assumed to be used at least by some individuals.
+Chest
 
-### Female breasts, boobs, nipples
+♀ ZWJ sequence (U+2640): Breasts
 
--   visual doubled: 🛎🛎 🔔🔔 🍩🍩 🌰🌰 🌕🌕 🌑🌑 ☀️☀️ 🍏🍏 🍎🍎 🍊🍊 🍅🍅 🍘🍘
-    🍔🍔 🍮🍮 ⚪️⚪️ ⚫️⚫️ 💿💿 📀📀 ⭕️⭕️ 🏵🏵 🌼🌼 🌸🌸 🚨🚨 🎯🎯 🔅🔅 🔆🔆 🌐🌐 💣💣 ⚙⚙
-    ⛑⛑
+♂ ZWJ sequence (U+2642): Hairy
 
--   visual single:
-  * breasts: 🍒👀 😶🐽☯️
-  * nipple: 🖲
+or sequences with 👧👨👩👱👴👵
 
--   linguistic (English):
-  * balloons 🎈🎈
+Description
 
--   linguistic (other languages):
-  * cups: ☕️☕️ 🍵🍵
-  * balls: ⚽️⚽️ 🏀🏀 ⚾️⚾️ 🎾🎾 🏐🏐 🎱🎱
-  * bowls: 🔮🔮
-  * bags: 🛍 💰💰 👜👜
-  * sacks: 
+![Sample Picture](.png)
 
-### Phallus, penis, testicles (also: dildo, vibrator)
-
--   visual:
-    🍌 🌭 🍗 🍖 🍍 🍡 🍢 🍾 🐛 💊 ⚰ 🗞 📏 🔨 ⛏ 💘 ↖️ 🖊 🖋 🖍 🖌 🗡 🌶 🍼 🚀 🛩 ✈️ 🔦 🔑 🗝 🏈 🏉 ♐️ ↗️ ⤴️ 🔧 🌡 🕯 📍 🌵 👃
-
--   linguistic (English):
-  * cock 🐓
-  * 📯
-  * joystick 🕹
-  * pole 🚩
-  * balls: ⚽️ 🏀 ⚾️ 🎾 🏐 🎱
-  * nuts: 🌰
-  * sack: 💰
-
--   linguistic (other languages):
-  * key: 🔑 🗝
-  * bag: 👝 👛 👜 💼 🎒
-
--   spliff vs. erect vs. ejaculating: 🤥 🍾 
-
-### Vagina, clitoris, labiae
-
--   visual: 🌮 🍷 🛡 🎄 🔥
-  * \/ or \|/: ♈️ ♉️ 🌷  ⚓ 🍁
-  * triangle:  🍕 🍸 🍰️ 📐 💎
-  * heart ❤️ 💛 💚 💙 💜 💓 💗 💖 💝 💟 ♥️
-  * labia (|) or {|}:  🍑 🍣 🏈
-  * ovuary:  🔱 ⚜
-
--   gesture:
-  * 🖖 ✌️
-  * 👌
-
--   linguistic (English):
-  * pussy 🐱 🐈 🐆 🐅
-  * box 🕋 📦
-  * cookie 🍪
-
--   linguistic (other languages):
-  * 🐌 
-  * 🐚 
-  * 🐇 
-  * lock 🔒 🔓
-
--   ideographic:
-  * hole ⭕️ 🔞 🕳 🍩
-  * target/goal 🎯 🏁 🥅
-  * opening 🚪 ⛩
-  * ⚡️ ⭐️ ✨
-
-### Butt, asshole
-
--   visual:
-  * butt: 🍑 🍏 🍎 🍐 ♓️
-  * hole: 🏵 🍩
-
--   gesture: 👌
-
-Egyptian hieroglyphs
+Character Properties
 --------------------
 
-- [Google Sheets](https://docs.google.com/spreadsheets/d/1-wM7uPQIOZrulEsLGAi0Gnbd60lKVMUrif\_dwBo9VNM/edit\#gid=1555261600)
-- [Unicode L2/15-209](http://www.unicode.org/L2/L2015/15209-hieroglyphs-sheet.pdf)
+The preferred name of the characters are “[\_\_\_\_\_\_]”. They should be added
+to the [\_\_\_\_\_\_] block near other [\_\_\_\_\_\_] emoji. Properties of the
+body-part emojis should be identical to those of other emoji.
 
-U+13076–…:
+-   General Category: Other Symbol (So)
 
--   U+13091 Small Breast 𓂑
+-   Canonical Combining Class: 0
 
--   U+13092 Large Breast 𓂒
+-   Bidirectional Class: Other Neutral (ON)
 
--   U+130B8 Phallus 𓂸
+-   Bidi Mirrored: No
 
--   U+130BA Liquid Issuing from Phallus 𓂺
+No case-mapping is required. The characters do not decompose in any way. They
+are not whitespace nor control characters. They have no numeric value. They do
+make use of emoji modifiers! They have emoji presentation by default. In
+collation order they should be sorted near other body part emojis. They should
+definitely be part of the [\_\_\_\_\_\_] category.
 
--   U+13130 Uterus 𓄰
+Factors for Inclusion
+---------------------
+
+### A. Compatibility:
+
+There are no known legacy character sets containing [\_\_\_\_\_\_].
+
+There are some emoji-like image sets, including stickers in messaging apps, that
+include
+
+### B. Expected Usage Level:
+
+I have included several charts supplied by Google Trends showing the frequency
+of searches for “[\_\_\_\_\_\_]” in comparison to other emoji.
+
+Google search for the term “[\_\_\_\_\_\_]” returns [\_\_\_\_\_\_] results,
+which is more than for [\_\_\_\_\_\_].
+
+### C. Image distinctiveness:
+
+...
+
+### D. Completeness:
+
+...
+
+### E. Frequently Requested:
+
+ASCII emoticons
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ..,          ,,,
+   d(ö)b        d(W)b
+  __/^\__      __/V\__
+ //(.Y.)\\    //(`:´)\\
+|| ) * ( ||  || ) : ( ||
+nm ( Y ) mn  nm (_!_) mn
+   | | |        |_|_|
+   |^|^|        | | |
+  o__|__o      .__|__.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Phallic symbols Flirtmoji, stickers
+
+Factors for Exclusion
+---------------------
+
+### F. Overly Specific:
+
+...
+
+### G. Open-ended:
+
+...
+
+### H. Already Representable:
+
+People currently are using a variety of metaphors especially for genitalia
+
+### I. Logos, Brands etc.
+
+...
+
+### J. Transient:
+
+...
+
+References
+----------
+
+[1] \_\_\_\_\_\_: \_\_\_\_\_\_ (\_\_\_\_\_\_)
+
+License
+-------
+
+The sample images and the sample font included in this proposal were created by
+me and me alone. I hereby declare that the Unicode Consortium and its members
+are granted the right to use, edit and redistribute these contents in any way
+they want without restriction. Copies of the sample images and font are
+available at the following address:
+
+Screenshots were taken from Google Trends (https://www.google.com/trends/) and
+Twitter (https://twitter.com).
