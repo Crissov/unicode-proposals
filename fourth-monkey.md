@@ -4,7 +4,7 @@ Proposal for new emoji: Do-No-Evil Monkey
 - **Author:** Christoph Päper
 - **Mail:** christoph.paeper@crissov.de
 - **Submitted:** 2017-05-29
-- **Latest version:** 
+- **Latest version:** https://crissov.github.io/unicode-proposals/fourth-monkey
 
 Introduction
 ------------
@@ -12,14 +12,11 @@ Introduction
 I hereby request the addition of a **Do-No-Evil Monkey** emoji to the Unicode Standard. Rationals, glyph examples, character properties as well as discussion of inclusion and exclusion factors are included on the following pages.
 As per the [emoji submission guidelines](http://www.unicode.org/emoji/selection.html#submission) this document does not include the character proposal form.
 
-Glyph and Design
-----------------
-
 The canonic Three Wise Monkeys are almost always depicted as covering their eyes (🙈 *See-No-Evil* U+1F648, Mizaru/Minai), ears (🙉 *Hear-No-Evil* U+1F649, Kikazaru/Mikazaru/Kikanai) and mouth (🙊 *Say-No-Evil* U+1F64A, Iwazaru/Mazaru/Iwanai), respectively, hence can easily be limited to show the head. 
-There is some considerable deviation and variation for the non-canonic fourth monkey. I am specifically proposing the *Do-No-Evil Monkey* Shizaru/Shinai. Its hands are often shown crossed or tied and either above its head or in its lap. The former depiction is better compatible with existing glyphs and can also symbolize the less frequent alternative *Think-No-Evil Monkey*, while the latter hints – sometimes in a quite obvious way – at the sexual innuendo of ‘doing something evil’. 
+There is some considerable deviation and variation for the less-canonic fourth monkey. I am specifically proposing the *Do-No-Evil Monkey* Shizaru/Shinai. Its hands are often shown crossed or tied and either above its head or in its lap. The former depiction is better compatible with existing glyphs and can also symbolize the less frequent alternative *Think-No-Evil Monkey*, while the latter hints – sometimes in a quite obvious way – at the sexual innuendo of ‘doing something evil’. 
 Other specific activities are also sometimes depicted, e.g. *Write-No-Evil* or *Smell-No-Evil*.
 
-![Four Monkeys](https://upload.wikimedia.org/wikipedia/commons/d/dc/Four_wise_monkeys.jpg)
+[![Four Monkeys](https://upload.wikimedia.org/wikipedia/commons/d/dc/Four_wise_monkeys.jpg)](https://commons.wikimedia.org/wiki/File:Four_wise_monkeys.jpg)
 
 Names
 --------------------
@@ -76,9 +73,9 @@ The _-nai_ diagram is not useful, because _shinai_ is also the weapon used in ke
 
 ### C. Image distinctiveness: 
 
-If drawn badly, a monkey raising both hands – as if being arrested – could look much like the one covering its ears (🙉). 
+If drawn badly, a monkey raising both hands – as if being arrested – could look much like the one covering its ears 🙉. 
 
-If the position and posture of its hands and arms is not unusual enough, it could also be confused with  🐵 *Monkey Face* U+1F435 or 🐒 *Monkey* U+1F412.
+If the position and posture of its hands and arms is not unusual enough, it could also be confused with  🐵 *Monkey Face* U+1F435 or, much less likely, 🐒 *Monkey* U+1F412.
 
 ### D. Completeness:
 
@@ -86,14 +83,14 @@ This character is proposed to complete a frequent, though less canonic set.
 
 ### E. Frequently Requested:
 
-I have no proof of this character being frequently requested by name, but “it wasn’t me”, “I didn’t do nothing”, “my hands are tied” and their equivalents in other languages are frequently used phrases that would be subject to be augmented or substituted by the proposed emoji character.
+I have no evidence of this character being frequently requested by name, but “it wasn’t me”, “I didn’t do nothing”, “my hands are tied” and their equivalents in other languages are frequently used phrases that would be subject to be augmented or substituted by the proposed emoji character.
 
 Factors for Exclusion
 ---------------------
 
 ### F. Overly Specific:
 
-One of the two existing generic monkey emojis – 🐵 and 🐒 – could be used in proximity to all of the three wise monkeys – 🙈 🙉 🙊 – to signify the fourth one without further explicit determination of its *verb*-No-Evil status: 🙈 🙉 🙊 🐵. This would be quite ambiguous, though, and does not work with restricted context.
+One of the two existing generic monkey emojis – 🐵 and 🐒 – could be used in proximity to all of the three wise monkeys – 🙈 🙉 🙊 – to signify the fourth one without further explicit determination of its *verb*-No-Evil status: 🙈 🙉 🙊 🐵. This would be quite ambiguous, though, and does not work if one wants to refer to the meaning of the fourth monkey specifically.
 
 ### G. Open-ended:
 
@@ -103,11 +100,12 @@ Someone could want to propose other creature or face emojis – animal, human or
 
 ### H. Already Representable:
 
-The intended meaning could be represented by an emoji sequence of either Monkey or Monkey Face and a negation symbol next to a future activity, hand or other body part emoji, but this would not work well alongside the three existing wise monkeys. 
+The intended meaning could be represented by an emoji sequence of either Monkey Face 🐵 or Monkey 🐒 and a negation symbol 🚫 next to a future activity, hand or other body part emoji, but this would not work well alongside the three existing wise monkeys which have dedicated code points assigned to them. 
 
 ### I. Logos, Brands etc.
 
-There are some logos and brands that incorporate cartoon monkeys or apes, but non is known to me that would rely on one explicitly doing nothing.
+There are some logos and brands that incorporate cartoon monkeys or apes, but non is known to me that would rely on one explicitly doing nothing. There are companies, brands and products named after the Japanese designations of the monkeys. 
+[_Don’t be evil_](https://en.wikipedia.org/wiki/Don%27t_be_evil) is the motto of Google’s original corporate code of conduct.
 
 ### J. Transient:
 
@@ -126,17 +124,13 @@ It does not make use of emoji modifiers. It has emoji presentation by default.
 Other information
 -----------------
 
-N/A
-
-References
-----------
+### References
 
 - [Wikipedia]
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Three_wise_monkeys#Variations
 
-License
--------
+### License
 
 The sample images included in this proposal were created by me and me alone based upon Emojione 2.2 art distributed under a Creative Commons Attribution license. I hereby declare that the Unicode Consortium and its members are granted the right to use, edit and redistribute these contents in any way they want without restriction.
 Copies of the sample images are available at the following address:
