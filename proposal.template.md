@@ -1,34 +1,34 @@
-Proposal to Add a [______] Emoji to the Unicode Standard
-======================================================
+Proposal for new emoji: 
+=========================================
 
 - **Author:** [______]
 - **Mail:** [______]@[______]
 - **Submitted:** 20[__]-[__]-[__]
+- **Latest version:** https://crissov.github.io/unicode-proposals/
 
 Introduction
 ------------
 
 I hereby request the addition of a [______] emoji to the Unicode Standard. Rationals, glyph examples, character properties as well as discussion of inclusion and exclusion factors are included on the following pages.
-As per emoji submission guidelines (http://www.unicode.org/emoji/selection.html#submission) this document does not include the character proposal form.
-
-Glyph and Design
-----------------
-
-Description
+As per [emoji submission guidelines](http://www.unicode.org/emoji/selection.html#submission) this document does not include the character proposal form.
 
 ![Sample Picture](.png)
 
-Character Properties
+Names
 --------------------
 
-The preferred name of the character is “[______]”. It should be added to the [______] block near other [______] emoji. Properties of the [______] emoji should be identical to those of other emoji.
+### CLDR Short Name
 
-* General Category: Other Symbol (So)
-* Canonical Combining Class: 0
-* Bidirectional Class: Other Neutral (ON)
-* Bidi Mirrored: No
+The preferred English CLDR short name of the character is “Do-No-Evil Monkey”. 
 
-No case-mapping is required. The character does not decompose in any way. It is not whitespace nor a control character. It has no numeric value. It does [NOT|] make use of emoji modifiers. It has [TEXT|EMOJI] presentation by default. In collation order it should be sorted near other [______] emoji. It should definitely be part of the [______] category.
+### CLDR Keywords
+
+
+
+Images
+----------------
+
+[![Sample Color Picture](emojitwo_e000.72px.png)](emojitwo_e000.svg)
 
 Factors for Inclusion
 ---------------------
@@ -78,15 +78,30 @@ Factors for Exclusion
 
 ...
 
-References
-----------
+Sort location
+-------------
 
-[1] ______: ______ (______)
+The emoji should be added to the [______] block near other [______] emoji. 
+In collation order, it should be sorted near other [______] emoji. 
+It should definitely be part of the [______] category.
 
-License
--------
+The character does not decompose in any way. It does *not* make use of emoji modifiers. 
+It has *emoji* presentation by default. 
 
-The sample images and the sample font included in this proposal were created by me and me alone. I hereby declare that the Unicode Consortium and its members are granted the right to use, edit and redistribute these contents in any way they want without restriction.
-Copies of the sample images and font are available at the following address:
+Other information
+-----------------
 
-Screenshots were taken from Google Trends (https://www.google.com/trends/) and Twitter (https://twitter.com).
+### References
+
+- [Wikipedia]
+
+[Wikipedia]: https://en.wikipedia.org/wiki/
+
+### License
+
+The sample images and the sample font included in this proposal were created by me and me alone. 
+I hereby declare that the Unicode Consortium and its members are granted the right to use, edit and redistribute these contents in any way they want without restriction.
+Copies of the sample images and font are available at 
+<http://github.com/Crissov/unicode-proposals/>.
+
+Screenshots were taken from [Google Trends](https://www.google.com/trends/) and [Twitter](https://twitter.com).
