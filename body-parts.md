@@ -1,31 +1,52 @@
-Proposal to Add Several Body-Part Emojis to the Unicode Standard
-================================================================
+Proposal for new emoji: several body parts
+==========================================
 
--   **Author:** Christoph Päper
-
--   **Mail:** christoph.paeper\@crissov.de
-
--   **Submitted:** 2016-09-[\_\_]
+- **Author:** Christoph Päper
+- **Mail:** christoph.paeper@crissov.de
+- **Submitted:** 2017-05-30
+- **Latest version:** https://crissov.github.io/unicode-proposals/body-parts
 
 Introduction
 ------------
 
-I hereby request the addition of [\_\_\_\_\_\_] emojis to the Unicode Standard.
-These are \_\_\_. Rationals, glyph examples, character properties as well as
-discussion of inclusion and exclusion factors are included on the following
-pages. As per emoji submission guidelines
-(http://www.unicode.org/emoji/selection.html\#submission) this document does not
-include the character proposal form.
+I hereby request the addition of eight external body part emojis to the Unicode Standard to complete the existing set of extremities.
+These are a **foot**, a **leg**, a **buttocks**, a generic **genital area**, a **belly**, a **breast**, a **tooth** and a (femur) **bone**. 
+Rationals, glyph examples, character properties as well as discussion of inclusion and exclusion factors are included on the following pages. As per [emoji submission guidelines](http://www.unicode.org/emoji/selection.html\#submission) this document does not include the character proposal form.
 
-Glyph and Design
-----------------
+Since breasts and genitals differ significantly between male and female human bodies, but their depiction is also tabooesque in many contemporary cultures, I am also proposing to document ZWJ sequences using the Female Sign U+2640 and the Male Sign U+2642 as determiners (i.e. second part), which has many precedents for fuller-body emojis (e.g. professions).
 
-Foot/Feet
+Names
+--------------------
 
-Leg/-s, Calves, Thighs
+The preferred [English CLDR data](http://www.unicode.org/cldr/charts/latest/annotations/germanic.html) of the proposed characters are as follows; existing body parts shown for comparison:
 
-Brain
+| Short name | Keywords |
+|------------|----------|
+| **foot** | **body, walk**
+| 👣	footprints | clothing, footprint, print, **walk**
+| **leg** | **body, thighs, calves**
+| **buttocks** | **behind**
+| **genital area** | **body, pubes, crotch, groin, loins**
+| **vulva** | **body, genital, vagina, clitoris, female, woman**
+| **penis** | **body, genital, testicles, male, man**
+| **belly** | **body, bellybutton, navel, tummy**
+| **breast** | **body, nipples**
+| **boobs** | **body, breast, mammaries, female, woman**
+| **chest** | **body, breast, male, man**
+| 💪 flexed biceps | biceps, comic, flex, muscle, **arm** |
+| ✋ raised hand | hand, **touch**
+| 👅	tongue | body, **lick, taste**
+| 👄	mouth | lips, **teeth, eat, speak, talk, body, face**
+| **tooth** | **teeth, dental**
+| 💋	kiss mark | kiss, lips, **sex**
+| 👃	nose | body, **smell, face**
+| 👂	ear | body, **listen, hearing, face**
+| 👁	eye | body, **see, watch, face**
+| 👀	eyes | eye, face
+| 🧠	brain | intelligent, **think**
+| **bone** | **skeleton, femur**
 
+<!--
 Guts
 
 Heart Organ
@@ -37,22 +58,11 @@ Liver
 Stomach
 
 Colons
-
-Butt
-
-Genitalia, Crotch, Groin, Pubes
+-->
 
 ♀ ZWJ sequence (U+2640): Vulva, Vagina, Labia, Clitoris; Ovuaries, Uterus
 
 ♂ ZWJ sequence (U+2642): Hanging Penis and Testicles; Erect Penis
-
-ZWJ for urinating and ejaculating
-
-Belly
-
-♀ ZWJ sequence (U+2640): Pregnant
-
-♂ ZWJ sequence (U+2642): Hairy
 
 Chest
 
@@ -60,11 +70,6 @@ Chest
 
 ♂ ZWJ sequence (U+2642): Hairy
 
-or sequences with 👧👨👩👱👴👵
-
-Description
-
-![Sample Picture](.png)
 
 Character Properties
 --------------------
