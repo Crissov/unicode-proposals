@@ -1,15 +1,15 @@
-Proposal for new emoji: several body parts
-==========================================
+Proposal for new emoji: Body Parts
+==================================
 
 - **Author:** Christoph Päper
 - **Mail:** christoph.paeper@crissov.de
-- **Submitted:** 2017-05-30
+- **Submitted:** 2017-06-06
 - **Latest version:** https://crissov.github.io/unicode-proposals/body-parts
 
 Introduction
 ------------
 
-I hereby request the addition of eight external body part emojis to the Unicode Standard to complete the existing set of extremities.
+I hereby request the addition of eight external body part emojis to the Unicode Standard in order to complete the existing set of extremities.
 These are a **foot**, a **leg**, a **buttocks**, a generic **genital area**, a **belly**, a **breast**, a **tooth** and a (femur) **bone**. 
 Rationals, glyph examples, character properties as well as discussion of inclusion and exclusion factors are included on the following pages. As per [emoji submission guidelines](http://www.unicode.org/emoji/selection.html\#submission) this document does not include the character proposal form.
 
@@ -18,97 +18,77 @@ Since breasts and genitals differ significantly between male and female human bo
 Names
 --------------------
 
-The preferred [English CLDR data](http://www.unicode.org/cldr/charts/latest/annotations/germanic.html) of the proposed characters are as follows; existing body parts shown for comparison:
+The preferred [English CLDR data](http://www.unicode.org/cldr/charts/latest/annotations/germanic.html) of the proposed characters are as follows; existing body parts shown for comparison, additions emphasized by boldface:
 
 | Short name | Keywords |
 |------------|----------|
-| **foot** | **body, walk**
-| 👣	footprints | clothing, footprint, print, **walk**
-| **leg** | **body, thighs, calves**
-| **buttocks** | **behind**
-| **genital area** | **body, pubes, crotch, groin, loins**
-| **vulva** | **body, genital, vagina, clitoris, female, woman**
-| **penis** | **body, genital, testicles, male, man**
-| **belly** | **body, bellybutton, navel, tummy**
-| **breast** | **body, nipples**
-| **boobs** | **body, breast, mammaries, female, woman**
-| **chest** | **body, breast, male, man**
-| 💪 flexed biceps | biceps, comic, flex, muscle, **arm** |
-| ✋ raised hand | hand, **touch**
-| 👅	tongue | body, **lick, taste**
-| 👄	mouth | lips, **teeth, eat, speak, talk, body, face**
-| **tooth** | **teeth, dental**
-| 💋	kiss mark | kiss, lips, **sex**
-| 👃	nose | body, **smell, face**
-| 👂	ear | body, **listen, hearing, face**
-| 👁	eye | body, **see, watch, face**
-| 👀	eyes | eye, face
-| 🧠	brain | intelligent, **think**
-| **bone** | **skeleton, femur**
+| **foot**	| **body, walk**	|
+| 👣 footprints	| clothing, footprint, print, **walk**	|
+| **leg**	| **body, thighs, calves**	|
+| **buttocks**	| **body, behind, arse**	|
+| **genital area**	| **body, pubes, crotch, groin, loins, pelvis**	|
+| **vulva**	| **body, genital, vagina, clitoris, female, woman**	|
+| **penis**	| **body, genital, testicles, male, man**	|
+| **belly**	| **body, bellybutton, navel, tummy**	|
+| **breast**	| **body, bust, nipples**	|
+| **boobs**	| **body, breast, mammaries, bosom, female, woman**	|
+| **chest**	| **body, breast, male, man**	|
+| 💪 flexed biceps	| biceps, comic, flex, muscle, **arm, body** |	|
+| ✋ raised hand	| hand, **touch**	|
+| 👅 tongue	| body, **lick, taste**	|
+| 👄 mouth	| lips, **teeth, eat, speak, talk, body, face**	|
+| **tooth**	| **teeth, dental**	|
+| 💋 kiss mark	| kiss, lips, **sex**	|
+| 👃 nose	| body, **smell, face**	|
+| 👂 ear	| body, **listen, hear, face**	|
+| 👁 eye	| body, **see, watch, look, face**	|
+| 👀 eyes	| eye, face	|
+| 🧠 brain	| intelligent, **think**	|
+| **bone**	| **skeleton, femur**	|
+	|
+<!-- Guts, Heart Organ, Lungs, Liver, Stomach, Colons -->
 
-<!--
-Guts
+Emoji ZWJ sequences
+-------------------
 
-Heart Organ
-
-Lungs
-
-Liver
-
-Stomach
-
-Colons
--->
+Genitalia
 
 ♀ ZWJ sequence (U+2640): Vulva, Vagina, Labia, Clitoris; Ovuaries, Uterus
-
 ♂ ZWJ sequence (U+2642): Hanging Penis and Testicles; Erect Penis
 
 Chest
 
 ♀ ZWJ sequence (U+2640): Breasts
-
 ♂ ZWJ sequence (U+2642): Hairy
 
 
 Character Properties
 --------------------
 
-The preferred name of the characters are “[\_\_\_\_\_\_]”. They should be added
-to the [\_\_\_\_\_\_] block near other [\_\_\_\_\_\_] emoji. Properties of the
-body-part emojis should be identical to those of other emoji.
+They should be added to the [______] block near other [______] emoji.
+In collation order they should be sorted near other body part emojis. 
+They should definitely be part of the [______] category.
 
--   General Category: Other Symbol (So)
-
--   Canonical Combining Class: 0
-
--   Bidirectional Class: Other Neutral (ON)
-
--   Bidi Mirrored: No
-
-No case-mapping is required. The characters do not decompose in any way. They
-are not whitespace nor control characters. They have no numeric value. They do
-make use of emoji modifiers! They have emoji presentation by default. In
-collation order they should be sorted near other body part emojis. They should
-definitely be part of the [\_\_\_\_\_\_] category.
+Most of the proposed body part emojis do make use of emoji modifiers! 
+They all have emoji presentation by default. 
 
 Factors for Inclusion
 ---------------------
 
 ### A. Compatibility:
 
-There are no known legacy character sets containing [\_\_\_\_\_\_].
+There are no known legacy character sets containing any of the body parts proposed.
 
 There are some emoji-like image sets, including stickers in messaging apps, that
-include
+include graphics for body parts, which may either be explicit or implicit metaphors, e.g. a strawberry cut in half vertically to symbolize a vagina.
 
 ### B. Expected Usage Level:
 
 I have included several charts supplied by Google Trends showing the frequency
-of searches for “[\_\_\_\_\_\_]” in comparison to other emoji.
+of searches for “[______]” in comparison to other emoji.
 
-Google search for the term “[\_\_\_\_\_\_]” returns [\_\_\_\_\_\_] results,
-which is more than for [\_\_\_\_\_\_].
+Google search for the term “[______]” returns [______] results,
+which is more than for [______].
 
 ### C. Image distinctiveness:
 
@@ -116,36 +96,36 @@ which is more than for [\_\_\_\_\_\_].
 
 ### D. Completeness:
 
-...
+The major goal of this proposal is to complete the set of external human body parts.
 
 ### E. Frequently Requested:
 
+<!--
 ASCII emoticons
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    ..,          ,,,
-   d(ö)b        d(W)b
-  __/^\__      __/V\__
- //(.Y.)\\    //(`:´)\\
-|| ) * ( ||  || ) : ( ||
-nm ( Y ) mn  nm (_!_) mn
-   | | |        |_|_|
-   |^|^|        | | |
-  o__|__o      .__|__.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        ..,          ,,,
+       q(ö)p        d(W)b
+      __/^__      __/V__
+     //(.Y.)\\    //(`:´)\\
+    ||  )*(  ||  || ) : ( ||
+    nm ( Y ) mn  nm (_!_) mn
+       | | |        |_|_|
+       |^|^|        | | |
+      o__|__o      .__|__.
 
 Phallic symbols Flirtmoji, stickers
+-->
 
 Factors for Exclusion
 ---------------------
 
 ### F. Overly Specific:
 
-...
+People rely on visual or linguistic emoji metaphors for the most wanted body parts. This is not an indication that the parts proposed herein would be overly specific, but some may be felt as overly *explicit*.
 
 ### G. Open-ended:
 
-...
+While there are several internal organs with iconic shapes and several other named external parts of the human body, the present list aims to be exhaustive.
 
 ### H. Already Representable:
 
@@ -153,16 +133,16 @@ People currently are using a variety of metaphors especially for genitalia
 
 ### I. Logos, Brands etc.
 
-...
+No.
 
 ### J. Transient:
 
-...
+No. The human body and its parts have been pictured and spoken about ever since humankind became able to do it, and always will.
 
 References
 ----------
 
-[1] \_\_\_\_\_\_: \_\_\_\_\_\_ (\_\_\_\_\_\_)
+[1] ______: ______ (______)
 
 License
 -------
