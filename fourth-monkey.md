@@ -1,4 +1,4 @@
-Proposal for new emoji: Do-No-Evil Monkey
+Proposal for new emoji: **Do-No-Evil Monkey**
 =========================================
 
 - **Author:** Christoph Päper
@@ -12,8 +12,15 @@ Introduction
 I hereby request the addition of a **Do-No-Evil Monkey** emoji to the Unicode Standard. Rationals, glyph examples, character properties as well as discussion of inclusion and exclusion factors are included on the following pages.
 As per the [emoji submission guidelines](http://www.unicode.org/emoji/selection.html#submission) this document does not include the character proposal form.
 
-The canonic Three Wise Monkeys are almost always depicted as covering their eyes (🙈 *See-No-Evil* U+1F648, Mizaru/Minai), ears (🙉 *Hear-No-Evil* U+1F649, Kikazaru/Mikazaru/Kikanai) and mouth (🙊 *Say-No-Evil* U+1F64A, Iwazaru/Mazaru/Iwanai), respectively, hence can easily be limited to show the head. 
-There is some considerable deviation and variation for the less-canonic fourth monkey. I am specifically proposing the *Do-No-Evil Monkey* Shizaru/Shinai. Its hands are often shown crossed or tied and either above its head or in its lap. The former depiction is better compatible with existing glyphs and can also symbolize the less frequent alternative *Think-No-Evil Monkey*, while the latter hints – sometimes in a quite obvious way – at the sexual innuendo of ‘doing something evil’. 
+| Char | Unicode Name   | Codepoint | Japanese                      |
+| ---- | -------------- | --------- | ----------------------------- |
+| 🙈   | *See-No-Evil*  | U+1F648   | Mizaru / Minai                |
+| 🙉   | *Hear-No-Evil* | U+1F649   | Kikazaru / Mikazaru / Kikanai |
+| 🙊   | *Say-No-Evil*  | U+1F64A   | Iwazaru / Mazaru / Iwanai     |
+|      | *Do-No-Evil*   | U+1F9??   | Shizaru / Shinai              |
+
+The canonic Three Wise Monkeys are almost always depicted as covering their eyes 🙈, ears 🙉 and mouth 🙊, respectively, hence can easily be limited to show the head. 
+There is some considerable deviation and variation for the less-canonic fourth monkey. I am specifically proposing the *Do-No-Evil Monkey*. Its hands are often shown crossed or tied and either held above its head or resting in its lap. The former depiction is better compatible with existing glyphs and can also symbolize the less frequent alternative *Think-No-Evil Monkey*, while the latter hints – sometimes in a quite obvious way – at the sexual innuendo of ‘doing something evil’ by covering the genitals. 
 Other specific activities are also sometimes depicted, e.g. *Write-No-Evil* or *Smell-No-Evil*.
 
 [![Four Monkeys](https://upload.wikimedia.org/wikipedia/commons/d/dc/Four_wise_monkeys.jpg)](https://commons.wikimedia.org/wiki/File:Four_wise_monkeys.jpg)
@@ -28,21 +35,20 @@ The preferred name of the character is “Do-No-Evil Monkey”.
 The existing monkeys share most of their [English CLDR keywords](http://www.unicode.org/cldr/charts/latest/annotations/germanic.html). 
 The table shows proposed additions in bold face.
 
-| Name | Common Keywords | Individual Keywords |
-|------|-----------------|---------------------|
-| see-no-evil monkey     | face, monkey; evil, forbidden, gesture, no, not, prohibited | see, **watch, blind**
-| hear-no-evil monkey    | face, monkey; evil, forbidden, gesture, no, not, prohibited | hear, **listen, deaf**
-| speak-no-evil monkey   | face, monkey; evil, forbidden, gesture, no, not, prohibited | speak, **tell, mute, taste, eat**
-| **do-no-evil monkey**  | face, monkey; evil, forbidden, gesture, no, not, prohibited | **do, act, sex, think, dumb**
-| monkey face            | face, monkey | 
+| Name                  | Common Keywords                          | Individual Keywords               |
+| --------------------- | ---------------------------------------- | --------------------------------- |
+| see-no-evil monkey    | face, monkey; evil, forbidden, gesture, no, not, prohibited | see, **watch, blind**             |
+| hear-no-evil monkey   | face, monkey; evil, forbidden, gesture, no, not, prohibited | hear, **listen, deaf**            |
+| speak-no-evil monkey  | face, monkey; evil, forbidden, gesture, no, not, prohibited | speak, **tell, mute, taste, eat** |
+| **do-no-evil monkey** | face, monkey; evil, forbidden, gesture, no, not, prohibited | **do, act, sex, think, dumb**     |
+| monkey face           | face, monkey                             |                                   |
 
 Images
 ------
 
 Adapted Emojione 2 (or Emojitwo) graphics:
 
-[![Variant 1 with arms crossed behind the head.](img/emojione-monkey-arms-crossed.png)](img/emojione-monkey-arms-crossed.svg)
-[![Variant 2 with hands up.](img/emojione-monkey-hands-up.png)](img/emojione-monkey-hands-up.svg)
+[![Variant 1 with arms crossed behind the head.](img/emojione-monkey-arms-crossed.png)](img/emojione-monkey-arms-crossed.svg) [![Variant 2 with hands up.](img/emojione-monkey-hands-up.png)](img/emojione-monkey-hands-up.svg)
 
 Factors for Inclusion
 ---------------------
@@ -53,13 +59,13 @@ There are no known legacy character sets containing Do-No-Evil Monkey.
 
 ### B. Expected Usage Level: 
 
-I expect the Do-No-Evil Monkey emoji to be used slightly less than its three existing siblings, but these are among the highly used emojis on <http://www.emojistats.org> and <http://emojitracker.com>. Not least because they are being used to express ‘I can’t &hellip;’, ‘I won’t &hellip;’, ‘I don’t wanna &hellip;’ and ‘Please don’t &hellip;’ (hear, see, say/taste/smell something). 
+I expect the Do-No-Evil Monkey emoji to be used slightly less than its three existing siblings, but these are among the highly used emojis on [Emojistats][] and [Emojitracker][]. Not least because they are being used to express ‘I can’t &hellip;’, ‘I won’t &hellip;’, ‘I don’t wanna &hellip;’ and ‘Please don’t &hellip;’ (hear, see, say/taste/smell something). 
 
-| Emoji | Emojistats rank | Emojitracker rank |
-|-------|-----------------|-------------------|
-| 🙈 *See-No-Evil* U+1F648  |  11 |  29 |
-| 🙉 *Hear-No-Evil* U+1F649 | 141 | 204 |
-| 🙊 *Say-No-Evil* U+1F64A  |  45 |  54 |
+| Emoji                     | [Emojistats][] rank | [Emojitracker][] rank |
+| ------------------------- | ------------------- | --------------------- |
+| 🙈 *See-No-Evil* U+1F648  | 11                  | 29                    |
+| 🙉 *Hear-No-Evil* U+1F649 | 141                 | 204                   |
+| 🙊 *Say-No-Evil* U+1F64A  | 45                  | 54                    |
 
 I have *not* included charts supplied by Google Trends showing the frequency of searches for the fourth monkey in comparison to the other three monkeys. They would show, however, that the name of the fourth monkey is searched for almost as often as the others. _Mizaru_ s the most frequent term, because the other two canonic monkeys are known in the West under different names:
 
@@ -109,7 +115,7 @@ There are some logos and brands that incorporate cartoon monkeys or apes, but no
 
 ### J. Transient:
 
-The English [Wikipedia] article states that the four-monkey version has been around at least as the three-monkey version. It is just that the triplet is more common in contemporary Japan where emojis originated.
+The English [Wikipedia] article states that the four-monkey version has been around at least as long as the three-monkey version. It is just that the triplet is more common in contemporary Japan where emojis originated.
 
 Sort location
 -------------
@@ -129,6 +135,8 @@ Other information
 - [Wikipedia]
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Three_wise_monkeys#Variations
+[Emojistats]: http://www.emojistats.org
+[Emojitracker]: http://emojitracker.com
 
 ### License
 
