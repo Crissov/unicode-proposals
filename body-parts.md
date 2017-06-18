@@ -3,13 +3,13 @@ Proposal for new emoji: **Body Parts**
 
 - **Author:** Christoph Päper
 - **Mail:** christoph.paeper@crissov.de
-- **Submitted:** 2017-06-16
+- **Submitted:** 2017-06-20
 - **Latest version:** https://crissov.github.io/unicode-proposals/body-parts
 
 Introduction
 ------------
 
-I hereby request the addition of eight external body part emojis to the Unicode Standard in order to complete the existing set of extremities.
+I hereby request the addition of eight external body part emojis to the Unicode Standard in order to complete the existing set of extremities. 
 These are a **foot**, a **leg**, a **buttocks**, a generic **genital area**, a **belly**, a **breast**, a **tooth** and a **bone**. 
 Rationals, glyph examples, character properties as well as discussion of inclusion and exclusion factors are included on the following pages. As per [emoji submission guidelines](http://www.unicode.org/emoji/selection.html\#submission) this document does not include the character proposal form.
 
@@ -102,7 +102,7 @@ Most existing body part emojis &ndash; except for hands &ndash; are not among th
 | 👁 eye            | 0.32k                   |               |
 | melon boobs       | 0.32k                   | 0.16k         |
 | 👣 footprints     | 0.18k                   |               |
-| 👃 nose           | 0.10k                    |               |
+| 👃 nose           | 0.10k                   |               |
 | 👂 ear            | <0.1k                   |               |
 | 🧠 brain          | ?                       |               |
 
