@@ -1,64 +1,64 @@
-Proposal for new emoji: Body Parts
+Proposal for new emoji: **Body Parts**
 ==================================
 
 - **Author:** Christoph Päper
 - **Mail:** christoph.paeper@crissov.de
-- **Submitted:** 2017-06-06
+- **Submitted:** 2017-06-16
 - **Latest version:** https://crissov.github.io/unicode-proposals/body-parts
 
 Introduction
 ------------
 
 I hereby request the addition of eight external body part emojis to the Unicode Standard in order to complete the existing set of extremities.
-These are a **foot**, a **leg**, a **buttocks**, a generic **genital area**, a **belly**, a **breast**, a **tooth** and a (femur) **bone**. 
+These are a **foot**, a **leg**, a **buttocks**, a generic **genital area**, a **belly**, a **breast**, a **tooth** and a **bone**. 
 Rationals, glyph examples, character properties as well as discussion of inclusion and exclusion factors are included on the following pages. As per [emoji submission guidelines](http://www.unicode.org/emoji/selection.html\#submission) this document does not include the character proposal form.
 
-Since breasts and genitals differ significantly between male and female human bodies, but their depiction is also tabooesque in many contemporary cultures, I am also proposing to document ZWJ sequences using the Female Sign U+2640 and the Male Sign U+2642 as determiners (i.e. second part), which has many precedents for fuller-body emojis (e.g. professions).
+Since breasts and genitals differ significantly between male and female human bodies, but their depiction is also tabooesque in many contemporary cultures, I am also proposing to document ZWJ sequences using the Female Sign ♀ U+2640 and the Male Sign ♂ U+2642 as determiners (i.e. second part), which has many precedents for fuller-body emojis (e.g. professions) from Unicode Emoji 4.0 onwards.
 
 Names
 --------------------
 
 The preferred [English CLDR data](http://www.unicode.org/cldr/charts/latest/annotations/germanic.html) of the proposed characters are as follows; existing body parts shown for comparison, additions emphasized by boldface:
 
-| Short name | Keywords |
-|------------|----------|
-| **foot**	| **body, walk**	|
-| 👣 footprints	| clothing, footprint, print, **walk**	|
-| **leg**	| **body, thighs, calves**	|
-| **buttocks**	| **body, behind, arse**	|
-| **genital area**	| **body, pubes, crotch, groin, loins, pelvis**	|
-| **vulva**	| **body, genital, vagina, clitoris, female, woman**	|
-| **penis**	| **body, genital, testicles, male, man**	|
-| **belly**	| **body, bellybutton, navel, tummy**	|
-| **breast**	| **body, bust, nipples**	|
-| **boobs**	| **body, breast, mammaries, bosom, female, woman**	|
-| **chest**	| **body, breast, male, man**	|
-| 💪 flexed biceps	| biceps, comic, flex, muscle, **arm, body** |	|
-| ✋ raised hand	| hand, **touch**	|
-| 👅 tongue	| body, **lick, taste**	|
-| 👄 mouth	| lips, **teeth, eat, speak, talk, body, face**	|
-| **tooth**	| **teeth, dental**	|
-| 💋 kiss mark	| kiss, lips, **sex**	|
-| 👃 nose	| body, **smell, face**	|
-| 👂 ear	| body, **listen, hear, face**	|
-| 👁 eye	| body, **see, watch, look, face**	|
-| 👀 eyes	| eye, face	|
-| 🧠 brain	| intelligent, **think**	|
-| **bone**	| **skeleton, femur**	|
-	|
+| Short name       | Keywords                                 |
+| ---------------- | ---------------------------------------- |
+| **foot**         | **body, walk**                           |
+| 👣 footprints    | clothing, footprint, print, **walk**     |
+| **leg**          | **body, thighs, calves**                 |
+| **buttocks**     | **body, behind, arse**                   |
+| **genital area** | **body, pubes, crotch, groin, loins, pelvis** |
+| **vulva**        | **body, genital, vagina, clitoris, female, woman** |
+| **penis**        | **body, genital, testicles, male, man**  |
+| **belly**        | **body, bellybutton, navel, tummy**      |
+| **breast**       | **body, bust, nipples**                  |
+| **boobs**        | **body, breast, mammaries, bosom, female, woman** |
+| **chest**        | **body, breast, male, man**              |
+| 💪 flexed biceps | biceps, comic, flex, muscle, **arm, body** |
+| ✋ raised hand    | hand, **touch**                          |
+| 👅 tongue        | body, **lick, taste**                    |
+| 👄 mouth         | lips, **teeth, eat, speak, talk, body, face** |
+| **tooth**        | **teeth, dental**                        |
+| 💋 kiss mark     | kiss, lips, **sex**                      |
+| 👃 nose          | body, **smell, face**                    |
+| 👂 ear           | body, **listen, hear, face**             |
+| 👁 eye           | body, **see, watch, look, face**         |
+| 👀 eyes          | eye, face                                |
+| 🧠 brain         | intelligent, **think**                   |
+| **bone**         | **skeleton, femur**                      |
+
 <!-- Guts, Heart Organ, Lungs, Liver, Stomach, Colons -->
 
 Emoji ZWJ sequences
 -------------------
 
-Genitalia
+### Genitalia
 
 ♀ ZWJ sequence (U+2640): Vulva, Vagina, Labia, Clitoris; Ovuaries, Uterus
 ♂ ZWJ sequence (U+2642): Hanging Penis and Testicles; Erect Penis
 
-Chest
+### Chest
 
-♀ ZWJ sequence (U+2640): Breasts
+♀ ZWJ sequence (U+2640): Breasts, Mammaries
 ♂ ZWJ sequence (U+2642): Hairy
 
 
@@ -83,6 +83,28 @@ There are some emoji-like image sets, including stickers in messaging apps, that
 include graphics for body parts, which may either be explicit or implicit metaphors, e.g. a strawberry cut in half vertically to symbolize a vagina.
 
 ### B. Expected Usage Level:
+
+Most existing body part emojis &ndash; except for hands &ndash; are not among the frequently used ones. Even the food emojis used metaphorically are not used much, at least not in the public metrics available.
+
+| Emoji             | [Emojistats][] daily    | Base          |
+| ----------------- | ----------------------- | ------------- |
+| 💋 kiss mark      | 12k+2.9k+2.2k+1.4k+1.0k |               |
+| 💪 flexed biceps  | 2.3k                    |               |
+| 👀 eyes           | 2.0k                    |               |
+| 👅 tongue         | 1.6k                    |               |
+| ✋ raised hand     | 0.52k                   |               |
+| pear butt         | 0.52k                   | <0.1k         |
+| lemon boobs       | 0.51k                   | <0.1k         |
+| strawberry vagina | 0.47k                   | 0.17k + 0.14k |
+| eggplant          | 0.47k                   |               |
+| peach             | 0.40k                   |               |
+| 👄 mouth          | 0.33k                   |               |
+| 👁 eye            | 0.32k                   |               |
+| melon boobs       | 0.32k                   | 0.16k         |
+| 👣 footprints     | 0.18k                   |               |
+| 👃 nose           | 0.10k                    |               |
+| 👂 ear            | <0.1k                   |               |
+| 🧠 brain          | ?                       |               |
 
 I have included several charts supplied by Google Trends showing the frequency
 of searches for “[______]” in comparison to other emoji.
