@@ -1,10 +1,18 @@
 Unicode Proposals
 =================
 
-This repository collects (draft) Unicode proposals for new characters to encode (mostly emoji) or 
-repurpose (using Variation Selector 16 &lsquo;VS-16&rsquo;, U+FE0F) and 
-canonic character sequences (mostly involving Zero-Width Joiner &lsquo;ZWJ&rsquo;, U+200D) to register. 
-It also contains templates, related sources, references and other material.
+This repository collects (draft) proposals for new emojis and other Unicode characters.
+
+Emoji
+-----
+
+A new emoji can be made in three different ways: 
+
+* If rather original, it may require the assignment of an individual codepoint, usually in the upper areas of the Supplementary Multilingual Plane (SMP), U+1F9*xy*. This usually happens once a year with a new point release of the Unicode Technical Standard (where the next one is version 11.0 in 2018). The deadline for proposals is currently set to the end of June.
+* An existing character can be repurposed by adding the `Emoji` property once and using Variation Selector 16 &lsquo;VS-16&rsquo; U+FE0F henceafter. 
+* There are several types of canonic character sequences which can be registered. The most import type are multiple emojis forced to form a ligature by a Zero-Width Joiner &lsquo;ZWJ&rsquo; U+200D between components. Country flags use pairs of Regional Indicator Symbols and are added automatically if ISO 3166-1 changes, whereas their subdivisions are encoded with Tag Characters on a Waving Black Flag base using ISO 3166-2 codes.
+
+The collection also contains templates, related sources, references and other material related to the Unicode standard.
 
 Contribution
 ------------
