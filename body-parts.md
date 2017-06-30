@@ -3,7 +3,7 @@ Proposal for new emoji: **Body Parts**
 
 - **Author:** Christoph Päper
 - **Mail:** christoph.paeper@crissov.de
-- **Submitted:** 2017-06-20
+- **Submitted:** 2017-06-30
 - **Latest version:** https://crissov.github.io/unicode-proposals/body-parts
 
 Introduction
@@ -11,9 +11,12 @@ Introduction
 
 I hereby request the addition of eight external body part emojis to the Unicode Standard in order to complete the existing set of extremities. 
 These are a **foot**, a **leg**, a **buttocks**, a generic **genital area**, a **belly**, a **breast**, a **tooth** and a **bone**. 
+
 Rationals, glyph examples, character properties as well as discussion of inclusion and exclusion factors are included on the following pages. As per [emoji submission guidelines](http://www.unicode.org/emoji/selection.html\#submission) this document does not include the character proposal form.
 
 Since breasts and genitals differ significantly between male and female human bodies, but their depiction is also tabooesque in many contemporary cultures, I am also proposing to document ZWJ sequences using the Female Sign ♀ U+2640 and the Male Sign ♂ U+2642 as determiners (i.e. second part), which has many precedents for fuller-body emojis (e.g. professions) from Unicode Emoji 4.0 onwards.
+
+The Unicode Standard already includes several body parts: 
 
 Names
 --------------------
@@ -43,7 +46,7 @@ The preferred [English CLDR data](http://www.unicode.org/cldr/charts/latest/anno
 | 👂 ear           | body, **listen, hear, face**             |
 | 👁 eye           | body, **see, watch, look, face**         |
 | 👀 eyes          | eye, face                                |
-| 🧠 brain         | intelligent, **think**                   |
+| 🧠 brain         | intelligent, **think, organ**            |
 | **bone**         | **skeleton, femur**                      |
 
 <!-- Guts, Heart Organ, Lungs, Liver, Stomach, Colons -->
@@ -53,24 +56,34 @@ Emoji ZWJ sequences
 
 ### Genitalia
 
-♀ ZWJ sequence (U+2640): Vulva, Vagina, Labia, Clitoris; Ovuaries, Uterus
+♀ ZWJ sequence (U+2640): Vulva, Vagina, Labia, Clitoris; Ovaries, Uterus
 ♂ ZWJ sequence (U+2642): Hanging Penis and Testicles; Erect Penis
 
 ### Chest
 
-♀ ZWJ sequence (U+2640): Breasts, Mammaries
-♂ ZWJ sequence (U+2642): Hairy
+♀ ZWJ sequence (U+2640): Breasts, Bosom
+♂ ZWJ sequence (U+2642): Hairy Chest
 
+Images
+---
 
-Character Properties
---------------------
+![](img/emojination_foot.png)![](img/emojination_leg.png)![](img/emojination_tooth.png)
 
-They should be added to the [______] block near other [______] emoji.
-In collation order they should be sorted near other body part emojis. 
-They should definitely be part of the [______] category.
+![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/butt.png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/butt(wh).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/butt(p).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/butt(ye).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/butt(br).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/butt(bk).png)
 
-Most of the proposed body part emojis do make use of emoji modifiers! 
-They all have emoji presentation by default. 
+![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/breasts.png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/breasts(wh).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/breasts(p).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/breasts(ye).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/breasts(br).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/breasts(bk).png)
+
+![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/crotch.png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/crotch(wh).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/crotch(p).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/crotch(ye).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/crotch(br).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/crotch(bk).png)
+
+![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/vagina.png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/vagina(wh).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/vagina(p).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/vagina(ye).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/vagina(br).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/vagina(bk).png)
+
+![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/pussy.png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/pussy(wh).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/pussy(p).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/pussy(ye).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/pussy(br).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/pussy(bk).png)
+
+![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/dick.png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/dick(wh).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/dick(p).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/dick(ye).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/dick(br).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/dick(bk).png)
+
+![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/penis.png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/penis(wh).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/penis(p).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/penis(ye).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/penis(br).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/penis(bk).png)
+
+![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/testicles.png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/testicles(wh).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/testicles(p).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/testicles(ye).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/testicles(br).png)![](https://rawgit.com/emojidex/emojidex-rasters/master/emoji/extended/xxxhdpi/testicles(bk).png)
 
 Factors for Inclusion
 ---------------------
@@ -160,6 +173,16 @@ No.
 ### J. Transient:
 
 No. The human body and its parts have been pictured and spoken about ever since humankind became able to do it, and always will.
+
+Character Properties
+---
+
+They should be added to the [______] block near other [______] emoji.
+In collation order they should be sorted near other body part emojis. 
+They should definitely be part of the [______] category.
+
+Most of the proposed body part emojis do make use of emoji modifiers! 
+They all have emoji presentation by default. 
 
 References
 ----------
