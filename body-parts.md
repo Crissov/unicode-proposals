@@ -164,7 +164,9 @@ While there are several internal organs with iconic shapes and several other nam
 
 ### H. Already Representable:
 
-People currently are using a variety of metaphors especially for genitalia
+People currently are using a variety of metaphors especially for genitalia.
+
+The meat-on-bone and the skull-with-crossbones emojis already include **bones**.
 
 ### I. Logos, Brands etc.
 
@@ -172,7 +174,7 @@ No.
 
 ### J. Transient:
 
-No. The human body and its parts have been pictured and spoken about ever since humankind became able to do it, and always will.
+No. The human body and its parts have been pictured and spoken about ever since humankind became able to do it, and always will. 
 
 Character Properties
 ---
