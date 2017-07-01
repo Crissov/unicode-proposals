@@ -3,8 +3,13 @@ Proposal for new emoji: **Do-No-Evil Monkey**
 
 - **Author:** Christoph Päper
 - **Mail:** christoph.paeper@crissov.de
-- **Submitted:** 2017-05-29
+- **Date:** 2017-05-29 submitted, 2017-07-01 last updated
 - **Latest version:** https://crissov.github.io/unicode-proposals/fourth-monkey
+
+Abstract
+---
+
+A **Do-No-Evil Monkey** emoji would complete the set of wise monkeys, although the triplet subset is much better known and more widespread (in part because of existing emojis).
 
 Introduction
 ------------
@@ -67,29 +72,62 @@ I expect the Do-No-Evil Monkey emoji to be used slightly less than its three exi
 | 🙉 *Hear-No-Evil* U+1F649 | 141                 | 204                   |
 | 🙊 *Say-No-Evil* U+1F64A  | 45                  | 54                    |
 
-I have *not* included charts supplied by Google Trends showing the frequency of searches for the fourth monkey in comparison to the other three monkeys. They would show, however, that the name of the fourth monkey is searched for almost as often as the others. _Mizaru_ s the most frequent term, because the other two canonic monkeys are known in the West under different names:
+![](img/google-trends_mizaru-kikazaru-iwazaru-shizaru.png)
+
+Above, I am including screenshot of a chart supplied by Google Trends showing the frequency of searches for the fourth monkey in comparison to the other three monkeys. It shows that the romanized Japanese &ldquo;name&rdquo; of the fourth monkey, _Shizaru_, is searched for almost as often as the others. _Mizaru_ is the most frequent term, perhaps because the other two canonic monkeys are also known in the West under different names:
 
 - [Mizaru, Kikazaru, Iwazaru, Shizaru](https://trends.google.com/trends/explore?q=Mizaru,Kikazaru,Iwazaru,Shizaru)
 - [Mizaru, Mikazaru, Mazaru, Shizaru](https://trends.google.com/trends/explore?q=Mizaru,Mikazaru,Mazaru,Shizaru)
 - [Minai, Kikanai, Iwanai, Shinai](https://trends.google.com/trends/explore?q=Minai,Kikanai,Iwanai,Shinai)
 
-The _-nai_ diagram is not useful, because _shinai_ is also the weapon used in kendo and _minai_ may be a common misspelling of _Minaj_ (apparently a popular singer).
+The diagram with alternate _-nai_ transcriptions is not useful, because _shinai_ is also the weapon used in kendo and _minai_ may be a common misspelling of _Minaj_ (apparently a popular singer).
 
-- [_&hellip; no evil_ phrases in Google Books](https://books.google.com/ngrams/interactive_chart?content=say+no+evil%2Cspeak+no+evil%2Chear+no+evil%2Csee+no+evil%2Cdo+no+evil%2Cthink+no+evil&case_insensitive=on&year_start=1908&year_end=2008&corpus=15&smoothing=3&share=&direct_url=t4%3B%2Csay%20no%20evil%3B%2Cc0%3B%2Cs0%3B%3Bsay%20no%20evil%3B%2Cc0%3B%3BSay%20no%20evil%3B%2Cc0%3B.t4%3B%2Cspeak%20no%20evil%3B%2Cc0%3B%2Cs0%3B%3Bspeak%20no%20evil%3B%2Cc0%3B%3BSpeak%20no%20evil%3B%2Cc0%3B%3BSpeak%20No%20Evil%3B%2Cc0%3B%3BSPEAK%20NO%20EVIL%3B%2Cc0%3B%3BSpeak%20no%20Evil%3B%2Cc0%3B.t4%3B%2Chear%20no%20evil%3B%2Cc0%3B%2Cs0%3B%3Bhear%20no%20evil%3B%2Cc0%3B%3BHear%20no%20evil%3B%2Cc0%3B%3BHear%20No%20Evil%3B%2Cc0%3B%3BHEAR%20NO%20EVIL%3B%2Cc0%3B%3BHear%20no%20Evil%3B%2Cc0%3B.t4%3B%2Csee%20no%20evil%3B%2Cc0%3B%2Cs0%3B%3Bsee%20no%20evil%3B%2Cc0%3B%3BSee%20No%20Evil%3B%2Cc0%3B%3BSee%20no%20evil%3B%2Cc0%3B%3BSEE%20NO%20EVIL%3B%2Cc0%3B%3BSee%20no%20Evil%3B%2Cc0%3B.t4%3B%2Cdo%20no%20evil%3B%2Cc0%3B%2Cs0%3B%3Bdo%20no%20evil%3B%2Cc0%3B%3BDo%20no%20evil%3B%2Cc0%3B.t4%3B%2Cthink%20no%20evil%3B%2Cc0%3B%2Cs0%3B%3Bthink%20no%20evil%3B%2Cc0%3B%3BThink%20no%20evil%3B%2Cc0%3B%3BThink%20No%20Evil%3B%2Cc0)
+[Google Ngram Viewer](https://books.google.com/ngrams/interactive_chart?content=say+no+evil%2Cspeak+no+evil%2Chear+no+evil%2Csee+no+evil%2Cdo+no+evil%2Cthink+no+evil&case_insensitive=on&year_start=1908&year_end=2008&corpus=15&smoothing=3) shows that _do no evil_ used to be the most popular of the phrases in English print until the 1930s. It is used less than _say/speak/hear no evil_ currently, though. Searching with a placeholder for the [verb before _no evil_](https://books.google.com/ngrams/interactive_chart?content=*_VERB+no+evil&case_insensitive=on&year_start=1908&year_end=2008&corpus=15&smoothing=3) yields similar results.
+
+![](img/google-ngram-viewer_no-evil.png)![](img/google-ngram-viewer_VERB-no-evil.png)
 
 ### C. Image distinctiveness: 
 
-If drawn badly, a monkey raising both hands – as if being arrested – could look much like the one covering its ears 🙉. 
+In full-body images and figurines, the monkey&rsquo;s hands are more often shown in the lap than above the head. Since all current and previous implementations of emojis opted for face-only glyphs for the other three monkeys, the reference image for the fourth one should also exclude the body. I therefore suggest that the Do-No-Evil Monkey is shown with its hands above, atop or behind its head, possibly tied with a rope or handcuffs. Care must be taken to keep it distinguishable from the Hear-No-Evil Monkey:
 
-If the position and posture of its hands and arms is not unusual enough, it could also be confused with  🐵 *Monkey Face* U+1F435 or, much less likely, 🐒 *Monkey* U+1F412.
+- If drawn badly, a monkey raising both hands – as if being arrested – could look much like the one covering its ears 🙉. 
+
+- If the position and posture of its hands and arms is not unusual enough, it could also be confused with  🐵 *Monkey Face* U+1F435 or, much less likely, 🐒 *Monkey* U+1F412.
+
+  The graphic should be similar to the existing three wise monkeys which are consistently displayed as faces only. That means, a picture of a monkey crossing its arms before its chest or covering its genital area with its hands would not fit well with established emoji conventions.
 
 ### D. Completeness:
 
-This character is proposed to complete a frequent, though less canonic set.
+This character is proposed to complete a frequently used set, although it is less canonic than the subset that is already available.
 
 ### E. Frequently Requested:
 
 I have no evidence of this character being frequently requested by name, but “it wasn’t me”, “I didn’t do nothing”, “my hands are tied” and their equivalents in other languages are frequently used phrases that would be subject to be augmented or substituted by the proposed emoji character.
+
+Out of 165 items sold at the [Three Monkey Store on Etsy](https://www.etsy.com/shop/ThreeMonkeysStore), 18 show four monkeys (or other animals) and one even has five of them. That is though the vendor claims on his homepage that the [fourth one was invented by the souvenir industry](http://www.three-monkeys.info/1/ORIGIN/FAQENG.htm#A09), because it was not part of the [Japanese Koshin belief](http://www.kcn-net.org/koshin/sanen/index.html).
+
+Three of the 19 artists featured there show paintings with 4 different gestures: Candice Keegan, Maria Kononov, Boris Brayman. Of 132 poems quoted in several European languages, at least 6 deal with more than 3 acts:
+
+- [No Evil by Thomas Paine](http://www.three-monkeys.info/1/WEBINFO/POETRY/POEMENG79.htm)
+- [See no Evil, Hear no Evil, Speak no Evil and Do no Evil by Olga Polunin](http://www.three-monkeys.info/1/WEBINFO/POETRY/POEMENG49.htm)
+- [The Fourth Monkey by Stephen Matthews](http://www.three-monkeys.info/1/WEBINFO/POETRY/POEMENG08.htm)
+
+
+- [Three Monkey ... Plus One by Ry Lucero](http://www.three-monkeys.info/1/WEBINFO/POETRY/POEMENG40.htm)
+
+
+- [The Fourth Monkey by unknown author](http://www.three-monkeys.info/1/WEBINFO/POETRY/POEMENG47.htm), [same in Dutch](http://www.three-monkeys.info/1/WEBINFO/POETRY/POEMNED20.htm)
+
+It is a rough estimate, but there seems to be about 1 depiction of 4 monkeys for every 8 to 10 depictions of 3 monkeys. If one conducts an image search for "three wise monkeys" or some similar term on the web, there are *always* some matches that show four monkeys.
+
+![Example from Japan](http://www.kcn-net.org/koshin/sanen/japan/09gianna.jpg) ![Example from China](http://www.kcn-net.org/koshin/sanen/china/0169.jpg) ![Example from Ghana](http://www.kcn-net.org/koshin/sanen/africa/ghana1.jpg)
+
+The alleged Confucian source of the monkeys has four parts: 非禮勿視，非禮勿聽，非禮勿言，非禮勿動, which is explored in [this Japanese page](http://jpnculture.net/sanen/) for instance. Therefore, this can be considered completing a set, where projected use and voiced requests are not as important as for original emoji proposals.
+
+During the infamous [trial scene in the 1968 American movie Planet of the Apes](https://www.youtube.com/watch?v=6hX68X66jyw&t=2m), the three judges are shown with the iconic gestures, but it is not complete without the prosecutor (i.e. the only other orangutan in the room) who just stands there with his arms hanging loosely.
+
+![](img/planet-of-the-apes_three-apes.jpg)
+![](img/planet-of-the-apes_four-apes.jpg)
 
 Factors for Exclusion
 ---------------------
