@@ -3,13 +3,15 @@ Proposal for new emoji: **Do-No-Evil Monkey**
 
 - **Author:** Christoph Päper
 - **Mail:** christoph.paeper@crissov.de
-- **Date:** 2017-05-29 submitted, 2017-07-01 last updated
+- **Date:** 2017-05-29 submitted, 2017-07-08 last updated
 - **Latest version:** https://crissov.github.io/unicode-proposals/fourth-monkey
 
 Abstract
 ---
 
 An emoji depicting a monkey emphatically doing nothing at all would complete the philosophical set of wise monkeys, although the triplet subset is much better known and more widespread (in part, because of existing emojis).
+
+[![Four Monkeys](https://upload.wikimedia.org/wikipedia/commons/d/dc/Four_wise_monkeys.jpg)](https://commons.wikimedia.org/wiki/File:Four_wise_monkeys.jpg)
 
 Introduction
 ------------
@@ -27,8 +29,6 @@ As per the [emoji submission guidelines](http://www.unicode.org/emoji/selection.
 The canonic Three Wise Monkeys are almost always depicted as covering their eyes 🙈, ears 🙉 and mouth 🙊, respectively, hence can easily be limited to show the head. 
 There is some considerable deviation and variation for the less-canonic fourth monkey. I am specifically proposing the *Do-No-Evil Monkey*. Its hands are often shown crossed or tied and either held above its head or resting in its lap. The former depiction is better compatible with existing glyphs and can also symbolize the less frequent alternative *Think-No-Evil Monkey*, while the latter hints – sometimes in a quite obvious way – at the sexual innuendo of ‘doing something evil’ by covering the genitals. 
 Other, more specific activities are also sometimes depicted, e.g. *Write-No-Evil* or *Smell-No-Evil*.
-
-[![Four Monkeys](https://upload.wikimedia.org/wikipedia/commons/d/dc/Four_wise_monkeys.jpg)](https://commons.wikimedia.org/wiki/File:Four_wise_monkeys.jpg)
 
 Names
 --------------------
@@ -147,14 +147,14 @@ There are some logos and brands that incorporate cartoon monkeys or apes, but no
 
 ### J. Transient:
 
-The English [Wikipedia] article states that the four-monkey version has been around at least as long as the three-monkey version. It is just that the triplet is more common in contemporary Japan where emojis originated. The philosophical concept has already been lasting long and will remain. 
+The [English Wikipedia article][Wikipedia] states that the four-monkey version has been around at least as long as the three-monkey version. It is just that the triplet is more common in contemporary Japan where emojis originated. The philosophical concept has already been lasting long and will remain. 
 
 The do-no-evil part of the concept can also be considered the amalgam or essence of the other three.
 
 Sort location
 -------------
 
-The *Do-No-Evil Monkey* emoji should be sorted directly after the other Three Wise Monkey emojis. 
+The *Do-No-Evil Monkey* emoji should be sorted directly after the other Three Wise Monkey emojis in the `monkey-face` group of the `Smileys & People` section. 
 It should be part of the same categories as these.
 It should be added to the Supplemental Symbols and Pictographs block near other facial or animal emoji, e.g. in row U+1F99x.
 
@@ -166,7 +166,7 @@ Other information
 
 ### References
 
-- [Wikipedia]
+- [Wikipedia][] 
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Three_wise_monkeys#Variations
 [Emojistats]: http://www.emojistats.org
