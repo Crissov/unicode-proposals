@@ -49,6 +49,12 @@ The glyphs are the same as for the existing heart emojis, just with different fi
 | ![solid teal fill](img/teal-heart_twemoji.svg) | ![](img/teal-heart_emojitwo.svg)   | ![horizontal dash-dot pattern](img/celeste-heart_emojitwo.svg) |
 | ![solid violet fill](img/violet-heart_twemoji.svg) | ![](img/violet-heart_emojitwo.svg) | ![diagonal crosshatch, i.e. diamond pattern](img/murrey-heart_emojitwo.svg) |
 
+### Licenses
+
+Twemoji and Emojitwo (originally Emojione) artworks are both released under a CC-BY license and so are the derived graphics used herein.
+
+Emojixpress graphics are either redistributed Apple emojis or custom graphics mimicking that design. The legal status of both types is uncertain. They are used herein under conditions of Fair Use for documentation purposes only. 
+
 Factors for Inclusion
 ---------------------
 
@@ -86,11 +92,11 @@ Some descriptions of the history of the Pride or Rainbow Flag attribute the colo
 | indigo       | serenity / harmony             |
 | violet       | spirit (gratitude)             |
 
-In the quoted case, **Pink Heart** and **Teal Heart** would complete the set. Either the existing Purple Heart or the proposed **Violet Heart** would be used for &ldquo;violet&rdquo; here and depending on that either the Purple Heart or the Blue Heart would represent _indigo_.
+In the quoted case, **Pink Heart** and **Teal Heart** would complete the set. Either the existing Purple Heart or the proposed **Violet Heart** would be used for _violet_ here. Depending upon that, either the Blue Heart or the Purple Heart would represent _indigo_.
 
 #### Flag Colors
 
-Many striped flags that do not qualify for codes based upon ISO 3166 can be represented sufficiently by a sequence of colored hearts and possibly other emojis. Only for some of them, existing colored hearts offer enough options. Examples:
+Many striped flags that do not qualify for codes based upon ISO 3166 can be represented sufficiently by a sequence of colored hearts and possibly other emojis. In an English context at least, left to right emojis correspond to left to right or top to bottom stripes. Only for some of them, existing colored hearts offer enough options. Examples:
 
 - Pan-African flag:	red-black-green
 - Kurdish flag: red-sun/white-green
@@ -104,6 +110,12 @@ Many striped flags that do not qualify for codes based upon ISO 3166 can be repr
 - _Bear_ flag: **brown**-orange-yellow-**rosy/pink**-white-**gray**-black
 
 <!-- insert Live Loud Graphics Design overview http://www.liveloudgraphics.com/ -->
+
+#### Brand Colors
+
+Unlike flag colors, the brand colors of companies, sport teams etc. &ndash; if there is more than one &ndash; often do not have a canonical order, except sometimes for jersey colors.
+
+- Green Bay Packers: green-yellow
 
 ### B.	Expected Usage Level 
 
