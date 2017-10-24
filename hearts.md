@@ -2,7 +2,7 @@ Proposal for New Emojis: **Colored Hearts**
 =======================================
 
 - **Author:** Christoph Päper <christoph.paeper@crissov.de>
-- **Submitted:** 2017-07-15
+- **Submitted:** 2017-10-15
 - **Latest version:** <https://crissov.github.io/unicode-proposals/hearts>
 
 Introduction
@@ -117,7 +117,7 @@ Unlike flag colors, the brand colors of companies, sport teams etc. &ndash; if t
 
 - Green Bay Packers: green-yellow
 
-### B.	Expected Usage Level 
+  ### B.Expected Usage Level 
 
 #### Frequency
 
@@ -183,7 +183,7 @@ Interestingly, the theoretical demand for the rainbow heart is much higher than 
 - many for [_gray_](https://twitter.com/search?q="gray%20heart"%20emoji) and [_grey_](https://twitter.com/search?q="grey%20heart"%20emoji)
 - a lot for [_pink_](https://twitter.com/search?q="pink%20heart"%20emoji), mostly complaining about there not being a plain variant since some implementations show the heart emojis with adornment in pink
 - some for [_brown_](https://twitter.com/search?q="brown%20heart"%20emoji) and some for [_chocolate_](https://twitter.com/search?q="chocolate%20heart"%20emoji)
-- many for [_teal_](https://twitter.com/search?q="teal%20heart"%20emoji) and [_turquoise_](https://twitter.com/search?q="turquoise%20heart"%20emoji) or even [_light-blue_](https://twitter.com/search?q="light-blue%20heart"%20emoji), just one for [_cyan_](https://twitter.com/search?q="cyan%20heart"%20emoji), some for [_ice_](https://twitter.com/search?q="ice%20heart"%20emoji) and [_icy_](https://twitter.com/search?q="icy%20heart"%20emoji))
+- many for [_teal_](https://twitter.com/search?q="teal%20heart"%20emoji) and [_turquoise_](https://twitter.com/search?q="turquoise%20heart"%20emoji) or even [_light-blue_](https://twitter.com/search?q="light-blue%20heart"%20emoji), just one for [_cyan_](https://twitter.com/search?q="cyan%20heart"%20emoji), some for [_ice_](https://twitter.com/search?q="ice%20heart"%20emoji) and [_icy_](https://twitter.com/search?q="icy%20heart"%20emoji)
 - [_violet_](https://twitter.com/search?q="violet%20heart"%20emoji) is most often equated with _purple_ in English, [_lilac_](https://twitter.com/search?q="lilac%20heart"%20emoji) less so but still
 
 #### Google Trends
