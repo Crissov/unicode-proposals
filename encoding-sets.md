@@ -1,14 +1,16 @@
 Re *Emoji and Vendors*
 ===
 
-Mark Davis, presumably on behalf of the Emoji Subcommittee, submitted a whitepaper on 28 June 2017 to clarify the influence of major vendors (Apple, Facebook, Google, Microsoft, Twitter, maybe also non-member Samsung), entitled _Emoji and Vendors: for consideration by the UTC_. It was on the [agenda of UTC#152], but I cannot find any mention of it in the [minutes of UTC#152].
+Mark Davis, presumably on behalf of the Emoji Subcommittee, submitted a whitepaper on 28 June 2017 to clarify the influence of major vendors (Apple, Facebook, Google, Microsoft, Twitter, maybe also non-member Samsung), entitled _Emoji and Vendors: for consideration by the UTC_. It was on the [agenda of UTC#152], but I cannot find any mention of it in the [minutes of UTC#152]. In the preface of UTC#153, members of WG2, notably Michael Everson for Ireland and Andrew West for Great Britain, criticized the current, rushed process of encoding emojis and some of its results, but while [] documents this quarrel, again there seems to have been no discussion or resolution. 
 
 I have no doubt that the text accurately describes how the process of encoding new emoji characters currently works. As already documented in [L2/147], which is backed by [L2/329], I strongly believe this process needs refinements.
 
 Below, I will only quote from _section 2_ of the document [L2/206], because _section 1_ just describes uncontroversial common knowledge about the encoding process for *usual* characters. It expressively assumes that emojis are unusual, a notion I will contest.
 
-  [agenda of UTC#152]: 
-  [minutes of UTC#152]: 
+[agenda of UTC#152]: http://www.unicode.org/L2/L2017/17221.htm "L2/17-221"
+[minutes of UTC#152]: http://www.unicode.org/L2/L2017/17222.htm "L2/17-222"
+[agenda of UTC#153]: http://www.unicode.org/L2/L2017/17361.htm "L2/17-361"
+[minutes of UTC#153]: http://www.unicode.org/L2/L2017/17362.htm "L2/17-362"
 [L2/147]: http://www.unicode.org/L2/L2017/17147-emoji-subcommittee.pdf "Request for greater transparency in the Emoji Subcommittee by Andrew West, Charlotte Buff and Christoph Päper"
 [L2/206]: http://www.unicode.org/L2/L2017/17206-emoji-and-vendors.pdf "Emoji and Vendors: for consideration by the UTC by Mark Davis"
 [L2/329]: http://www.unicode.org/L2/L2017/17329-n4888-future-add-nsai.pdf "Future Additions to ISO/IEC 10646 (WG2 N4888)"
@@ -25,6 +27,8 @@ My first issue is with terminology. We must not think of emojis as images!
 An _image_ depicts some graphic original and in the case of a _picture_ it is the original itself.
 
 icon, 
+
+motivated, arbitrary
 
 pictograph
 
@@ -50,6 +54,8 @@ Vendors
 
 Gatekeeper
 
+Even if it made commercial sense to limit the annual amount of new emojis to a couple dozens, that does not mean the UCS cannot take more pictographic additions than that. If there were many pictographs available in Unicode, the job of the ESC would be mostly reduced to recommending which ones should get the `Emoji` property and what their default rendering should be (i.e. VS-15 `text` or VS-16 `emoji`).
+
 Sets
 ---
 
@@ -67,6 +73,8 @@ Conclusion
 
 Annex: Sets
 ---
+
+
 
 ### Astrological metaphors
 
@@ -86,46 +94,46 @@ I do not know whether pre-columbian Amerindian peoples identified the same const
 | ---------------------------------------- | ------------ | ---------------------------- |
 | **Goose**, ![:bear:] Bear                | December 22  | ![:capricorn:] Capricorn     |
 | **Otter**, **Magpie**                    | January 20   | ![:aquarius:] Aquarius       |
-| ![:wolf:] Wolf, (![:leopard:] Cougar, ![:whale:] ![:whale2:] Whale | February 20  | ![:pisces:] Pisces           |
+| ![:wolf:] Wolf, (![:leopard:]) Cougar, ![:whale:] ![:whale2:] Whale | February 20  | ![:pisces:] Pisces           |
 | **Falcon**, **Hawk**, ![:wolf:] Wolf     | March 20     | ![:aries:] Aries             |
 | **Beaver**, **Elk/Moose**                | April 20     | ![:taurus:] Taurus           |
-| ![:deer:]Deer, ![:eagle:] Eagle          | May 21       | ![:gemini:] Gemini           |
-| (![:bird:] **Woodpecker / Flicker**, (![:fish:] **Salmon** | June 21      | ![:cancer:] Cancer           |
-| (![:fish:] **Salmon / Sturgeon**, (![:leopard:] **Cougar** | July 22      | ![:leo:] Leo                 |
-| ![:bear:]Bear, ![:owl:] Owl              | August 22    | ![:virgo:] Virgo             |
+| ![&#x1F98C;]Deer, ![&#x1F985;] Eagle     | May 21       | ![:gemini:] Gemini           |
+| (![:bird:]) **Woodpecker / Flicker**, (![:fish:]) **Salmon** | June 21      | ![:cancer:] Cancer           |
+| (![:fish:]) **Salmon / Sturgeon**, (![:leopard:]) **Cougar** | July 22      | ![:leo:] Leo                 |
+| ![:bear:] Bear, ![:owl:] Owl             | August 22    | ![:virgo:] Virgo             |
 | Raven / Crow, ![:dove:] Dove             | September 22 | ![:libra:] Libra             |
 | ![:snake:] Snake, **Eel**                | October 23   | ![:scorpius:] Scorpius       |
-| ![:owl:]Owl, ![:horse:] ![:racehorse:]  Horse, **Elk/Moose** | November 23  | ![:sagittarius:] Sagittarius |
+| ![&#x1F989;]Owl, ![:horse:] ![:racehorse:]  Horse, **Elk/Moose** | November 23  | ![:sagittarius:] Sagittarius |
 
 
-[:bear:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f43b.png "Bear"
-[:deer:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f98c.png "Deer"
-[:eagle:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f985.png "Eagle"
-[:bird:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f426.png "Bird"
-[:fish:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f41f.png "Fish"
-[:bear:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f43b.png "Bear"
-[:owl:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f989.png "Owl"
-[:dove:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f54a.png "Dove"
-[:snake:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40d.png "Snake"
-[:horse:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f434.png "Horse"
-[:leopard:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f406.png "Leopard"
-[:racehorse:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40e.png "Horse"
-[:whale:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f433.png "Whale"
-[:whale2:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40b.png "Whale"
-[:wolf:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f43a.png "Wolf"
+[:bear:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f43b.png "U+1F43B Bear"
+[:deer:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f98c.png "U+1F98C Deer"
+[:eagle:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f985.png "U+1F985 Eagle"
+[:bird:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f426.png "U+1F426 Bird"
+[:fish:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f41f.png "U+1F41F Fish"
+[:bear:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f43b.png "U+1F43B Bear"
+[:owl:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f989.png "U+1F989 Owl"
+[:dove:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f54a.png "U+1F54A Dove"
+[:snake:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40d.png "U+1F40D Snake"
+[:horse:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f434.png "U+1F434 Horse"
+[:leopard:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f406.png "U+1F406 Leopard"
+[:racehorse:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40e.png "U+1F40E Horse"
+[:whale:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f433.png "U+1F433 Whale"
+[:whale2:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40b.png "U+1F40B Whale"
+[:wolf:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f43a.png "U+1F43A Wolf"
 
-[:capricorn:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2651.png "Capricorn"
-[:aquarius:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2652.png "Aquarius"
-[:pisces:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2653.png "Pisces"
-[:aries:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2648.png "Aries"
-[:taurus:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2649.png "Taurus"
-[:gemini:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264a.png "Gemini"
-[:cancer:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264b.png "Cancer"
-[:leo:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264c.png "Leo"
-[:virgo:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264d.png "Virgo"
-[:libra:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264e.png "Libra"
-[:scorpius:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264f.png "Scorpius"
-[:sagittarius:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2650.png "Sagittarius"
+[:capricorn:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2651.png "U+2651 Capricorn"
+[:aquarius:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2652.png "U+2652 Aquarius"
+[:pisces:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2653.png "U+2653 Pisces"
+[:aries:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2648.png "U+2648 Aries"
+[:taurus:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2649.png "U+2649 Taurus"
+[:gemini:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264a.png "U+264A Gemini"
+[:cancer:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264b.png "U+264B Cancer"
+[:leo:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264c.png "U+264C Leo"
+[:virgo:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264d.png "U+264D Virgo"
+[:libra:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264e.png "U+264E Libra"
+[:scorpius:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/264f.png "U+264F Scorpius"
+[:sagittarius:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2650.png "U+2650 Sagittarius"
 
 #### Local variants of Asian zodiac signs
 
@@ -133,12 +141,12 @@ In Japan, the Dragon is sometimes depicted as a seahorse instead.
 
 ### Lucky Charms
 
-- ​![:pig2:] Pig or ![:pig: Pig Face
+- ​![:pig2:] Pig or ![:pig:] Pig Face
 - Penny or Coin
 - Chimney Sweep
 - ​![:four_leaf_clover:] Four-Leaf Clover
 - Horseshoe
-- !:beetle: Ladybug
+- ![:beetle: ] Ladybug
 - ![:mushroom:] Mushroom, _Amanita muscaria_ / fly agaric
 - Rabbit foot (![:rabbit:]/![:rabbit2:] rabbit + foot)
 - ![:plant:] Mistletoe
@@ -239,7 +247,7 @@ Interestingly, several of these specialized vehicle classes already have emoji r
 [🇮🇹]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1ee-1f1f9.png "Italy"
 [🇱🇮]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f1-1f1ee.png "Liechtenstein"
 [🇱🇺]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f1-1f1fa.png "Luxembourg"
-  [🇱🇻](https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f1-1f1fb.png "Latvia"
+[🇱🇻]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f1-1f1fb.png "Latvia"
 [🇳🇱]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f3-1f1f1.png "Netherlands"
 [🇳🇴]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f3-1f1f4.png "Norway"
 [🇵🇹]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f5-1f1f9.png "Portugal"
@@ -252,17 +260,17 @@ Interestingly, several of these specialized vehicle classes already have emoji r
 [:es:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f1ea-1f1f8.png "Spain"
 
 
-[🚋]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f68b.png "Cablecar"
-[🚎]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f68e.png "Trolley Bus"
-[🚜]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f69c.png "Tractor"
-[🏗]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3d7.png "Building Site"
-[🛵]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6f5.png "Motor Scooter"
-[🏍]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3cd.png "Racing Motorcycle"
-[🚗]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f697.png "Automobile"
-[🚛]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f69b.png "Articulated Lorry"
-[🚚]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f69a.png "Delivery Truck"
-[🚌]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f68c.png "Bus"
-[🚐]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f690.png "Minibus"
+[🚋]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f68b.png "U+1F68B Cablecar"
+[🚎]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f68e.png "U+1F68E Trolley Bus"
+[🚜]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f69c.png "U+1F69C Tractor"
+[🏗]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3d7.png "U+1F3D7 Building Site"
+[🛵]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6f5.png "U+1F6F5 Motor Scooter"
+[🏍]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3cd.png "U+1F3CD Racing Motorcycle"
+[🚗]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f697.png "U+1F697 Automobile"
+[🚛]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f69b.png "U+1F69B Articulated Lorry"
+[🚚]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f69a.png "U+1F69A Delivery Truck"
+[🚌]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f68c.png "U+1F68C Bus"
+[🚐]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f690.png "U+1F690 Minibus"
 
 ### Road warning signs
 
@@ -272,16 +280,16 @@ https://commons.wikimedia.org/wiki/Category:Animal-related_warning_road_signs
 
 #### Australia
 
-| Sign                                     | Emoji                           | Animal                      |
-| ---------------------------------------- | ------------------------------- | --------------------------- |
-| [![Kangaroo crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Australia_road_sign_W5-29.svg/120px-Australia_road_sign_W5-29.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-29.svg) | ![:kangaroo:] U+1F998           | Kangaroo                    |
-| [![Herds crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Australia_road_sign_W5-38.svg/120px-Australia_road_sign_W5-38.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-38.svg) [![Cattle crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Australia_road_sign_W5-SA63.svg/120px-Australia_road_sign_W5-SA63.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-SA63.svg) | !:cow2:] ![:sheep:]             | Herds: cattle, sheep        |
-| [![Camel crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Australia_road_sign_W5-44.svg/120px-Australia_road_sign_W5-44.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-44.svg) | !:dromedary_camel:]![:camel:]   | Camel                       |
-| [![Rhea crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Australia_road_sign_W5-45.svg/120px-Australia_road_sign_W5-45.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-45.svg) |                                 | **Ratite**                  |
-| [![Horse crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_road_sign_W5-46.svg/120px-Australia_road_sign_W5-46.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-46.svg) [![Horseback rider crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Australia_road_sign_W5-V111.svg/120px-Australia_road_sign_W5-V111.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V111.svg) | !:racehorse:] ![:horse_racing:] | Horse with or without rider |
-| [![Koala crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Australia_road_sign_W5-47.svg/120px-Australia_road_sign_W5-47.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-47.svg) | ![:koala:]                      | Koala                       |
-| [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Australia_road_sign_W5-48.svg/120px-Australia_road_sign_W5-48.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-48.svg) [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Australia_road_sign_W5-V112.svg/120px-Australia_road_sign_W5-V112.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V112.svg) |                                 | **Wombat**                  |
-| [![Deer crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Australia_road_sign_W5-V134.svg/120px-Australia_road_sign_W5-V134.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V134.svg) | ![:deer:]                       | Deer                        |
+| Sign                                     | Emoji                            | Animal                      |
+| ---------------------------------------- | -------------------------------- | --------------------------- |
+| [![Kangaroo crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Australia_road_sign_W5-29.svg/120px-Australia_road_sign_W5-29.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-29.svg) | ![:kangaroo:] U+1F998            | Kangaroo                    |
+| [![Herds crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Australia_road_sign_W5-38.svg/120px-Australia_road_sign_W5-38.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-38.svg) [![Cattle crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Australia_road_sign_W5-SA63.svg/120px-Australia_road_sign_W5-SA63.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-SA63.svg) | ![:cow2:] ![:sheep:]             | Herds: cattle, sheep        |
+| [![Camel crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Australia_road_sign_W5-44.svg/120px-Australia_road_sign_W5-44.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-44.svg) | ![:dromedary_camel:]![:camel:]   | Camel                       |
+| [![Rhea crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Australia_road_sign_W5-45.svg/120px-Australia_road_sign_W5-45.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-45.svg) |                                  | **Ratite**                  |
+| [![Horse crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_road_sign_W5-46.svg/120px-Australia_road_sign_W5-46.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-46.svg) [![Horseback rider crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Australia_road_sign_W5-V111.svg/120px-Australia_road_sign_W5-V111.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V111.svg) | ![:racehorse:] ![:horse_racing:] | Horse with or without rider |
+| [![Koala crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Australia_road_sign_W5-47.svg/120px-Australia_road_sign_W5-47.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-47.svg) | ![:koala:]                       | Koala                       |
+| [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Australia_road_sign_W5-48.svg/120px-Australia_road_sign_W5-48.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-48.svg) [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Australia_road_sign_W5-V112.svg/120px-Australia_road_sign_W5-V112.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V112.svg) |                                  | **Wombat**                  |
+| [![Deer crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Australia_road_sign_W5-V134.svg/120px-Australia_road_sign_W5-V134.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V134.svg) | ![:deer:]                        | Deer                        |
 
 #### Europe / Vienna Convention
 
@@ -295,16 +303,16 @@ https://en.wikipedia.org/wiki/Comparison_of_European_road_signs#Warning
 
 #### Africa SADC-RTSM
 
-| Sign                                     | Emoji                    | Animal       |
-| ---------------------------------------- | ------------------------ | ------------ |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/SADC_road_sign_W310-RHT.svg/120px-SADC_road_sign_W310-RHT.svg.png) | ![:cow:]![:cow2:]        | Cattle       |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/SADC_road_sign_W311-RHT.svg/120px-SADC_road_sign_W311-RHT.svg.png) | ![:racehorse:]![:horse:] | Horse        |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SADC_road_sign_W312-RHT.svg/120px-SADC_road_sign_W312-RHT.svg.png) | ![:sheep:]![:ram:        | Sheep        |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/SADC_road_sign_W313-RHT.svg/120px-SADC_road_sign_W313-RHT.svg.png) |                          | **Antelope** |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/SADC_road_sign_W356-RHT.svg/120px-SADC_road_sign_W356-RHT.svg.png) | ![:horse_racing:         | Rider        |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/SADC_road_sign_W357-RHT.svg/120px-SADC_road_sign_W357-RHT.svg.png) | ![:elephant:             | Elephant     |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SADC_road_sign_W358-RHT.svg/120px-SADC_road_sign_W358-RHT.svg.png) |                          | **Warthog**  |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/SADC_road_sign_W359-RHT.svg/120px-SADC_road_sign_W359-RHT.svg.png) | ![:hippopotamus:]        | Hippopotamus |
+| Sign                                     | Emoji                     | Animal       |
+| ---------------------------------------- | ------------------------- | ------------ |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/SADC_road_sign_W310-RHT.svg/120px-SADC_road_sign_W310-RHT.svg.png) | ![:cow:] ![:cow2:]        | Cattle       |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/SADC_road_sign_W311-RHT.svg/120px-SADC_road_sign_W311-RHT.svg.png) | ![:racehorse:] ![:horse:] | Horse        |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SADC_road_sign_W312-RHT.svg/120px-SADC_road_sign_W312-RHT.svg.png) | ![:sheep:] ![:ram:        | Sheep        |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/SADC_road_sign_W313-RHT.svg/120px-SADC_road_sign_W313-RHT.svg.png) |                           | **Antelope** |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/SADC_road_sign_W356-RHT.svg/120px-SADC_road_sign_W356-RHT.svg.png) | ![:horse_racing:          | Rider        |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/SADC_road_sign_W357-RHT.svg/120px-SADC_road_sign_W357-RHT.svg.png) | ![:elephant:]             | Elephant     |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SADC_road_sign_W358-RHT.svg/120px-SADC_road_sign_W358-RHT.svg.png) |                           | **Warthog**  |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/SADC_road_sign_W359-RHT.svg/120px-SADC_road_sign_W359-RHT.svg.png) | ![:hippopotamus:]         | Hippopotamus |
 
 ### USA
 
@@ -320,41 +328,41 @@ https://en.wikipedia.org/wiki/Five_Animals
 
 https://github.com/Crissov/unicode-proposals/issues/399
 
-| Emoji      | Southern  | Alternative | Qigong            | Xingyiquan  |
-| ---------- | --------- | ----------- | ----------------- | ----------- |
-| ![🐯]![🐅] | tiger     | tiger       | tiger (wood)      | tiger       |
-|            | **crane** | **crane**   | **crane** (metal) |             |
-| ![🐍]      | snake     | snake       |                   | snake       |
-| ![🐒]![🐵] |           | monkey      | monkey (fire)     | monkey      |
-| ![🐉]![🐲] | dragon    |             |                   | dragon      |
-| ![🐻]      |           |             | bear (earth)      | bear        |
-| ![🐆]      | leopard   |             |                   |             |
-|            |           | **mantis**  |                   |             |
-| ![🦌]      |           |             | deer (water)      |             |
-| ![🐎]![🐴] |           |             |                   | horse       |
-| ![🐊]      |           |             |                   | alligator   |
-| ![🐓]      |           |             |                   | cockerel    |
-| ![🦅]      |           |             |                   | eagle       |
-|            |           |             |                   | **hawk**    |
-|            |           |             |                   | **swallow** |
-|            |           |             |                   | **ostrich** |
+| Emoji       | Southern  | Alternative | Qigong            | Xingyiquan  |
+| ----------- | --------- | ----------- | ----------------- | ----------- |
+| ![🐯] ![🐅] | tiger     | tiger       | tiger (wood)      | tiger       |
+|             | **crane** | **crane**   | **crane** (metal) |             |
+| ![🐍]       | snake     | snake       |                   | snake       |
+| ![🐒] ![🐵] |           | monkey      | monkey (fire)     | monkey      |
+| ![🐉] ![🐲] | dragon    |             |                   | dragon      |
+| ![🐻]       |           |             | bear (earth)      | bear        |
+| ![🐆]       | leopard   |             |                   |             |
+|             |           | **mantis**  |                   |             |
+| ![🦌]       |           |             | deer (water)      |             |
+| ![🐎] ![🐴] |           |             |                   | horse       |
+| ![🐊]       |           |             |                   | alligator   |
+| ![🐓]       |           |             |                   | cockerel    |
+| ![🦅]       |           |             |                   | eagle       |
+|             |           |             |                   | **hawk**    |
+|             |           |             |                   | **swallow** |
+|             |           |             |                   | **ostrich** |
 
 
-[🐯]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f405.png "Tiger Face"
-[🐅]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f42f.png "Tiger"
-[🐍]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40d.png "Snake"
-[🐒]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f412.png "Monkey"
-[🐵]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f435.png "Monkey Face"
-[🐉]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f409.png "Dragon"
-[🐲]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f432.png "Dragon Face"
-[🐻]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f43b.png "Bear"
-[🐆]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f406.png "Leopard"
-[🦌]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f98c.png "Deer"
-[🐎]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40e.png "Horse"
-[🐴]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f434.png "Horse Face"
-[🐊]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40a.png "Crocodile"
-[🐓]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f413.png "Rooster"
-[🦅]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f985.png "Eagle"
+[🐅]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f405.png "U+1F405 Tiger"
+[🐯]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f42f.png "U+1F42F Tiger Face"
+[🐍]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40d.png "U+1F40D Snake"
+[🐒]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f412.png "U+1F412 Monkey"
+[🐵]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f435.png "U+1F435 Monkey Face"
+[🐉]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f409.png "U+1F409 Dragon"
+[🐲]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f432.png "U+1F432 Dragon Face"
+[🐻]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f43b.png "U+1F43B Bear"
+[🐆]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f406.png "U+1F406 Leopard"
+[🦌]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f98c.png "U+1F98C Deer"
+[🐎]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40e.png "U+1F40E Horse"
+[🐴]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f434.png "U+1F434 Horse Face"
+[🐊]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40a.png "U+1F40A Crocodile"
+[🐓]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f413.png "U+1F413 Rooster"
+[🦅]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f985.png "U+1F985 Eagle"
 
 ### Alternative European card suits
 
@@ -364,22 +372,19 @@ The standard international, originally French, [card suits](https://en.wikipedia
 
 ![from a conversion table released jointly by NTT Docomo and KDDI au in 2015](img/japanese-card-suits.png)
 
-There are, however, local variants of the four suits that derive from the [Minor Arcana](https://en.wikipedia.org/wiki/Minor_Arcana).
+There are, however, local variants of the four suits that derive from the [Minor Arcana](https://en.wikipedia.org/wiki/Minor_Arcana). 
 
-| ![:fr:]                                  | ![:de:]                                  | ![:switzerland:]                         | ![:it:]                                  | ![:es:]                                  | Tarot                                    |
+- *Wands*: batons, staves, acorns, clovers, clubs
+- *Cups*: roses, hearts
+- *Swords*: pikes, shields, leaves, spades
+- *Pentacles*: coins, disks, rings, jingle bells, tiles, rings, crescents, diamonds
+
+| ![:fr:]                                  | ![:de:]                                  | ![:ch:]                                  | ![:it:]                                  | ![:es:]                                  | Tarot                                    |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | ![trèfles](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/SuitClubs.svg/32px-SuitClubs.svg.png) | ![Eichel/Ecker](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bay_eichel.svg/19px-Bay_eichel.svg.png) | ![Eicheln](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/EichelndeutschschweizerBlatt.svg/17px-EichelndeutschschweizerBlatt.svg.png) | ![bastoni](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Seme_bastoni_carte_trevisane.svg/4px-Seme_bastoni_carte_trevisane.svg.png) | ![bastos](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Seme_bastoni_carte_spagnole.svg/12px-Seme_bastoni_carte_spagnole.svg.png) | ![Marseille](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tarot_de_Marseille_clubs01.jpg/62px-Tarot_de_Marseille_clubs01.jpg) ![Piedmont](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Batons.jpg/68px-Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Batons.jpg) |
 | ![carreaux](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/SuitDiamonds.svg/32px-SuitDiamonds.svg.png) | ![Schellen](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bay_schellen.svg/32px-Bay_schellen.svg.png) | ![Schellen](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/SchellendeutschschweizerBlatt.svg/35px-SchellendeutschschweizerBlatt.svg.png) | ![denari](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Seme_denari_carte_trevisane.svg/35px-Seme_denari_carte_trevisane.svg.png) | ![oros](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Seme_denari_carte_spagnole.svg/35px-Seme_denari_carte_spagnole.svg.png) | ![Marseille](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tarot_de_Marseille_coins01.jpg/62px-Tarot_de_Marseille_coins01.jpg) ![Piedmont](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Coins.jpg/68px-Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Coins.jpg) |
 | ![piques](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/SuitSpades.svg/32px-SuitSpades.svg.png) | ![Gras/Grün/Laub/Blatt](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Bay_gras.svg/32px-Bay_gras.svg.png) | ![Schilten](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bouclier_jeu_de_carte.svg/24px-Bouclier_jeu_de_carte.svg.png) | ![spade](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Seme_spade_carte_trevisane.svg/13px-Seme_spade_carte_trevisane.svg.png) | ![espadas](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Seme_spade_carte_spagnole.svg/10px-Seme_spade_carte_spagnole.svg.png) | ![Marseille](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tarot_de_Marseille_swords01.jpg/62px-Tarot_de_Marseille_swords01.jpg) ![Piedmont](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Swords.jpg/69px-Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Swords.jpg) |
 | ![c&oelig;urs](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/SuitHearts.svg/35px-SuitHearts.svg.png) | ![Herz/Rot](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bay_herz.svg/35px-Bay_herz.svg.png) | ![Rosen](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/RosendeutschschweizerBlatt.svg/35px-RosendeutschschweizerBlatt.svg.png) | ![coppe](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Seme_coppe_carte_trevisane.svg/17px-Seme_coppe_carte_trevisane.svg.png) | ![copas](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Seme_coppe_carte_spagnole.svg/25px-Seme_coppe_carte_spagnole.svg.png) | ![Marseille](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tarot_de_Marseille_cups01.jpg/62px-Tarot_de_Marseille_cups01.jpg) ![Piedmont](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Cups.jpg/68px-Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Cups.jpg) |
-
-Wands: batons, staves, acorns, clovers, clubs
-
-Cups: roses, hearts
-
-Swords: pikes, shields, leaves, spades
-
-Pentacles: coins, disks, rings, jingle bells, tiles, rings, crescents, diamonds
 
 - ![:spades:]
   - ![:fallen_leaf:] ![:maple_leaf:] ![:leaves:] Leaf
@@ -400,41 +405,47 @@ Pentacles: coins, disks, rings, jingle bells, tiles, rings, crescents, diamonds
   - ![:crescent_moon:] ![:first_quarter_moon_with_face:] ![:last_quarter_moon_with_face:]  Crescent
 
 
-[:spades:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2660.png
-[:fallen_leaf:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f342.png
-[:maple_leaf:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f341.png
-[:leaves:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f343.png
-[:shield:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6e1.png "Shield"
-[:crossed_swords:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2694.png
-[:dagger:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f5e1.png
-[:clubs:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2663.png
-[:chestnut:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f330.png
-[:four_leaf_clover:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f340.png
-[:shamrock:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2618.png
-[:hearts:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2665.png
-[:rosette:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3f5.png
-[:rose:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f339.png
-[:blossom:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f33c.png
-[:tulip:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f337.png
-[:cherry_blossom:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f338.png "Cherry Blossom"
-[:trophy:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3c6.png
-[:diamonds:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2666.png
-[:medal_sports:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3c5.png
-[:moneybag:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f4b0.png
-[:gem:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f48e.png
-[:ring:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f48d.png
-[:bell:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f514.png
-[:bellhop_bell:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6ce.png
-[:wind_chime:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f390.png
-[:crescent_moon:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f319.png
-[:first_quarter_moon_with_face:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f31b.png
-[:last_quarter_moon_with_face:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f31c.png
+[:spades:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2660.png	"U+2660"
+[:fallen_leaf:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f342.png	"U+1F342"
+[:maple_leaf:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f341.png	"U+1F341"
+[:leaves:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f343.png	"U+1F343"
+[:shield:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6e1.png "U+1F6E1 Shield"
+[:crossed_swords:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2694.png	"U+2694"
+[:dagger:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f5e1.png	"U+1F5E1"
+[:clubs:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2663.png	"U+2663 Black Clubs"
+[:chestnut:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f330.png	"U+1F330"
+[:four_leaf_clover:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f340.png	"U+1F340"
+[:shamrock:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2618.png	"U+2618"
+[:hearts:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2665.png	"U+2665"
+[:rosette:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3f5.png	"U+1F3F5"
+[:rose:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f339.png	"U+1F339"
+[:blossom:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f33c.png	"U+1F33C"
+[:tulip:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f337.png	"U+1F337"
+[:cherry_blossom:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f338.png "U+1F338 Cherry Blossom"
+[:trophy:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3c6.png	"U+1F3C6"
+[:diamonds:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2666.png	"U+2666"
+[:medal_sports:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3c5.png	"U+1F3C5"
+[:moneybag:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f4b0.png	"U+1F4B0"
+[:gem:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f48e.png	"U+1F48E"
+[:ring:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f48d.png	"U+1F48D"
+[:bell:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f514.png	"U+1F514"
+[:bellhop_bell:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6ce.png	"U+1F6CE"
+[:wind_chime:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f390.png	"U+1F390"
+[:crescent_moon:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f319.png	"U+1F319"
+[:first_quarter_moon_with_face:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f31b.png	"U+1F31B"
+[:last_quarter_moon_with_face:]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f31c.png	"U+1F31C"
 
 ### Body parts
 
-Genitalia, mamma, buttocks
+- Genitalia
+- Mamma
+- Buttocks
 
 ### Finger games
+
+- rock, paper, scissors
+- rock, paper, scissors, lizard, Spock
+- ...
 
 ### Heraldry
 
