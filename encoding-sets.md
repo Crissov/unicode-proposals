@@ -291,39 +291,39 @@ https://commons.wikimedia.org/wiki/Category:Animal-related_warning_road_signs
 
 #### Australia
 
-| Sign                                     | Emoji                    | Animal                      |
-| ---------------------------------------- | ------------------------ | --------------------------- |
-| [![Kangaroo crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Australia_road_sign_W5-29.svg/120px-Australia_road_sign_W5-29.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-29.svg) | ![🦘] | Kangaroo                    |
-| [![Herds crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Australia_road_sign_W5-38.svg/120px-Australia_road_sign_W5-38.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-38.svg) [![Cattle crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Australia_road_sign_W5-SA63.svg/120px-Australia_road_sign_W5-SA63.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-SA63.svg) | ![🐄] ![🐑]              | Herds: cattle, sheep        |
-| [![Camel crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Australia_road_sign_W5-44.svg/120px-Australia_road_sign_W5-44.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-44.svg) | ![🐪]![🐫]               | Camel                       |
-| [![Rhea crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Australia_road_sign_W5-45.svg/120px-Australia_road_sign_W5-45.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-45.svg) |   **N/A**                       | **Rhea/Ratite**             |
-| [![Horse crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_road_sign_W5-46.svg/120px-Australia_road_sign_W5-46.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-46.svg) [![Horseback rider crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Australia_road_sign_W5-V111.svg/120px-Australia_road_sign_W5-V111.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V111.svg) | ![🐎] ![🏇]              | Horse with or without rider |
-| [![Koala crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Australia_road_sign_W5-47.svg/120px-Australia_road_sign_W5-47.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-47.svg) | ![🐨]                    | Koala                       |
-| [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Australia_road_sign_W5-48.svg/120px-Australia_road_sign_W5-48.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-48.svg) [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Australia_road_sign_W5-V112.svg/120px-Australia_road_sign_W5-V112.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V112.svg) | **N/A**                         | **Wombat**                  |
-| [![Deer crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Australia_road_sign_W5-V134.svg/120px-Australia_road_sign_W5-V134.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V134.svg) | ![🦌]                    | Deer                        |
+| Sign                                     | Emoji       | Animal                      |
+| ---------------------------------------- | ----------- | --------------------------- |
+| [![Kangaroo crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Australia_road_sign_W5-29.svg/120px-Australia_road_sign_W5-29.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-29.svg) | ![🦘]       | Kangaroo                    |
+| [![Herds crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Australia_road_sign_W5-38.svg/120px-Australia_road_sign_W5-38.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-38.svg) [![Cattle crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Australia_road_sign_W5-SA63.svg/120px-Australia_road_sign_W5-SA63.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-SA63.svg) | ![🐄] ![🐑] | Herds: cattle, sheep        |
+| [![Camel crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Australia_road_sign_W5-44.svg/120px-Australia_road_sign_W5-44.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-44.svg) | ![🐪]![🐫]  | Camel                       |
+| [![Rhea crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Australia_road_sign_W5-45.svg/120px-Australia_road_sign_W5-45.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-45.svg) | **N/A**     | **Rhea/Ratite**             |
+| [![Horse crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_road_sign_W5-46.svg/120px-Australia_road_sign_W5-46.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-46.svg) [![Horseback rider crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Australia_road_sign_W5-V111.svg/120px-Australia_road_sign_W5-V111.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V111.svg) | ![🐎] ![🏇] | Horse with or without rider |
+| [![Koala crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Australia_road_sign_W5-47.svg/120px-Australia_road_sign_W5-47.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-47.svg) | ![🐨]       | Koala                       |
+| [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Australia_road_sign_W5-48.svg/120px-Australia_road_sign_W5-48.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-48.svg) [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Australia_road_sign_W5-V112.svg/120px-Australia_road_sign_W5-V112.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V112.svg) | **N/A**     | **Wombat**                  |
+| [![Deer crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Australia_road_sign_W5-V134.svg/120px-Australia_road_sign_W5-V134.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V134.svg) | ![🦌]       | Deer                        |
 
 #### Europe / Vienna Convention
 
 https://en.wikipedia.org/wiki/Comparison_of_European_road_signs#Warning
 
-| Sign                                     | Emoji | Animal       |
-| ---------------------------------------- | ----- | ------------ |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Zeichen_101-12_-_Viehtrieb%2C_StVO_2017.svg/120px-Zeichen_101-12_-_Viehtrieb%2C_StVO_2017.svg.png) | ![🐮] ![🐄]      | Cattle       |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Zeichen_101-13_-_Reiter%2C_StVO_2017.svg/120px-Zeichen_101-13_-_Reiter%2C_StVO_2017.svg.png) | ![🏇]      | Horseback Rider        |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Zeichen_101-14_-_Amphibienwanderung%2C_StVO_2017.svg/120px-Zeichen_101-14_-_Amphibienwanderung%2C_StVO_2017.svg.png) | ![🐸]      | Frog or Toad |
+| Sign                                     | Emoji       | Animal          |
+| ---------------------------------------- | ----------- | --------------- |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Zeichen_101-12_-_Viehtrieb%2C_StVO_2017.svg/120px-Zeichen_101-12_-_Viehtrieb%2C_StVO_2017.svg.png) | ![🐮] ![🐄] | Cattle          |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Zeichen_101-13_-_Reiter%2C_StVO_2017.svg/120px-Zeichen_101-13_-_Reiter%2C_StVO_2017.svg.png) | ![🏇]       | Horseback Rider |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Zeichen_101-14_-_Amphibienwanderung%2C_StVO_2017.svg/120px-Zeichen_101-14_-_Amphibienwanderung%2C_StVO_2017.svg.png) | ![🐸]       | Frog or Toad    |
 
 #### Africa SADC-RTSM
 
-| Sign                                     | Emoji             | Animal       |
-| ---------------------------------------- | ----------------- | ------------ |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/SADC_road_sign_W310-RHT.svg/120px-SADC_road_sign_W310-RHT.svg.png) | ![🐮] ![🐄] ![🐂] | Cattle       |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/SADC_road_sign_W311-RHT.svg/120px-SADC_road_sign_W311-RHT.svg.png) | ![🐎] ![🐴]       | Horse        |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SADC_road_sign_W312-RHT.svg/120px-SADC_road_sign_W312-RHT.svg.png) | ![🐑] ![🐏]       | Sheep        |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/SADC_road_sign_W313-RHT.svg/120px-SADC_road_sign_W313-RHT.svg.png) | **N/A**                  | **Antelope** |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/SADC_road_sign_W356-RHT.svg/120px-SADC_road_sign_W356-RHT.svg.png) | ![🏇]             | Horseback Rider        |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/SADC_road_sign_W357-RHT.svg/120px-SADC_road_sign_W357-RHT.svg.png) | ![🐘]             | Elephant     |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SADC_road_sign_W358-RHT.svg/120px-SADC_road_sign_W358-RHT.svg.png) |    **N/A**               | **Warthog**  |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/SADC_road_sign_W359-RHT.svg/120px-SADC_road_sign_W359-RHT.svg.png) | ![🦛] | Hippopotamus |
+| Sign                                     | Emoji             | Animal          |
+| ---------------------------------------- | ----------------- | --------------- |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/SADC_road_sign_W310-RHT.svg/120px-SADC_road_sign_W310-RHT.svg.png) | ![🐮] ![🐄] ![🐂] | Cattle          |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/SADC_road_sign_W311-RHT.svg/120px-SADC_road_sign_W311-RHT.svg.png) | ![🐎] ![🐴]       | Horse           |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SADC_road_sign_W312-RHT.svg/120px-SADC_road_sign_W312-RHT.svg.png) | ![🐑] ![🐏]       | Sheep           |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/SADC_road_sign_W313-RHT.svg/120px-SADC_road_sign_W313-RHT.svg.png) | **N/A**           | **Antelope**    |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/SADC_road_sign_W356-RHT.svg/120px-SADC_road_sign_W356-RHT.svg.png) | ![🏇]             | Horseback Rider |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/SADC_road_sign_W357-RHT.svg/120px-SADC_road_sign_W357-RHT.svg.png) | ![🐘]             | Elephant        |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SADC_road_sign_W358-RHT.svg/120px-SADC_road_sign_W358-RHT.svg.png) | **N/A**           | **Warthog**     |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/SADC_road_sign_W359-RHT.svg/120px-SADC_road_sign_W359-RHT.svg.png) | ![🦛]             | Hippopotamus    |
 
 ### USA
 
@@ -418,25 +418,37 @@ There are, however, local variants of the four suits that derive from the [Minor
 
 #### ![♠] Spades
 
-| Emoji | Suit |
-| ![🍂] ![🍁] ![🍃] | Leaf |
-| ![🛡] | Shield |
-| ![⚔] ![🗡] | Sword / Wand / Staff / Pike / Stave |
+| Emoji             | Suit                        |
+| ----------------- | --------------------------- |
+| ![🍂] ![🍁] ![🍃] | Leaf                        |
+| ![🛡]             | Shield                      |
+| ![⚔] ![🗡]        | Sword                       |
+| **N/A**           | Wand / Staff / Pike / Stave |
 
 #### ![♣] Clubs
 
-  -   - ![🌰] Acorn
-  - Baton / Club
-  - ![🍀] ![☘] Clover
-- ![♥]
-  - ![🏵] ![🌹] ![🌼] ![🌷]  ![🌸]  Rose (flower, blossom)
-  - ![🏆] Cup
-- ![♦]
-  - ![🏅]  ![💰]  Coin
-  - ![💎] Diamond
-  - ![💍] Ring
-  - ![🔔] ![🛎] ![🎐] Bell
-  - ![🌙] ![🌛] ![🌜]  Crescent
+| Emoji      | Suit         |
+| ---------- | ------------ |
+| ![🌰]      | Acorn        |
+| **N/A**    | Baton / Club |
+| ![🍀] ![☘] | Clover       |
+
+#### ![♥] Hearts
+
+| Emoji                          | Suit                   |
+| ------------------------------ | ---------------------- |
+| ![🏵] ![🌹] ![🌼] ![🌷]  ![🌸] | Rose (flower, blossom) |
+| ![🏆]                          | Cup                    |
+
+#### ![♦] Diamonds
+
+| Emoji                  | Suit            |
+| ---------------------- | --------------- |
+| **N/A** (![🏅]  ![💰]) | Coin            |
+| ![💎]                  | Diamond         |
+| ![💍]                  | Ring            |
+| ![🔔] ![🛎] ![🎐])     | (Jingle) Bell   |
+| ![🌙] (![🌛] ![🌜])    | Crescent (Moon) |
 
 
 [♠]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2660.png	"U+2660"
