@@ -1,4 +1,4 @@
-Re *Emoji and Vendors*
+Emoji Selection Process
 ===
 
 Mark Davis, presumably on behalf of the Emoji Subcommittee, submitted a whitepaper on 28 June 2017 to clarify the influence of major vendors (Apple, Facebook, Google, Microsoft, Twitter, maybe also non-member Samsung), entitled _Emoji and Vendors: for consideration by the UTC_. It was on the [agenda of UTC#152], but I cannot find any mention of it in the [minutes of UTC#152]. In the preface of UTC#153, members of WG2, notably Michael Everson for Ireland and Andrew West for Great Britain, criticized the current, rushed process of encoding emojis and some of its results, but while [] documents this quarrel, again there seems to have been no discussion or resolution. 
@@ -178,19 +178,19 @@ The IDP is build upon 4 major classes (`A`, `B`, `C`, `D` since 1926 or 1949), 3
 
 The [European Driving License (EDL)][EDL] is a proper superset of the IDP in that it adds some vehicle classes that apply to all member countries: `A2`, `AM`, `B1` since 2013. 
 
-| Class           | Type              | Emoji   | Description                              | Trailer Class |
-| --------------- | ----------------- | ------- | ---------------------------------------- | ------------- |
-| AM![🇪🇺][🇪🇺] | Moped             | ![🛵]   | ≤ 50 cm³ ∧ ≤ 45 km/h                     | —             |
-| A               | Motorcycle        | ![🏍]   | > 50 cm³ ∨ 45 km/h                       | —             |
-| A1              | Light Motorcycle  | **N/A** | A ≤ 125 cm³ ∧ 11 kW                      | —             |
-| A2![🇪🇺]       | Medium Motorcycle | **N/A** | A ≤ 35 kW ∧ ≤ 0.2 kW/kg                  | —             |
-| B               | Automobile / Car  | ![🚗]   | ≤ 3.5 t                                  | BE            |
-| B1![🇪🇺]       | Quad & Trike      | **N/A** | > 50 cm³ ∨ > 4 kW,<br> B ≤ 15 kW ∧ ≤ 0.45 t | —             |
-| C               | Lorry             | ![🚛]   | B > 3.5 t                                | CE            |
-| C1              | Truck             | ![🚚]   | C ≤ 7.5 t                                | C1E           |
-| D               | Bus               | ![🚌]   | B > 1+8 💺                               | DE            |
-| D1              | Minibus           | ![🚐]   | D ≤ 1+16 💺                              | D1E           |
-| …E              | Trailer           | **N/A** | > 0.75 t                                 | —             |
+| Class     | Type              | Emoji   | Description                              | Trailer Class |
+| --------- | ----------------- | ------- | ---------------------------------------- | ------------- |
+| AM![🇪🇺] | Moped             | ![🛵]   | ≤ 50 cm³ ∧ ≤ 45 km/h                     | —             |
+| A         | Motorcycle        | ![🏍]   | > 50 cm³ ∨ 45 km/h                       | —             |
+| A1        | Light Motorcycle  | **N/A** | A ≤ 125 cm³ ∧ 11 kW                      | —             |
+| A2![🇪🇺] | Medium Motorcycle | **N/A** | A ≤ 35 kW ∧ ≤ 0.2 kW/kg                  | —             |
+| B         | Automobile / Car  | ![🚗]   | ≤ 3.5 t                                  | BE            |
+| B1![🇪🇺] | Quad & Trike      | **N/A** | > 50 cm³ ∨ > 4 kW,<br> B ≤ 15 kW ∧ ≤ 0.45 t | —             |
+| C         | Lorry             | ![🚛]   | B > 3.5 t                                | CE            |
+| C1        | Truck             | ![🚚]   | C ≤ 7.5 t                                | C1E           |
+| D         | Bus               | ![🚌]   | B > 1+8 💺                               | DE            |
+| D1        | Minibus           | ![🚐]   | D ≤ 1+16 💺                              | D1E           |
+| …E        | Trailer           | **N/A** | > 0.75 t                                 | —             |
 
 As of version 10.0 of the Unicode Standard (UTS10) and version 5.0 of Unicode Technical Standard #51 (UTS51), 
 there are at least 5 characters with default emoji representation defined coherently which can reasonably designate all two-track vehicle classes. 
@@ -257,11 +257,13 @@ Interestingly, several of these specialized vehicle classes already have emoji r
 [🇱🇮]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f1-1f1ee.png "Liechtenstein"
 [🇱🇺]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f1-1f1fa.png "Luxembourg"
 [🇱🇻]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f1-1f1fb.png "Latvia"
+[🇱🇹]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f1-1f1f9.png "Lithuania"
 [🇳🇱]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f3-1f1f1.png "Netherlands"
 [🇳🇴]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f3-1f1f4.png "Norway"
 [🇵🇹]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f5-1f1f9.png "Portugal"
 [🇷🇴]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f7-1f1f4.png "Romania"
 [🇸🇮]: https://rawgit.com/emojitwo/emojitwo/master/png/16/1f1f8-1f1ee.png "Slovenia"
+
 [France]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f1eb-1f1f7.png "France"
 [Germany]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f1e9-1f1ea.png "Germany"
 [Switzerland]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f1e8-1f1ed.png "Switzerland"
@@ -294,6 +296,7 @@ https://commons.wikimedia.org/wiki/Category:Animal-related_warning_road_signs
 | [![Kangaroo crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Australia_road_sign_W5-29.svg/120px-Australia_road_sign_W5-29.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-29.svg) | ![:kangaroo:] U+1F998 | Kangaroo                    |
 | [![Herds crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Australia_road_sign_W5-38.svg/120px-Australia_road_sign_W5-38.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-38.svg) [![Cattle crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Australia_road_sign_W5-SA63.svg/120px-Australia_road_sign_W5-SA63.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-SA63.svg) | ![🐄] ![🐑]           | Herds: cattle, sheep        |
 | [![Camel crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Australia_road_sign_W5-44.svg/120px-Australia_road_sign_W5-44.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-44.svg) | ![🐪]![🐫]            | Camel                       |
+| [![Rhea crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Australia_road_sign_W5-45.svg/120px-Australia_road_sign_W5-45.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-45.svg) |                       | **Rhea/Ratite**             |
 | [![Horse crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_road_sign_W5-46.svg/120px-Australia_road_sign_W5-46.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-46.svg) [![Horseback rider crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Australia_road_sign_W5-V111.svg/120px-Australia_road_sign_W5-V111.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V111.svg) | ![🐎] ![🏇]           | Horse with or without rider |
 | [![Koala crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Australia_road_sign_W5-47.svg/120px-Australia_road_sign_W5-47.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-47.svg) | ![🐨]                 | Koala                       |
 | [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Australia_road_sign_W5-48.svg/120px-Australia_road_sign_W5-48.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-48.svg) [![Wombat crossing](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Australia_road_sign_W5-V112.svg/120px-Australia_road_sign_W5-V112.svg.png)](https://commons.wikimedia.org/wiki/File:Australia_road_sign_W5-V112.svg) |                       | **Wombat**                  |
@@ -377,6 +380,16 @@ https://github.com/Crissov/unicode-proposals/issues/399
 [🐇]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f407.png "U+1F407 Rabbit"
 [🐖]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f416.png "U+1F416 Pig"
 [🐷]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f437.png "U+1F437 Pig Face"
+[🐮]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f42e.png "U+1F42E Cow Face"
+[🐄]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f404.png "U+1F404 Cow"
+[🐂]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f402.png "U+1F402 Ox"
+[🐪]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f42a.png "U+1F42A Dromedary Camel"
+[🐫]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f42b.png "U+1F42B Bactrian Camel"
+[🐘]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f418.png "U+1F418 Elephant"
+[🐑]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f411.png "U+1F411 Sheep"
+[🐏]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f40f.png "U+1F40F Ram"
+[🐐]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f410.png "U+1F410 Goat"
+[🐨]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f428.png "U+1F428 Koala"
 
 
 ### Alternative European card suits
@@ -385,7 +398,7 @@ https://github.com/Crissov/unicode-proposals/issues/289
 
 The standard international, originally French, [card suits](https://en.wikipedia.org/wiki/Suit_(cards)) are Clubs, Spades, Hearts and Diamonds. Due to compatibility with legacy character sets, Unicode has had these rather abstract symbols in hollow _White_ ♡♢♤♧ and filled _Black_ ♠♣♥♦ forms since forever (U+2660–7). Most original Japanese emoji sets also featured them: some in black and red, others using four different colors: red heart, blue spade, orange (or golden) diamond and green club. Unicode emojis use the filled _Black_ variants for all of them, which are, for some obscure reason, not found at successive codepoints.
 
-![from a conversion table released jointly by NTT Docomo and KDDI au in 2015](img/japanese-card-suits.png)
+![Comparison of original Japanese card suits emoji from a conversion table released jointly by NTT Docomo and KDDI au in 2015](img/japanese-card-suits.png)
 
 There are, however, local variants of the four suits that derive from the [Minor Arcana](https://en.wikipedia.org/wiki/Minor_Arcana). 
 
@@ -402,53 +415,53 @@ There are, however, local variants of the four suits that derive from the [Minor
 | ![cœurs](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/SuitHearts.svg/35px-SuitHearts.svg.png) | ![Herz/Rot](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bay_herz.svg/35px-Bay_herz.svg.png) | ![Rosen](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/RosendeutschschweizerBlatt.svg/35px-RosendeutschschweizerBlatt.svg.png) | ![coppe](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Seme_coppe_carte_trevisane.svg/17px-Seme_coppe_carte_trevisane.svg.png) | ![copas](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Seme_coppe_carte_spagnole.svg/25px-Seme_coppe_carte_spagnole.svg.png) | ![Marseille](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tarot_de_Marseille_cups01.jpg/62px-Tarot_de_Marseille_cups01.jpg) ![Piedmont](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Cups.jpg/68px-Piedmontese_tarot_deck_-_Solesio_-_1865_-_Ace_of_Cups.jpg) |
 
 - ![♠]
-  - ![] ![] ![] Leaf
-  - ![] Shield
-  - ![⚔] ![] Sword / Wand / Staff / Pike / Stave
+  - ![🍂] ![🍁] ![🍃] Leaf
+  - ![🛡] Shield
+  - ![⚔] ![🗡] Sword / Wand / Staff / Pike / Stave
 - ![♣]
-  - ![] Acorn
+  - ![🌰] Acorn
   - Baton / Club
-  - ![] ![☘] Clover
+  - ![🍀] ![☘] Clover
 - ![♥]
-  - ![] ![] ![] ![]  ![]  Rose (flower, blossom)
-  - ![] Cup
+  - ![🏵] ![🌹] ![🌼] ![🌷]  ![🌸]  Rose (flower, blossom)
+  - ![🏆] Cup
 - ![♦]
-  - ![]  ![]  Coin
-  - ![] Diamond
-  - ![] Ring
-  - ![] ![] ![] Bell
-  - ![] ![] ![]  Crescent
+  - ![🏅]  ![💰]  Coin
+  - ![💎] Diamond
+  - ![💍] Ring
+  - ![🔔] ![🛎] ![🎐] Bell
+  - ![🌙] ![🌛] ![🌜]  Crescent
 
 
 [♠]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2660.png	"U+2660"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f342.png	"U+1F342"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f341.png	"U+1F341"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f343.png	"U+1F343"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6e1.png "U+1F6E1 Shield"
+[🍂]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f342.png	"U+1F342"
+[🍁]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f341.png	"U+1F341"
+[🍃]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f343.png	"U+1F343"
+[🛡]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6e1.png "U+1F6E1 Shield"
 [⚔]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2694.png	"U+2694"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f5e1.png	"U+1F5E1"
+[🗡]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f5e1.png	"U+1F5E1"
 [♣]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2663.png	"U+2663 Black Clubs"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f330.png	"U+1F330"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f340.png	"U+1F340"
+[🌰]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f330.png	"U+1F330"
+[🍀]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f340.png	"U+1F340"
 [☘]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2618.png	"U+2618"
 [♥]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2665.png	"U+2665"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3f5.png	"U+1F3F5"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f339.png	"U+1F339"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f33c.png	"U+1F33C"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f337.png	"U+1F337"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f338.png "U+1F338 Cherry Blossom"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3c6.png	"U+1F3C6"
+[🏵]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3f5.png	"U+1F3F5"
+[🌹]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f339.png	"U+1F339"
+[🌼]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f33c.png	"U+1F33C"
+[🌷]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f337.png	"U+1F337"
+[🌸]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f338.png "U+1F338 Cherry Blossom"
+[🏆]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3c6.png	"U+1F3C6"
 [♦]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2666.png	"U+2666"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3c5.png	"U+1F3C5"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f4b0.png	"U+1F4B0"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f48e.png	"U+1F48E"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f48d.png	"U+1F48D"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f514.png	"U+1F514"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6ce.png	"U+1F6CE"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f390.png	"U+1F390"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f319.png	"U+1F319"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f31b.png	"U+1F31B"
-[]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f31c.png	"U+1F31C"
+[🏅]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f3c5.png	"U+1F3C5"
+[💰]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f4b0.png	"U+1F4B0"
+[💎]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f48e.png	"U+1F48E"
+[💍]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f48d.png	"U+1F48D"
+[🔔]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f514.png	"U+1F514"
+[🛎]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f6ce.png	"U+1F6CE"
+[🎐]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f390.png	"U+1F390"
+[🌙]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f319.png	"U+1F319"
+[🌛]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f31b.png	"U+1F31B"
+[🌜]: https://rawgit.com/emojitwo/emojitwo/master/png/48/1f31c.png	"U+1F31C"
 
 ### Body parts
 
