@@ -86,6 +86,32 @@ The Celtic zodiac is based on a lunar cycle and thus includes 13 signs.
 
 I have not yet determined whether there ever was a canonical set of zodiac signs and how much is specified by recent neo-pagan culture.
 
+[Tarot.com][Tarot] (3rd column group) has the most complete, least canonic collection which is a proper superset of [Astrology of the Ancients][AotA] (1st column group). [What's Your Sign][WYS] (2nd column group) agrees with this in some lunar months, switches some others (Fox, Seahorse, Hawk, one Horse) and has completely different animals in some. Redundancy has been removed as much as possible.
+
+[WYS]: http://www.whats-your-sign.com/celtic-animal-signs.html "What's Your Sign: _Lunar Celtic Animal Zodiac_"
+[AotA]: http://www.astrologyoftheancients.com/celtic-animal-zodiac-signs/ "Astrology of the Ancients: _Celtic Animal Zodiac Signs and Meanings_"
+[Tarot]: https://www.tarot.com/astrology/celtic-signs "Tarot.com: _Celtic Signs_"
+
+| Emoji                  | [Sign][AotA]                | Emoji               | [Sign][WYS]           | Emoji                       | [Sign][Tarot]             | Tree     | Start date     |
+| ---------------------- | --------------------------- | ------------------- | --------------------- | --------------------------- | ------------------------- | -------- | -------------- |
+| :deer:                 | (White) Stag / Deer         |                     |                       | :eagle:                     | (Golden) Eagle            | Birch    | December 24    |
+| :dragon: :dragon_face: | (Green) Dragon              | :cat2: :cat:        | Cat                   | **N/A**                     | **Crane**                 | Rowan    | January 21     |
+| **N/A**                | Seahorse                    | :snake:             | Snake / **Adder**     | **N/A**, **N/A**            | **Seal**,<br> **Seagull** | Ash      | February 18    |
+| **N/A**                | Hawk                        | :fox_face:          | Fox                   | :bear:, :fox_face:          | Bear,<br> Fox             | Alder    | :bee:, :owl:   |
+| (:snake:)              | **Sea Serpent**             | :ox: :cow2: :cow:   | Bull / Cow / Cattle   | :snake:, :rabbit2: :rabbit: | **Adder**,<br> Hare       | Willow   | April 15       |
+| :fox_face:             | Fox                         | **N/A**             | Seahorse              | :bee:, :owl:                | Bee,<br> Owl              | Hawthorn | May 13         |
+| (:horse: :racehorse:)  | White Horse                 | (:bird:)            | **Wren** (bird)       | (:bird:), **N/A**           | Wren,<br> **Otter**       | Oak      | June 10        |
+| :unicorn:              | Unicorn                     | :horse: :racehorse: | Horse                 | :cat2: :cat:                | Cat                       | Holly    | July 8         |
+| (:fish:)               | (Rainbow) **Salmon** / Fish |                     |                       | **N/A**                     | **Crane**                 | Hazel    | August 5       |
+| **N/A** (U11)          | (White) **Swan**            |                     |                       | :lizard:, :dog2: :dog:      | Lizard,<br> Hound         | Wine     | September 2    |
+| :butterfly:            | Butterfly                   |                     |                       | :boar:, **N/A**             | Boar,<br> **Goose**       | Ivy      | September 30   |
+| :wolf: :dog2: :dog:    | (White) Hound / Wolf        |                     |                       | :owl:                       | Owl                       | Reed     | October 28     |
+| (:horse: :racehorse:)  | Black Horse                 | **N/A**             | **Hawk** / **Falcon** | **N/A**, **N/A**            | **Badger**,<br> **Raven** | Elder    | November 22/25 |
+
+
+[![](https://gfx.tarot.com/images/feeds/infographics/celtic-780x930.png)][Tarot]
+
+
 #### Amerindian spirit or totem animals
 
 I do not know whether pre-columbian Amerindian peoples identified the same constellations as did the Europeans, but there seems to be an established folk tradition now to correlate the 12 old-world zodiac signs with new-world totems or spirit animals. There is some variation among sources as to which animals are used, but it is always only animals.
@@ -429,26 +455,26 @@ There are, however, local variants of the four suits that derive from the [Minor
 
 | Emoji      | Suit         |
 | ---------- | ------------ |
-| ![🌰]      | Acorn        |
+| (![🌰])    | Acorn        |
 | **N/A**    | Baton / Club |
 | ![🍀] ![☘] | Clover       |
 
 #### ![♥] Hearts
 
-| Emoji                          | Suit                   |
-| ------------------------------ | ---------------------- |
-| ![🏵] ![🌹] ![🌼] ![🌷]  ![🌸] | Rose (flower, blossom) |
-| ![🏆]                          | Cup                    |
+| Emoji                            | Suit                   |
+| -------------------------------- | ---------------------- |
+| ![🏵] ![🌹] (![🌼] ![🌷]  ![🌸]) | Rose (flower, blossom) |
+| ![🏆]                            | Cup                    |
 
 #### ![♦] Diamonds
 
-| Emoji                  | Suit            |
-| ---------------------- | --------------- |
-| **N/A** (![🏅]  ![💰]) | Coin            |
-| ![💎]                  | Diamond         |
-| ![💍]                  | Ring            |
-| ![🔔] ![🛎] ![🎐])     | (Jingle) Bell   |
-| ![🌙] (![🌛] ![🌜])    | Crescent (Moon) |
+| Emoji                       | Suit            |
+| --------------------------- | --------------- |
+| **N/A** (![🏅]  ![💰])      | Coin            |
+| ![💎]                       | Diamond         |
+| ![💍]                       | Ring            |
+| **N/A** (![🔔] ![🛎] ![🎐]) | (Jingle) Bell   |
+| ![🌙] (![🌛] ![🌜])         | Crescent (Moon) |
 
 
 [♠]: https://rawgit.com/emojitwo/emojitwo/master/png/48/2660.png	"U+2660"
@@ -484,7 +510,7 @@ There are, however, local variants of the four suits that derive from the [Minor
 ### Body parts
 
 - Genitalia
-- Mamma
+- Mamma / Breastsst
 - Buttocks
 
 ### Finger games
