@@ -7,6 +7,8 @@ The collection also contains templates, related sources, references and other he
 Emoji
 -----
 
+Also see [Charlotte Buff's](https://github.com/random-guy-32) site for [failed but published emoji proposals](http://randomguy32.de/unicode/misc/rejected-emoji-proposals/).
+
 A [new emoji](http://unicode.org/emoji/selection.html) can be made in three different ways: 
 
 * If rather original, it may require the assignment of an individual codepoint, usually in the upper areas of the Supplementary Multilingual Plane (SMP), U+1F9*xy*. This usually happens once a year with a new point release of the Unicode Technical Standard. The deadline for proposals for Unicode 12.0 to be released in early 2019 is set to 15 March 2018.
