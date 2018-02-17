@@ -1,21 +1,24 @@
 Emoji Selection Process
-===
+==========================
 
-Mark Davis, presumably on behalf of the Emoji Subcommittee, submitted a whitepaper on 28 June 2017 to clarify the influence of major vendors (Apple, Facebook, Google, Microsoft, Twitter, maybe also non-member Samsung), entitled _Emoji and Vendors: for consideration by the UTC_. It was on the [agenda of UTC#152], but I cannot find any mention of it in the [minutes of UTC#152]. In the preface of UTC#153, members of WG2, notably Michael Everson for Ireland and Andrew West for Great Britain, criticized the current, rushed process of encoding emojis and some of its results, but while [] documents this quarrel, again there seems to have been no discussion or resolution. 
+Mark Davis, presumably on behalf of the Emoji Subcommittee, submitted a whitepaper [L2/206] on 28 June 2017 to clarify the influence of major vendors (probably full [Unicode members] Apple, Facebook, Google, Microsoft and associate member Twitter, maybe also non-member Samsung), entitled _Emoji and Vendors: for consideration by the UTC_. This was followed on 22 January 2018 by a similar document
 
-I have no doubt that the text accurately describes how the process of encoding new emoji characters currently works. As already documented in [L2/147], which is backed by [L2/329], I strongly believe this process needs refinements.
-
-Below, I will only quote from _section 2_ of the document [L2/206], because _section 1_ just describes uncontroversial common knowledge about the encoding process for *usual* characters. It expressively assumes that emojis are unusual, a notion I will contest.
-
-[agenda of UTC#152]: http://www.unicode.org/L2/L2017/17221.htm "L2/17-221"
-[minutes of UTC#152]: http://www.unicode.org/L2/L2017/17222.htm "L2/17-222"
-[agenda of UTC#153]: http://www.unicode.org/L2/L2017/17361.htm "L2/17-361"
-[minutes of UTC#153]: http://www.unicode.org/L2/L2017/17362.htm "L2/17-362"
-[L2/147]: http://www.unicode.org/L2/L2017/17147-emoji-subcommittee.pdf "Request for greater transparency in the Emoji Subcommittee by Andrew West, Charlotte Buff and Christoph Päper"
-[L2/206]: http://www.unicode.org/L2/L2017/17206-emoji-and-vendors.pdf "Emoji and Vendors: for consideration by the UTC by Mark Davis"
-[L2/329]: http://www.unicode.org/L2/L2017/17329-n4888-future-add-nsai.pdf "Future Additions to ISO/IEC 10646 (WG2 N4888)"
+I have no doubt that the texts accurately describe how the process of encoding new emoji characters currently works. As already documented in [L2/147], which is backed by [L2/329], I strongly believe this process needs refinements.
+Both documents expressively assume that emojis are unusual, a notion I will contest.
 
 > Emoji characters are quite different.
+
+[17/147]: http://www.unicode.org/L2/L2017/17147-emoji-subcommittee.pdf "L2/17-147: Request for greater transparency in the Emoji Subcommittee by Andrew West, Charlotte Buff and Christoph Päper"
+[17/206]: http://www.unicode.org/L2/L2017/17206-emoji-and-vendors.pdf "L2/17-206: Emoji and Vendors: for consideration by the UTC by Mark Davis"
+[17/329]: http://www.unicode.org/L2/L2017/17329-n4888-future-add-nsai.pdf "L2/17-329: Future Additions to ISO/IEC 10646 (WG2 N4888)"
+[18/044]: http://www.unicode.org/L2/L2018/18044-encoding-emoji.pdf "L2/18-044: Encoding emoji vs other characters by Mark Davis, Jeremy Burge, Peter Edberg"
+[Unicode members]: https://www.unicode.org/consortium/members.html "The Unicode Consortium Members"
+[agenda of UTC#152]: http://www.unicode.org/L2/L2017/17221.htm "L2/17-221: Agenda of UTC#152"
+[minutes of UTC#152]: http://www.unicode.org/L2/L2017/17222.htm	"L2/17-222: Minutes of UTC#152"
+[agenda of UTC#153]: http://www.unicode.org/L2/L2017/17361.htm	"L2/17-361: Agenda of UTC#153"
+[minutes of UTC#153]: http://www.unicode.org/L2/L2017/17362.htm	"L2/17-362: Minutes of UTC#153"
+[agenda of UTC#154]: http://www.unicode.org/L2/L2018/18006.htm	"L2/18-006: Agenda of UTC#154"
+[minutes of UTC#154]: http://www.unicode.org/L2/L2018/18007.htm	"L2/18-007: Minutes of UTC#154"
 
 Pictographs
 ---
@@ -26,7 +29,7 @@ My first issue is with terminology. We must not think of emojis as images!
 
 An _image_ depicts some graphic original and in the case of a _picture_ it is the original itself.
 
-icon, 
+icon, symbol
 
 motivated, arbitrary
 
@@ -64,7 +67,7 @@ Sets
 Synthesis
 ---
 
-combining emoticons
+combining emoticons / Face
 
 Conclusion
 ---
