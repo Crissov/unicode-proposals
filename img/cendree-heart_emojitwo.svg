@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+	<defs>
+		<pattern id="Triangle" width="10" height="10" patternUnits="userSpaceOnUse">
+			<polygon points="5,0 10,10 0,10" fill="black"/>
+		</pattern>
+		<pattern id="LargeCircle" width="10" height="10" patternUnits="userSpaceOnUse">
+			<circle cx="5" cy="5" r="5" fill="black"/>
+		</pattern>
+		<pattern id="MediumCircle" width="10" height="10" patternUnits="userSpaceOnUse">
+			<circle cx="5" cy="5" r="4" fill="black"/>
+		</pattern>
+		<pattern id="SmallCircle" width="10" height="10" patternUnits="userSpaceOnUse">
+			<circle cx="5" cy="5" r="3" fill="black"/>
+		</pattern>
+		<pattern id="TinyCircle" width="10" height="10" patternUnits="userSpaceOnUse">
+			<circle cx="5" cy="5" r="2" fill="black"/>
+		</pattern>
+		<pattern id="Dot" width="10" height="10" patternUnits="userSpaceOnUse" fill="black">
+			<circle cx="5" cy="5" r="1" fill="black"/>
+		</pattern>
+		<pattern id="Dots" width="10" height="10" patternUnits="userSpaceOnUse" fill="black">
+			<circle cx="2.5" cy="1.25" r="1" fill="black"/>
+			<circle cx="2.5" cy="6.25" r="1" fill="black"/>
+			<circle cx="7.5" cy="3.75" r="1" fill="black"/>
+			<circle cx="7.5" cy="8.75" r="1" fill="black"/>
+		</pattern>
+		<pattern id="VerticalLine" width="7" height="10" patternUnits="userSpaceOnUse">
+			<line x1="2.5" y1="0" x2="2.5" y2="10" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="HorizontalLine" width="10" height="7" patternUnits="userSpaceOnUse">
+			<line x1="0" y1="2.5" x2="10" y2="2.5" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="SquarePattern" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="2.5" y1="0" x2="2.5" y2="10" stroke-width="1" stroke="black"/>
+			<line x1="0" y1="2.5" x2="10" y2="2.5" stroke-width="1" stroke="black"/>
+			<line x1="7.5" y1="0" x2="7.5" y2="10" stroke-width="1" stroke="black"/>
+			<line x1="0" y1="7.5" x2="10" y2="7.5" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="ForwardLine" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="-2.5" y1="10" x2="10" y2="-2.5" stroke-width="1" stroke="black"/>
+			<line x1="5" y1="12.5" x2="12.5" y2="5" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="BackwardLine" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="-2.5" y1="0" x2="10" y2="12.5" stroke-width="1" stroke="black"/>
+			<line x1="5" y1="-2.5" x2="12.5" y2="5" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="DiamondPattern" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="0" y1="0" x2="10" y2="10" stroke-width="1" stroke="black"/>
+			<line x1="0" y1="10" x2="10" y2="0" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="Dash" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="2.5" y1="1" x2="7.5" y2="1" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="Dashes" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="0" y1="1" x2="5" y2="1" stroke-width="1" stroke="black"/>
+			<line x1="5" y1="6" x2="10" y2="6" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="DashDot" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="0" y1="2.5" x2="5" y2="2.5" stroke-width="1" stroke="black"/>
+			<circle cx="7.5" cy="2.5" r="1" fill="black"/>
+			<line x1="5" y1="7.5" x2="10" y2="7.5" stroke-width="1" stroke="black"/>
+			<circle cx="2.5" cy="7.5" r="1" fill="black"/>
+		</pattern>
+		<pattern id="AlternateDashes" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="0" y1="2.5" x2="5" y2="2.5" stroke-width="1" stroke="black"/>
+			<line x1="7.5" y1="0" x2="7.5" y2="5" stroke-width="1" stroke="black"/>
+			<line x1="5" y1="7.5" x2="10" y2="7.5" stroke-width="1" stroke="black"/>
+			<line x1="2.5" y1="5" x2="2.5" y2="10" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="HorizontalAndForwardLine" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="0" y1="2.5" x2="10" y2="2.5" stroke-width="1" stroke="black"/>
+			<line x1="-2.5" y1="10" x2="10" y2="-2.5" stroke-width="1" stroke="black"/>
+			<line x1="5" y1="12.5" x2="12.5" y2="5" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="VerticalAndForwardLine" width="10" height="10" patternUnits="userSpaceOnUse">
+			<line x1="2.5" y1="0" x2="2.5" y2="10" stroke-width="1" stroke="black"/>
+			<line x1="-2.5" y1="10" x2="10" y2="-2.5" stroke-width="1" stroke="black"/>
+			<line x1="5" y1="12.5" x2="12.5" y2="5" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="BackwardLine" width="10" height="10" patternUnits="userSpaceOnUse" stroke="">
+			<line x1="-2.5" y1="0" x2="10" y2="12.5" stroke-width="1" stroke="black"/>
+			<line x1="5" y1="-2.5" x2="12.5" y2="5" stroke-width="1" stroke="black"/>
+		</pattern>
+		<pattern id="PolyLine" width="10" height="10" patternUnits="userSpaceOnUse">
+			<polyline points="0,0 0,2 2,2 2,4 4,4 4,6 6,6 6,8" stroke-width="1" stroke="black" />
+			<!-- example, not used -->
+		</pattern>
+
+		<!-- Heraldic Hatching Patterns -->
+		<pattern id="Or"       xlink:href="#Dots"           stroke="black"/>
+		<!--yellow Wikicommons: #FFD200, Emojione: #F5CE3E-->
+		<pattern id="Vert"     xlink:href="#BackwardLine"   stroke="black"/>
+		<!--green  Wikicommons: #009A3D, Emojione: #85E845-->
+		<pattern id="Argent"   xlink:href="#Empty"          stroke="black"/>
+		<!--white  Wikicommons: #FFFFFF, Emojione: #D0D0D0/#F5F5F5-->
+		<pattern id="Azure"    xlink:href="#HorizontalLine" stroke="black"/>
+		<!--blue   Wikicommons: #0039A6, Emojione: #66CAF2/#0071BC-->
+		<pattern id="Gules"    xlink:href="#VerticalLine"   stroke="black"/>
+		<!--red    Wikicommons: #dc281e, Emojione: #FF5A79/#ED4C5C-->
+		<pattern id="Sable"    xlink:href="#SquarePattern"  stroke="black"/>
+		<!--black  Wikicommons: #000000, Emojione: #3E4347/#333333-->
+		<pattern id="Purpure"  xlink:href="#ForwardLine"    stroke="black"/>
+		<!--purple Wikicommons: #B60A9B, Emojione: #C28FEF-->
+		<pattern id="Cendree"  xlink:href="#AlternateDashes"/>
+		<pattern id="Sanguine" xlink:href="#HorizontalAndForwardLine"/>
+		<pattern id="Brunatre" xlink:href="#VerticalAndForwardLine" fill="black"/>
+		<pattern id="Celeste"  xlink:href="#DashDot"/>
+		<pattern id="Murrey"   xlink:href="#DiamondPattern"/>
+
+		<line id="Dashed"          stroke-dasharray="5, 5"          x1="10" y1="10" x2="190" y2="10" />
+		<line id="LooselyDashed"   stroke-dasharray="5, 10"         x1="10" y1="30" x2="190" y2="30" />
+		<line id="LonglyDashed"    stroke-dasharray="10, 5"         x1="10" y1="50" x2="190" y2="50" />
+		<line id="CloselyDashed"   stroke-dasharray="5, 1"          x1="10" y1="70" x2="190" y2="70" />
+		<line id="Dotted"          stroke-dasharray="1, 5"          x1="10" y1="90" x2="190" y2="90" />
+		<line id="LongShortDashed" stroke-dasharray="15, 10, 5, 10" x1="10" y1="150" x2="190" y2="150" />
+		<line id="DashDotted"      stroke-dasharray="5, 5, 1, 5"    x1="10" y1="190" x2="190" y2="190" />
+
+	</defs>
+	<path stroke="black" fill="url(#Cendree)" d="m61.1 18.2c-6.4-17-27.2-9.4-29.1-.9-2.6-9-22.9-15.7-29.1.9-6.9 18.5 26.7 35.1 29.1 37.8 2.4-2.2 36-19.6 29.1-37.8"/>
+</svg>

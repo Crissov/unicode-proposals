@@ -53,7 +53,8 @@ Images
 
 Adapted Emojione 2 (or Emojitwo) graphics for a [variant 1 with arms crossed behind the head](img/emojione-monkey-arms-crossed.svg) and a [variant 2 with hands up](img/emojione-monkey-hands-up.svg):
 
-![Variant 1 with arms crossed behind the head.](img/emojione-monkey-arms-crossed.png) ![Variant 2 with hands up.](img/emojione-monkey-hands-up.png)
+[![Variant 1 with arms crossed behind the head.](img/monkey-arms-crossed_emojitwo.png)](img/monkey-arms-crossed_emojitwo.svg)
+[![Variant 2 with hands up.](img/monkey-hands-up_emojitwo.png)](img/monkey-hands-up_emojitwo.svg)
 
 Factors for Inclusion
 ---------------------
