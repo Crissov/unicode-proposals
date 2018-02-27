@@ -1,590 +1,245 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>Six New Colored Heart Emojis</title><link href='http://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic&subset=latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Lato:900,300&subset=latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --code-block-bg-color: inherit; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { background: rgb(181, 214, 252); text-shadow: none; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; padding-bottom: 70px; white-space: pre-wrap; overflow-x: visible; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+.typora-export #write { margin: 0px auto; }
+#write > p:first-child, #write > ul:first-child, #write > ol:first-child, #write > pre:first-child, #write > blockquote:first-child, #write > div:first-child, #write > table:first-child { margin-top: 30px; }
+#write li > table:first-child { margin-top: -20px; }
+img { max-width: 100%; vertical-align: middle; }
+input, button, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+::before, ::after, * { box-sizing: border-box; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write div, #write pre { width: inherit; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6 { position: relative; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+p { -webkit-margin-before: 1rem; -webkit-margin-after: 1rem; -webkit-margin-start: 0px; -webkit-margin-end: 0px; }
+.typora-export p { white-space: normal; }
+.mathjax-block { margin-top: 0px; margin-bottom: 0px; -webkit-margin-before: 0rem; -webkit-margin-after: 0rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: bold; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; margin: 4px 0px 0px; }
+#write > figure:first-child { margin-top: 16px; }
+figure { overflow-x: auto; margin: -8px 0px 0px -8px; max-width: calc(100% + 16px); padding: 8px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 80px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+pre { white-space: pre-wrap; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: var(--code-block-bg-color); position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-fences .CodeMirror.CodeMirror-wrap { top: -1.6em; margin-bottom: -1.6em; }
+.md-fences.mock-cm { white-space: pre-wrap; }
+.show-fences-line-number .md-fences { padding-left: 0px; }
+.show-fences-line-number .md-fences.mock-cm { padding-left: 40px; }
+.CodeMirror-line { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; padding-top: 1em; padding-bottom: 1em; }
+.footnotes + .footnotes { margin-top: -1em; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: transparent; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: normal; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li p, li .mathjax-block { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; }
+@media print {
+  html, body { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  h1, h2, h3, h4, h5, h6 { break-after: avoid-page; orphans: 2; }
+  p { orphans: 4; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 1cm; padding-right: 1cm; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0mm; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 2.86rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > img:only-child { display: block; margin: auto; }
+p .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.mathjax-block { white-space: pre; overflow: hidden; width: 100%; }
+p + .mathjax-block { margin-top: -1.143rem; }
+.mathjax-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: none; box-shadow: none; }
+.task-list { list-style-type: none; }
+.task-list-item { position: relative; padding-left: 1em; }
+.task-list-item input { position: absolute; top: 0px; left: 0px; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc::after, .md-toc-content::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: bold; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+.md-tag { opacity: 0.5; }
+pre, code, tt { font-family: var(--monospace); }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+h1 .md-tag, h2 .md-tag, h3 .md-tag, h4 .md-tag, h5 .md-tag, h6 .md-tag { font-weight: initial; opacity: 0.35; }
+a.md-print-anchor { border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: none !important; background: transparent !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.mathjax-block .MathJax_SVG_Display { text-align: center; margin: 1em 0em; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: monospace; }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: normal; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; }
+table tr th { border-bottom: 0px; }
+
+
+:root { --control-text-color: rgb(46%, 46%, 46%); }
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 300; src: local("Merriweather Light"), local("Merriweather-Light"), url("./pixyll/Merriweather-Light.ttf"); }
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 900; src: local("Merriweather Heavy"), local("Merriweather-Heavy"), url("./pixyll/Merriweather-Bold.ttf"); }
+@font-face { font-family: Merriweather; font-style: italic; font-weight: 300; src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url("./pixyll/Merriweather-LightItalic.ttf"); }
+@font-face { font-family: Merriweather; font-style: italic; font-weight: 900; src: local("Merriweather Heavy Italic"), local("Merriweather-HeavyItalic"), url("./pixyll/Merriweather-BoldItalic.ttf"); }
+@font-face { font-family: Lato; font-style: normal; font-weight: 300; src: local("Lato Light"), local("Lato-Light"), url("./pixyll/Lato-Light.ttf"); }
+@font-face { font-family: Lato; font-style: normal; font-weight: 900; src: local("Lato Black"), local("Lato-Blcak"), url("./pixyll/Lato-Black.ttf"); }
+@font-face { font-family: Lato; font-style: normal; font-weight: bold; src: local("Lato Black"), local("Lato-Blcak"), url("./pixyll/Lato-Black.ttf"); }
+@font-face { font-family: Lato; font-style: italic; font-weight: 900; src: local("Lato BlackItalic"), local("Lato-BlackItalic"), url("./pixyll/Lato-BlackItalic.ttf"); }
+@font-face { font-family: Lato; font-style: italic; font-weight: bold; src: local("Lato BlackItalic"), local("Lato-BlackItalic"), url("./pixyll/Lato-BlackItalic.ttf"); }
+h1, .h1, .f1 { font-size: 2rem; line-height: 2.5rem; }
+h2, .h2, .f2 { font-size: 1.5rem; line-height: 2rem; }
+h3, .h3, .f3 { font-size: 1.25rem; line-height: 1.5rem; }
+p, .p, h4, .f4, h5, h6, dl, ol, ul, pre[cid], div[cid], #typora-source { font-size: 1.125rem; line-height: 1.5rem; }
+h4 { font-size: 1.13rem; }
+body { font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 1.5rem; line-height: 1.5rem; font-family: Merriweather, "PT Serif", Georgia, STSong, serif; box-sizing: border-box; }
+img { width: auto; max-width: 100%; }
+p > img:only-child, p > a:only-child > img { }
+table { width: 100%; font-size: 1.125rem; }
+table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table > tbody > tr > td, table > tfoot > tr > th, table > tfoot > tr > td { padding: 12px; line-height: 1.2; vertical-align: top; border-top: 1px solid rgb(51, 51, 51); }
+table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid rgb(51, 51, 51); }
+table > caption + thead > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0px; }
+table > tbody + tbody { border-top: 2px solid rgb(51, 51, 51); }
+.md-table-edit { background: rgb(222, 222, 222); padding-top: 4px; }
+p { font-weight: 300; line-height: 1.5; }
+abbr { border-bottom: 1px dotted black; cursor: help; }
+pre, code { font-family: Menlo, Monaco, "Courier New", monospace; }
+code, .md-fences { color: rgb(122, 122, 122); }
+.md-fences .CodeMirror.CodeMirror-wrap { top: -1.5em; margin-bottom: -1.5em; }
+.md-fences { padding: 1.125em; margin-bottom: 0.88em; font-size: 1rem; border: 1px solid rgb(122, 122, 122); }
+blockquote { padding: 1.33em; font-style: italic; border-left: 5px solid rgb(122, 122, 122); color: rgb(84, 84, 84); }
+blockquote em { color: black; }
+blockquote footer { font-size: 0.85rem; font-style: normal; background-color: white; color: rgb(122, 122, 122); border-color: transparent; }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { font-family: Lato, "Helvetica Neue", Helvetica, sans-serif; font-weight: 900; line-height: 1.2; margin: 1em 0px 0.5em; }
+h1, .h1::before { }
+h2, .h2::before { }
+h3, .h3::before { }
+h4, .h4::before { }
+h5, .h5::before { }
+h6, .h6::before { }
+@media screen and (min-width: 48em) {
+  .h1, h1 { font-size: 3.25rem; }
+  .h2, h2 { font-size: 2.298rem; }
+  .h3, h3 { font-size: 1.625rem; }
+  .h4, h4 { font-size: 1.3rem; }
+  .p, p, li { font-size: 1.25rem; line-height: 1.8; }
+  table { font-size: 1.25rem; }
+  #write > h4.md-focus::before, #write > h5.md-focus::before, #write > h6.md-focus::before { top: 1px; }
+}
+@media (max-width: 48em) {
+  blockquote { margin-left: 1rem; margin-right: 0px; padding: 0.5em; }
+  .h1, h1 { font-size: 2.827rem; }
+  .h2, h2 { font-size: 1.999rem; }
+  .h3, h3 { font-size: 1.413rem; }
+  .h4, h4 { font-size: 1.3rem; }
+}
+@media screen and (min-width: 64em) {
+  .h1, h1 { font-size: 4.498rem; }
+  .h2, h2 { font-size: 2.29rem; }
+  .h3, h3 { font-size: 1.9rem; }
+  .h4, h4 { font-size: 1.591rem; }
+  #write > h4.md-focus::before { top: 4px; }
+}
+a { color: rgb(69, 64, 92); }
+a[href] { text-decoration: underline; }
+#write { padding-top: 2rem; max-width: 57rem; color: rgb(51, 51, 51); }
+#write pre.md-meta-block { white-space: pre; padding: 2000px 1em 10px 0px; margin-top: -2010px; margin-bottom: 2em; min-height: 35px; width: 100vw; max-width: calc(100% + 60px); border-style: solid; border-color: rgb(248, 248, 248); border-image: initial; border-width: 0px 30px; margin-left: -30px; color: rgb(122, 122, 122); background-color: rgb(250, 250, 250); font-style: normal; font-variant: normal; font-weight: 300; font-stretch: normal; font-size: 1.125rem; line-height: 1.5em; font-family: Lato, "Helvetica Neue", Helvetica, sans-serif; clear: both; }
+.md-image > .md-meta { color: rgb(69, 64, 92); }
+.footnotes { font-size: 1.1rem; }
+.md-tag { font-family: Lato, "Helvetica Neue", Helvetica, sans-serif; }
+.code-tooltip { background: white; }
+.code-tooltip-content { font-size: 1.1rem; }
+.task-list { padding-left: 0px; }
+.task-list-item { padding-left: 34px; }
+.task-list-item input { width: 1.25rem; height: 1.25rem; display: block; -webkit-appearance: initial; top: -2px; }
+.task-list-item input:focus { outline: none; box-shadow: none; }
+.task-list-item input::before { border: 1px solid rgb(84, 84, 84); border-radius: 1.5rem; width: 1.5rem; height: 1.5rem; background: white; content: " "; transition: background-color 200ms ease-in-out; display: block; }
+.task-list-item input:checked::before, .task-list-item input[checked]::before { background: rgb(51, 51, 51); border-width: 2px; display: inline-block; transition: background-color 200ms ease-in-out; }
+.task-list-item input:checked::after, .task-list-item input[checked]::after { opacity: 1; }
+.task-list-item input::after { transition: opacity 0.05s ease-in-out; transform: rotate(-45deg); position: absolute; top: 0.4375rem; left: 0.28125rem; width: 0.9375rem; height: 0.5rem; border-width: 0px 0px 3px 3px; border-bottom-style: solid; border-left-style: solid; border-bottom-color: white; border-left-color: white; border-image: initial; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; content: " "; opacity: 0; }
+.md-tag { color: inherit; }
+.md-toc:focus .md-toc-content { margin-top: 19px; }
+#typora-sidebar { font-size: 1rem !important; }
+.html-for-mac #typora-sidebar { background-color: white; }
+.outline-content li, .outline-content ul { font-size: 1rem !important; }
+.outline-title { line-height: inherit; margin-top: 10px; }
+.outline-expander { width: 18px; }
+.outline-expander::before { content: "+"; font-family: inherit; color: rgb(107, 107, 107); font-size: 1.5rem; top: 0.1rem; }
+.outline-expander:hover::before { content: "+"; }
+.outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+#typora-source { font-family: Courier, monospace; color: rgb(104, 104, 104); }
+.os-windows #typora-source { font-family: inherit; }
+.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property, .CodeMirror.cm-s-typora-default div.CodeMirror-cursor { color: rgb(66, 138, 217); }
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number { color: rgb(117, 117, 117); }
+.preference-item-hint { margin-top: 16px; }
+.md-diagram-panel { margin-top: 24px; margin-left: -1.2em; }
+
+
+
+
+
+
+</style>
 </head>
-<body>
-<h1 id="proposal-for-new-emojis-colored-hearts">Proposal for New Emojis: <strong>Colored Hearts</strong></h1>
-<ul>
-<li><strong>Author:</strong> Christoph Päper <a href="mailto:christoph.paeper@crissov.de">christoph.paeper@crissov.de</a></li>
-<li><strong>Submitted:</strong> 2018-02-26</li>
-<li><strong>Latest version:</strong> <a href="https://crissov.github.io/unicode-proposals/hearts" class="uri">https://crissov.github.io/unicode-proposals/hearts</a></li>
-</ul>
-<table style="width:39%;">
-<colgroup>
-<col width="5%" />
-<col width="5%" />
-<col width="5%" />
-<col width="5%" />
-<col width="5%" />
-<col width="5%" />
-<col width="5%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="img/gray-heart_emojitwo.svg" alt="Gray Heart" /></th>
-<th><img src="img/white-heart_emojitwo.svg" alt="White Heart" /></th>
-<th><img src="img/brown-heart_emojitwo.svg" alt="Brown Heart" /></th>
-<th><img src="img/pink-heart_emojitwo.svg" alt="Pink Heart" /></th>
-<th><img src="img/maroon-heart_emojitwo.svg" alt="Maroon Heart" /></th>
-<th><img src="img/teal-heart_emojitwo.svg" alt="Teal Heart" /></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><img src="img/1f5a4_emojitwo.svg" alt="Black Heart" /></td>
-<td><img src="img/1f49b_emojitwo.svg" alt="Yellow Heart" /></td>
-<td><img src="img/1f9e1_emojitwo.svg" alt="Orange Heart" /></td>
-<td><img src="img/2764_emojitwo.svg" alt="Red Heart" /></td>
-<td><img src="img/1f49c_emojitwo.svg" alt="Purple Heart" /></td>
-<td><img src="img/1f499_emojitwo.svg" alt="Blue Heart" /></td>
-<td><img src="img/1f49a_emojitwo.svg" alt="Green Heart" /></td>
-</tr>
-</tbody>
-</table>
-<h2 id="introduction">Introduction</h2>
-<p>I hereby request the addition of <strong>Gray Heart</strong>, <strong>White Heart</strong>, <strong>Brown Heart</strong>, <strong>Pink Heart</strong>, <strong>Maroon Heart</strong> and <strong>Teal Heart</strong> emojis to the Unicode Standard. These six emojis only differ by color.</p>
-<p>These emojis, like existing colored hearts, have two effective purposes:</p>
-<ol style="list-style-type: decimal">
-<li>Indicate affection for something that is associated with a certain color.</li>
-<li>Act as a color swatch (without negative connotations).</li>
-</ol>
-<p>The following examples for color meaning and associations are not meant to be exhaustive.</p>
-<ul>
-<li>The Gray Heart lies between the White Heart and the existing Black Heart to indicate a non-binary state. The color is associated with concrete, stone, possibly metal and ashes, boredom.</li>
-<li>The White Heart contrasts with the Black Heart. The color stands for immaculacy, innocence, marriage, virginity, snow and, in some cultures, death.</li>
-<li>The Brown Heart resembles a piece of chocolate. The color also stands for coffee, darker human skin tones, soil, dirt and feces.</li>
-<li>The Pink Heart shall be disunified from the Red Heart. The color stands for (baby) girls, cuteness, warmth, lighter human skin tones, venous blood and sex.</li>
-<li>The Maroon Heart is also close to the Red Heart. The color stands for arterial blood and heat.</li>
-<li>The Teal Heart is a lighter Blue Heart. The color stands for (baby) boys, sky, water, ice, cold, luxury.</li>
-</ul>
-<p>Glyph examples and discussion of inclusion and exclusion factors are included on the following pages. As per the <a href="http://www.unicode.org/emoji/selection.html#submission">emoji submission guidelines</a>, this document does not include the character proposal form.</p>
-<h2 id="names">Names</h2>
-<p>It should not be necessary for the English CLDR names to deviate from the UCD names. The gray heart emoji would probably need to use British spelling in the UCD, i.e. <em>Gr<strong>e</strong>y Heart</em>, but I will consistently use <em>a</em> in this document.</p>
-<table>
-<thead>
-<tr class="header">
-<th>CLDR name</th>
-<th>CLDR keywords (English)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Gray Heart</strong></td>
-<td><strong>gray, stone, iron, metal, ash, <em>cendrée</em></strong></td>
-</tr>
-<tr class="even">
-<td><strong>White Heart</strong></td>
-<td><strong>snow, cold, wedding, <em>argent</em></strong></td>
-</tr>
-<tr class="odd">
-<td><strong>Brown Heart</strong></td>
-<td><strong>chocolate, cocoa, earth, poop, <em>brunâtre, tenné</em></strong></td>
-</tr>
-<tr class="even">
-<td><strong>Pink Heart</strong></td>
-<td><strong>fuchsia, magenta, love, IR, infrared, warm, <em>sanguine</em>, rainbow</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>Maroon Heart</strong></td>
-<td><strong>dark red, berry, hot, <em>murrey</em></strong></td>
-</tr>
-<tr class="even">
-<td><strong>Teal Heart</strong></td>
-<td><strong>turquoise, aqua, cyan, blue, <em>céleste, ciel</em>, sky, ice, cold</strong></td>
-</tr>
-<tr class="odd">
-<td>Red Heart</td>
-<td>heart, <strong>red, warm, hot, love, <em>gules</em>, rainbow</strong></td>
-</tr>
-<tr class="even">
-<td>Blue Heart</td>
-<td>blue, <strong>indigo, <em>azure</em>, rainbow</strong></td>
-</tr>
-<tr class="odd">
-<td>Green Heart</td>
-<td>green, <strong>eco, <em>vert</em>, rainbow</strong></td>
-</tr>
-<tr class="even">
-<td>Yellow Heart</td>
-<td>yellow, <strong>gold, <em>or</em>, rainbow</strong></td>
-</tr>
-<tr class="odd">
-<td>Orange Heart</td>
-<td>orange, <strong>rainbow</strong></td>
-</tr>
-<tr class="even">
-<td>Purple Heart</td>
-<td>purple, <strong>violet, lilac, UV, ultraviolet, <em>purpure</em>, rainbow</strong></td>
-</tr>
-<tr class="odd">
-<td>Black Heart</td>
-<td>black, evil, wicked, <strong>emo, <em>sable</em></strong></td>
-</tr>
-</tbody>
-</table>
-<p>It might be reasonable to also include the keyword <em>color</em> (or <em>colour</em>) with all heart emojis listed above. Adding <em>heart</em> would be redundant with the name and has thus been omitted.</p>
-<h2 id="images">Images</h2>
-<p>The glyphs are the same as for the existing heart emojis, just with different fill color or (monochrome) hatching pattern. The colors themselves are usually already available in the shared color palete of emoji sets. The White Heart in particular would benefit from some kind of outline stroke or shadow for increased contrast.</p>
-<table>
-<colgroup>
-<col width="34%" />
-<col width="23%" />
-<col width="41%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Twemoji</th>
-<th>Emojitwo</th>
-<th>Text style</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><img src="img/white-heart_twemoji.svg" alt="solid white fill" /></td>
-<td><img src="img/white-heart_emojitwo.svg" /></td>
-<td><img src="img/argent-heart_emojitwo.svg" alt="no hatching" /></td>
-</tr>
-<tr class="even">
-<td><img src="img/gray-heart_twemoji.svg" alt="solid gray fill" /></td>
-<td><img src="img/gray-heart_emojitwo.svg" /></td>
-<td><img src="img/cendree-heart_emojitwo.svg" alt="pattern of alternating horizontal and vertical dashes" /></td>
-</tr>
-<tr class="odd">
-<td><img src="img/pink-heart_twemoji.svg" alt="solid pink fill" /></td>
-<td><img src="img/pink-heart_emojitwo.svg" /></td>
-<td><img src="img/sanguine-heart_emojitwo.svg" alt="crosshatch of horizontal lines and diagonal from top left to bottom right" /></td>
-</tr>
-<tr class="even">
-<td><img src="img/brown-heart_twemoji.svg" alt="solid brown fill" /></td>
-<td><img src="img/brown-heart_emojitwo.svg" /></td>
-<td><img src="img/brunatre-heart_emojitwo.svg" alt="crosshatch of vertical lines and diagonal from top left to bottom right" /></td>
-</tr>
-<tr class="odd">
-<td><img src="img/teal-heart_twemoji.svg" alt="solid teal fill" /></td>
-<td><img src="img/teal-heart_emojitwo.svg" /></td>
-<td><img src="img/celeste-heart_emojitwo.svg" alt="horizontal dash-dot pattern" /></td>
-</tr>
-<tr class="even">
-<td><img src="img/maroon-heart_twemoji.svg" alt="solid maroon fill" /></td>
-<td><img src="img/maroon-heart_emojitwo.svg" /></td>
-<td><img src="img/murrey-heart_emojitwo.svg" alt="diagonal crosshatch, i.e. diamond pattern" /></td>
-</tr>
-</tbody>
-</table>
-<h2 id="factors-for-inclusion">Factors for Inclusion</h2>
-<h3 id="a.-compatibility">A. Compatibility</h3>
-<p>There are no known legacy character sets containing any of these additional heart emojis except for the Pink Heart:</p>
-<ul>
-<li>Apple displayed the Growing Heart emoji U+1F497 as a solid and static pink heart before the release of iOS 5 in 2011. <a href="https://emojipedia.org/apple/ios-4.0/growing-heart/"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/160/apple/125/growing-heart_1f497.png" alt="Growing Heart in iOS 5.0" /></a></li>
-<li>The Red Heart U+2764 in Google’s Noto Color Emoji before mid-2017 was pink. <a href="https://emojipedia.org/google/android-5.0/heavy-black-heart/"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/60/google/3/heavy-black-heart_2764.png" alt="Red Heart in Android 4.4 through 7.1" /></a> The respective Heart Suit emoji U+2665 was more orange than red. <a href="https://emojipedia.org/google/android-5.0/black-heart-suit/"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/60/google/3/black-heart-suit_2665.png" alt="Heart Suit in Android 4.4 through 7.1" /></a></li>
-<li>The original emoji sets from Japanese vendors <a href="https://crissov.github.io/original-emoji/softbank/">Softbank</a>, <a href="https://crissov.github.io/original-emoji/kddi-au/">KDDI</a> and <a href="https://crissov.github.io/original-emoji/emobile/">E-Mobile</a> as well as <a href="https://crissov.github.io/original-emoji/gmail/">Gmail</a> also had the Red Heart U+2764 with a pink color <img src="http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E022_20.gif" alt="Softbank: E+022" /><img src="http://mail.google.com/mail/e/ezweb_ne_jp/B0C" alt="KDDI: B0C" /><img src="https://rawgit.com/Crissov/original-emoji/master/y-mobile/m/F991.gif" alt="E-Mobile: F991" /><img src="http://mail.google.com/mail/e/B0C" alt="Gmail: B0C" /> distinguishing it from the Heart Suit emoji U+2665 shown in red <img src="http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E20C_20.gif" alt="Softbank: E+20C" /><img src="http://mail.google.com/mail/e/ezweb_ne_jp/B1A" alt="KDDI: B1A" /><img src="https://rawgit.com/Crissov/original-emoji/master/y-mobile/m/F8EE.gif" alt="E-Mobile: F8EE" /><img src="http://mail.google.com/mail/e/B1A" alt="Gmail: B1A" />.</li>
-<li>More complex heart emojis are displayed in pink instead of red by most vendors.</li>
-</ul>
-<p>Softbank also had the Heart with Ribbon U+1F49D (unified with the Sparkling Heart U+1F496) shown in brown <img src="http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E437_20_ani.gif" alt="E+437" />, probably because it was strongly associated with chocolate.</p>
-<h4 id="heraldic-tinctures">Heraldic tinctures</h4>
-<p>The hatching patterns in monochromatic Unicode sample glyphs are taken from European heraldry (<em>Petra Sancta</em> system), although the patterns have not been universally accepted throughout history.</p>
-<p><a href="https://commons.wikimedia.org/wiki/File:Coa_Illustration_Tinctures_Eng_2.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Coa_Illustration_Tinctures_Eng_2.svg/708px-Coa_Illustration_Tinctures_Eng_2.svg.png" alt="Illustration of different heraldic hatching pattern systems from Wikimedia Commons" /></a></p>
-<p>The number of traditional tinctures in heraldry is rather limited (cf. <a href="http://www.unicode.org/L2/L2011/11094-n4011-hatching.pdf">L2/11-094 = WG2/N4011</a> and <a href="http://www.unicode.org/L2/L2017/17394-n49xx-hair-and-hatching.pdf">L2/17-394</a> by Michael Everson), but still not fully covered by emoji hearts. The proposed additions fill this gap and the hatching patterns used in the representative glyphs are hence straightforward.</p>
-<p>The tincture <em>carnation</em> has been omitted from this proposal, because it strongly relates to skin tone and would thus probably be subject to be an Emoji Modifier Base and take part in sequences with the Fitzpatrick Modifiers. The six colored hearts that would be generated this way can be approximated reasonably well with existing and proposed colored heart emojis.</p>
-<table>
-<thead>
-<tr class="header">
-<th>🛡️ Tincture</th>
-<th>🎨 Color</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>💛 <em>or</em></td>
-<td>yellow or gold</td>
-</tr>
-<tr class="even">
-<td>❌ <em>argent</em></td>
-<td><strong>white</strong> or silver</td>
-</tr>
-<tr class="odd">
-<td>❤️ <em>gules</em></td>
-<td>red</td>
-</tr>
-<tr class="even">
-<td>💙 <em>azure</em></td>
-<td>(water) blue</td>
-</tr>
-<tr class="odd">
-<td>💚 <em>vert</em></td>
-<td>(grass) green</td>
-</tr>
-<tr class="even">
-<td>🖤 <em>sable</em></td>
-<td>black</td>
-</tr>
-<tr class="odd">
-<td>💜 <em>purpure</em></td>
-<td>purple or violet</td>
-</tr>
-<tr class="even">
-<td>🧡 <em>orange</em></td>
-<td>orange</td>
-</tr>
-<tr class="odd">
-<td>❌ <em>cendrée</em></td>
-<td><strong>gray</strong></td>
-</tr>
-<tr class="even">
-<td>❌ <em>sanguine</em></td>
-<td>(blood) red: <strong>pink</strong></td>
-</tr>
-<tr class="odd">
-<td>❌ <em>murrey</em></td>
-<td><strong>maroon</strong> or dark red to dark purple</td>
-</tr>
-<tr class="even">
-<td>❌ <em>bleu-céleste</em> or <em>bleu de ciel</em></td>
-<td>sky blue or light blue: <strong>teal</strong></td>
-</tr>
-<tr class="odd">
-<td>❌ <em>carnation</em></td>
-<td>(rosy) skin or flesh</td>
-</tr>
-<tr class="even">
-<td>❌ <em>tenné</em> or <em>brunâtre</em></td>
-<td><strong>brown</strong></td>
-</tr>
-</tbody>
-</table>
-<h4 id="european-symbolism">European symbolism</h4>
-<table>
-<thead>
-<tr class="header">
-<th>🛡️ Tincture</th>
-<th>⚗️ Metal</th>
-<th>💎 Gem</th>
-<th>🌐 Planet / Deity</th>
-<th>📆 Day</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>❌ Argent</td>
-<td><code>Ag</code> Silver</td>
-<td>Pearl</td>
-<td>☽️ Moon / Luna</td>
-<td>Monday</td>
-</tr>
-<tr class="even">
-<td>❤️ Gules</td>
-<td><code>Fe</code> Iron</td>
-<td>Ruby</td>
-<td>♂️ Mars</td>
-<td>Tuesday</td>
-</tr>
-<tr class="odd">
-<td>💙 Azure</td>
-<td><code>Sn</code> Tin</td>
-<td>Sapphire</td>
-<td>♃️ Jupiter</td>
-<td>Wednesday</td>
-</tr>
-<tr class="even">
-<td>💜 Purpure</td>
-<td><code>Hg</code> Quicksilver</td>
-<td>Amethyst</td>
-<td>☿️ Mercury</td>
-<td>Thursday</td>
-</tr>
-<tr class="odd">
-<td>💚 Vert</td>
-<td><code>Cu</code> Copper</td>
-<td>Emerald</td>
-<td>♀️ Venus</td>
-<td>Friday</td>
-</tr>
-<tr class="even">
-<td>🖤 Sable</td>
-<td><code>Pb</code> Lead</td>
-<td>Diamond</td>
-<td>♄️ Saturn</td>
-<td>Saturday</td>
-</tr>
-<tr class="odd">
-<td>💛 Or</td>
-<td><code>Au</code> Gold</td>
-<td>Topaz</td>
-<td>☉️ Sun / Sol</td>
-<td>Sunday</td>
-</tr>
-</tbody>
-</table>
-<p>The proposed <strong>White Heart</strong> completes a set of colored hearts that relates to European and Mediterranean vexillology, heraldry, mythology, astrology, alchemy and folk symbolism as shown in the table above.</p>
-<h4 id="flag-colors">Flag Colors</h4>
-<p>Many striped flags that do not qualify for codes based upon ISO 3166 can be represented sufficiently by a colloquial sequence of color swatches, possibly interspersed with other emojis, which does not need to be documented by Unicode.</p>
-<p>Since hearts already come in the most colors and are positively connotated, they are an intuitive choice for the necessary color swatches. In a Western context at least, a left to right sequence of emojis corresponds to a flag of left to right or top to bottom stripes.</p>
-<p>For some of these flags, existing emojis offer enough options:</p>
-<ul>
-<li>❤️🖤💚 Pan-African flag: red, black, green</li>
-<li>❤️🖤 Anarchy flag: red, black (or vice versa)</li>
-<li>❤️☀️💚 Kurdish flag: red, sun on white, green</li>
-<li>🖤☀️❤️ Australian Aboriginal flag: yellow circle (or sun) on black and red</li>
-<li>💙☸️💚 Romani flag: (red) wheel on blue and green</li>
-<li>❤️☀️🌳❤️ Oromo flag: red, tree on sun on green, red</li>
-<li>⭐💚 Esperanto flag: star, green</li>
-</ul>
-<p><em>White</em> is a very common color in flags that is missing as a heart symbol, although white circle (U+26AA) and white squares (e.g. U+2B1C) are available as emojis.</p>
-<p>Most designs of the many <a href="">flags developed for representing sexual identiy groups</a> in particular have been inspired by the Rainbow Flag with its horizontal stripes, but are often using colors not found in classic vexillology.</p>
-<ul>
-<li>Asexuality flag: black-<strong>gray</strong>-<strong>white</strong>-purple</li>
-<li>Gynephilia flag: black-<strong>gray</strong>-<strong>white</strong>-<strong>violet/pink</strong></li>
-<li>Androphilia flag: black-<strong>gray</strong>-<strong>white</strong>-blue</li>
-<li>Pansexuality flag: <strong>pink</strong>-yellow-blue</li>
-<li>Transgenderism flag: <strong>teal</strong>-<strong>pink</strong>-<strong>white</strong>-<strong>pink</strong>-<strong>teal</strong></li>
-<li><em>Bear</em> flag: <strong>brown</strong>-orange-yellow-<strong>pink</strong>-<strong>white</strong>-<strong>gray</strong>-black</li>
-</ul>
-<h4 id="brand-colors">Brand Colors</h4>
-<p>Unlike flag colors, the brand colors of companies, sport teams etc. – if there is more than one – often do not have a canonical order, except sometimes for jersey colors.</p>
-<p>Fans like to express their support by putting their team colors everywhere. The proposed colored heart emojis extend these possibilities to more franchises. In many leagues, combinations of two or three heart emojis would suffice. A superficial inspection of the team colors of some leagues with international recognition (e.g. <a href="https://uni-watch.com/2012/12/23/making-the-nba-just-about-the-uni-colors/">NBA</a>) shows that almost all are sufficiently covered with this proposal, except there may be a case to distinguish <em>navy</em> (dark blue) from blue and teal (light blue) as well as <em>dark green</em> from (lime) green.</p>
-<p>In some national sports, animals etc. featured in the (nick) names of the teams fulfill much the same role.</p>
-<h4 id="colors-of-the-rainbow">Colors of the Rainbow</h4>
-<p>There is no right answer to the question how many colors there are in the rainbow. Some people draw one with as little as three or four colors, often in an inaccurate order, while other paint a seemless gradient. The <a href="https://en.wikipedia.org/wiki/ROYGBIV">Roy G. Biv mnemonic</a> seems popular in English, resulting in many seven-color rainbows, although rainbows with eight or more distinct color bands still also occur.</p>
-<p>However, the exact look certainly also depends on the pens, crayons or other material available. Emojis are effectively used like drawing stamps. The five non-black emoji hearts available before Unicode 10.0 have been used to this effect as are the six ones available now with the addition of the Orange Heart U+1F9E1.</p>
-<p>Some descriptions of the history of the Pride Flag or Rainbow Flag attribute the colors of the 8-stripe version by Gilbert Baker (1978) to certain concepts of life and society:</p>
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th>Stripe Color</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>❌</td>
-<td>(hot) pink</td>
-<td>sexuality</td>
-</tr>
-<tr class="even">
-<td>❤️</td>
-<td>red</td>
-<td>life</td>
-</tr>
-<tr class="odd">
-<td>🧡</td>
-<td>orange</td>
-<td>healing (friendship)</td>
-</tr>
-<tr class="even">
-<td>💛</td>
-<td>yellow</td>
-<td>sunlight (vitality and energy)</td>
-</tr>
-<tr class="odd">
-<td>💚</td>
-<td>green</td>
-<td>nature</td>
-</tr>
-<tr class="even">
-<td>❌</td>
-<td>turquoise</td>
-<td>magic / art</td>
-</tr>
-<tr class="odd">
-<td>💙</td>
-<td>indigo</td>
-<td>serenity / harmony</td>
-</tr>
-<tr class="even">
-<td>💜</td>
-<td>violet</td>
-<td>spirit (gratitude)</td>
-</tr>
-</tbody>
-</table>
-<p>In the quoted case, <strong>Pink Heart</strong> and <strong>Teal Heart</strong> (for <em>turquoise</em>) would complete the set. A case could perhaps be made for a <em>navy</em> or <em>indigo</em> heart, since many existing Blue Heart emojis are rather light.</p>
-<h4 id="other-color-sets">Other Color Sets</h4>
-<p>The set of colored heart emojis with the proposed additions White Heart, Gray Heart and Brown Heart would also cover all color swatches once proposed in <a href="http://www.unicode.org/L2/L2016/16318-ten-colors.pdf">L2/16-318</a> by Paul D. Hunt.</p>
-<h3 id="b.-expected-usage-level">B. Expected Usage Level</h3>
-<h4 id="frequency">Frequency</h4>
-<p>Existing heart emojis are used frequently. Only faces are more popular in general. Some users and cultural groups associate special, sometimes arbitrary connotations with certain colors and therefore tend to use those hearts considerably more often than others. It seems reasonable to expect long-term usage similar to the currently least used colored heart emoji, which is still more than the vast number of other emojis.</p>
-<h4 id="multiple-usages-and-use-in-sequences">Multiple Usages and Use in Sequences</h4>
-<p>Individual colored hearts or short sequences thereof are already being used to represent entities whose emblems are ineligible for encoding, e.g. sports teams and university alma maters. With the proposed extension, almost all such uses would be covered. The heart as a universally understood symbol of affection is particularly appropriate for the use by fans and members.</p>
-<h3 id="c.-image-distinctiveness">C. Image distinctiveness</h3>
-<p>The colors at the infrared and ultraviolet ends of the rainbow are often confused, because they both look reddish to humans. Languages and societies differ in which and how many colors they distinguish on a primary level, see <a href="http://wals.info/chapter/133" title="Paul Kay &amp; Luisa Maffi: Number of Basic Colour Categories. The World Atlas of Language Structures Online chapter 133">WALS</a>. For some people, it will be an uncommon choice to decide between green, teal and blue, for instance. The proposed colors have been chosen to provide appropriate options for most cultures.</p>
-<p>Some vendors choose a rather light tint for the Blue Heart and Red Heart emojis and might have to adjust these if the Teal Heart and Pink Heart emojis are accepted.</p>
-<h3 id="d.-completeness">D. Completeness</h3>
-<p>This proposal aims to <em>finalize</em> the set of solid color heart emojis. There may be some conventions that make additional distinctions which could justify future additions, but these are thought to be few. For example, all canonical tinctures of European heraldry are covered by the proposal, but some banners, coats of arms etc. may use non-standard colors.</p>
-<p>I am also not considering hearts with <em>color patterns</em> at all. A Rainbow Heart emoji, associated with <code>#LoveIsLove</code> and <em>Marriage for All</em>, is frequently requested, but could be realized as a sequence just like the Rainbow Flag. I do not know of nor expect reasonable demand for other patterns at this time.</p>
-<p>There are at least four ways to form a heart shape <em>gesture</em> with one’s hands:</p>
-<ol style="list-style-type: decimal">
-<li>tips of crossed thumb and index finger (single hand)</li>
-<li>thumb nails and index finger tips (and possible other fingers) touching</li>
-<li>thumb tips and index finger nails (and possible other fingers) touching</li>
-<li>wrists and paired fingernails (except thumbs) touching</li>
-</ol>
-<p>The first of these three is the only one that is made with a single hand. I can see them all being proposed as new hand gesture emojis, but especially for those requiring both hands I seriously doubt they would make appropriate candidates.</p>
-<p>In tattoos and other forms of abstract art that regularly involves hearts, there are some additional adornments that could be proposed to become emojis in the future. Common examples include <em>burning</em>, <em>bleeding</em> and <em>melting</em> hearts, a <em>stitched</em> broken heart as well as hearts with a pair of <em>wings</em>, a <em>crown</em>, a <em>dagger</em> or <em>sword</em> piercing it, a <em>chain</em> or <em>padlock</em> binding it or with a <em>keyhole</em>. These all go well beyond mere color variants and are thus out of scope of this proposal.</p>
-<p>Another emoji that is missing but could be argued for on the basis that there is now a Brain emoji, is an <em>anatomical</em> Heart Organ.</p>
-<h3 id="e.-frequently-requested">E. Frequently Requested</h3>
-<p>Absolute request numbers are of little value, although they are high for additional heart emojis.</p>
-<h4 id="emoji-xpress">Emoji Xpress</h4>
-<p>I here present request data from <a href="http://emojirequest.com">EmojiRequest.com</a> and usage data from <a href="http://emojistats.com">EmojiStats.com</a> as of mid-February 2018. Both services are run by Unicode member Emoji Xpress and at least the former has been used to assess future emoji popularity before.</p>
-<table>
-<thead>
-<tr class="header">
-<th>Color</th>
-<th>Requests</th>
-<th>Daily use</th>
-<th>Image</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>red (+ card suit)</td>
-<td>N/A</td>
-<td>89k + 2.5k</td>
-<td><img src="http://www.emojistats.org/images/50/heavy_black_heart.png" /></td>
-</tr>
-<tr class="even">
-<td><a href="https://www.emojirequest.com/r/PinkHeartEmoji">pink</a></td>
-<td>30k</td>
-<td>7.8k</td>
-<td><img src="http://www.emojistats.org/images/50/Pink_Heart_In_Text_Moji.png" /></td>
-</tr>
-<tr class="odd">
-<td>blue</td>
-<td>N/A</td>
-<td>5.8k</td>
-<td><img src="http://www.emojistats.org/images/50/blue_heart.png" /></td>
-</tr>
-<tr class="even">
-<td>purple</td>
-<td>N/A</td>
-<td>4.9k</td>
-<td><img src="http://www.emojistats.org/images/50/purple_heart.png" /></td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.emojirequest.com/r/OrangeHeartEmoji">orange</a></td>
-<td><del>25k</del></td>
-<td>2.6k + 1.1k</td>
-<td><img src="http://www.emojistats.org/images/50/Orange_Heart_In_Text_Moji.png" /></td>
-</tr>
-<tr class="even">
-<td><a href="https://www.emojirequest.com/r/WhiteHeartEmoji">white</a></td>
-<td>24k</td>
-<td>3.5k</td>
-<td><img src="http://www.emojistats.org/images/50/White_Heart_In_Text_Moji.png" /></td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.emojirequest.com/r/IceHeartEmoji">ice / teal</a></td>
-<td>23k</td>
-<td>2.7k</td>
-<td><img src="http://www.emojistats.org/images/50/Ice_Heart_In_Text_Moji.png" /></td>
-</tr>
-<tr class="even">
-<td>yellow</td>
-<td>N/A</td>
-<td>2.7k</td>
-<td><img src="http://www.emojistats.org/images/50/yellow_heart.png" /></td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.emojirequest.com/r/BlackHeartEmoji">black</a></td>
-<td><del>28k</del></td>
-<td>2.5k</td>
-<td><img src="http://www.emojistats.org/images/50/black_heart.png" /></td>
-</tr>
-<tr class="even">
-<td>green</td>
-<td>N/A</td>
-<td>2.4k</td>
-<td><img src="http://www.emojistats.org/images/50/green_heart.png" /></td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.emojirequest.com/r/StoneHeartEmoji">stone / gray</a></td>
-<td>22k</td>
-<td>2.3k</td>
-<td><img src="http://www.emojistats.org/images/50/Stone_Heart_In_Text_Moji.png" /></td>
-</tr>
-<tr class="even">
-<td><a href="https://www.emojirequest.com/r/WhiteHeartEmoji">rainbow</a></td>
-<td>45k</td>
-<td>1.7k</td>
-<td><img src="http://www.emojistats.org/images/50/Rainbow_Heart_In_Text_Moji.png" /></td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.emojirequest.com/r/FireHeartEmoji">fire</a></td>
-<td>29k</td>
-<td>0.8k</td>
-<td><img src="http://www.emojistats.org/images/50/Fire_Heart_In_Text_Moji.png" /></td>
-</tr>
-</tbody>
-</table>
-<p>Interestingly, the theoretical demand for the Rainbow Heart is much higher than its actual usage. The uses of the custom Pink Heart and the White Heart exceed several existing ones. The Ice Heart and Stone Heart may be used to estimate the popularity of the proposed Teal Heart and Gray Heart, respectively. There is no equivalent for the Brown Heart and the Maroon Heart, although the Fire Heart may be used for some purposes the latter is intended for.</p>
-<h4 id="twitter">Twitter</h4>
-<p>Checking tweets for emoji requests is a very inaccurate and skewed measure, but at the very least it shows that there is actual demand.</p>
-<ul>
-<li>many for <a href="https://twitter.com/search?q=%22white%20heart%22%20emoji"><em>white</em></a></li>
-<li>many for <a href="https://twitter.com/search?q=%22gray%20heart%22%20emoji"><em>gray</em></a> and <a href="https://twitter.com/search?q=%22grey%20heart%22%20emoji"><em>grey</em></a></li>
-<li>a lot for <a href="https://twitter.com/search?q=%22pink%20heart%22%20emoji"><em>pink</em></a>, mostly complaining about there not being a plain variant since some implementations show the heart emojis with adornment in pink</li>
-<li>some for <a href="https://twitter.com/search?q=%22brown%20heart%22%20emoji"><em>brown</em></a> and some for <a href="https://twitter.com/search?q=%22chocolate%20heart%22%20emoji"><em>chocolate</em></a> (e.g. Hershey Kiss)</li>
-<li>many for <a href="https://twitter.com/search?q=%22teal%20heart%22%20emoji"><em>teal</em></a> and <a href="https://twitter.com/search?q=%22turquoise%20heart%22%20emoji"><em>turquoise</em></a> or even <a href="https://twitter.com/search?q=%22light-blue%20heart%22%20emoji"><em>light-blue</em></a>, just one for <a href="https://twitter.com/search?q=%22cyan%20heart%22%20emoji"><em>cyan</em></a>, some for <a href="https://twitter.com/search?q=%22ice%20heart%22%20emoji"><em>ice</em></a> and <a href="https://twitter.com/search?q=%22icy%20heart%22%20emoji"><em>icy</em></a></li>
-</ul>
-<h4 id="google-trends">Google Trends</h4>
-<p>Although the emoji submission guidelines recommend to check <a href="https://trends.google.com/trends/explore?q=pink%20heart,red%20heart,white%20heart,brown%20heart,rainbow%20heart">Google Trends</a> for emoji requests, I strongly believe this short-term popularity metric does not provide an adequate indication of future popularity. A proper analysis may be helpful to augment the Twitter results when it spans at least a full year to rule out seasonal effects. The color terms have several close aliases that cannot be combined in this tool.</p>
-<h2 id="factors-for-exclusion">Factors for Exclusion</h2>
-<h3 id="f.-overly-specific">F. Overly Specific</h3>
-<p>Some may argue that existing colored heart emojis are sufficient to cover all scenarios, but see H.</p>
-<h3 id="g.-open-ended">G. Open-ended</h3>
-<p>There are infinite colors, but the goal of this proposal is to complete the set of colors that need to be distinguished in written symbolism.</p>
-<h3 id="h.-already-representable">H. Already Representable</h3>
-<p>No. Some colors may be similar to existing ones, but for each pair there is at least one case where a distinction is necessary in at least one context.</p>
-<h3 id="i.-logos-brands-etc.">I. Logos, Brands etc.</h3>
-<p>No. Some brands incorporate heart symbols in their corporate logo design, but none are known that relied on color alone as a distinctive feature. Several user interfaces employ a single heart icon, but there are GUIs that use a set of colored icons to arbitrarily assigns tags or labels to entities (like files or messages). No people or deities are strongly associated with a heart symbol of a particular color.</p>
-<h3 id="j.-transient">J. Transient</h3>
-<p>No. Color perception and heart symbolism are cultural universals that have existed for all of human history and are more than likely to stay important.</p>
-<h3 id="k.-faulty-comparison">K. Faulty Comparison</h3>
-<p>No. I am not arguing that other colored hearts should be added, just because Black Heart and Orange Heart were introduced with Unicode 9.0 and 10.0, respectively. Each emoji proposed has enough merits of its own.</p>
-<h2 id="sort-location">Sort location</h2>
-<h3 id="category">Category</h3>
-<p>In <a href="http://unicode.org/emoji/charts/emoji-ordering.html#emotion">collation order</a>, the new characters should be sorted with other heart emojis in the <code>emotion</code> group of the <code>Smileys &amp; People</code> section. Heart emojis could alternatively become part of the <code>Symbols</code> category.</p>
-<h3 id="emoji-before">Emoji before</h3>
-<p>The achromatic White and Gray Hearts should be grouped with the Black Heart. The order of colored heart emojis should follow the electromagnetic spectrum descending from the red end, to make the most popular reddish colors come first. All other heart emojis should follow after the colored hearts in a semantically just sequence.</p>
-<ol style="list-style-type: decimal">
-<li>Pink</li>
-<li>Red</li>
-<li>Maroon</li>
-<li>Brown</li>
-<li>Orange</li>
-<li>Yellow</li>
-<li>Green</li>
-<li>Teal</li>
-<li>Blue</li>
-<li>Purple</li>
-<li>Black</li>
-<li>Gray</li>
-<li>White</li>
-<li>Decoration</li>
-<li>Sparkling</li>
-<li>Ribbon</li>
-<li>Arrow</li>
-<li>Broken</li>
-<li>Beating</li>
-<li>Growing</li>
-<li>Pair</li>
-<li>Revolving</li>
-<li>Exclamation</li>
-<li>Letter</li>
-</ol>
-<h2 id="character-properties">Character Properties</h2>
-<p>The characters do not decompose in any way, unless combining color swatches would be introduced before their addition. They do not make use of emoji modifiers. No ZWJ sequences are proposed in this document that included them. They have emoji presentation by default and reasonable text presentation has been shown above.</p>
-<h2 id="licenses">Licenses</h2>
-<p>Copies of the sample images are available at the following address: <a href="https://github.com/Crissov/unicode-proposals/" class="uri">https://github.com/Crissov/unicode-proposals/</a></p>
-<p>The sample images included in this proposal were created by me. I hereby declare that the Unicode Consortium and its members are granted the right to use, edit and redistribute these contents in accordance with CC-BY 4.0.</p>
-<p>Twemoji and Emojitwo (originally Emojione) vector and bitmap artworks are both released under the CC-BY 4.0 license and so are the derived graphics used herein. Noto Emoji graphics are also available with an CC-BY 4.0 license and are cited unaltered herein.</p>
-<p>Bitmaps of emojis used by Japanese telecommunication providers Softbank and KDDI or their subsidies and of Google Mail are also only quoted verbatim for documentation purposes. Emoji Xpress bitmap graphics are either redistributed Apple emojis or custom graphics mimicking that design. The legal status of both types is uncertain. They are used herein under conditions of Fair Use for documentation purposes only.</p>
-<h2 id="references">References</h2>
+<body class='typora-export' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n22505' class='md-header-anchor '></a>Proposal for New Emojis: <strong>Colored Hearts</strong></h1><ul><li><strong>Author:</strong> Christoph Päper <a href='mailto:christoph.paeper@crissov.de' target='_blank' >christoph.paeper@crissov.de</a></li><li><strong>Submitted:</strong> 2018-02-26</li><li><strong>Latest version:</strong> <a href='https://crissov.github.io/unicode-proposals/hearts' target='_blank' >https://crissov.github.io/unicode-proposals/hearts</a></li></ul><figure><table><thead><tr><th><img src='img/gray-heart_emojitwo.svg' alt='Gray Heart' /></th><th><img src='img/white-heart_emojitwo.svg' alt='White Heart' /></th><th><img src='img/brown-heart_emojitwo.svg' alt='Brown Heart' /></th><th><img src='img/pink-heart_emojitwo.svg' alt='Pink Heart' /></th><th><img src='img/maroon-heart_emojitwo.svg' alt='Maroon Heart' /></th><th><img src='img/teal-heart_emojitwo.svg' alt='Teal Heart' /></th><th>&nbsp;</th></tr></thead><tbody><tr><td><img src='img/1f5a4_emojitwo.svg' alt='Black Heart' /></td><td><img src='img/1f49b_emojitwo.svg' alt='Yellow Heart' /></td><td><img src='img/1f9e1_emojitwo.svg' alt='Orange Heart' /></td><td><img src='img/2764_emojitwo.svg' alt='Red Heart' /></td><td><img src='img/1f49c_emojitwo.svg' alt='Purple Heart' /></td><td><img src='img/1f499_emojitwo.svg' alt='Blue Heart' /></td><td><img src='img/1f49a_emojitwo.svg' alt='Green Heart' /></td></tr></tbody></table></figure><h2><a name='header-n22536' class='md-header-anchor '></a>Introduction</h2><p>I hereby request the addition of <strong>Gray Heart</strong>, <strong>White Heart</strong>, <strong>Brown Heart</strong>, <strong>Pink Heart</strong>, <strong>Maroon Heart</strong> and <strong>Teal Heart</strong> emojis to the Unicode Standard. These six emojis only differ by color. </p><p>These emojis, like existing colored hearts, have two effective purposes: </p><ol start='' ><li>Indicate affection for something that is associated with a certain color.</li><li>Act as a color swatch (without negative connotations).</li></ol><p>The following examples for color meaning and associations are not meant to be exhaustive.</p><ul><li>The Gray Heart lies between the White Heart and the existing Black Heart to indicate a non-binary state. The color is associated with concrete, stone, possibly metal and ashes, boredom.</li><li>The White Heart contrasts with the Black Heart. The color stands for immaculacy, innocence, marriage, virginity, snow and, in some cultures, death.</li><li>The Brown Heart resembles a piece of chocolate. The color also stands for coffee, darker human skin tones, soil, dirt and feces.</li><li>The Pink Heart shall be disunified from the Red Heart. The color stands for (baby) girls, cuteness, warmth, lighter human skin tones, venous blood and sex.</li><li>The Maroon Heart is also close to the Red Heart. The color stands for arterial blood and heat.</li><li>The Teal Heart is a lighter Blue Heart. The color stands for (baby) boys, sky, water, ice, cold, luxury.</li></ul><p>Glyph examples and discussion of inclusion and exclusion factors are included on the following pages. As per the <a href='http://www.unicode.org/emoji/selection.html#submission'>emoji submission guidelines</a>, this document does not include the character proposal form.</p><h2><a name='header-n22572' class='md-header-anchor '></a>Names</h2><p>It should not be necessary for the English CLDR names to deviate from the UCD names. The gray heart emoji would probably need to use British spelling in the UCD, i.e. <em>Gr<strong>e</strong>y Heart</em>, but I will consistently use <em>a</em> in this document.</p><figure><table><thead><tr><th>CLDR name</th><th>CLDR keywords (English)</th></tr></thead><tbody><tr><td><strong>Gray Heart</strong></td><td><strong>gray, stone, iron, metal, ash, <em>cendrée</em></strong></td></tr><tr><td><strong>White Heart</strong></td><td><strong>snow, cold, wedding, <em>argent</em></strong></td></tr><tr><td><strong>Brown Heart</strong></td><td><strong>chocolate, cocoa, earth, poop, <em>brunâtre, tenné</em></strong></td></tr><tr><td><strong>Pink Heart</strong></td><td><strong>fuchsia, magenta, love, IR, infrared, warm, <em>sanguine</em>, rainbow</strong></td></tr><tr><td><strong>Maroon Heart</strong></td><td><strong>dark red, berry, hot, <em>murrey</em></strong></td></tr><tr><td><strong>Teal Heart</strong></td><td><strong>turquoise, aqua, cyan, blue, <em>céleste, ciel</em>, sky, ice, cold</strong></td></tr><tr><td>Red Heart</td><td>heart, <strong>red, warm, hot, love, <em>gules</em>, rainbow</strong></td></tr><tr><td>Blue Heart</td><td>blue, <strong>indigo, <em>azure</em>, rainbow</strong></td></tr><tr><td>Green Heart</td><td>green, <strong>eco, <em>vert</em>, rainbow</strong></td></tr><tr><td>Yellow Heart</td><td>yellow, <strong>gold, <em>or</em>, rainbow</strong></td></tr><tr><td>Orange Heart</td><td>orange, <strong>rainbow</strong></td></tr><tr><td>Purple Heart</td><td>purple, <strong>violet, lilac, UV, ultraviolet, <em>purpure</em>, rainbow</strong></td></tr><tr><td>Black Heart</td><td>black, evil, wicked, <strong>emo, <em>sable</em></strong></td></tr></tbody></table></figure><p>It might be reasonable to also include the keyword <em>color</em> (or <em>colour</em>) with all heart emojis listed above. Adding <em>heart</em> would be redundant with the name and has thus been omitted.</p><h2><a name='header-n22621' class='md-header-anchor '></a>Images</h2><p>The glyphs are the same as for the existing heart emojis, just with different fill color or (monochrome) hatching pattern. The colors themselves are usually already available in the shared color palete of emoji sets. The White Heart in particular would benefit from some kind of outline stroke or shadow for increased contrast.</p><figure><table><thead><tr><th>Twemoji</th><th>Emojitwo</th><th>Text style</th></tr></thead><tbody><tr><td><img src='img/white-heart_twemoji.svg' alt='solid white fill' /></td><td><img src='img/white-heart_emojitwo.svg' alt='' /></td><td><img src='img/argent-heart_emojitwo.svg' alt='no hatching' /></td></tr><tr><td><img src='img/gray-heart_twemoji.svg' alt='solid gray fill' /></td><td><img src='img/gray-heart_emojitwo.svg' alt='' /></td><td><img src='img/cendree-heart_emojitwo.svg' alt='pattern of alternating horizontal and vertical dashes' /></td></tr><tr><td><img src='img/pink-heart_twemoji.svg' alt='solid pink fill' /></td><td><img src='img/pink-heart_emojitwo.svg' alt='' /></td><td><img src='img/sanguine-heart_emojitwo.svg' alt='crosshatch of horizontal lines and diagonal from top left to bottom right' /></td></tr><tr><td><img src='img/brown-heart_twemoji.svg' alt='solid brown fill' /></td><td><img src='img/brown-heart_emojitwo.svg' alt='' /></td><td><img src='img/brunatre-heart_emojitwo.svg' alt='crosshatch of vertical lines and diagonal from top left to bottom right' /></td></tr><tr><td><img src='img/teal-heart_twemoji.svg' alt='solid teal fill' /></td><td><img src='img/teal-heart_emojitwo.svg' alt='' /></td><td><img src='img/celeste-heart_emojitwo.svg' alt='horizontal dash-dot pattern' /></td></tr><tr><td><img src='img/maroon-heart_twemoji.svg' alt='solid maroon fill' /></td><td><img src='img/maroon-heart_emojitwo.svg' alt='' /></td><td><img src='img/murrey-heart_emojitwo.svg' alt='diagonal crosshatch, i.e. diamond pattern' /></td></tr></tbody></table></figure><h2><a name='header-n22659' class='md-header-anchor '></a>Factors for Inclusion</h2><h3><a name='header-n22660' class='md-header-anchor '></a>A.	Compatibility</h3><p>There are no known legacy character sets containing any of these additional heart emojis except for the Pink Heart:</p><ul><li>Apple displayed the Growing Heart emoji U+1F497 as a solid and static pink heart before the release of iOS 5 in 2011. <a href='https://emojipedia.org/apple/ios-4.0/growing-heart/'><img src='https://emojipedia-us.s3.amazonaws.com/thumbs/160/apple/125/growing-heart_1f497.png' alt='Growing Heart in iOS 5.0' /></a> </li><li>The Red Heart U+2764 in Google’s Noto Color Emoji before mid-2017 was pink. <a href='https://emojipedia.org/google/android-5.0/heavy-black-heart/'><img src='https://emojipedia-us.s3.amazonaws.com/thumbs/60/google/3/heavy-black-heart_2764.png' alt='Red Heart in Android 4.4 through 7.1' /></a> The respective Heart Suit emoji U+2665 was more orange than red. <a href='https://emojipedia.org/google/android-5.0/black-heart-suit/'><img src='https://emojipedia-us.s3.amazonaws.com/thumbs/60/google/3/black-heart-suit_2665.png' alt='Heart Suit  in Android 4.4 through 7.1' /></a></li><li>The original emoji sets from Japanese vendors <a href='https://crissov.github.io/original-emoji/softbank/'>Softbank</a>, <a href='https://crissov.github.io/original-emoji/kddi-au/'>KDDI</a> and <a href='https://crissov.github.io/original-emoji/emobile/'>E-Mobile</a> as well as <a href='https://crissov.github.io/original-emoji/gmail/'>Gmail</a> also had the Red Heart U+2764 with a pink color <img src='http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E022_20.gif' alt='Softbank: E+022' /><img src='http://mail.google.com/mail/e/ezweb_ne_jp/B0C' alt='KDDI: B0C' /><img src='https://rawgit.com/Crissov/original-emoji/master/y-mobile/m/F991.gif' alt='E-Mobile: F991' /><img src='http://mail.google.com/mail/e/B0C' alt='Gmail: B0C' /> distinguishing it from the Heart Suit emoji U+2665 shown in red <img src='http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E20C_20.gif' alt='Softbank: E+20C' /><img src='http://mail.google.com/mail/e/ezweb_ne_jp/B1A' alt='KDDI: B1A' /><img src='https://rawgit.com/Crissov/original-emoji/master/y-mobile/m/F8EE.gif' alt='E-Mobile: F8EE' /><img src='http://mail.google.com/mail/e/B1A' alt='Gmail: B1A' />. </li><li>More complex heart emojis are displayed in pink instead of red by most vendors.</li></ul><p>Softbank also had the Heart with Ribbon U+1F49D (unified with the Sparkling Heart U+1F496) shown in brown <img src='http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E437_20_ani.gif' alt='E+437' />, probably because it was strongly associated with chocolate.</p><h4><a name='header-n22678' class='md-header-anchor '></a>Heraldic tinctures</h4><p>The hatching patterns in monochromatic Unicode sample glyphs are taken from European heraldry (<em>Petra Sancta</em> system), although the patterns have not been universally accepted throughout history.</p><p><a href='https://commons.wikimedia.org/wiki/File:Coa_Illustration_Tinctures_Eng_2.svg'><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Coa_Illustration_Tinctures_Eng_2.svg/708px-Coa_Illustration_Tinctures_Eng_2.svg.png' alt='Illustration of different heraldic hatching pattern systems from Wikimedia Commons' /></a></p><p>The number of traditional tinctures in heraldry is rather limited (cf. <a href='http://www.unicode.org/L2/L2011/11094-n4011-hatching.pdf'>L2/11-094 = WG2/N4011</a> and <a href='http://www.unicode.org/L2/L2017/17394-n49xx-hair-and-hatching.pdf'>L2/17-394</a> by Michael Everson), but still not fully covered by emoji hearts. The proposed additions fill this gap and the hatching patterns used in the representative glyphs are hence straightforward.</p><p>The tincture <em>carnation</em> has been omitted  from this proposal, because it strongly relates to skin tone and would thus probably be subject to be an Emoji Modifier Base and take part in sequences with the Fitzpatrick Modifiers. The six colored hearts that would be generated this way can be approximated reasonably well with existing and proposed colored heart emojis.</p><figure><table><thead><tr><th>🛡️ Tincture</th><th>🎨 Color</th></tr></thead><tbody><tr><td>💛 <em>or</em></td><td>yellow or gold</td></tr><tr><td>❌ <em>argent</em></td><td><strong>white</strong> or silver</td></tr><tr><td>❤️ <em>gules</em></td><td>red</td></tr><tr><td>💙 <em>azure</em></td><td>(water) blue</td></tr><tr><td>💚 <em>vert</em></td><td>(grass) green</td></tr><tr><td>🖤 <em>sable</em></td><td>black</td></tr><tr><td>💜 <em>purpure</em></td><td>purple or violet</td></tr><tr><td>🧡 <em>orange</em></td><td>orange</td></tr><tr><td>❌ <em>cendrée</em></td><td><strong>gray</strong></td></tr><tr><td>❌ <em>sanguine</em></td><td>(blood) red: <strong>pink</strong></td></tr><tr><td>❌ <em>murrey</em></td><td><strong>maroon</strong> or dark red to dark purple</td></tr><tr><td>❌ <em>bleu-céleste</em> or <em>bleu de ciel</em></td><td>sky blue or light blue: <strong>teal</strong></td></tr><tr><td>❌ <em>carnation</em></td><td>(rosy) skin or flesh</td></tr><tr><td>❌ <em>tenné</em> or <em>brunâtre</em></td><td><strong>brown</strong></td></tr></tbody></table></figure><h4><a name='header-n22734' class='md-header-anchor '></a>European symbolism</h4><figure><table><thead><tr><th>🛡️ Tincture</th><th>⚗️ Metal</th><th>💎 Gem</th><th>🌐 Planet / Deity</th><th>📆 Day</th></tr></thead><tbody><tr><td>❌ Argent</td><td><code>Ag</code> Silver</td><td>Pearl</td><td>☽️ Moon / Luna</td><td>Monday</td></tr><tr><td>❤️ Gules</td><td><code>Fe</code> Iron</td><td>Ruby</td><td>♂️ Mars</td><td>Tuesday</td></tr><tr><td>💙 Azure</td><td><code>Sn</code> Tin</td><td>Sapphire</td><td>♃️ Jupiter</td><td>Wednesday</td></tr><tr><td>💜 Purpure</td><td><code>Hg</code> Quicksilver</td><td>Amethyst</td><td>☿️ Mercury</td><td>Thursday</td></tr><tr><td>💚 Vert</td><td><code>Cu</code> Copper</td><td>Emerald</td><td>♀️ Venus</td><td>Friday</td></tr><tr><td>🖤 Sable</td><td><code>Pb</code> Lead</td><td>Diamond</td><td>♄️ Saturn</td><td>Saturday</td></tr><tr><td>💛 Or</td><td><code>Au</code> Gold</td><td>Topaz</td><td>☉️ Sun / Sol</td><td>Sunday</td></tr></tbody></table></figure><p>The proposed <strong>White Heart</strong> completes a set of colored hearts that relates to European and Mediterranean vexillology, heraldry, mythology, astrology, alchemy and folk symbolism as shown in the table above.</p><h4><a name='header-n22786' class='md-header-anchor '></a>Flag Colors</h4><p>Many striped flags that do not qualify for codes based upon ISO 3166 can be represented sufficiently by a colloquial sequence of color swatches, possibly interspersed with other emojis, which does not need to be documented by Unicode. </p><p>Since hearts already come in the most colors and are positively connotated, they are an intuitive choice for the necessary color swatches. In a Western context at least, a left to right sequence of emojis corresponds to a flag of left to right or top to bottom stripes. </p><p>For some of these flags, existing emojis offer enough options:</p><ul><li>❤️🖤💚 Pan-African flag: red, black, green</li><li>❤️🖤 Anarchy flag: red, black (or vice versa)</li><li>❤️☀️💚 Kurdish flag: red, sun on white, green</li><li>🖤☀️❤️ Australian Aboriginal flag: yellow circle (or sun) on black and red</li><li>💙☸️💚 Romani flag: (red) wheel on blue and green</li><li>❤️☀️🌳❤️ Oromo flag: red, tree on sun on green, red</li><li>⭐💚 Esperanto flag: star, green</li></ul><p><em>White</em> is a very common color in flags that is missing as a heart symbol, although white circle (U+26AA) and white squares (e.g. U+2B1C) are available as emojis. </p><p>Most designs of the many <a href=''>flags developed for representing sexual identiy groups</a> in particular have been inspired by the Rainbow Flag with its horizontal stripes, but are often using colors not found in classic vexillology.</p><ul><li>Asexuality flag: black-<strong>gray</strong>-<strong>white</strong>-purple</li><li>Gynephilia flag: black-<strong>gray</strong>-<strong>white</strong>-<strong>violet/pink</strong></li><li>Androphilia flag: black-<strong>gray</strong>-<strong>white</strong>-blue</li><li>Pansexuality flag: <strong>pink</strong>-yellow-blue</li><li>Transgenderism flag: <strong>teal</strong>-<strong>pink</strong>-<strong>white</strong>-<strong>pink</strong>-<strong>teal</strong></li><li><em>Bear</em> flag: <strong>brown</strong>-orange-yellow-<strong>pink</strong>-<strong>white</strong>-<strong>gray</strong>-black</li></ul><h4><a name='header-n22838' class='md-header-anchor '></a>Brand Colors</h4><p>Unlike flag colors, the brand colors of companies, sport teams etc. &ndash; if there is more than one &ndash; often do not have a canonical order, except sometimes for jersey colors. </p><p>Fans like to express their support by putting their team colors everywhere. The proposed colored heart emojis extend these possibilities to more franchises. In many leagues, combinations of two or three heart emojis would suffice. A superficial inspection of the team colors of some leagues with international recognition (e.g. <a href='https://uni-watch.com/2012/12/23/making-the-nba-just-about-the-uni-colors/'>NBA</a>) shows that almost all are sufficiently covered with this proposal, except there may be a case to distinguish <em>navy</em> (dark blue) from blue and teal (light blue) as well as <em>dark green</em> from (lime) green.</p><p>In some national sports, animals etc. featured in the (nick) names of the teams fulfill much the same role.</p><h4><a name='header-n22845' class='md-header-anchor '></a>Colors of the Rainbow</h4><p>There is no right answer to the question how many colors there are in the rainbow. Some people draw one with as little as three or four colors, often in an inaccurate order, while other paint a seemless gradient. The <a href='https://en.wikipedia.org/wiki/ROYGBIV'>Roy G. Biv mnemonic</a> seems popular in English, resulting in many seven-color rainbows, although rainbows with eight or more distinct color bands still also occur.</p><p>However, the exact look certainly also depends on the pens, crayons or other material available. Emojis are effectively used like drawing stamps. The five non-black emoji hearts available before Unicode 10.0 have been used to this effect as are the six ones available now with the addition of the Orange Heart U+1F9E1.</p><p>Some descriptions of the history of the Pride Flag or Rainbow Flag attribute the colors of the 8-stripe version by Gilbert Baker (1978) to certain concepts of life and society:</p><figure><table><thead><tr><th>&nbsp;</th><th>Stripe Color</th><th>Meaning</th></tr></thead><tbody><tr><td>❌</td><td>(hot) pink</td><td>sexuality</td></tr><tr><td>❤️</td><td>red</td><td>life</td></tr><tr><td>🧡</td><td>orange</td><td>healing (friendship)</td></tr><tr><td>💛</td><td>yellow</td><td>sunlight (vitality and energy)</td></tr><tr><td>💚</td><td>green</td><td>nature</td></tr><tr><td>❌</td><td>turquoise</td><td>magic / art</td></tr><tr><td>💙</td><td>indigo</td><td>serenity / harmony</td></tr><tr><td>💜</td><td>violet</td><td>spirit (gratitude)</td></tr></tbody></table></figure><p>In the quoted case, <strong>Pink Heart</strong> and <strong>Teal Heart</strong> (for <em>turquoise</em>) would complete the set. A case could perhaps be made for a <em>navy</em> or <em>indigo</em> heart, since many existing Blue Heart emojis are rather light.</p><h4><a name='header-n22891' class='md-header-anchor '></a>Other Color Sets</h4><p>The set of colored heart emojis with the proposed additions White Heart, Gray Heart and Brown Heart would also cover all color swatches once proposed in <a href='http://www.unicode.org/L2/L2016/16318-ten-colors.pdf'>L2/16-318</a> by Paul D. Hunt.</p><h3><a name='header-n22894' class='md-header-anchor '></a>B. Expected Usage Level</h3><h4><a name='header-n22895' class='md-header-anchor '></a>Frequency</h4><p>Existing heart emojis are used frequently. Only faces are more popular in general. Some users and cultural groups associate special, sometimes arbitrary connotations with certain colors and therefore tend to use those hearts considerably more often than others. It seems reasonable to expect long-term usage similar to the currently least used colored heart emoji, which is still more than the vast number of other emojis.</p><h4><a name='header-n22898' class='md-header-anchor '></a>Multiple Usages and Use in Sequences</h4><p>Individual colored hearts or short sequences thereof are already being used to represent entities whose emblems are ineligible for encoding, e.g. sports teams and university alma maters. With the proposed extension, almost all such uses would be covered. The heart as a universally understood symbol of affection is particularly appropriate for the use by fans and members.</p><h3><a name='header-n22901' class='md-header-anchor '></a>C.	Image distinctiveness</h3><p>The colors at the infrared and ultraviolet ends of the rainbow are often confused, because they both look reddish to humans. Languages and societies differ in which and how many colors they distinguish on a primary level, see <a href='http://wals.info/chapter/133' target='_blank' title='Paul Kay &amp; Luisa Maffi: Number of Basic Colour Categories. The World Atlas of Language Structures Online chapter 133'>WALS</a>. For some people, it will be an uncommon choice to decide between green, teal and blue, for instance. The proposed colors have been chosen to provide appropriate options for most cultures.</p><p>Some vendors choose a rather light tint for the Blue Heart and Red Heart emojis and might have to adjust these if the Teal Heart and Pink Heart emojis are accepted.</p><h3><a name='header-n22906' class='md-header-anchor '></a>D.	Completeness</h3><p>This proposal aims to <em>finalize</em> the set of solid color heart emojis. There may be some conventions that make additional distinctions which could justify future additions, but these are thought to be few. For example, all canonical tinctures of European heraldry are covered by the proposal, but some banners, coats of arms etc. may use non-standard colors. </p><p>I am also not considering hearts with <em>color patterns</em> at all. A Rainbow Heart emoji, associated with <code>#LoveIsLove</code> and <em>Marriage for All</em>, is frequently requested, but could be realized as a sequence just like the Rainbow Flag. I do not know of nor expect reasonable demand for other patterns at this time.</p><p>There are at least four ways to form a heart shape <em>gesture</em> with one&rsquo;s hands: </p><ol start='' ><li>tips of crossed thumb and index finger (single hand)</li><li>thumb nails and index finger tips (and possible other fingers) touching</li><li>thumb tips and index finger nails (and possible other fingers) touching</li><li>wrists and paired fingernails (except thumbs) touching</li></ol><p>The first of these three is the only one that is made with a single hand. I can see them all being proposed as new hand gesture emojis, but especially for those requiring both hands I seriously doubt they would make appropriate candidates.</p><p>In tattoos and other forms of abstract art that regularly involves hearts, there are some additional adornments that could be proposed to become emojis in the future. Common examples include <em>burning</em>, <em>bleeding</em> and <em>melting</em> hearts, a <em>stitched</em> broken heart as well as hearts with a pair of <em>wings</em>, a <em>crown</em>, a <em>dagger</em> or <em>sword</em> piercing it, a <em>chain</em> or <em>padlock</em> binding it or with a <em>keyhole</em>. These all go well beyond mere color variants and are thus out of scope of this proposal.</p><p>Another emoji that is missing but could be argued for on the basis that there is now a Brain emoji, is an <em>anatomical</em> Heart Organ.</p><h3><a name='header-n22932' class='md-header-anchor '></a>E.	Frequently Requested</h3><p>Absolute request numbers are of little value, although they are high for additional heart emojis.</p><h4><a name='header-n22935' class='md-header-anchor '></a>Emoji Xpress</h4><p>I here present request data from <a href='http://emojirequest.com'>EmojiRequest.com</a> and usage data from <a href='http://emojistats.com'>EmojiStats.com</a> as of mid-February 2018. Both services are run by Unicode member Emoji Xpress and at least the former has been used to assess future emoji popularity before.</p><figure><table><thead><tr><th>Color</th><th>Requests</th><th>Daily use</th><th>Image</th></tr></thead><tbody><tr><td>red (+ card suit)</td><td>N/A</td><td>89k + 2.5k</td><td><img src='http://www.emojistats.org/images/50/heavy_black_heart.png' alt='' /></td></tr><tr><td><a href='https://www.emojirequest.com/r/PinkHeartEmoji'>pink</a></td><td>30k</td><td>7.8k</td><td><img src='http://www.emojistats.org/images/50/Pink_Heart_In_Text_Moji.png' alt='' /></td></tr><tr><td>blue</td><td>N/A</td><td>5.8k</td><td><img src='http://www.emojistats.org/images/50/blue_heart.png' alt='' /></td></tr><tr><td>purple</td><td>N/A</td><td>4.9k</td><td><img src='http://www.emojistats.org/images/50/purple_heart.png' alt='' /></td></tr><tr><td><a href='https://www.emojirequest.com/r/OrangeHeartEmoji'>orange</a></td><td><del>25k</del></td><td>2.6k + 1.1k</td><td><img src='http://www.emojistats.org/images/50/Orange_Heart_In_Text_Moji.png' alt='' /></td></tr><tr><td><a href='https://www.emojirequest.com/r/WhiteHeartEmoji'>white</a></td><td>24k</td><td>3.5k</td><td><img src='http://www.emojistats.org/images/50/White_Heart_In_Text_Moji.png' alt='' /></td></tr><tr><td><a href='https://www.emojirequest.com/r/IceHeartEmoji'>ice / teal</a></td><td>23k</td><td>2.7k</td><td><img src='http://www.emojistats.org/images/50/Ice_Heart_In_Text_Moji.png' alt='' /></td></tr><tr><td>yellow</td><td>N/A</td><td>2.7k</td><td><img src='http://www.emojistats.org/images/50/yellow_heart.png' alt='' /></td></tr><tr><td><a href='https://www.emojirequest.com/r/BlackHeartEmoji'>black</a></td><td><del>28k</del></td><td>2.5k</td><td><img src='http://www.emojistats.org/images/50/black_heart.png' alt='' /></td></tr><tr><td>green</td><td>N/A</td><td>2.4k</td><td><img src='http://www.emojistats.org/images/50/green_heart.png' alt='' /></td></tr><tr><td><a href='https://www.emojirequest.com/r/StoneHeartEmoji'>stone / gray</a></td><td>22k</td><td>2.3k</td><td><img src='http://www.emojistats.org/images/50/Stone_Heart_In_Text_Moji.png' alt='' /></td></tr><tr><td><a href='https://www.emojirequest.com/r/WhiteHeartEmoji'>rainbow</a></td><td>45k</td><td>1.7k</td><td><img src='http://www.emojistats.org/images/50/Rainbow_Heart_In_Text_Moji.png' alt='' /></td></tr><tr><td><a href='https://www.emojirequest.com/r/FireHeartEmoji'>fire</a></td><td>29k</td><td>0.8k</td><td><img src='http://www.emojistats.org/images/50/Fire_Heart_In_Text_Moji.png' alt='' /></td></tr></tbody></table></figure><p>Interestingly, the theoretical demand for the Rainbow Heart is much higher than its actual usage. The uses of the custom Pink Heart and the White Heart exceed several existing ones. The Ice Heart and Stone Heart may be used to estimate the popularity of the proposed Teal Heart and Gray Heart, respectively. There is no equivalent for the Brown Heart and the Maroon Heart, although the Fire Heart may be used for some purposes the latter is intended for.</p><h4><a name='header-n23011' class='md-header-anchor '></a>Twitter</h4><p>Checking tweets for emoji requests is a very inaccurate and skewed measure, but at the very least it shows that there is actual demand.</p><ul><li>many for <a href='https://twitter.com/search?q=%22white%20heart"%20emoji'><em>white</em></a></li><li>many for <a href='https://twitter.com/search?q=%22gray%20heart"%20emoji'><em>gray</em></a> and <a href='https://twitter.com/search?q=%22grey%20heart"%20emoji'><em>grey</em></a></li><li>a lot for <a href='https://twitter.com/search?q=%22pink%20heart"%20emoji'><em>pink</em></a>, mostly complaining about there not being a plain variant since some implementations show the heart emojis with adornment in pink</li><li>some for <a href='https://twitter.com/search?q=%22brown%20heart"%20emoji'><em>brown</em></a> and some for <a href='https://twitter.com/search?q=%22chocolate%20heart"%20emoji'><em>chocolate</em></a> (e.g. Hershey Kiss)</li><li>many for <a href='https://twitter.com/search?q=%22teal%20heart"%20emoji'><em>teal</em></a> and <a href='https://twitter.com/search?q=%22turquoise%20heart"%20emoji'><em>turquoise</em></a> or even <a href='https://twitter.com/search?q=%22light-blue%20heart"%20emoji'><em>light-blue</em></a>, just one for <a href='https://twitter.com/search?q=%22cyan%20heart"%20emoji'><em>cyan</em></a>, some for <a href='https://twitter.com/search?q=%22ice%20heart"%20emoji'><em>ice</em></a> and <a href='https://twitter.com/search?q=%22icy%20heart"%20emoji'><em>icy</em></a></li></ul><h4><a name='header-n23031' class='md-header-anchor '></a>Google Trends</h4><p>Although the emoji submission guidelines recommend to check <a href='https://trends.google.com/trends/explore?q=pink%20heart,red%20heart,white%20heart,brown%20heart,rainbow%20heart'>Google Trends</a> for emoji requests, I strongly believe this short-term popularity metric does not provide an adequate indication of future popularity. A proper analysis may be helpful to augment the Twitter results when it spans at least a full year to rule out seasonal effects. The color terms have several close aliases that cannot be combined in this tool.</p><h2><a name='header-n23035' class='md-header-anchor '></a>Factors for Exclusion</h2><h3><a name='header-n23036' class='md-header-anchor '></a>F.	Overly Specific</h3><p>Some may argue that existing colored heart emojis are sufficient to cover all scenarios, but see H.</p><h3><a name='header-n23039' class='md-header-anchor '></a>G.	Open-ended</h3><p>There are infinite colors, but the goal of this proposal is to complete the set of colors that need to be distinguished in written symbolism.</p><h3><a name='header-n23042' class='md-header-anchor '></a>H.	Already Representable</h3><p>No. Some colors may be similar to existing ones, but for each pair there is at least one case where a distinction is necessary in at least one context.</p><h3><a name='header-n23045' class='md-header-anchor '></a>I.	Logos, Brands etc.</h3><p>No. Some brands incorporate heart symbols in their corporate logo design, but none are known that relied on color alone as a distinctive feature. Several user interfaces employ a single heart icon, but there are GUIs that use a set of colored icons to arbitrarily assigns tags or labels to entities (like files or messages). No people or deities are strongly associated with a heart symbol of a particular color.</p><h3><a name='header-n23048' class='md-header-anchor '></a>J.	Transient</h3><p>No. Color perception and heart symbolism are cultural universals that have existed for all of human history and are more than likely to stay important.</p><h3><a name='header-n23051' class='md-header-anchor '></a>K.	Faulty Comparison</h3><p>No. I am not arguing that other colored hearts should be added, just because Black Heart and Orange Heart were introduced with Unicode 9.0 and 10.0, respectively. Each emoji proposed has enough merits of its own.</p><h2><a name='header-n23055' class='md-header-anchor '></a>Sort location</h2><h3><a name='header-n23056' class='md-header-anchor '></a>Category</h3><p>In <a href='http://unicode.org/emoji/charts/emoji-ordering.html#emotion'>collation order</a>, the new characters should be sorted with other heart emojis in the <code>emotion</code> group of the <code>Smileys &amp; People</code> section. Heart emojis could alternatively become part of the <code>Symbols</code> category.</p><h3><a name='header-n23059' class='md-header-anchor '></a>Emoji before</h3><p>The achromatic White and Gray Hearts should be grouped with the Black Heart. The order of colored heart emojis should follow the electromagnetic spectrum descending from the red end, to make the most popular reddish colors come first. All other heart emojis should follow after the colored hearts in a semantically just sequence.</p><ol start='' ><li>Pink</li><li>Red</li><li>Maroon</li><li>Brown</li><li>Orange</li><li>Yellow</li><li>Green</li><li>Teal</li><li>Blue</li><li>Purple</li><li>Black</li><li>Gray</li><li>White</li><li>Decoration</li><li>Sparkling</li><li>Ribbon</li><li>Arrow</li><li>Broken</li><li>Beating</li><li>Growing</li><li>Pair</li><li>Revolving</li><li>Exclamation</li><li>Letter</li></ol><h2><a name='header-n23194' class='md-header-anchor '></a>Character Properties</h2><p>The characters do not decompose in any way, unless combining color swatches would be introduced before their addition. They do not make use of emoji modifiers. No ZWJ sequences are proposed in this document that included them. They have emoji presentation by default and reasonable text presentation has been shown above. </p><h3><a name='header-n23350' class='md-header-anchor '></a>Licenses</h3><p>Copies of the sample images are available at the following address: <a href='https://github.com/Crissov/unicode-proposals/' target='_blank' >https://github.com/Crissov/unicode-proposals/</a></p><p>The sample images included in this proposal were created by me. I hereby declare that the Unicode Consortium and its members are granted the right to use, edit and redistribute these contents in accordance with CC-BY 4.0.</p><p>Twemoji and Emojitwo (originally Emojione) vector and bitmap artworks are both released under the CC-BY 4.0 license and so are the derived graphics used herein. Noto Emoji graphics are also available with an CC-BY 4.0 license and are cited unaltered herein.</p><p>Bitmaps of emojis used by Japanese telecommunication providers Softbank and KDDI or their subsidies and of Google Mail are also only quoted verbatim for documentation purposes. Emoji Xpress bitmap graphics are either redistributed Apple emojis or custom graphics mimicking that design. The legal status of both types is uncertain. They are used herein under conditions of Fair Use for documentation purposes only. </p><p>&nbsp;</p></div>
 </body>
 </html>

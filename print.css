@@ -6,136 +6,137 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	letter-spacing: 0 !important;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
 
 nav ul {
-  list-style: none;
+	list-style: none;
 }
 
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 
 blockquote:before, blockquote:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 
 a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-  background-color: #ff9;
-  color: black;
-  text-decoration: none;
+	background-color: #ff9;
+	color: black;
+	text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-  background-color: #ff9;
-  color: black;
-  font-style: italic;
-  font-weight: bold;
+	background-color: #ff9;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
 }
 
 del {
-  text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 abbr[title], dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
+	border-bottom: 0.25mm dotted;
+	cursor: help;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #cccccc;
-  margin: 1em 0;
-  padding: 0;
+	display: block;
+	height: 0.25mm;
+	border: 0;
+	border-top: 0.25mm solid silver;
+	margin: 1em 0;
+	padding: 0;
 }
 
 input, select {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 
 /* http://www.w3.org/TR/CSS2/sample.html */
 li {
-  display: list-item;
+	display: list-item;
 }
 
 head {
-  display: none;
+	display: none;
 }
 
 table {
-  display: table;
+	display: table;
 }
 
 tr {
-  display: table-row;
+	display: table-row;
 }
 
 thead {
-  display: table-header-group;
+	display: table-header-group;
 }
 
 tbody {
-  display: table-row-group;
+	display: table-row-group;
 }
 
 tfoot {
-  display: table-footer-group;
+	display: table-footer-group;
 }
 
 col {
-  display: table-column;
+	display: table-column;
 }
 
 colgroup {
-  display: table-column-group;
+	display: table-column-group;
 }
 
 td, th {
-  display: table-cell;
+	display: table-cell;
 }
 
 caption {
-  display: table-caption;
+	display: table-caption;
 }
 
 th {
-  font-weight: bolder;
-  text-align: center;
+	font-weight: bolder;
+	text-align: center;
 }
 
 tbody th:first-child {
@@ -143,284 +144,342 @@ tbody th:first-child {
 }
 
 caption {
-  text-align: center;
+	text-align: center;
 }
 
 body {
-  margin: 0.5rem;
+	margin: 0.5rem;
 }
 
+/** Headings */
+
 h1 {
-  font-size: 2em;
-  font-size: calc(2em / 1);
-  margin: 0.67em 0;
-  margin: calc(2em / 3) 0;
+	font-size: 2em;
+	font-size: calc(2em / 1);
+	margin: 0.67em 0;
+	margin: calc(2em / 3) 0;
 }
 
 h2 {
-  font-size: 1.5em;
-  font-size: calc(3em / 2);
-  margin: 0.75em 0;
-  margin: calc(3em / 4) 0;
+	font-size: 1.5em;
+	font-size: calc(3em / 2);
+	margin: 0.75em 0;
+	margin: calc(3em / 4) 0;
 }
 
 h3 {
-  font-size: 1.17em;
-  font-size: calc(7em / 6);
-  margin: 0.83em 0;
-  margin: calc(5em / 6) 0;
+	font-size: 1.17em;
+	font-size: calc(7em / 6);
+	margin: 0.83em 0;
+	margin: calc(5em / 6) 0;
 }
 
 h4, p, blockquote, ul, fieldset, form, ol, dl, dir, menu {
-  font-size: 1em;
-  margin: 1.125em 0;
-  margin: calc(9em / 8) 0;
+	font-size: 1em;
+	margin: 1.125em 0;
+	margin: calc(9em / 8) 0;
 }
 
 h5 {
-  font-size: 0.83em;
-  font-size: calc(5em / 6);
-  margin: 1.5em 0;
-  margin: calc(3em / 2) 0;
+	font-size: 0.83em;
+	font-size: calc(5em / 6);
+	margin: 1.5em 0;
+	margin: calc(3em / 2) 0;
 }
 
 h6 {
-  font-size: 0.75em;
-  font-size: calc(3em / 4);
-  margin: 1.67em 0;
-  margin: calc(5em / 3) 0;
+	font-size: 0.75em;
+	font-size: calc(3em / 4);
+	margin: 1.67em 0;
+	margin: calc(5em / 3) 0;
 }
 
 h1, h2, h3, h4, h5, h6, b, strong {
-  font-weight: bold;
+	font-weight: bold;
 }
 h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, strong b,
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, b strong {
-  text-decoration: underline;
-}
-
-blockquote {
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-i, cite, em, var, address {
-  font-style: italic;
-}
-cite em, var em, address em, i em,
-cite i,  var i,  address i,  em i {
-  font-weight: bolder;
-}
-
-pre, tt, code, kbd, samp {
-  font-family: monospace;
-}
-
-pre {
-  white-space: pre;
-}
-
-button, textarea, input, select {
-  display: inline-block;
-}
-
-big {
-  font-size: 1.17em;
-}
-
-small, sub, sup {
-  font-size: 0.83em;
-}
-
-sub {
-  vertical-align: sub;
-}
-
-sup {
-  vertical-align: super;
-}
-
-table {
-  border-spacing: 2px;
-}
-
-thead, tbody, tfoot {
-  vertical-align: middle;
-}
-
-td, th, tr {
-  vertical-align: inherit;
-}
-
-s, strike, del {
-  text-decoration: line-through;
+	/* text-decoration: underline; */
+	font-variant: small-caps;
 }
 
 hr {
-  border: 1px inset;
+	border: 0.25mm inset;
 }
 
+/** Quotation */
+
+blockquote {
+	margin-left: 1cm;
+	margin-right: 1cm;
+}
+
+/** Inline markup */
+
+i, cite, em, var, address {
+	font-style: italic;
+}
+cite em, var em, address em, i em,
+cite i,  var i,  address i,  em i {
+	font-weight: bolder;
+}
+
+big {
+	font-size: 1.17em;
+}
+
+small, sub, sup {
+	font-size: 0.83em;
+}
+
+sub {
+	vertical-align: sub;
+}
+
+sup {
+	vertical-align: super;
+}
+
+/** Code */
+
+pre, tt, code, kbd, samp {
+	font-family: monospace;
+}
+
+pre {
+	white-space: pre;
+}
+
+/** Forms */
+
+button, textarea, input, select {
+	display: inline-block;
+}
+
+/** Tables */
+
+table {
+	border-spacing: 0.5mm;
+}
+
+thead, tbody, tfoot {
+	vertical-align: middle;
+}
+
+td, th, tr {
+	vertical-align: inherit;
+}
+
+table, thead, tfoot, tbody, tr, td, th, colgroup, col, caption {
+	border: none; /* reset all table borders */
+	page-break-inside: avoid;
+}
+
+table {
+	border-top: 1mm solid black;
+	border-bottom: 1mm solid black;
+}
+
+thead, thead th[colspan] {
+	border-bottom: 0.5mm solid black;
+}
+
+tfoot, tfoot th[colspan] {
+	border-top: 0.5mm solid black;
+}
+
+th, td {
+	padding: 5mm 0mm;
+}
+
+/** Copy editing */
+
+s, strike, del {
+	text-decoration: line-through;
+}
+
+u, ins {
+	text-decoration: underline;
+}
+
+/** Lists */
+
 ol, ul, dir, menu, dd {
-  margin-left: 40px;
+	margin-left: 10mm;
 }
 
 ol {
-  list-style-type: decimal;
+	list-style-type: decimal;
 }
 ol ul,
 ul ol, ul ul,
 ol ol {
-  margin-top: 0;
-  margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-u, ins {
-  text-decoration: underline;
-}
+/** Presentation */
 
 br:before {
-  content: "\A";
-  white-space: pre-line;
+	content: "\A";
+	white-space: pre-line;
 }
 
 center {
-  text-align: center;
+	text-align: center;
 }
 
+/** Hyperlinks */
+
 :link, :visited {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 :focus {
-  outline: thin dotted invert;
+	outline: thin dotted invert;
 }
 
-/* Begin bidirectionality settings (do not change) */
+/** Bidirectionality settings
+ * (do not change!) */
+/*
 bdo[dir="ltr"] {
-  direction: ltr;
-  unicode-bidi: bidi-override;
+	direction: ltr;
+	unicode-bidi: bidi-override;
 }
 bdo[dir="rtl"] {
-  direction: rtl;
-  unicode-bidi: bidi-override;
+	direction: rtl;
+	unicode-bidi: bidi-override;
 }
 
 *[dir="ltr"] {
-  direction: ltr;
-  unicode-bidi: embed;
+	direction: ltr;
+	unicode-bidi: embed;
 }
 *[dir="rtl"] {
-  direction: rtl;
-  unicode-bidi: embed;
-}
+	direction: rtl;
+	unicode-bidi: embed;
+}*/
 
-/* http://www.w3.org/TR/CSS2/page.html */
+/** Special styles for paginated media
+ * @source http://www.w3.org/TR/CSS2/page.html
+ */
 body {
-  color: black;
-  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
-  font-size: 10pt;
-  line-height: 1.5;
-  margin: 0;
-  padding: 1cm;
+	color: black;
+	font-family: /*"Merriweather",*/ Georgia, serif;
+	font-size: 4mm;
+	line-height: 1.5;
+	margin: 0;
+	padding: 1cm;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 a:link, a:visited {
-  text-decoration: none;
+	text-decoration: none;
 }
 a:link:after {
-  color: #666666;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 0.8em;
-  content: " (" attr(href) ") ";
+	color: gray;
+	font-family: /*"Open Sans",*/ Helvetica, sans-serif;
+	font-size: 3mm;
+/*  content: " (" attr(href) ") ";*/
 }
 a:link:after:contains('http://'), a:link:after:contains('https://') {
-  display: none;
-  content: '';
+	display: none;
+	content: '';
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  page-break-after: avoid;
-  border-bottom: 1pt solid #cccccc;
-  margin: 1.5em 0 0.5em 0;
+	font-family: /*"Open Sans",*/ Helvetica, sans-serif;
+	page-break-after: avoid;
+	border-bottom: 0.5mm solid silver;
+	margin: 1.5em 0 0.5em 0;
 }
 
 h1 {
-  border-bottom: 4pt solid #cccccc;
-  padding-bottom: 0.5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+	border-bottom: 1.5mm solid silver;
+	padding-bottom: 0.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 h1 a:link:after {
-  display: none;
+	display: none;
 }
 
 /** Don't show anchors in headers */
 h2 a:link:after, h3 a:link:after, h4 a:link:after, h5 a:link:after, h6 a:link:after {
-  display: none;
+	display: none;
 }
 
+/*
+p+h2 {
+	page-break-before: always;
+}
+*/
+
 ul, ol, dl {
-  page-break-before: avoid;
+	page-break-before: avoid;
 }
 
 blockquote {
-  font-style: italic;
+	font-style: italic;
 }
 
 figure {
-  border: 1pt solid black;
-  padding: 12pt;
-  text-align: center;
+	border: 0.5mm solid black;
+	padding: 4mm;
+	text-align: center;
 }
 
 figcaption {
-  font-style: italic;
-  color: #cccccc;
-  clear: both;
+	font-style: italic;
+	color: silver;
+	clear: both;
 }
 
-img {
-  clear: both;
-  display: block;
-  width: 100%;
+img:only-child {
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+img[src$=".png"], img[src$=".apng"], img[src$=".gif"], img[src$=".jpg"], img[src$=".jpeg"] {
+	display: inline-block;
+	max-width: auto;
 }
 
 pre {
-  position: relative;
-  border: none;
-  border-left: 1pt solid #cccccc;
-  padding: 0.5rem 0 0.5rem 1rem;
-  font-size: 0.8em;
+	position: relative;
+	border: none;
+	border-left: 0.5mm solid silver;
+	padding: 0.5rem 0 0.5rem 1rem;
+	font-size: 0.8em;
 }
 pre:after {
-  position: absolute;
-  font-style: normal;
-  font-weight: 600;
-  font-variant: normal;
-  font-size: 0.8rem;
-  text-transform: none;
-  text-align: center;
-  margin-left: -1.5rem;
-  margin-top: 0.6rem;
-  top: 0;
-  width: 0.8rem;
-  line-height: 1;
-  color: #333333;
-  font-family: 'icomoon';
-  font-weight: normal;
-  font-style: normal;
-  content: "\e601";
+	position: absolute;
+	font-style: normal;
+	font-weight: 600;
+	font-variant: normal;
+	font-size: 0.8rem;
+	text-transform: none;
+	text-align: center;
+	margin-left: -1.5rem;
+	margin-top: 0.6rem;
+	top: 0;
+	width: 0.8rem;
+	line-height: 1;
+	color: #333333;
+	font-family: 'icomoon';
+	font-weight: normal;
+	font-style: normal;
+	content: "\e601";
 }
 pre:before {
-  position: absolute;
-  top: 0;
-  left: -0.2rem;
-  width: 3pt;
-  border-top: 2rem solid #fff;
-  content: '';
+	position: absolute;
+	top: 0;
+	left: -0.2rem;
+	width: 1mm;
+	border-top: 2rem solid white;
+	content: '';
 }

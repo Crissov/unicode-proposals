@@ -76,11 +76,16 @@ Factors for Inclusion
 There are no known legacy character sets containing any of these additional heart emojis except for the Pink Heart:
 
 - Apple displayed the Growing Heart emoji U+1F497 as a solid and static pink heart before the release of iOS 5 in 2011. [![Growing Heart in iOS 5.0](https://emojipedia-us.s3.amazonaws.com/thumbs/160/apple/125/growing-heart_1f497.png)](https://emojipedia.org/apple/ios-4.0/growing-heart/) 
-- The Red Heart U+2764 in Google’s Noto Color Emoji before mid-2017 was pink. [![Red Heart in Android 4.4 through 7.1](https://emojipedia-us.s3.amazonaws.com/thumbs/60/google/3/heavy-black-heart_2764.png)](https://emojipedia.org/google/android-5.0/heavy-black-heart/) The respective Heart Suit emoji U+2665 was more orange than red. [![Heart Suit  in Android 4.4 through 7.1](https://emojipedia-us.s3.amazonaws.com/thumbs/60/google/3/black-heart-suit_2665.png)](https://emojipedia.org/google/android-5.0/black-heart-suit/)
-- The original emoji sets from Japanese vendors [Softbank](https://crissov.github.io/original-emoji/softbank/), [KDDI](https://crissov.github.io/original-emoji/kddi-au/) and [E-Mobile](https://crissov.github.io/original-emoji/emobile/) as well as [Gmail](https://crissov.github.io/original-emoji/gmail/) also had the Red Heart U+2764 with a pink color ![Softbank: E+022](http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E022_20.gif)![KDDI: B0C](http://mail.google.com/mail/e/ezweb_ne_jp/B0C)![E-Mobile: F991](https://rawgit.com/Crissov/original-emoji/master/y-mobile/m/F991.gif)![Gmail: B0C](http://mail.google.com/mail/e/B0C) distinguishing it from the Heart Suit emoji U+2665 shown in red ![Softbank: E+20C](http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E20C_20.gif)![KDDI: B1A](http://mail.google.com/mail/e/ezweb_ne_jp/B1A)![E-Mobile: F8EE](https://rawgit.com/Crissov/original-emoji/master/y-mobile/m/F8EE.gif)![Gmail: B1A](http://mail.google.com/mail/e/B1A). 
+- The Red Heart U+2764 in Google’s Noto Color Emoji before mid-2017 was pink. The respective Heart Suit emoji U+2665 was more orange than red.  
+  [![Red Heart in Android 4.4 through 7.1](https://emojipedia-us.s3.amazonaws.com/thumbs/60/google/3/heavy-black-heart_2764.png)](https://emojipedia.org/google/android-5.0/heavy-black-heart/)
+  [![Heart Suit  in Android 4.4 through 7.1](https://emojipedia-us.s3.amazonaws.com/thumbs/60/google/3/black-heart-suit_2665.png)](https://emojipedia.org/google/android-5.0/black-heart-suit/)
+- The original emoji sets from Japanese vendors [Softbank](https://crissov.github.io/original-emoji/softbank/), [KDDI](https://crissov.github.io/original-emoji/kddi-au/) and [E-Mobile](https://crissov.github.io/original-emoji/emobile/) as well as [Gmail](https://crissov.github.io/original-emoji/gmail/) also had the Red Heart U+2764 with a pink color distinguishing it from the Heart Suit emoji U+2665 shown in red.  
+  ![Softbank: E+022](http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E022_20.gif) ![KDDI: B0C](http://mail.google.com/mail/e/ezweb_ne_jp/B0C) ![E-Mobile: F991](https://rawgit.com/Crissov/original-emoji/master/y-mobile/m/F991.gif) ![Gmail: B0C](http://mail.google.com/mail/e/B0C)  
+  ![Softbank: E+20C](http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E20C_20.gif) ![KDDI: B1A](http://mail.google.com/mail/e/ezweb_ne_jp/B1A) ![E-Mobile: F8EE](https://rawgit.com/Crissov/original-emoji/master/y-mobile/m/F8EE.gif) ![Gmail: B1A](http://mail.google.com/mail/e/B1A)
 - More complex heart emojis are displayed in pink instead of red by most vendors.
 
-Softbank also had the Heart with Ribbon U+1F49D (unified with the Sparkling Heart U+1F496) shown in brown ![E+437](http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E437_20_ani.gif), probably because it was strongly associated with chocolate.
+Softbank also had the Heart with Ribbon U+1F49D (unified with the Sparkling Heart U+1F496) shown in brown, probably because it was strongly associated with chocolate.  
+![E+437](http://creation.mb.softbank.jp/mc/tech/tech_pic/img/E437_20_ani.gif)
 
 #### Heraldic tinctures
 
@@ -132,13 +137,15 @@ Since hearts already come in the most colors and are positively connotated, they
 
 For some of these flags, existing emojis offer enough options:
 
-+ ❤️🖤💚 Pan-African flag: red, black, green
-+ ❤️🖤 Anarchy flag: red, black (or vice versa)
-+ ❤️☀️💚 Kurdish flag: red, sun on white, green
-+ 🖤☀️❤️ Australian Aboriginal flag: yellow circle (or sun) on black and red
-+ 💙☸️💚 Romani flag: (red) wheel on blue and green
-+ ❤️☀️🌳❤️ Oromo flag: red, tree on sun on green, red
-+ ⭐💚 Esperanto flag: star, green
+| Sequence | Flag | Components |
+|----|----|----|
+| ❤️🖤💚 | Pan-African flag | red, black, green |
+| ❤️🖤 | Anarchy flag | red, black (or vice versa) |
+| ❤️☀️💚 | Kurdish flag | red, sun on white, green |
+| 🖤☀️❤️ | Australian Aboriginal flag | yellow circle (or sun) on black and red |
+| 💙☸️💚 | Romani flag | (red) wheel on blue and green |
+| ❤️☀️🌳❤️ | Oromo flag | red, tree on sun on green, red |
+| ⭐💚 | Esperanto flag | star, green |
 
 *White* is a very common color in flags that is missing as a heart symbol, although white circle (U+26AA) and white squares (e.g. U+2B1C) are available as emojis. 
 
@@ -211,7 +218,7 @@ There are at least four ways to form a heart shape *gesture* with one&rsquo;s ha
 1. tips of crossed thumb and index finger (single hand)
 2. thumb nails and index finger tips (and possible other fingers) touching
 3. thumb tips and index finger nails (and possible other fingers) touching
-3. wrists and paired fingernails (except thumbs) touching
+4. wrists and paired fingernails (except thumbs) touching
 
 The first of these three is the only one that is made with a single hand. I can see them all being proposed as new hand gesture emojis, but especially for those requiring both hands I seriously doubt they would make appropriate candidates.
 
@@ -326,7 +333,7 @@ The achromatic White and Gray Hearts should be grouped with the Black Heart. The
 
 The characters do not decompose in any way, unless combining color swatches would be introduced before their addition. They do not make use of emoji modifiers. No ZWJ sequences are proposed in this document that included them. They have emoji presentation by default and reasonable text presentation has been shown above. 
 
-## Licenses
+### Licenses
 
 Copies of the sample images are available at the following address: <https://github.com/Crissov/unicode-proposals/>
 
@@ -335,9 +342,6 @@ The sample images included in this proposal were created by me. I hereby declare
 Twemoji and Emojitwo (originally Emojione) vector and bitmap artworks are both released under the CC-BY 4.0 license and so are the derived graphics used herein. Noto Emoji graphics are also available with an CC-BY 4.0 license and are cited unaltered herein.
 
 Bitmaps of emojis used by Japanese telecommunication providers Softbank and KDDI or their subsidies and of Google Mail are also only quoted verbatim for documentation purposes. Emoji Xpress bitmap graphics are either redistributed Apple emojis or custom graphics mimicking that design. The legal status of both types is uncertain. They are used herein under conditions of Fair Use for documentation purposes only. 
-
-References
-----------
 
 [WALS133]: http://wals.info/chapter/133 "Paul Kay & Luisa Maffi: Number of Basic Colour Categories. The World Atlas of Language Structures Online chapter 133"
 
