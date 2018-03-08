@@ -211,7 +211,7 @@ Some vendors choose a rather light tint for the Blue Heart and Red Heart emojis 
 
 This proposal aims to _finalize_ the set of solid color heart emojis. There may be some conventions that make additional distinctions which could justify future additions, but these are thought to be few. For example, all canonical tinctures of European heraldry are covered by the proposal, but some banners, coats of arms etc. may use non-standard colors. 
 
-I am also not considering hearts with *color patterns* at all. A Rainbow Heart emoji, associated with `#LoveIsLove` and _Marriage for All_, is frequently requested, but could be realized as a sequence just like the Rainbow Flag. I do not know of nor expect reasonable demand for other patterns at this time.
+I am also not considering hearts with *color patterns* at all. A Rainbow Heart emoji, associated with `#LoveIsLove` and _Marriage for All_, is frequently requested, but could be realized as a sequence just like the Rainbow Flag. I do not know of nor expect reasonable demand for other patterns at this time, but hearts formed from different materials are popular and have specific semantics, e.g. _crystal_, _ice_, _fire_, _stone_ (see above), _flower_ or _gingerbread_.
 
 There are at least four ways to form a heart shape *gesture* with one&rsquo;s hands: 
 
@@ -251,6 +251,10 @@ I here present request data from [EmojiRequest.com](http://emojirequest.com) and
 | [fire](https://www.emojirequest.com/r/FireHeartEmoji)        | 29k      | 0.8k        | ![](http://www.emojistats.org/images/50/Fire_Heart_In_Text_Moji.png) |
 
 Interestingly, the theoretical demand for the Rainbow Heart is much higher than its actual usage. The uses of the custom Pink Heart and the White Heart exceed several existing ones. The Ice Heart and Stone Heart may be used to estimate the popularity of the proposed Teal Heart and Gray Heart, respectively. There is no equivalent for the Brown Heart and the Maroon Heart, although the Fire Heart may be used for some purposes the latter is intended for.
+
+#### Emojipedia
+
+Apparently, a White Heart emoji is currently among the most frequently requested additions at Emojipedia, as a [blog post](https://blog.emojipedia.org/top-emoji-requests-2018/) explains. The author does not disclose actual numbers or metrics, just provides a qualitative assertion, but as a Unicode Member and active participant in emoji standardization, such Emojipedia should probably be trusted. In a footnote, a connection is made to ♡ U+2661 WHITE HEART SUIT which has emoji presentation on Windows. Like ♥️ U+2665 BLACK HEART SUIT, this would be inappropriate for unification as a heart emoji of any particular color.
 
 #### Twitter
 

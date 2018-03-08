@@ -1,7 +1,7 @@
 Emoji Selection Process
 ==========================
 
-Mark Davis, presumably on behalf of the Emoji Subcommittee, submitted a whitepaper [L2/206] on 28 June 2017 to clarify the influence of major vendors (probably full [Unicode members] Apple, Facebook, Google, Microsoft and associate member Twitter, maybe also non-member Samsung), entitled _Emoji and Vendors: for consideration by the UTC_. This was followed on 22 January 2018 by a similar document
+Mark Davis, presumably on behalf of the Emoji Subcommittee, submitted a whitepaper [17/206][] on 28 June 2017 to clarify the influence of major vendors (probably full [Unicode members] Apple, Facebook, Google, Microsoft and associate member Twitter, maybe also non-member Samsung), entitled _Emoji and Vendors: for consideration by the UTC_. This was followed on 22 January 2018 by a similar document
 
 I have no doubt that the texts accurately describe how the process of encoding new emoji characters currently works. As already documented in [L2/147], which is backed by [L2/329], I strongly believe this process needs refinements.
 Both documents expressively assume that emojis are unusual, a notion I will contest.
